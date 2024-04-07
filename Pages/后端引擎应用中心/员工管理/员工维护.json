@@ -1,0 +1,982 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "1": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "2": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "3": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "4": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 10.0
+        }
+      },
+      "5": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "6": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 10.0
+        }
+      },
+      "7": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "8": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "9": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "10": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "11": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "12": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "13": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "14": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "15": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "16": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "17": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "18": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "19": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "20": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "21": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "22": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "24": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "25": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      }
+    },
+    "InLogicalVisibleIndexes": [
+      23
+    ],
+    "Count": 26,
+    "DefaultSize": 32.0
+  },
+  "Cols": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "1": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "2": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "3": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "17": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "18": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "32": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "35": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "57": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "58": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "59": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 65.0,
+          "IsHidden": true
+        }
+      },
+      "60": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 65.0,
+          "IsHidden": true
+        }
+      }
+    },
+    "InLogicalVisibleIndexes": [
+      59,
+      60
+    ],
+    "Count": 61
+  },
+  "Values": {
+    "2,4": "维森集团",
+    "5,53": "高级搜索",
+    "8,47": "所属部门"
+  },
+  "Formulas": {
+    "9,47": "TEXTJOINIF(\",\",1,BH10,K10,BI10)",
+    "5,59": "TEXTJOIN(\",\",1,K10)"
+  },
+  "AttachInfos": {
+    "2,2": {
+      "CellType": {
+        "$type": "Forguncy.ImageCellType, ServerDesignerCommon",
+        "ImagePath": "钉钉.svg"
+      }
+    },
+    "2,18": {
+      "CellType": {
+        "$type": "Forguncy.UserControlPageCellType, ServerDesignerCommon",
+        "UserControlPageName": "人力资源按钮组",
+        "CommandHandlers": [
+          {
+            "CommandName": "新建人员事件",
+            "Commands": {
+              "Commands": [
+                {
+                  "$type": "Forguncy.Model.ShowPopupCommand, ServerDesignerCommon",
+                  "PageName": "人员操作_编辑",
+                  "LoadBindingDataOption": 2,
+                  "Disabled": true
+                }
+              ],
+              "ParamProperties": {}
+            }
+          },
+          {
+            "CommandName": "编辑事件",
+            "Commands": {
+              "Commands": [
+                {
+                  "$type": "Forguncy.Model.ShowPopupCommand, ServerDesignerCommon",
+                  "PageName": "人员操作_编辑",
+                  "LoadBindingDataOption": 1,
+                  "Disabled": true
+                }
+              ],
+              "ParamProperties": {}
+            }
+          },
+          {
+            "CommandName": "批量重置密码事件",
+            "Commands": {
+              "Commands": [
+                {
+                  "$type": "Forguncy.Model.ShowPopupCommand, ServerDesignerCommon",
+                  "PageName": "重置密码_编辑",
+                  "PassValues": [
+                    {
+                      "Source": {
+                        "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                        "SerializeProperty": "=员工维护!表格选择项"
+                      },
+                      "TargetCell": {
+                        "SerializeProperty": "=重置密码_编辑!Z2"
+                      }
+                    }
+                  ],
+                  "Disabled": true
+                }
+              ],
+              "ParamProperties": {}
+            }
+          },
+          {
+            "CommandName": "显示列定制事件",
+            "Commands": {
+              "Commands": [
+                {
+                  "$type": "Forguncy.Model.ColumnOptionsCommand, ServerDesignerCommon",
+                  "ListviewName": "表格1",
+                  "Columns": [
+                    {
+                      "BindingInfo": {
+                        "TableName": "用户信息视图",
+                        "ColumnName": "集团",
+                        "GUID": "04cd3e83-9817-47d8-9643-2732485850d0"
+                      },
+                      "Name": "集团",
+                      "HeaderCellStyleInfo": {
+                        "FontFamily": "Body",
+                        "FontSize": 14.667,
+                        "HorizontalAlignment": 1
+                      },
+                      "TemplateCellStyleInfo": {
+                        "FontFamily": "Body",
+                        "FontSize": 14.667
+                      }
+                    },
+                    {
+                      "BindingInfo": {
+                        "TableName": "用户信息视图",
+                        "ColumnName": "公司",
+                        "GUID": "853adc76-38d4-4da3-993e-f75d04f950d7"
+                      },
+                      "Name": "公司",
+                      "HeaderCellStyleInfo": {
+                        "FontFamily": "Body",
+                        "FontSize": 14.667,
+                        "HorizontalAlignment": 1
+                      },
+                      "TemplateCellStyleInfo": {
+                        "FontFamily": "Body",
+                        "FontSize": 14.667
+                      }
+                    },
+                    {
+                      "BindingInfo": {
+                        "TableName": "用户信息视图",
+                        "ColumnName": "部门",
+                        "GUID": "0a7a9212-0950-4c27-b324-54a48792b042"
+                      },
+                      "Name": "部门",
+                      "HeaderCellStyleInfo": {
+                        "FontFamily": "Body",
+                        "FontSize": 14.667,
+                        "HorizontalAlignment": 1
+                      },
+                      "TemplateCellStyleInfo": {
+                        "FontFamily": "Body",
+                        "FontSize": 14.667
+                      }
+                    },
+                    {
+                      "BindingInfo": {
+                        "TableName": "用户信息视图",
+                        "ColumnName": "小组",
+                        "GUID": "41d01894-2292-40be-9c98-193ff702c7c8"
+                      },
+                      "Name": "小组",
+                      "HeaderCellStyleInfo": {
+                        "FontFamily": "Body",
+                        "FontSize": 14.667,
+                        "HorizontalAlignment": 1
+                      },
+                      "TemplateCellStyleInfo": {
+                        "FontFamily": "Body",
+                        "FontSize": 14.667
+                      }
+                    }
+                  ],
+                  "ID": "682bd50174bd4194a29e049871593a28"
+                }
+              ],
+              "ParamProperties": {}
+            }
+          },
+          {
+            "CommandName": "批量删除事件",
+            "Commands": {
+              "Commands": [
+                {
+                  "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
+                  "ConditionAndCommandPairList": [
+                    {
+                      "Condition": {
+                        "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                        "param": {
+                          "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                          "cellLocations": [
+                            {
+                              "SerializeProperty": "=员工维护!表格选择项"
+                            }
+                          ]
+                        },
+                        "value": "%Null%"
+                      },
+                      "CommandList": [
+                        {
+                          "$type": "ElementUI.Commands.ShowMessage, ElementUI",
+                          "Message": "请选择数据后再进行批量操作",
+                          "Type": "warning",
+                          "Duration": 3000,
+                          "Offset": null
+                        }
+                      ],
+                      "ID": "0290d49a-3632-4bc0-9368-905fb3eceef0"
+                    },
+                    {
+                      "CommandList": [
+                        {
+                          "$type": "ElementUI.Commands.ShowMessageBox, ElementUI",
+                          "Title": "操作",
+                          "Message": "你确定要删除人员么？",
+                          "Type": "warning",
+                          "ConfirmButtonText": "确定",
+                          "CancelButtonText": "取消",
+                          "DialogResult": "result",
+                          "AdvancedSettings": {}
+                        },
+                        {
+                          "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
+                          "ConditionAndCommandPairList": [
+                            {
+                              "Condition": {
+                                "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                                "param": {
+                                  "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                                  "cellLocations": [
+                                    {
+                                      "SerializeProperty": "=员工维护!result"
+                                    }
+                                  ]
+                                },
+                                "value": "confirm"
+                              },
+                              "CommandList": [
+                                {
+                                  "$type": "Forguncy.Model.RequestServerCommand, ServerDesignerCommon",
+                                  "ServerCommandName": "删除人员",
+                                  "Parameters": [
+                                    {
+                                      "$type": "Forguncy.Model.RequestServerCommandObjectParam, ServerDesignerCommon",
+                                      "ParamName": "用户名",
+                                      "Value": {
+                                        "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                                        "SerializeProperty": "=员工维护!表格选择项"
+                                      }
+                                    }
+                                  ],
+                                  "ResultErrorCodeTo": {
+                                    "SerializeProperty": "返回码"
+                                  },
+                                  "ResultMessageTo": {
+                                    "SerializeProperty": "返回信息"
+                                  },
+                                  "RefreshAfterFinish": true,
+                                  "CheckDataValidation": true
+                                },
+                                {
+                                  "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
+                                  "ConditionAndCommandPairList": [
+                                    {
+                                      "Condition": {
+                                        "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                                        "param": {
+                                          "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                                          "cellLocations": [
+                                            {
+                                              "SerializeProperty": "=员工维护!返回码"
+                                            }
+                                          ]
+                                        },
+                                        "value": "0"
+                                      },
+                                      "CommandList": [
+                                        {
+                                          "$type": "ElementUI.Commands.ShowMessage, ElementUI",
+                                          "Message": "人员删除成功",
+                                          "Type": "success",
+                                          "Duration": 3000,
+                                          "Offset": null
+                                        }
+                                      ],
+                                      "ID": "69393534-5df2-4ff8-a8a5-236b456466bc"
+                                    },
+                                    {
+                                      "CommandList": [
+                                        {
+                                          "$type": "ElementUI.Commands.ShowMessage, ElementUI",
+                                          "Message": {
+                                            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                                            "SerializeProperty": "=\"人员删除失败。失败原因：\"&员工维护!返回信息"
+                                          },
+                                          "Type": "error",
+                                          "Duration": 3000,
+                                          "Offset": null
+                                        }
+                                      ],
+                                      "ID": "4a886458-c321-45a0-8292-28c81b3e72b0"
+                                    }
+                                  ]
+                                }
+                              ],
+                              "ID": "6af970ef-294b-4655-abe3-f1d052cd5b4a"
+                            }
+                          ]
+                        }
+                      ],
+                      "ID": "8f4679f7-e62b-4560-9e4b-14b3b78a7cfe"
+                    }
+                  ],
+                  "Disabled": true
+                }
+              ],
+              "ParamProperties": {}
+            }
+          }
+        ],
+        "PropertyValues": [
+          {
+            "Name": "表格选择项",
+            "Value": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "=IF(员工维护!表格选择项=0,0,1)"
+            }
+          }
+        ]
+      }
+    },
+    "5,41": {
+      "CellType": {
+        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
+          }
+        ],
+        "Icon": {
+          "Name": "Application/047_search_8.svg",
+          "BuiltIn": true,
+          "Color": "Text 1 70"
+        },
+        "TemplateKey": "_RS_NewRightAngle",
+        "CommandList": []
+      }
+    },
+    "5,53": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "Text": "高级搜索",
+        "TemplateKey": "组织结构_搜索按钮"
+      }
+    },
+    "8,2": {
+      "ListViewInfo": {
+        "Name": "表格1",
+        "TableName": "用户信息视图",
+        "RowIndex": 8,
+        "ColumnIndex": 2,
+        "RowCount": 14,
+        "ColumnCount": 55,
+        "TopCondition": null,
+        "ListViewStyleName": "表格自定义",
+        "ShowColumnHeaderInDesigner": true,
+        "IsRowHeaderCheckBoxVisible": true,
+        "ShowEditStatusIcon": true,
+        "UseSimpleBar": true,
+        "SelectionMode": 1,
+        "DisableAutoSelectRow": true,
+        "AlwaysReservedSelections": true,
+        "ColumnOperation": 2
+      }
+    },
+    "8,59": {
+      "ListViewInfo": {
+        "Name": "表格2",
+        "TableName": "用户组织关系视图",
+        "RowIndex": 8,
+        "ColumnIndex": 59,
+        "RowCount": 6,
+        "ColumnCount": 2,
+        "SqlCondition": {
+          "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
+          "CompareType": 8,
+          "ColumnBindingInfo": {
+            "TableName": "用户组织关系视图",
+            "ColumnName": "用户名",
+            "GUID": "0adac5ed-465b-4dce-97ef-ee1cc4f9c051"
+          },
+          "Value": {
+            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+            "SerializeProperty": "=TEXTJOIN(\",\",1,员工维护!K10,员工维护!BH6)"
+          }
+        },
+        "TopCondition": null,
+        "ListViewStyleName": "表格自定义",
+        "ShowColumnHeaderInDesigner": true,
+        "ShowEditStatusIcon": true,
+        "UseSimpleBar": true,
+        "ColumnOperation": 2,
+        "DoNotLoadDataWhenLoadPage": true
+      }
+    },
+    "9,3": {
+      "NameUsedInJavaScript": "全名",
+      "BindingInfo": {
+        "TableName": "用户信息视图",
+        "ColumnName": "全名",
+        "GUID": "eeb9ce10-0567-4c5f-a2fb-f4fe32d5c1cc"
+      }
+    },
+    "9,10": {
+      "NameUsedInJavaScript": "用户名",
+      "BindingInfo": {
+        "TableName": "用户信息视图",
+        "ColumnName": "用户名",
+        "GUID": "b0086814-585b-46c8-90d5-c93eb763b9bc"
+      }
+    },
+    "9,17": {
+      "NameUsedInJavaScript": "邮件",
+      "BindingInfo": {
+        "TableName": "用户信息视图",
+        "ColumnName": "邮件",
+        "GUID": "f1e28a29-744f-4087-aeda-5e415a02c01b"
+      }
+    },
+    "9,27": {
+      "NameUsedInJavaScript": "有效",
+      "BindingInfo": {
+        "TableName": "用户信息视图",
+        "ColumnName": "有效",
+        "GUID": "bcf8b7d5-de0a-4f73-9d3d-60bd3f1a99c5"
+      },
+      "CellType": {
+        "$type": "Forguncy.CheckBoxCellType, ServerDesignerCommon",
+        "ShowOnlyEdit": false
+      }
+    },
+    "9,31": {
+      "NameUsedInJavaScript": "角色",
+      "BindingInfo": {
+        "TableName": "用户信息视图",
+        "ColumnName": "角色",
+        "GUID": "4ed276a6-85c2-42ec-8a1e-e8ee19d5b5d1"
+      }
+    },
+    "9,42": {
+      "NameUsedInJavaScript": "组织上级",
+      "BindingInfo": {
+        "TableName": "用户信息视图",
+        "ColumnName": "组织上级",
+        "GUID": "24fb2598-23eb-4106-a466-a02fc692e9c0"
+      }
+    },
+    "9,47": {
+      "NameUsedInJavaScript": "所属部门"
+    },
+    "9,59": {
+      "BindingInfo": {
+        "TableName": "用户组织关系视图",
+        "ColumnName": "用户名",
+        "GUID": "61b9eb23-44fb-49c4-829c-20085c655f94"
+      }
+    },
+    "9,60": {
+      "BindingInfo": {
+        "TableName": "用户组织关系视图",
+        "ColumnName": "组织Id",
+        "GUID": "e82903a5-a3dc-4e17-a98f-fa256e0e3360",
+        "RelationBinding": {
+          "RelatedTable": "组织信息视图",
+          "RelatedColumn": "组织Id",
+          "DisplayColumn": "组织名"
+        }
+      }
+    },
+    "22,2": {
+      "CellType": {
+        "$type": "ElementUI.CellTypes.PaginationCellType, ElementUI",
+        "ListviewName": "表格1",
+        "pagerCount": 7,
+        "layout": [
+          {
+            "layoutItem": "->"
+          },
+          {
+            "layoutItem": "prev"
+          },
+          {
+            "layoutItem": "pager"
+          },
+          {
+            "layoutItem": "next"
+          },
+          {
+            "layoutItem": "jumper"
+          },
+          {
+            "layoutItem": "total"
+          }
+        ],
+        "pageSizes": [
+          {},
+          {
+            "value": 20
+          },
+          {
+            "value": 30
+          },
+          {
+            "value": 40
+          },
+          {
+            "value": 50
+          },
+          {
+            "value": 100
+          }
+        ],
+        "small": true,
+        "background": true
+      }
+    },
+    "23,2": {
+      "CellType": {
+        "$type": "SelectionPanel.SelectionPanel, SelectionPanel",
+        "ListViewName": "表格1",
+        "ValueColumnIndex": 2
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "Formatter": 0
+      },
+      {
+        "FontFamily": 1,
+        "Formatter": 0
+      },
+      {
+        "FontFamily": 1,
+        "FontSize": 13.333333333333332,
+        "Formatter": 0
+      },
+      {
+        "FontFamily": 1,
+        "FontSize": 14.67
+      },
+      {
+        "FontFamily": 1,
+        "Formatter": 2
+      },
+      {
+        "FontFamily": 1,
+        "FontSize": 13.333333333333332
+      },
+      {
+        "FontFamily": 1
+      },
+      {
+        "BorderBottom": 0
+      },
+      {
+        "FontSize": 13.333333333333332,
+        "HorizontalAlignment": 4
+      },
+      {
+        "FontSize": 13.333333333333332
+      },
+      {
+        "FontFamily": 1,
+        "HorizontalAlignment": 4
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "[AUTO]General",
+        "Body",
+        "@",
+        "#FFEAEAEA",
+        "Center"
+      ],
+      "Borders": [
+        {
+          "Color": 3
+        }
+      ]
+    },
+    "CellStyles": {
+      "0,0": 0,
+      "2,4": 1,
+      "2,10": 2,
+      "2,11": 3,
+      "2,12": 3,
+      "5,41": 4,
+      "5,53": 5,
+      "5,54": 6,
+      "5,55": 6,
+      "5,56": 6,
+      "6,1": 7,
+      "6,2": 7,
+      "6,3": 7,
+      "6,4": 7,
+      "6,5": 7,
+      "6,6": 7,
+      "6,7": 7,
+      "6,8": 7,
+      "6,9": 7,
+      "6,10": 7,
+      "6,11": 7,
+      "6,12": 7,
+      "6,13": 7,
+      "6,14": 7,
+      "6,15": 7,
+      "6,16": 7,
+      "6,17": 7,
+      "6,18": 7,
+      "6,19": 7,
+      "6,20": 7,
+      "6,21": 7,
+      "6,22": 7,
+      "6,23": 7,
+      "6,24": 7,
+      "6,25": 7,
+      "6,26": 7,
+      "6,27": 7,
+      "6,28": 7,
+      "6,29": 7,
+      "6,30": 7,
+      "6,31": 7,
+      "6,32": 7,
+      "6,33": 7,
+      "6,34": 7,
+      "6,35": 7,
+      "6,36": 7,
+      "6,37": 7,
+      "6,38": 7,
+      "6,39": 7,
+      "6,40": 7,
+      "6,41": 7,
+      "6,42": 7,
+      "6,43": 7,
+      "6,44": 7,
+      "6,45": 7,
+      "6,46": 7,
+      "6,47": 7,
+      "6,48": 7,
+      "6,49": 7,
+      "6,50": 7,
+      "6,51": 7,
+      "6,52": 7,
+      "6,53": 7,
+      "6,54": 7,
+      "6,55": 7,
+      "6,56": 7,
+      "6,57": 7,
+      "8,2": 8,
+      "8,3": 8,
+      "8,10": 8,
+      "8,17": 8,
+      "8,27": 8,
+      "8,31": 8,
+      "8,42": 8,
+      "8,47": 9,
+      "8,59": 8,
+      "8,60": 8,
+      "9,2": 8,
+      "9,3": 8,
+      "9,10": 8,
+      "9,17": 8,
+      "9,27": 8,
+      "9,31": 8,
+      "9,42": 8,
+      "9,47": 8,
+      "9,59": 8,
+      "9,60": 8,
+      "22,2": 10,
+      "23,2": 10
+    },
+    "SheetStyle": {
+      "FontFamily": 1
+    }
+  },
+  "Spans": [
+    "2,18,1,40",
+    "5,41,1,12",
+    "5,53,1,4",
+    "5,59,1,2",
+    "9,3,1,7",
+    "9,10,1,7",
+    "9,17,1,10",
+    "9,27,1,4",
+    "9,31,1,11",
+    "9,42,1,5",
+    "9,47,1,10",
+    "22,2,1,55",
+    "10,2,12,55",
+    "10,59,4,2",
+    "23,2,1,55",
+    "8,3,1,7",
+    "8,10,1,7",
+    "8,17,1,10",
+    "8,27,1,4",
+    "8,31,1,11",
+    "8,42,1,5",
+    "8,47,1,10"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "MasterPageName": "后台菜单导航-PC",
+    "PageLoadedCommandList": [
+      {
+        "$type": "LoadingCommand.EndLoadingCommand, LoadingCommand"
+      }
+    ],
+    "PermissionData": {
+      "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionData, Forguncy.RbacPermission.Core",
+      "permissionResource": {
+        "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionResource, Forguncy.RbacPermission.Core"
+      },
+      "permissionBindings": [
+        {
+          "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionBinding, Forguncy.RbacPermission.Core",
+          "roleNames": [
+            "FGC_LoginUser"
+          ]
+        }
+      ]
+    },
+    "RowBreakLines": [],
+    "RepeatRangeSettings": []
+  },
+  "PrintInfo": {
+    "PaperSize": {},
+    "Margin": {}
+  },
+  "BackgroundPictures": [
+    {
+      "FitToBrowserWidth": true,
+      "FitToBrowserHeight": true,
+      "Name": "bc4f56a1-af1b-4636-b078-cd18f74a43d3.png",
+      "DisplayName": "背景图1",
+      "StyleInfo": {
+        "Fill": "#FFF0F2F5"
+      },
+      "IsAutomaticFill": false,
+      "Size": "1164,690"
+    },
+    {
+      "Name": "9fbe544f-2c26-40a7-9bc3-2107b7905165.png",
+      "DisplayName": "背景图2",
+      "StyleInfo": {
+        "Fill": "Background 1 0"
+      },
+      "IsAutomaticFill": false,
+      "Location": "16,16",
+      "Size": "1132,658"
+    },
+    {
+      "Name": "deb69923-9ed5-413c-9825-23bafb1c55b4.png",
+      "DisplayName": "背景图3",
+      "StyleInfo": {
+        "Fill": "#FFF9F9F9"
+      },
+      "IsAutomaticFill": false,
+      "Location": "16,16",
+      "Size": "1132,64"
+    }
+  ],
+  "CustomNames": [
+    {
+      "Name": "表格选择项",
+      "Formula": "员工维护!$C$24"
+    },
+    {
+      "Name": "按钮组件",
+      "Formula": "员工维护!$S$3"
+    }
+  ]
+}//7Ji5cc1SwXFwm8xgg52jXT/U/H/V/FrcxrXcN5DU09Tmm00YOrzIOs9wlTRRR/GuK0x5XISVMh8G5qhO1zelSDV7MTHH6tUt1x6kxWltR4rx3JjA7XTt/ZYM7UavLjc2CQbv8wgvBzr5vtIwuZnNoAeBpz1QcEg4e5/gvoLcdxMFIW32cpZ1InY3bzTLN7JpxkAal7BOCOz9NzpJA9gO8C6+pbCc3Zgjh4fr3Ix1S4LjSLvyIyxeg6I2NpiYHAcnH96A1hCHUy/CmfL0GkFKd1HZ0aoPiSSZSGTBtPNf7aVs5JvYI0OTvgPi2mlZZYBjE47fx+laXZGjiHkCTcXHUnbacjtsQIX1m2TFQuvwGRfXIbv5jHQFS53nafony/fzheQKWAoG6aEqWNr5Po8rvF0cq/s79fejl/sWpLArs/rROj88gQU6yo6BvV9dJ65CC7ltmaF9FdvQ8cCw+bAEDV++8ZWCuXZDGMsjicrLSupXI9c0ZNNJrewGrAhyXmZZxZlJkqzp7PbTy/8AZveqErHCSrIwtB1KojatXvAIfMW8CL1XFF0hAdzs7TE+PhpLhJZpSvMfmpb0qKLUe8urmLgxYDnR3QJthxwQCfBednpJVfH2zuggx8FECqDif29nUbNYtool6YiskPhCAJ4iuXrZlJhtCyqY8EgQpHGufkfZAX9h0Z/7Po1oUlSbNnAR8dSaxYeCGiTMqnzMdJNJc7c7DkcRLzhgJWmasyTbLrhLkC0WQT0E6HGOrJHxoQz07DzpfOaTQ75QiQL9UQ4b+/OEAMxsw8SzuQbbQ50YDGgS98ogj9vY4JhgaW7vBd4FkHZOZzL5/vzRGPmVlklsuWJ8swclcQ0RUHRgdRBXd2Cwi2Sg/KekMg1n4oIiV9zOH+mLgruD5uSC29rr4qvuqw==|920

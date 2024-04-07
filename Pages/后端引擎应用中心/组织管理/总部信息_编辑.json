@@ -1,0 +1,360 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "1": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "2": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "3": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "4": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "5": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "7": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      }
+    },
+    "Count": 8,
+    "DefaultSize": 32.0
+  },
+  "Cols": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "16": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "24": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "25": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 121.0,
+          "IsHidden": true
+        }
+      }
+    },
+    "InLogicalVisibleIndexes": [
+      25
+    ],
+    "Count": 26
+  },
+  "Values": {
+    "1,1": "总部ID：",
+    "3,1": "总部全称：",
+    "6,20": "保 存"
+  },
+  "AttachInfos": {
+    "1,8": {
+      "CellType": {
+        "$type": "ElementUI.InputCellType, ElementUI",
+        "CommandList": [],
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 4,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ],
+        "type": "text",
+        "placeholder": "系统自动生成",
+        "resize": "none",
+        "IsDisabled": true
+      }
+    },
+    "3,8": {
+      "CellType": {
+        "$type": "ElementUI.InputCellType, ElementUI",
+        "CommandList": [],
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 4,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ],
+        "type": "text",
+        "resize": "none"
+      }
+    },
+    "6,20": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "Text": "保 存",
+        "TemplateKey": "_RS_Main3"
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "FontSize": 13.333333333333332
+      },
+      {
+        "FontFamily": 0,
+        "FontSize": 13.333333333333332
+      },
+      {
+        "BorderTop": 0
+      },
+      {
+        "FontFamily": 0,
+        "FontSize": 13.333333333333332,
+        "Formatter": 2
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Body",
+        "#FFE2E2E2",
+        "[AUTO]General"
+      ],
+      "Borders": [
+        {
+          "Color": 1
+        }
+      ]
+    },
+    "CellStyles": {
+      "1,1": 0,
+      "1,2": 0,
+      "1,3": 0,
+      "1,4": 0,
+      "1,5": 0,
+      "1,6": 0,
+      "1,7": 0,
+      "1,8": 0,
+      "2,1": 0,
+      "2,2": 0,
+      "2,3": 0,
+      "2,4": 0,
+      "2,5": 0,
+      "2,6": 0,
+      "2,7": 0,
+      "2,8": 0,
+      "2,9": 0,
+      "2,10": 0,
+      "2,11": 0,
+      "2,12": 0,
+      "2,13": 0,
+      "2,14": 0,
+      "2,15": 0,
+      "2,16": 0,
+      "2,17": 0,
+      "2,18": 0,
+      "2,19": 0,
+      "2,20": 0,
+      "2,21": 0,
+      "2,22": 0,
+      "2,23": 0,
+      "3,1": 0,
+      "3,2": 0,
+      "3,3": 0,
+      "3,4": 0,
+      "3,5": 0,
+      "3,6": 0,
+      "3,7": 0,
+      "3,8": 1,
+      "5,0": 2,
+      "5,1": 2,
+      "5,2": 2,
+      "5,3": 2,
+      "5,4": 2,
+      "5,5": 2,
+      "5,6": 2,
+      "5,7": 2,
+      "5,8": 2,
+      "5,9": 2,
+      "5,10": 2,
+      "5,11": 2,
+      "5,12": 2,
+      "5,13": 2,
+      "5,14": 2,
+      "5,15": 2,
+      "5,16": 2,
+      "5,17": 2,
+      "5,18": 2,
+      "5,19": 2,
+      "5,20": 2,
+      "5,21": 2,
+      "5,22": 2,
+      "5,23": 2,
+      "5,24": 2,
+      "6,20": 3
+    },
+    "SheetStyle": {
+      "FontFamily": 0
+    }
+  },
+  "Spans": [
+    "6,20,1,4",
+    "1,8,1,16",
+    "3,8,1,16"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "Title": "编辑总部",
+    "PageLoadedCommandList": [
+      {
+        "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
+        "ParameterName": "组织结构信息",
+        "TableValue": {
+          "TableName": "组织信息视图",
+          "TableValueType": 1,
+          "BindingInfos": [
+            {
+              "BindingInfo": {
+                "TableName": "组织信息视图",
+                "ColumnName": "组织Id",
+                "GUID": "492026dd-6477-49a1-b633-286149ffb8b4"
+              },
+              "ColumnName": "组织Id"
+            },
+            {
+              "BindingInfo": {
+                "TableName": "组织信息视图",
+                "ColumnName": "组织名",
+                "GUID": "c0a0c5f7-0394-4606-a291-4fd79c20dda0"
+              },
+              "ColumnName": "组织名"
+            }
+          ],
+          "SqlCondition": {
+            "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+            "ColumnBindingInfo": {
+              "TableName": "组织信息视图",
+              "ColumnName": "组织Id",
+              "GUID": "aaf0d644-2f4d-4cb1-ba37-f242593a15fa"
+            },
+            "Value": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "=总部信息_编辑!组织结构ID"
+            }
+          }
+        },
+        "ID": "1371f9594f9840819feff6d248fdf4de"
+      },
+      {
+        "$type": "Forguncy.Model.SetCellPropertyCommand, ServerDesignerCommon",
+        "PropertyItemsList": [
+          {
+            "TargetCells": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "=总部信息_编辑!I2"
+            },
+            "Value": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "=总部信息_编辑!组织结构信息.组织Id"
+            }
+          },
+          {
+            "TargetCells": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "=总部信息_编辑!I4"
+            },
+            "Value": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "=总部信息_编辑!组织结构信息.组织名"
+            }
+          }
+        ]
+      },
+      {
+        "$type": "LoadingCommand.EndLoadingCommand, LoadingCommand"
+      }
+    ],
+    "PermissionData": {
+      "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionData, Forguncy.RbacPermission.Core",
+      "permissionResource": {
+        "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionResource, Forguncy.RbacPermission.Core"
+      },
+      "permissionBindings": [
+        {
+          "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionBinding, Forguncy.RbacPermission.Core",
+          "roleNames": [
+            "FGC_LoginUser"
+          ]
+        }
+      ]
+    },
+    "RowBreakLines": [],
+    "RepeatRangeSettings": []
+  },
+  "PrintInfo": {
+    "PaperSize": {},
+    "Margin": {}
+  },
+  "BackgroundPictures": [
+    {
+      "Name": "9fbe544f-2c26-40a7-9bc3-2107b7905165.png",
+      "DisplayName": "背景图2",
+      "StyleInfo": {
+        "Fill": "Background 1 0"
+      },
+      "IsAutomaticFill": false,
+      "Size": "524,148"
+    }
+  ],
+  "CustomNames": [
+    {
+      "Name": "组织结构ID",
+      "Formula": "总部信息_编辑!$Z$2"
+    }
+  ]
+}//vBjBgKds73ZHSwIHx8E7py9bTHHRUQ6qerpQVZ5EpSTOIJhtgEzZPAkxli5ED9cjB7ti5LVAkfXi4VWqLr2J5S/K/Ex4Qh/k8unpVBHCJya0SzXdkait72xRxJG63MsULb6Y44IHjIvOSYtbAUAzOoq7jvkDuNulqp460PxH3XLkWRkldHhjvOdE8NYEZFL/gxdg36n/YYL2tu3IB7nKlReZWxZLS82iYnFK3MV//zFdg1Un+kBeJakjxsELHg4Wf3/nM5fZMYvu8sMxHTsAkTBlwiFr1YlEovVuBni1ZJC+FHhnTz5uoP66BCnyo0UWwemymK0uv6+eeLGoP4m0EKhfPjXuCfsRBL3hkNa4AlbMxrdBTybHBLZuLNLGWOElm6D+tBVKM2iRjD6Vp2NkKzBABrEcR9tldtpbOBLo4pOv185mrWnfKXA/cBDXmEGhS20T8HdxIx/6sE+kCQuMysEdOu3XdjTUqJp19sFT9fpL4a4Dlcugce6K4TZaXuWp/+PZhqahV5ipnbajeeLd3v9NufgNgEyS8lXhRbxOYCFqUYdkrIhtQrf7hB06TrALZWWOuerGu+V9hfmyZ240OAU+deg09h+O0LSyYRSmvHHeA99LxZx6ZeeqYgp+hyKcN2uV2W6yE04HBjgusrOtm3F4zP1e8XppqdOX4MXL9hHCllk45Zk2Ny3ypzESHY0h5Bhbv/xdi2PUqa4vNPZdMcDPifmvBNpnN/zrE6Ubn/aLOTZLj1zgZWE940DSzMy0Hdd7OdtxQm7ui8HU/ZigFzbG0K6B/1EXUUiiSNsddKW0IvmZMGt1YAHTI2Uj+piTpBT2h2Tx5h0/lXl6kPKKfUP818R+8/317FM6RAoLAZpazkIqq5wNW3mzZKy8BQOF9byMWuBtRT0zPnH/RdM+SQ==|920

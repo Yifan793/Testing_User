@@ -1,0 +1,117 @@
+{
+  "Name": "重置密码",
+  "Enabled": true,
+  "Triggers": [
+    {
+      "$type": "Forguncy.SaveLoad.PostRequestTriggerSaveData, ServerDesignerCommon",
+      "Permission": {
+        "PermissionData": {
+          "$type": "Forguncy.RbacPermission.Core.Impl.ServerCommand.ServerCommandPermissionData, Forguncy.RbacPermission.Core",
+          "permissionResource": {
+            "$type": "Forguncy.RbacPermission.Core.Impl.ServerCommand.ServerCommandPermissionResource, Forguncy.RbacPermission.Core"
+          },
+          "permissionBindings": [
+            {
+              "$type": "Forguncy.RbacPermission.Core.Impl.ServerCommand.ServerCommandPermissionBinding, Forguncy.RbacPermission.Core",
+              "roleNames": [
+                "FGC_LoginUser"
+              ]
+            }
+          ]
+        }
+      },
+      "Parameters": [
+        {
+          "Name": "用户名",
+          "DataValidationInfo": {}
+        },
+        {
+          "Name": "密码",
+          "DataValidationInfo": {}
+        }
+      ]
+    }
+  ],
+  "Commands": [
+    {
+      "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
+      "ConditionAndCommandPairList": [
+        {
+          "Condition": {
+            "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+            "param": {
+              "$type": "Forguncy.Model.IfConditionServerSiteParam, ServerDesignerCommon",
+              "ParamObject": {
+                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                "SerializeProperty": "=用户名"
+              }
+            },
+            "value": ",",
+            "compareType": 10
+          },
+          "CommandList": [
+            {
+              "$type": "CollectionOperationKit.ServerSideArrayOp, CollectionOperationKit",
+              "Operation": 17,
+              "OperationParamaterAName": ",",
+              "OperationParamaterBName": {
+                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                "SerializeProperty": "=用户名"
+              },
+              "OutParamaterName": "用户名数组"
+            },
+            {
+              "$type": "Forguncy.Model.LoopCommand, ServerDesignerCommon",
+              "LoopInfo": {
+                "$type": "Forguncy.Model.CountLoopInfo, ServerDesignerCommon",
+                "LoopCount": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=用户名数组"
+                },
+                "LoopItemParamName": "Item"
+              },
+              "CommandList": [
+                {
+                  "$type": "UserManagementCommandsV2.UserManagementCommand, UserManagementCommandsV2",
+                  "OperationType": "221",
+                  "CommandOperator": {
+                    "$type": "UserManagementCommandsV2.SetUsersPasswordOperator, UserManagementCommandsV2",
+                    "UserNames": {
+                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                      "SerializeProperty": "=Item"
+                    },
+                    "Password": {
+                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                      "SerializeProperty": "=密码"
+                    }
+                  }
+                }
+              ]
+            }
+          ],
+          "ID": "09053217-8b31-4dbc-b10b-8d749aa70eee"
+        },
+        {
+          "CommandList": [
+            {
+              "$type": "UserManagementCommandsV2.UserManagementCommand, UserManagementCommandsV2",
+              "OperationType": "221",
+              "CommandOperator": {
+                "$type": "UserManagementCommandsV2.SetUsersPasswordOperator, UserManagementCommandsV2",
+                "UserNames": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=用户名"
+                },
+                "Password": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=密码"
+                }
+              }
+            }
+          ],
+          "ID": "11d68809-59f0-483f-b782-a2e8d6c653aa"
+        }
+      ]
+    }
+  ]
+}

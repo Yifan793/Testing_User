@@ -1,0 +1,193 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "1": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      }
+    },
+    "InLogicalVisibleIndexes": [
+      2,
+      3,
+      4
+    ],
+    "Count": 5,
+    "DefaultSize": 32.0
+  },
+  "Cols": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 103.0,
+          "Mode": 1
+        }
+      }
+    },
+    "Count": 1,
+    "DefaultSize": 103.0
+  },
+  "Values": {
+    "0,0": "  批量加入部门  ",
+    "1,0": "  批量加入角色  "
+  },
+  "AttachInfos": {
+    "0,0": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.SetCellPropertyCommand, ServerDesignerCommon",
+            "PropertyItemsList": [
+              {
+                "TargetCells": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=批量操作_弹出页!操作"
+                },
+                "Value": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=批量操作_弹出页!A1"
+                }
+              }
+            ]
+          }
+        ],
+        "Text": "  批量加入部门  ",
+        "TemplateKey": "弹出页"
+      }
+    },
+    "1,0": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.SetCellPropertyCommand, ServerDesignerCommon",
+            "PropertyItemsList": [
+              {
+                "TargetCells": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=批量操作_弹出页!操作"
+                },
+                "Value": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=批量操作_弹出页!A2"
+                }
+              }
+            ]
+          }
+        ],
+        "Text": "  批量加入角色  ",
+        "TemplateKey": "弹出页"
+      }
+    },
+    "2,0": {
+      "CellType": {
+        "$type": "ElementUI.InputCellType, ElementUI",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
+            "ConditionAndCommandPairList": [
+              {
+                "Condition": {
+                  "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                  "param": {
+                    "$type": "Forguncy.Model.IfConditionContextPropertyParam, ServerDesignerCommon",
+                    "contextProperty": {
+                      "Display": "值变更原因"
+                    }
+                  },
+                  "value": "command"
+                },
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.ClosePopupCommand, ServerDesignerCommon",
+                    "PassValueBack": true
+                  }
+                ],
+                "ID": "8a88b11e-7d93-4d95-882e-5718e35113af"
+              }
+            ]
+          }
+        ],
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 4,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ],
+        "type": "text",
+        "resize": "none"
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "FontSize": 13.333333333333332
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Body"
+      ]
+    },
+    "RowStyles": {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0
+    },
+    "SheetStyle": {
+      "FontFamily": 0
+    }
+  },
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "PermissionData": {
+      "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionData, Forguncy.RbacPermission.Core",
+      "permissionResource": {
+        "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionResource, Forguncy.RbacPermission.Core"
+      },
+      "permissionBindings": [
+        {
+          "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionBinding, Forguncy.RbacPermission.Core",
+          "roleNames": [
+            "FGC_LoginUser"
+          ]
+        }
+      ]
+    },
+    "RowBreakLines": [],
+    "RepeatRangeSettings": []
+  },
+  "PrintInfo": {
+    "PaperSize": {},
+    "Margin": {}
+  },
+  "CustomNames": [
+    {
+      "Name": "操作",
+      "Formula": "批量操作_弹出页!$A$3"
+    }
+  ]
+}//xiWoj5F4PkjS8EkJ9r+tyj4fZZB1trHjdiyQzWUU9I8ivppJ957cjp5I+nhvlj2pPTHBqERJ+NmfL0somB7XWyYwt1FxSv8oMWKKZVISkgJp2eqKFp1Q8jBQmgUUCbQ3jlZUV4biSBo8zJr651aWRibmqKtsQZo2jDPMm9WMgFjdFrXFWJ5QQzE4DdAnZjqvIhvtZu0Oqjf2qmceHsajDI+fWjkOFnn+LEOtxIZkJlb3IjgVxbUrBljjVNy7/BkRu/z44GEijsrdDN/RW/aFLzMfnJ0uzpuvx/iXp7Ib5ry5d7ZZ6qxOM35/7UgzXJuqx6gZa/mK9IhRXvgtMAY4u8og538vo0SbNvnetUd0eSI/kU7kwoviORZQ+5uGAEy42vUtcMCt0DzQTKbSf3Gpei80APoxuxPwUGlPUzkVsrShznC4M82Wv6ePPzsFSwDxqILHAANWy0nwC8hRsj+oYN8FfYlEK3uHLPlzJMD4ZnEL7qbNqhQWg96xBrGys3YgSxkbbHnUQLXBJY8QpyVhAoPWvDgpL/z5jo2Y8THBLyE+8A5A0UTEVm9xeH1Sn+tMt0cYbOln8oCeE1OW5QU0MgqmXaCiCASKDlTu/md/S6livlJV4OgzWRNtA5N5QVO4KIPmUoVeJnQB2GCbTYlRQMcc2PW5qaBXm5sMVHJ7+JV9+Gn0wR8/tWdcH1H7hXkq0XzbLQYHbaSv3JfO5o+JmMorNDVvnD0ADMCdqRSHna1Pqrxe4h2JuZvlPMJK6ksnRqGj0f/E7EWxaKkvFCB+GmMMR/iAT1YoXOeT8AhIbXrpDp2r4rUH2eYUtD7ZRw0Hq/zKBcwxnkEG7arrSALkXW4KhfYiusMEq+oHmXfHRU2XQnYptiitMLs54yS0FQJlEpwOygAtwikt8tZ9MvEr4Q==|920

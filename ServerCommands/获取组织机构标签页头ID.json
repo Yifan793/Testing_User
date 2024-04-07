@@ -1,0 +1,415 @@
+{
+  "Name": "获取组织机构标签页头ID",
+  "Enabled": true,
+  "Triggers": [
+    {
+      "$type": "Forguncy.SaveLoad.PostRequestTriggerSaveData, ServerDesignerCommon",
+      "Permission": {
+        "PermissionData": {
+          "$type": "Forguncy.RbacPermission.Core.Impl.ServerCommand.ServerCommandPermissionData, Forguncy.RbacPermission.Core",
+          "permissionResource": {
+            "$type": "Forguncy.RbacPermission.Core.Impl.ServerCommand.ServerCommandPermissionResource, Forguncy.RbacPermission.Core"
+          },
+          "permissionBindings": [
+            {
+              "$type": "Forguncy.RbacPermission.Core.Impl.ServerCommand.ServerCommandPermissionBinding, Forguncy.RbacPermission.Core",
+              "roleNames": [
+                "FGC_LoginUser"
+              ]
+            }
+          ]
+        }
+      },
+      "Parameters": [
+        {
+          "Name": "部门ID",
+          "DataValidationInfo": {}
+        }
+      ]
+    }
+  ],
+  "Commands": [
+    {
+      "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
+      "ParameterName": "标签页头",
+      "ID": "9804609ca7284068989172008aa6a12d"
+    },
+    {
+      "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
+      "ParameterName": "默认选中项",
+      "ID": "d20dfc2a265f41cf914488cf0bd95e51"
+    },
+    {
+      "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
+      "ParameterName": "组织级别ID",
+      "TableValue": {
+        "TableName": "组织信息视图",
+        "OnlyGetValue": true,
+        "TableValueType": 0,
+        "BindingInfos": [
+          {
+            "BindingInfo": {
+              "TableName": "组织信息视图",
+              "ColumnName": "组织级别Id",
+              "GUID": "8c0f8f1b-ac39-4453-bc1c-a2fe4dd3c379"
+            },
+            "ColumnName": "组织级别Id"
+          }
+        ],
+        "SqlCondition": {
+          "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
+          "CompareType": 8,
+          "ColumnBindingInfo": {
+            "TableName": "组织信息视图",
+            "ColumnName": "组织Id",
+            "GUID": "539d0182-013b-488d-bfdb-5d9d680c1ae8"
+          },
+          "Value": {
+            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+            "SerializeProperty": "=部门ID"
+          }
+        }
+      },
+      "ID": "4ea51e9113b84372aad60e539a4caa62"
+    },
+    {
+      "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
+      "ConditionAndCommandPairList": [
+        {
+          "Condition": {
+            "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+            "param": {
+              "$type": "Forguncy.Model.IfConditionServerSiteParam, ServerDesignerCommon",
+              "ParamObject": {
+                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                "SerializeProperty": "=组织级别ID"
+              }
+            },
+            "value": "1"
+          },
+          "CommandList": [
+            {
+              "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
+              "ParameterName": "默认选中项",
+              "TableValue": {
+                "TableName": "标签页头字典表",
+                "OnlyGetValue": true,
+                "TableValueType": 0,
+                "BindingInfos": [
+                  {
+                    "BindingInfo": {
+                      "TableName": "标签页头字典表",
+                      "ColumnName": "ID",
+                      "GUID": "11e1dbf9-a711-4f6a-b40a-e87e81bc6622"
+                    },
+                    "ColumnName": "ID"
+                  }
+                ],
+                "SqlCondition": {
+                  "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                  "ColumnBindingInfo": {
+                    "TableName": "标签页头字典表",
+                    "ColumnName": "名称",
+                    "GUID": "0aa95232-695a-4cc0-88f9-14da641bc597"
+                  },
+                  "Value": "总部信息"
+                }
+              },
+              "ID": "2d21b9bce4a44ea780d7255a5cf32091"
+            },
+            {
+              "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
+              "ParameterName": "标签页头",
+              "ParameterValue": {
+                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                "SerializeProperty": "=CONCATENATE(标签页头,\",\",\"总部信息\")"
+              },
+              "ID": "b22ff7b6d36f4d66a79403807ce7ced1"
+            },
+            {
+              "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
+              "ParameterName": "是否存在下级公司",
+              "TableValue": {
+                "TableName": "组织信息视图",
+                "TableValueType": 3,
+                "SqlCondition": {
+                  "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                  "ColumnBindingInfo": {
+                    "TableName": "组织信息视图",
+                    "ColumnName": "父节点Id",
+                    "GUID": "c946579b-faa9-4216-829e-de2aa6c17527"
+                  },
+                  "Value": {
+                    "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                    "SerializeProperty": "=部门ID"
+                  }
+                }
+              },
+              "ID": "68abe8b391e54f62852ea4a45a810a86"
+            },
+            {
+              "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
+              "ConditionAndCommandPairList": [
+                {
+                  "Condition": {
+                    "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                    "param": {
+                      "$type": "Forguncy.Model.IfConditionServerSiteParam, ServerDesignerCommon",
+                      "ParamObject": {
+                        "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                        "SerializeProperty": "=是否存在下级公司"
+                      }
+                    },
+                    "value": "0",
+                    "compareType": 2
+                  },
+                  "CommandList": [
+                    {
+                      "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
+                      "ParameterName": "标签页头",
+                      "ParameterValue": {
+                        "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                        "SerializeProperty": "=CONCATENATE(标签页头,\",\",\"下级分部\")"
+                      },
+                      "ID": "4a0a324b520543d5879bc680eaafaef4"
+                    }
+                  ],
+                  "ID": "8f67c72f-3215-4283-94e4-568c279b2ff6"
+                }
+              ]
+            }
+          ],
+          "ID": "8e6bef14-d3cb-4167-bc1f-8ca4519c27a1"
+        },
+        {
+          "Condition": {
+            "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+            "param": {
+              "$type": "Forguncy.Model.IfConditionServerSiteParam, ServerDesignerCommon",
+              "ParamObject": {
+                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                "SerializeProperty": "=组织级别ID"
+              }
+            },
+            "value": "2"
+          },
+          "CommandList": [
+            {
+              "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
+              "ParameterName": "默认选中项",
+              "TableValue": {
+                "TableName": "标签页头字典表",
+                "OnlyGetValue": true,
+                "TableValueType": 0,
+                "BindingInfos": [
+                  {
+                    "BindingInfo": {
+                      "TableName": "标签页头字典表",
+                      "ColumnName": "ID",
+                      "GUID": "f9ea4a83-1e2e-4555-94e5-3c4aa0c921a5"
+                    },
+                    "ColumnName": "ID"
+                  }
+                ],
+                "SqlCondition": {
+                  "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                  "ColumnBindingInfo": {
+                    "TableName": "标签页头字典表",
+                    "ColumnName": "名称",
+                    "GUID": "969437c7-15ae-48bd-a4ac-fc832a8decaa"
+                  },
+                  "Value": "分部信息"
+                }
+              },
+              "ID": "a61c35447745434b9b8c8075afa6a15d"
+            },
+            {
+              "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
+              "ParameterName": "标签页头",
+              "ParameterValue": {
+                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                "SerializeProperty": "=CONCATENATE(标签页头,\",\",\"分部信息\")"
+              },
+              "ID": "2bc25ec5f5ff4ee8b953ca9b5ce0f23e"
+            },
+            {
+              "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
+              "ParameterName": "是否存在下级部门",
+              "TableValue": {
+                "TableName": "组织信息视图",
+                "TableValueType": 3,
+                "SqlCondition": {
+                  "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                  "ColumnBindingInfo": {
+                    "TableName": "组织信息视图",
+                    "ColumnName": "父节点Id",
+                    "GUID": "e868f442-53fb-4ec3-997d-d451370a45b1"
+                  },
+                  "Value": {
+                    "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                    "SerializeProperty": "=部门ID"
+                  }
+                }
+              },
+              "ID": "12dc3a8f90274e1c9216b708a1013e23"
+            },
+            {
+              "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
+              "ConditionAndCommandPairList": [
+                {
+                  "Condition": {
+                    "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                    "param": {
+                      "$type": "Forguncy.Model.IfConditionServerSiteParam, ServerDesignerCommon",
+                      "ParamObject": {
+                        "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                        "SerializeProperty": "=是否存在下级部门"
+                      }
+                    },
+                    "value": "0",
+                    "compareType": 2
+                  },
+                  "CommandList": [
+                    {
+                      "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
+                      "ParameterName": "标签页头",
+                      "ParameterValue": {
+                        "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                        "SerializeProperty": "=CONCATENATE(标签页头,\",\",\"下级部门\")"
+                      },
+                      "ID": "1c5243c4f0524636bffbf54320bf7c90"
+                    }
+                  ],
+                  "ID": "520a7ed1-6329-4b70-b95f-a372f72fc3bc"
+                }
+              ]
+            }
+          ],
+          "ID": "c99be7bb-ae71-42e5-8fe9-19b7aa4ec40a"
+        },
+        {
+          "CommandList": [
+            {
+              "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
+              "ParameterName": "默认选中项",
+              "TableValue": {
+                "TableName": "标签页头字典表",
+                "OnlyGetValue": true,
+                "TableValueType": 0,
+                "BindingInfos": [
+                  {
+                    "BindingInfo": {
+                      "TableName": "标签页头字典表",
+                      "ColumnName": "ID",
+                      "GUID": "d602023f-d650-4019-b0ab-f4ee1d151c86"
+                    },
+                    "ColumnName": "ID"
+                  }
+                ],
+                "SqlCondition": {
+                  "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                  "ColumnBindingInfo": {
+                    "TableName": "标签页头字典表",
+                    "ColumnName": "名称",
+                    "GUID": "d53adddd-2aed-4095-b06c-b9d1c96f4ae8"
+                  },
+                  "Value": "部门信息"
+                }
+              },
+              "ID": "10b40fccb56f40579a4c27e9c9649a5e"
+            },
+            {
+              "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
+              "ParameterName": "标签页头",
+              "ParameterValue": {
+                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                "SerializeProperty": "=CONCATENATE(标签页头,\",\",\"部门信息\")"
+              },
+              "ID": "e0ace66a90b341379dac4159dab1745b"
+            }
+          ],
+          "ID": "af339e77-454b-4775-b638-4e43f2cbda3b"
+        }
+      ]
+    },
+    {
+      "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
+      "ParameterName": "是否存在人员",
+      "TableValue": {
+        "TableName": "用户组织关系视图",
+        "TableValueType": 3,
+        "SqlCondition": {
+          "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+          "ColumnBindingInfo": {
+            "TableName": "用户组织关系视图",
+            "ColumnName": "组织Id",
+            "GUID": "9fd8ac1e-a412-48e8-807b-aa7ff38ebf86"
+          },
+          "Value": {
+            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+            "SerializeProperty": "=部门ID"
+          }
+        }
+      },
+      "ID": "05d2347c94b344d5a6c91b6ea25ee347"
+    },
+    {
+      "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
+      "ConditionAndCommandPairList": [
+        {
+          "Condition": {
+            "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+            "param": {
+              "$type": "Forguncy.Model.IfConditionServerSiteParam, ServerDesignerCommon",
+              "ParamObject": {
+                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                "SerializeProperty": "=是否存在人员"
+              }
+            },
+            "value": "0",
+            "compareType": 2
+          },
+          "CommandList": [
+            {
+              "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
+              "ParameterName": "标签页头",
+              "ParameterValue": {
+                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                "SerializeProperty": "=CONCATENATE(标签页头,\",\",\"人力资源\")"
+              },
+              "ID": "19ce9d59d39245ffb7575292198f0d87"
+            }
+          ],
+          "ID": "26b4d41a-a20a-4726-89e0-2f822735f8a7"
+        }
+      ]
+    },
+    {
+      "$type": "Forguncy.Model.ReturnCommand, ServerDesignerCommon",
+      "CustomReturns": [
+        {
+          "ReturnPropertyName": "默认选中项",
+          "Value": {
+            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+            "SerializeProperty": "=默认选中项"
+          }
+        },
+        {
+          "ReturnPropertyName": "标签页头",
+          "Value": {
+            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+            "SerializeProperty": "=标签页头"
+          }
+        }
+      ]
+    }
+  ],
+  "ReturnProperties": [
+    {
+      "Name": "默认选中项"
+    },
+    {
+      "Name": "标签页头"
+    }
+  ]
+}

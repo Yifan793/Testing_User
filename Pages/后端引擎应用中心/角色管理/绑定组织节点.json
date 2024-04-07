@@ -1,0 +1,1030 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "1": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "2": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 10.0
+        }
+      },
+      "3": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "13": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "17": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0,
+          "Mode": 1
+        }
+      },
+      "18": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "19": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "21": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      }
+    },
+    "Count": 22,
+    "DefaultSize": 32.0
+  },
+  "Cols": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "1": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "2": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "3": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "4": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "5": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "6": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "7": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "8": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "9": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "10": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "11": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "15": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "16": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "17": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "18": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "19": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "20": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "21": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "22": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "23": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "24": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "25": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "26": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "27": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "28": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 182.0,
+          "IsHidden": true
+        }
+      }
+    },
+    "InLogicalVisibleIndexes": [
+      28
+    ],
+    "Count": 29
+  },
+  "Values": {
+    "15,1": "筛选结果：",
+    "20,23": "确 定"
+  },
+  "AttachInfos": {
+    "1,1": {
+      "CellType": {
+        "$type": "ElementUI.InputCellType, ElementUI",
+        "CommandList": [],
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 4,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ],
+        "type": "text",
+        "placeholder": "请输入关键字搜索",
+        "suffixIcon": {
+          "$type": "GrapeCity.Forguncy.Plugin.ImageValue, GrapeCity.Forguncy.Plugin",
+          "Name": "Application/047_search_8.svg",
+          "BuiltIn": true,
+          "Color": "#c0c4cc"
+        },
+        "resize": "none"
+      }
+    },
+    "1,28": {
+      "CellComment": {
+        "Comments": "角色ID"
+      }
+    },
+    "3,1": {
+      "CellType": {
+        "$type": "ElementUI.TreeCellType, ElementUI",
+        "multiSelectCommand": {
+          "$type": "GrapeCity.Forguncy.Commands.CustomCommandObject, Forguncy.Commands",
+          "Commands": [
+            {
+              "$type": "Forguncy.Model.OperateCellTypeCommand, ServerDesignerCommon",
+              "TargetPageElement": {
+                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                "SerializeProperty": "=绑定组织节点!B4"
+              },
+              "TargetType": "ElementUI.TreeCellType, ElementUI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e50995ee76bfe560",
+              "MethodName": "GetSelectedNodes",
+              "ParameterValues": {
+                "isLeafOnly": false,
+                "isContainsHalf": true
+              },
+              "RetrunParamNames": {
+                "Result": {
+                  "SerializeProperty": "获取结果"
+                }
+              }
+            },
+            {
+              "$type": "CollectionOperationKit.ClientSideArrayOp, CollectionOperationKit",
+              "Operation": 16,
+              "InParamaterName": {
+                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                "SerializeProperty": "=绑定组织节点!获取结果"
+              },
+              "OperationParamaterAName": ",",
+              "OutParamaterName": "组织名称数组"
+            },
+            {
+              "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
+              "ParameterName": "组织名称集合",
+              "TableValue": {
+                "TableName": "组织信息视图",
+                "BindingInfos": [
+                  {
+                    "BindingInfo": {
+                      "TableName": "组织信息视图",
+                      "ColumnName": "组织名",
+                      "GUID": "09062024-2237-418c-94c8-90e2dc34dd27"
+                    },
+                    "ColumnName": "组织名"
+                  }
+                ],
+                "SqlCondition": {
+                  "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
+                  "CompareType": 8,
+                  "ColumnBindingInfo": {
+                    "TableName": "组织信息视图",
+                    "ColumnName": "组织Id",
+                    "GUID": "0437f901-0290-4f05-80db-c4fcaa60b50f"
+                  },
+                  "Value": {
+                    "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                    "SerializeProperty": "=绑定组织节点!组织名称数组"
+                  }
+                },
+                "NullFormulaValueQueryPolicy": 0
+              },
+              "ID": "4644c3102b004d3083c4549423af4bbf"
+            },
+            {
+              "$type": "CollectionOperationKit.ClientSideArrayOp, CollectionOperationKit",
+              "Operation": 16,
+              "InParamaterName": {
+                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                "SerializeProperty": "=绑定组织节点!组织名称集合"
+              },
+              "OperationParamaterAName": "，",
+              "OperationParamaterBName": "组织名",
+              "OutParamaterName": "组织名称字符串"
+            },
+            {
+              "$type": "Forguncy.Model.SetCellPropertyCommand, ServerDesignerCommon",
+              "PropertyItemsList": [
+                {
+                  "TargetCells": {
+                    "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                    "SerializeProperty": "=绑定组织节点!B17"
+                  },
+                  "Value": {
+                    "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                    "SerializeProperty": "=绑定组织节点!组织名称字符串"
+                  }
+                }
+              ]
+            }
+          ],
+          "ParamProperties": {
+            "resultArray": "结果数组"
+          }
+        },
+        "clickCommand": {
+          "$type": "GrapeCity.Forguncy.Commands.CustomCommandObject, Forguncy.Commands",
+          "Commands": [
+            {
+              "$type": "Forguncy.Model.OperateCellTypeCommand, ServerDesignerCommon",
+              "TargetPageElement": {
+                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                "SerializeProperty": "=绑定组织节点!B4"
+              },
+              "TargetType": "ElementUI.TreeCellType, ElementUI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e50995ee76bfe560",
+              "MethodName": "GetSelectedNodes",
+              "ParameterValues": {
+                "isLeafOnly": false,
+                "isContainsHalf": true
+              },
+              "RetrunParamNames": {
+                "Result": {
+                  "SerializeProperty": "获取结果"
+                }
+              }
+            },
+            {
+              "$type": "CollectionOperationKit.ClientSideArrayOp, CollectionOperationKit",
+              "Operation": 16,
+              "InParamaterName": {
+                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                "SerializeProperty": "=绑定组织节点!获取结果"
+              },
+              "OperationParamaterAName": ",",
+              "OutParamaterName": "组织名称数组"
+            },
+            {
+              "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
+              "ParameterName": "组织名称集合",
+              "TableValue": {
+                "TableName": "组织信息视图",
+                "BindingInfos": [
+                  {
+                    "BindingInfo": {
+                      "TableName": "组织信息视图",
+                      "ColumnName": "组织名",
+                      "GUID": "bd05b329-d3c7-428d-bbb9-738ef6bb7a3a"
+                    },
+                    "ColumnName": "组织名"
+                  }
+                ],
+                "SqlCondition": {
+                  "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
+                  "CompareType": 8,
+                  "ColumnBindingInfo": {
+                    "TableName": "组织信息视图",
+                    "ColumnName": "组织Id",
+                    "GUID": "be524e6f-ccc8-425f-bb24-8551df1d0b76"
+                  },
+                  "Value": {
+                    "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                    "SerializeProperty": "=绑定组织节点!组织名称数组"
+                  }
+                },
+                "NullFormulaValueQueryPolicy": 0
+              },
+              "ID": "1fdc0ef67c0b4aa986d9ad85452fadeb"
+            },
+            {
+              "$type": "CollectionOperationKit.ClientSideArrayOp, CollectionOperationKit",
+              "Operation": 16,
+              "InParamaterName": {
+                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                "SerializeProperty": "=绑定组织节点!组织名称集合"
+              },
+              "OperationParamaterAName": "，",
+              "OperationParamaterBName": "组织名",
+              "OutParamaterName": "组织名称字符串"
+            },
+            {
+              "$type": "Forguncy.Model.SetCellPropertyCommand, ServerDesignerCommon",
+              "PropertyItemsList": [
+                {
+                  "TargetCells": {
+                    "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                    "SerializeProperty": "=绑定组织节点!B17"
+                  },
+                  "Value": {
+                    "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                    "SerializeProperty": "=绑定组织节点!组织名称字符串"
+                  }
+                }
+              ]
+            }
+          ],
+          "ParamProperties": {
+            "value": "值",
+            "label": "显示文本",
+            "parentValue": "父节点值"
+          }
+        },
+        "isTreeNodeFromDb": true,
+        "configTreeNodeOptions": [
+          {
+            "$type": "ElementUI.TreeCellTypeNode, ElementUI",
+            "value": "1",
+            "label": "节点1",
+            "icon": {
+              "Name": "Navigation/165_home_3.svg",
+              "BuiltIn": true,
+              "Color": "Background 1 -25",
+              "UseCellTypeForeColor": true
+            },
+            "children": [
+              {
+                "value": "2",
+                "label": "节点1_1",
+                "children": [
+                  {
+                    "value": "3",
+                    "label": "节点1_1_1"
+                  },
+                  {
+                    "value": "4",
+                    "label": "节点1_1_2"
+                  }
+                ]
+              },
+              {
+                "value": "5",
+                "label": "节点1_2"
+              }
+            ]
+          },
+          {
+            "$type": "ElementUI.TreeCellTypeNode, ElementUI",
+            "value": "6",
+            "label": "节点2",
+            "icon": {
+              "Name": "Navigation/169_user_2.svg",
+              "BuiltIn": true,
+              "Color": "Background 1 -25",
+              "UseCellTypeForeColor": true
+            },
+            "children": [
+              {
+                "value": "7",
+                "label": "节点2_1",
+                "children": [
+                  {
+                    "value": "8",
+                    "label": "节点2_1_1"
+                  },
+                  {
+                    "value": "9",
+                    "label": "节点2_1_2"
+                  }
+                ]
+              },
+              {
+                "value": "10",
+                "label": "节点2_2"
+              }
+            ]
+          }
+        ],
+        "bindingDataSource": {
+          "$type": "ServerDesignerCommon.Model.BindingDataSourceModel, ServerDesignerCommon",
+          "TableName": "组织信息视图",
+          "BindingInfos": [
+            {
+              "BindingInfo": {
+                "TableName": "组织信息视图",
+                "ColumnName": "组织Id",
+                "GUID": "82c2f323-9590-4784-a15f-5ff2b8455e05"
+              },
+              "ColumnName": "value"
+            },
+            {
+              "BindingInfo": {
+                "TableName": "组织信息视图",
+                "ColumnName": "组织名",
+                "GUID": "35a39c36-0691-4b93-a83e-11ec59055314"
+              },
+              "ColumnName": "label"
+            },
+            {
+              "BindingInfo": {
+                "TableName": "组织信息视图",
+                "ColumnName": "父节点Id",
+                "GUID": "95e54aec-633d-4988-892c-8a434e5371b3"
+              },
+              "ColumnName": "parentValue"
+            }
+          ],
+          "SqlCondition": {
+            "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
+            "CompareType": 6,
+            "ColumnBindingInfo": {
+              "TableName": "组织信息视图",
+              "ColumnName": "组织名",
+              "GUID": "63561c2a-c6d3-46ec-9a66-a1499fd7c140"
+            },
+            "Value": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "=绑定组织节点!B2"
+            }
+          },
+          "NullFormulaValueQueryPolicy": 1,
+          "OrderBySqlCondition": {
+            "OrderByColumns": [
+              {
+                "ColumnBindingInfo": {
+                  "TableName": "组织信息视图",
+                  "ColumnName": "排序",
+                  "GUID": "7536b035-295c-44c9-ab2b-ee1c02678453"
+                },
+                "Order": 0
+              }
+            ]
+          },
+          "CustomColumns": []
+        },
+        "isMultiSelection": true,
+        "isCheckedByCheckbox": true,
+        "isCheckStrictly": true,
+        "isDefaultExpandAll": true,
+        "isClickCanExpandNode": false,
+        "isHighlightCurrent": true
+      }
+    },
+    "20,23": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.RequestServerCommand, ServerDesignerCommon",
+            "ServerCommandName": "绑定组织结构",
+            "Parameters": [
+              {
+                "$type": "Forguncy.Model.RequestServerCommandObjectParam, ServerDesignerCommon",
+                "ParamName": "角色ID",
+                "Value": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=绑定组织节点!AC2"
+                }
+              },
+              {
+                "$type": "Forguncy.Model.RequestServerCommandObjectParam, ServerDesignerCommon",
+                "ParamName": "组织节点ID",
+                "Value": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=绑定组织节点!B4"
+                }
+              }
+            ],
+            "ResultErrorCodeTo": {
+              "SerializeProperty": "返回码"
+            },
+            "ResultMessageTo": {
+              "SerializeProperty": "返回信息"
+            },
+            "RefreshAfterFinish": true,
+            "CheckDataValidation": true
+          },
+          {
+            "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
+            "ConditionAndCommandPairList": [
+              {
+                "Condition": {
+                  "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                  "param": {
+                    "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                    "cellLocations": [
+                      {
+                        "SerializeProperty": "=绑定组织节点!返回码"
+                      }
+                    ]
+                  },
+                  "value": "0"
+                },
+                "CommandList": [
+                  {
+                    "$type": "ElementUI.Commands.ShowMessage, ElementUI",
+                    "Message": "绑定组织结构成功",
+                    "Type": "success",
+                    "Duration": 3000,
+                    "Offset": null
+                  },
+                  {
+                    "$type": "Forguncy.Model.ClosePopupCommand, ServerDesignerCommon",
+                    "ReloadData": true
+                  }
+                ],
+                "ID": "bac252dc-6165-470d-95e8-e71009e8b239"
+              },
+              {
+                "CommandList": [
+                  {
+                    "$type": "ElementUI.Commands.ShowMessage, ElementUI",
+                    "Message": {
+                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                      "SerializeProperty": "=\"绑定组织结构失败。错误原因：\"&绑定组织节点!返回信息"
+                    },
+                    "Type": "error",
+                    "Duration": 3000,
+                    "Offset": null
+                  }
+                ],
+                "ID": "07a68def-202e-4759-a36a-faa33889f7a5"
+              }
+            ]
+          }
+        ],
+        "Text": "确 定",
+        "TemplateKey": "_RS_Main3"
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "FontFamily": 0
+      },
+      {
+        "FontFamily": 0,
+        "FontSize": 13.333333333333332
+      },
+      {
+        "FontSize": 13.333333333333332,
+        "WordWrap": true
+      },
+      {
+        "FontFamily": 0,
+        "FontSize": 13.333333333333332,
+        "Formatter": 1
+      },
+      {
+        "FontFamily": 0,
+        "BorderTop": 0
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Body",
+        "[AUTO]General",
+        "#FFE2E2E2"
+      ],
+      "Borders": [
+        {
+          "Color": 2
+        }
+      ]
+    },
+    "CellStyles": {
+      "0,0": 0,
+      "0,1": 1,
+      "0,2": 1,
+      "0,3": 1,
+      "0,4": 1,
+      "0,5": 1,
+      "0,6": 1,
+      "0,7": 1,
+      "0,8": 1,
+      "0,9": 1,
+      "0,10": 1,
+      "0,11": 1,
+      "0,12": 1,
+      "0,13": 1,
+      "0,14": 1,
+      "0,15": 1,
+      "0,16": 1,
+      "0,17": 1,
+      "0,18": 1,
+      "0,19": 1,
+      "0,20": 1,
+      "0,21": 1,
+      "0,22": 1,
+      "0,23": 1,
+      "0,24": 1,
+      "0,25": 1,
+      "0,26": 1,
+      "0,27": 0,
+      "1,0": 0,
+      "1,1": 1,
+      "1,27": 0,
+      "2,0": 0,
+      "2,1": 1,
+      "2,2": 1,
+      "2,3": 1,
+      "2,4": 1,
+      "2,5": 1,
+      "2,6": 1,
+      "2,7": 1,
+      "2,8": 1,
+      "2,9": 1,
+      "2,10": 1,
+      "2,11": 1,
+      "2,12": 1,
+      "2,13": 1,
+      "2,14": 1,
+      "2,15": 1,
+      "2,16": 1,
+      "2,17": 1,
+      "2,18": 1,
+      "2,19": 1,
+      "2,20": 1,
+      "2,21": 1,
+      "2,22": 1,
+      "2,23": 1,
+      "2,24": 1,
+      "2,25": 1,
+      "2,26": 1,
+      "2,27": 0,
+      "2,28": 0,
+      "3,0": 0,
+      "3,27": 0,
+      "3,28": 0,
+      "4,0": 0,
+      "4,27": 0,
+      "4,28": 0,
+      "5,0": 0,
+      "5,27": 0,
+      "5,28": 0,
+      "6,0": 0,
+      "6,27": 0,
+      "6,28": 0,
+      "7,0": 0,
+      "7,27": 0,
+      "7,28": 0,
+      "8,0": 0,
+      "8,27": 0,
+      "8,28": 0,
+      "9,0": 0,
+      "9,27": 0,
+      "9,28": 0,
+      "10,0": 0,
+      "10,27": 0,
+      "10,28": 0,
+      "11,0": 0,
+      "11,27": 0,
+      "11,28": 0,
+      "12,0": 0,
+      "12,27": 0,
+      "12,28": 0,
+      "13,0": 0,
+      "13,27": 0,
+      "13,28": 0,
+      "14,0": 0,
+      "14,27": 0,
+      "14,28": 0,
+      "15,0": 0,
+      "15,27": 0,
+      "15,28": 0,
+      "16,0": 0,
+      "16,1": 2,
+      "16,27": 0,
+      "16,28": 0,
+      "17,0": 0,
+      "17,27": 0,
+      "17,28": 0,
+      "18,0": 0,
+      "18,1": 3,
+      "18,27": 0,
+      "18,28": 0,
+      "19,0": 4,
+      "19,1": 4,
+      "19,2": 4,
+      "19,3": 4,
+      "19,4": 4,
+      "19,5": 4,
+      "19,6": 4,
+      "19,7": 4,
+      "19,8": 4,
+      "19,9": 4,
+      "19,10": 4,
+      "19,11": 4,
+      "19,12": 4,
+      "19,13": 4,
+      "19,14": 4,
+      "19,15": 4,
+      "19,16": 4,
+      "19,17": 4,
+      "19,18": 4,
+      "19,19": 4,
+      "19,20": 4,
+      "19,21": 4,
+      "19,22": 4,
+      "19,23": 4,
+      "19,24": 4,
+      "19,25": 4,
+      "19,26": 4,
+      "19,27": 4,
+      "19,28": 0,
+      "20,0": 0,
+      "20,1": 0,
+      "20,2": 0,
+      "20,3": 0,
+      "20,4": 0,
+      "20,5": 0,
+      "20,6": 0,
+      "20,7": 0,
+      "20,8": 0,
+      "20,9": 0,
+      "20,10": 0,
+      "20,11": 0,
+      "20,12": 0,
+      "20,13": 0,
+      "20,14": 0,
+      "20,15": 0,
+      "20,16": 0,
+      "20,17": 0,
+      "20,18": 0,
+      "20,19": 0,
+      "20,20": 0,
+      "20,21": 0,
+      "20,22": 0,
+      "20,23": 3,
+      "20,27": 0,
+      "21,0": 0,
+      "21,1": 0,
+      "21,2": 0,
+      "21,3": 0,
+      "21,4": 0,
+      "21,5": 0,
+      "21,6": 0,
+      "21,7": 0,
+      "21,8": 0,
+      "21,9": 0,
+      "21,10": 0,
+      "21,11": 0,
+      "21,12": 0,
+      "21,13": 0,
+      "21,14": 0,
+      "21,15": 0,
+      "21,16": 0,
+      "21,17": 0,
+      "21,18": 0,
+      "21,19": 0,
+      "21,20": 0,
+      "21,21": 0,
+      "21,22": 0,
+      "21,23": 0,
+      "21,24": 0,
+      "21,25": 0,
+      "21,26": 0,
+      "21,27": 0
+    },
+    "SheetStyle": {
+      "FontFamily": 0
+    }
+  },
+  "Spans": [
+    "1,1,1,26",
+    "20,23,1,4",
+    "3,1,11,26",
+    "16,1,2,26"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "Title": "绑定组织节点",
+    "PageLoadedCommandList": [
+      {
+        "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
+        "ParameterName": "角色ID",
+        "TableValue": {
+          "TableName": "角色文件夹关系视图",
+          "OnlyGetValue": true,
+          "TableValueType": 0,
+          "BindingInfos": [
+            {
+              "BindingInfo": {
+                "TableName": "角色文件夹关系视图",
+                "ColumnName": "Id",
+                "GUID": "6a38cfb8-67fe-4717-8f06-c213872ae751"
+              },
+              "ColumnName": "Id"
+            }
+          ],
+          "SqlCondition": {
+            "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+            "ColumnBindingInfo": {
+              "TableName": "角色文件夹关系视图",
+              "ColumnName": "角色唯一标识",
+              "GUID": "fddc47eb-2ead-46fd-8d6d-8c778a7f1d7d"
+            },
+            "Value": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "=绑定组织节点!AC4"
+            }
+          }
+        },
+        "ID": "1c821a8304664259a025c84c3c3bdda8"
+      },
+      {
+        "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
+        "ParameterName": "组织ID集合",
+        "TableValue": {
+          "TableName": "角色组织关系视图",
+          "BindingInfos": [
+            {
+              "BindingInfo": {
+                "TableName": "角色组织关系视图",
+                "ColumnName": "组织Id",
+                "GUID": "7904fe05-d3d8-42df-8b23-31f2e744f4a2"
+              },
+              "ColumnName": "组织Id"
+            }
+          ],
+          "SqlCondition": {
+            "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+            "ColumnBindingInfo": {
+              "TableName": "角色组织关系视图",
+              "ColumnName": "角色Id",
+              "GUID": "aa4707c5-1bad-488c-8946-904096f69a51"
+            },
+            "Value": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "=绑定组织节点!角色ID"
+            }
+          }
+        },
+        "ID": "940f5a7863dc4a209cdd71c8522248ed"
+      },
+      {
+        "$type": "CollectionOperationKit.ClientSideArrayOp, CollectionOperationKit",
+        "Operation": 16,
+        "InParamaterName": {
+          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+          "SerializeProperty": "=绑定组织节点!组织ID集合"
+        },
+        "OperationParamaterAName": ",",
+        "OperationParamaterBName": "组织Id",
+        "OutParamaterName": "组织ID字符串"
+      },
+      {
+        "$type": "Forguncy.Model.SetCellPropertyCommand, ServerDesignerCommon",
+        "PropertyItemsList": [
+          {
+            "TargetCells": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "=绑定组织节点!AC2"
+            },
+            "Value": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "=绑定组织节点!角色ID"
+            }
+          },
+          {
+            "TargetCells": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "=绑定组织节点!B4"
+            },
+            "Value": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "=绑定组织节点!组织ID字符串"
+            }
+          }
+        ]
+      }
+    ],
+    "PermissionData": {
+      "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionData, Forguncy.RbacPermission.Core",
+      "permissionResource": {
+        "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionResource, Forguncy.RbacPermission.Core"
+      },
+      "permissionBindings": [
+        {
+          "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionBinding, Forguncy.RbacPermission.Core",
+          "roleNames": [
+            "FGC_LoginUser"
+          ]
+        }
+      ]
+    },
+    "RowBreakLines": [],
+    "RepeatRangeSettings": [],
+    "RelatedDataTableName": "用户信息视图"
+  },
+  "PrintInfo": {
+    "PaperSize": {},
+    "Margin": {}
+  },
+  "BackgroundPictures": [
+    {
+      "Name": "BackgroundPicture0",
+      "DisplayName": "背景图2",
+      "StyleInfo": {
+        "Fill": "Background 1 0"
+      },
+      "IsAutomaticFill": false,
+      "Size": "222,602"
+    }
+  ],
+  "CustomNames": [
+    {
+      "Name": "角色唯一标识",
+      "Formula": "绑定组织节点!$AC$4"
+    }
+  ]
+}//GTCmhc23g41pyp1I/dahCwv8CkdYjaWlKjLt5TH6gqQFnH7Zqy+UPzXtUJniiIkorYspckR5RPJoPt6rUNX4OxuFP8Wbl4OJRDZTqXKs26Kk39Q39qhLJeQ4a7JxWmLznnilPc/hvOKa+bqmB2dVc+c/1l0hazU2Icn0BPxALOzIhEaNYxMiSLDMHj92jPEvlZFZTMmibz8EUewWQoEG4vQL1yPY3cFqtjQgjB/qEsoHVbyn1A5sXrTraKv5CMraadMz+kGfPdC5QaS0xpSW1KgQyugOSp7kT/F/rerZc1ULiXVmHCDmj6WXyH0bnSOqqgk8JlfedcTSAeVLcYZnMZn7X0aYlFhlUJremp0BuUx/+pnFKxS43sGsKmZmhWUscoFOmziR1VYjICWGqz+VGyCTGGymP42YWC4R2o1gRBtKF5DuSSnyDBDwXABEB12ptexsAgd43xvzOorulC5qzyC0O4kcuMfMEmdKXlejDiFYNxv8GTzE18sdyEnK8Q8TGx27WBXXSIcYZkHlowNbiCPAp0n6fvb7OM0TZZsl/bZW05imnXxRPQp9OXaIVOg9HOEZkBnTVf8GYg9uqggYUUEg4CH1DvcF7BIBqEkY2ex8TKIgMzSZF+n7zx0TjeM2GNvrwuYMwS+cHXQy+JS7sxzlQDghPP0UWVEpDDqElFr32AsspJi7ubmbuWm5SXUtHxloZYkWB+d9Te3t2VMzovP/JSGJE0niqgk/mDGp6rbrUtllGluhQsxGoXy55PU+RuJyDcJZ0xEnQ05aauudpQTXTP1Ck49hwdqB0YNTZXTs+RKd6Oo6xu7LmZL7LYd+kR/oz9ELGeiMu5kqik7iLNXoOD5OFRB3Mt/hF7C9RaXUi4soBNyWgyaCndSMPsXDZ+TD0N2Vvtwe8N88cdCquA==|920

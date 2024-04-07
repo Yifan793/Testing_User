@@ -1,0 +1,128 @@
+{
+  "Name": "删除角色_文件夹",
+  "Enabled": true,
+  "Triggers": [
+    {
+      "$type": "Forguncy.SaveLoad.PostRequestTriggerSaveData, ServerDesignerCommon",
+      "Permission": {
+        "PermissionData": {
+          "$type": "Forguncy.RbacPermission.Core.Impl.ServerCommand.ServerCommandPermissionData, Forguncy.RbacPermission.Core",
+          "permissionResource": {
+            "$type": "Forguncy.RbacPermission.Core.Impl.ServerCommand.ServerCommandPermissionResource, Forguncy.RbacPermission.Core"
+          },
+          "permissionBindings": [
+            {
+              "$type": "Forguncy.RbacPermission.Core.Impl.ServerCommand.ServerCommandPermissionBinding, Forguncy.RbacPermission.Core",
+              "roleNames": [
+                "FGC_LoginUser"
+              ]
+            }
+          ]
+        }
+      },
+      "Parameters": [
+        {
+          "Name": "角色唯一标识",
+          "DataValidationInfo": {}
+        }
+      ]
+    }
+  ],
+  "Commands": [
+    {
+      "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
+      "ParameterName": "角色信息",
+      "TableValue": {
+        "TableName": "角色文件夹关系视图",
+        "TableValueType": 1,
+        "BindingInfos": [
+          {
+            "BindingInfo": {
+              "TableName": "角色文件夹关系视图",
+              "ColumnName": "Id",
+              "GUID": "ee760a1f-60b9-4bac-80e5-96e91950b569"
+            },
+            "ColumnName": "Id"
+          },
+          {
+            "BindingInfo": {
+              "TableName": "角色文件夹关系视图",
+              "ColumnName": "是否角色",
+              "GUID": "4cdd21c0-f2a8-4913-868b-a00ad1f9a9ce"
+            },
+            "ColumnName": "是否角色"
+          }
+        ],
+        "SqlCondition": {
+          "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+          "ColumnBindingInfo": {
+            "TableName": "角色文件夹关系视图",
+            "ColumnName": "角色唯一标识",
+            "GUID": "e4078f78-6fa8-4d02-86d0-f8c8158056da"
+          },
+          "Value": {
+            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+            "SerializeProperty": "=角色唯一标识"
+          }
+        }
+      },
+      "ID": "b1a04e0aa9354b0db5cff0cb9665f59e"
+    },
+    {
+      "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
+      "ConditionAndCommandPairList": [
+        {
+          "Condition": {
+            "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+            "param": {
+              "$type": "Forguncy.Model.IfConditionServerSiteParam, ServerDesignerCommon",
+              "ParamObject": {
+                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                "SerializeProperty": "=角色信息.是否角色"
+              }
+            },
+            "value": "0"
+          },
+          "CommandList": [
+            {
+              "$type": "UserManagementCommandsV2.RoleManagementCommand, UserManagementCommandsV2",
+              "OperationType": "203",
+              "CommandOperator": {
+                "$type": "UserManagementCommandsV2.DeleteRoleFoldersOperator, UserManagementCommandsV2",
+                "FolderIds": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=角色信息.Id"
+                }
+              }
+            },
+            {
+              "$type": "Forguncy.Model.ReturnCommand, ServerDesignerCommon",
+              "Message": "文件夹删除成功"
+            }
+          ],
+          "ID": "6ec2a089-b5c9-40e4-81f3-82f82a97dabb"
+        },
+        {
+          "CommandList": [
+            {
+              "$type": "UserManagementCommandsV2.RoleManagementCommand, UserManagementCommandsV2",
+              "OperationType": "103",
+              "CommandOperator": {
+                "$type": "UserManagementCommandsV2.DeleteRolesOperator, UserManagementCommandsV2",
+                "RoleIds": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=角色信息.Id"
+                }
+              }
+            },
+            {
+              "$type": "Forguncy.Model.ReturnCommand, ServerDesignerCommon",
+              "Message": "删除成功"
+            }
+          ],
+          "ID": "9cdc07b9-3e45-4807-ad71-88961170e3e1"
+        }
+      ]
+    }
+  ]
+}

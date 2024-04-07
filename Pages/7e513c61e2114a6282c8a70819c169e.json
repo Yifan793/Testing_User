@@ -1,0 +1,119 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 160.0
+        }
+      }
+    },
+    "Count": 1,
+    "DefaultSize": 160.0
+  },
+  "Cols": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 320.0
+        }
+      },
+      "1": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 90.0,
+          "IsHidden": true
+        }
+      }
+    },
+    "InLogicalVisibleIndexes": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "Count": 6,
+    "DefaultSize": 115.0
+  },
+  "AttachInfos": {
+    "0,0": {
+      "CellType": {
+        "$type": "Forguncy.UserControlPageCellType, ServerDesignerCommon",
+        "UserControlPageName": "待办项目-子项目卡片",
+        "PropertyValues": [
+          {
+            "Name": "icon",
+            "Value": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "='7e513c61e2114a6282c8a70819c169e'!C1"
+            }
+          },
+          {
+            "Name": "标题",
+            "Value": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "='7e513c61e2114a6282c8a70819c169e'!B1"
+            }
+          },
+          {
+            "Name": "内容",
+            "Value": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "='7e513c61e2114a6282c8a70819c169e'!E1"
+            }
+          },
+          {
+            "Name": "创建人",
+            "Value": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "='7e513c61e2114a6282c8a70819c169e'!D1"
+            }
+          },
+          {
+            "Name": "时间",
+            "Value": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "='7e513c61e2114a6282c8a70819c169e'!F1"
+            }
+          }
+        ]
+      }
+    },
+    "0,1": {
+      "TemplateCellSource": "项目名称"
+    },
+    "0,2": {
+      "TemplateCellSource": "icon"
+    },
+    "0,3": {
+      "TemplateCellSource": "负责人"
+    },
+    "0,4": {
+      "TemplateCellSource": "项目详情"
+    },
+    "0,5": {
+      "TemplateCellSource": "更新日期"
+    }
+  },
+  "StyleDatas": {
+    "Types": {
+      "Strs": [
+        "Body"
+      ]
+    },
+    "SheetStyle": {
+      "FontFamily": 0,
+      "BorderBottom": null,
+      "BorderTop": null,
+      "BorderLeft": null,
+      "BorderRight": null
+    }
+  },
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.TemplatePage, ServerDesignerCommon",
+    "ParentPageName": "工作台-待办项目卡片"
+  },
+  "PrintInfo": {
+    "PaperSize": {},
+    "Margin": {}
+  }
+}//yOKPm5Cof9DBfdb32TVEHk82ClW0kIccub4j2+tPupcrHVgaChfpgQV/4OSqKtb2H7ma0rmgAanassuzGhaWAM/yEdySs7UEs81E/VPIV43wK9r4VWzFYSN07XYm9AgB3LRIve8NA5ArP/uFXNRP0fUF3WmtkQ+5CS2aO3toLSiS5L2VlZ4NOHz8NlJGmp7CvrF2wBkuD7bwc3k9Y5tPqipYXbeYVnx7ZNUdYmkUYZHV+bCJTY6Qqo6roKJP2LnuVE5Nh0Jvy971IqvhV4l0fpfvSCthD9Fx6IKPHxVmvAwNeNmHnybBmgNdR6pYTklxox0UD9cb3yWxkVi7ELXvRXCUXVvE+kvsmIAYIusAvLSWlD752ZZ7LJvmgJ/oOf9EhiI3jHP0LbX3c44DCs+hDbRJauJ8uAB060FujgzJBvfX026I4WTkL9tkpREiXCOprx4Dvc9hXN49S7TunuafMdSFUAaEowiSoC0p7hGSYRwXU03CrzgnSUEc7vepaa1zUQtXUZifWjgQ/qVJ5jCQoxS3F2/CAXFaIR3lnlz6PypVQPpxpyWzJH+mx3NSpDQHV2KHBgmkLSDG47mLwA4LMrQeKkRcSz385nRG7I82gHURDEPM3tmMfLWn6/pII4Bm1DgG0z42sT88h/pKhSZ5LynLeojSQfwJQgYvBbmpi2FOCmoXkKxgKDGzcoDHo/x2xtaJg0W0Fw8vz287H0BYcVEi7Y3Z5551PhEjn7ODCp5gUBYb6QGgE5365I2ngxkFH5i5lju9P88QJBzdd6b7wiacYhlnPFHuIfeSwxY/WNdStczZ3UA4viyHmb7uz5HZ78LNGy/rS1D9+IkSdOo/l+hFKqaxEciLnDGYkJpK6RUJRimozSRpcKxmn911/4iRtIdwhxAnJTNPJkQoJb6onw==|920

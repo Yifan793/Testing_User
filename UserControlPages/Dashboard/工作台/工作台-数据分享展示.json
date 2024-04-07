@@ -1,0 +1,206 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 8.0
+        }
+      },
+      "1": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "2": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "3": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 8.0
+        }
+      }
+    },
+    "Count": 4,
+    "DefaultSize": 8.0
+  },
+  "Cols": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 60.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "1": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 8.0
+        }
+      },
+      "2": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 8.0
+        }
+      },
+      "3": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 60.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "4": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 8.0
+        }
+      },
+      "5": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 8.0
+        }
+      },
+      "6": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 60.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      }
+    },
+    "Count": 7,
+    "DefaultSize": 8.0
+  },
+  "Values": {
+    "0,0": 56,
+    "0,3": 2,
+    "0,6": 1234
+  },
+  "AttachInfos": {
+    "0,0": {
+      "CellType": {
+        "$type": "Forguncy.UserControlPageCellType, ServerDesignerCommon",
+        "UserControlPageName": "文本-垂直-只读",
+        "PropertyValues": [
+          {
+            "Name": "字段",
+            "Value": "项目数"
+          }
+        ]
+      }
+    },
+    "0,3": {
+      "CellType": {
+        "$type": "Forguncy.UserControlPageCellType, ServerDesignerCommon",
+        "UserControlPageName": "文本-垂直-只读",
+        "PropertyValues": [
+          {
+            "Name": "字段",
+            "Value": "团队内排名"
+          }
+        ]
+      }
+    },
+    "0,6": {
+      "CellType": {
+        "$type": "Forguncy.UserControlPageCellType, ServerDesignerCommon",
+        "UserControlPageName": "文本-垂直-只读",
+        "PropertyValues": [
+          {
+            "Name": "字段",
+            "Value": "项目访问"
+          }
+        ]
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": 0
+      },
+      {
+        "FontFamily": 1,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": 0
+      },
+      {
+        "Formatter": 2,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Background 1 -5",
+        "Body",
+        "Custom"
+      ],
+      "Borders": [
+        {
+          "Style": 2,
+          "Color": 0
+        }
+      ]
+    },
+    "CellStyles": {
+      "1,1": 0,
+      "1,4": 1,
+      "2,1": 0,
+      "2,4": 1
+    },
+    "ColStyles": {
+      "3": 2
+    },
+    "SheetStyle": {
+      "FontFamily": 1,
+      "BorderBottom": null,
+      "BorderTop": null,
+      "BorderLeft": null,
+      "BorderRight": null
+    }
+  },
+  "Spans": [
+    "0,0,4,1",
+    "0,3,4,1",
+    "0,6,4,1",
+    "1,1,2,1",
+    "1,2,2,1",
+    "1,4,2,1",
+    "1,5,2,1"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.UserControlPage, ServerDesignerCommon",
+    "PropertyDefinitions": [],
+    "CommandDefinitions": [],
+    "MethodDefinitions": [],
+    "PageLoadedCommandList": []
+  },
+  "PrintInfo": {
+    "PaperSize": {},
+    "Margin": {}
+  }
+}//BprUnQjG+z7vzIdnznh/OXoHP/UBnMJ7wSioMnI0fINRPZQU2wFAVqpSYmtzQrZr8myoWDO97fy9uSY1VTZQNShttePcX4ta0wgCX+HusCqaWvbWEpDaehpN+2YtejjQbRI1UlN3gn6S3kix51usX/D3PNItgChEFyt77I/oA0Va69HoQ6m+b6f80Lolib4Gw/Y7klwu8TBODn7dMD70+bl5P/si850Rkd7m47noOTd5XTa3SAbTmmqY+2uMIYS8xSJ+LJQwZhb0ZtIMExUHfsv5nFu7NS6mStIZ/bdbO58Qiw9SEVYFabzEcLvLNqVwSpETjesrJpMQyoEncT05w03cSVochENJt/2CARg5ExxS4PieCWpmXrv0eWoxi8eOYuwGtQgInl1VKnUYpM89nvCCenfhnLH6srIUbCUz4gDtk1yS9L6ynza40d8/vfflbM89ps5FoDMb/2S8ZI/nP9yKe/nCScNDahpHyoWAXUpszCPDSueu2co/7ZgDUdP5ZYtHz/COyVhuUOmwHBAwlI7U7q6e5CYPN+sb83a+mPg53zZj9gPoKrBJiHlwjkwfZ6eMgra9Wm/6AfS6KCAbh6GZxiFQMMTuM255CZCVkIRV1K8mrhxDo1BrmMXtzNGDc48jvwAPcGJgRRF5yM/YFjIRroEtkopaL3lBiPBES2bp8h/Tu4JUqwgsp5er0QexLfgGfJwQiM5RTN0n9uHOsr1PzMW09b0pSL95tc2//RCNp7UqdRhTSHnTp3P4ztWUa6juLEcnLEF+Atwf8F9ib51A8ZsMxUaKLsryuG6PZd1xXn32/GwC3wULIbQ6X73FAQHs8I3vK55m7YBigRb2P/v1n/SjXAc94eqCMj8JraBKuwaw3kuDsanfVGjoPR+SqMTNKm1UniPJjgUnVDrAnA==|920

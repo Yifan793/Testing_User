@@ -1,0 +1,305 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "1": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "2": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "3": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "4": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "5": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "6": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "7": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "8": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "9": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "10": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "11": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "12": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "13": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "14": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "15": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "16": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "17": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "18": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "19": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "20": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "21": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "22": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "23": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "24": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "25": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "26": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      }
+    },
+    "Count": 27,
+    "DefaultSize": 32.0
+  },
+  "Cols": {
+    "RowColumnAttachedInfos": {
+      "21": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "22": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "23": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "33": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "34": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "35": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      }
+    },
+    "Count": 68
+  },
+  "Values": {
+    "8,22": "两步验证",
+    "10,21": "请使用您手机上的身份验证器APP添加账户并扫描二维码。",
+    "21,21": "下一步"
+  },
+  "AttachInfos": {
+    "1,21": {
+      "CellType": {
+        "$type": "Forguncy.ImageCellType, ServerDesignerCommon",
+        "ImagePath": "fgc_logo_light.png"
+      }
+    },
+    "13,24": {
+      "CellType": {
+        "$type": "Forguncy.BarcodeCellType, ServerDesignerCommon",
+        "CodeType": "QRCode",
+        "ForguncyAttribute": "MFA_Secret_Barcode"
+      }
+    },
+    "21,21": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "Text": "下一步",
+        "TemplateKey": "样式20",
+        "ForguncyAttribute": "MFA_Secret_Next_Button"
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "FontFamily": 0,
+        "FontSize": 18.666666666666664,
+        "FontWeight": 1,
+        "Foreground": 2,
+        "HorizontalAlignment": 3,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 0,
+        "FontSize": 13.333333333333332,
+        "Foreground": 4,
+        "HorizontalAlignment": 5,
+        "VerticalAlignment": 6,
+        "WordWrap": true,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Body",
+        "Bold",
+        "Text 1 15",
+        "Center",
+        "Text 1 35",
+        "Left",
+        "Top"
+      ]
+    },
+    "CellStyles": {
+      "8,22": 0,
+      "10,21": 1
+    },
+    "SheetStyle": {
+      "FontFamily": 0,
+      "BorderBottom": null,
+      "BorderTop": null,
+      "BorderLeft": null,
+      "BorderRight": null
+    }
+  },
+  "Spans": [
+    "1,21,4,15",
+    "8,22,2,13",
+    "10,21,2,15",
+    "13,24,7,9",
+    "21,21,2,15"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "MobilePageName": "FGC_两步验证_扫码页面_手机版",
+    "Title": "两步验证",
+    "AuthorizeInfo": {
+      "VisitMode": 2
+    },
+    "RowBreakLines": [],
+    "RepeatRangeSettings": [],
+    "IsBuiltInPage": true
+  },
+  "PrintInfo": {
+    "PaperSize": {},
+    "Margin": {}
+  },
+  "BackgroundPictures": [
+    {
+      "FitToBrowserWidth": true,
+      "FitToBrowserHeight": true,
+      "Name": "b1880e9f-716e-483e-8cf0-d0adaaa28876.png",
+      "DisplayName": "总体背景渐变",
+      "StyleInfo": {
+        "Fill": "linear-gradient(25deg, #FF845EC2 0.00%, #FF2C73D2 28.05%, #FF0081CF 48.01%, #FF0089BA 65.16%, #FF008E9B 78.25%, #FF008F7A 98.14%)",
+        "Stroke": "black",
+        "StrokeThickness": 0.0
+      },
+      "IsAutomaticStroke": false,
+      "IsAutomaticFill": false,
+      "Location": "160,96",
+      "Size": "1200,768"
+    },
+    {
+      "Name": "119b16ff-3492-4a11-93e2-1bc02f35197d",
+      "DisplayName": "背景图2",
+      "StyleInfo": {
+        "CornerRadius": 8.4375,
+        "Fill": "#FFFFFFFF"
+      },
+      "IsAutomaticFill": false,
+      "Location": "380,224",
+      "Size": "380,576"
+    }
+  ]
+}///m0ZWSY5bdcrXDHkVOSdmxL1vQy0XgvG9rbtNyxVA17OCzcA/wVvpbzV9Ecpf+X29czPSkJ1mxeDUTwrVQMCgNc5Y+nT9iSnw/mtH5vEqVy4upxO89K3pBx5NRgnnEmm5WgWa2KPrqtFR8DVsYEznVco/JDPVdi+chyu1NVuZCffI5fo6ksvoYfR/7Xz8hzfdeuFcfmviRa9mZuHNj7Vie4ZMChIrVuXK3KAf5HoPbe9q5/yUfmI9NdFrn5aYASFHl2Z/AIVvZtn4q+WWXEV0jWoyIwtzCw6bPd+WINsNHP9zk+5Eu8sT5l+4X3ikP94MF6VLOBjtkIjF3t2xuRpGGwhtlalztw8tiJGgHouFM/FZo6kPnTo/MYO3uDy5h6XKYSkONW5BH8nYR6BaJYF4558DjPQmpaVaIbc4eZ34LFBeFjYwhBHO7z2qnRN1jZHEzJkQ9q3+O9sNIamjyANgz+zCgO4oFqi6L7Mkauja4KjQo7K97cXjbGaoYXDhde/YJy+ISxi577zg/Fi06E2VgfBGItRCj6UA8mjYifhiP2+JNdHthRwQwnqDhFX57KcAAmXEv3aLoCuJrPIN3YcpKO0mVB97DNM3xh1pUjp+0wQ/G7kkEOnXlqQThYZ2eNqBVe4eHnVwrgU93GGOGolExj1nNn2s09OY0o30p/5ikXlMgDSctymBti3L/0gA8J1CNUhepJwqVM7B+CVkt5gXVw5cx2lWK7dyK9jeVKt1aJa5l0jL4wMQNhfCRxTAUggcww1KsySyXANukSZsfmWj9/kc6a3JAaScilPGq66ak8wFCJ1DW0y242u0TWf1uyc5nokOetrdlSWxELZZgwf68MvReNYCQVNJCngxg14E3Se6lJLMyaDVafMaHPm0XqzZ18IeHJ6579FsBw0SZ3+8Q==|920

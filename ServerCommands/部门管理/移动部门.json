@@ -1,0 +1,60 @@
+{
+  "Name": "移动部门",
+  "Enabled": true,
+  "Triggers": [
+    {
+      "$type": "Forguncy.SaveLoad.PostRequestTriggerSaveData, ServerDesignerCommon",
+      "Permission": {
+        "PermissionData": {
+          "$type": "Forguncy.RbacPermission.Core.Impl.ServerCommand.ServerCommandPermissionData, Forguncy.RbacPermission.Core",
+          "permissionResource": {
+            "$type": "Forguncy.RbacPermission.Core.Impl.ServerCommand.ServerCommandPermissionResource, Forguncy.RbacPermission.Core"
+          },
+          "permissionBindings": [
+            {
+              "$type": "Forguncy.RbacPermission.Core.Impl.ServerCommand.ServerCommandPermissionBinding, Forguncy.RbacPermission.Core",
+              "roleNames": [
+                "FGC_LoginUser"
+              ]
+            }
+          ]
+        }
+      },
+      "Parameters": [
+        {
+          "Name": "组织节点ID",
+          "DataValidationInfo": {}
+        },
+        {
+          "Name": "移动组织节点ID",
+          "DataValidationInfo": {}
+        },
+        {
+          "Name": "移动类型",
+          "DataValidationInfo": {}
+        }
+      ]
+    }
+  ],
+  "Commands": [
+    {
+      "$type": "UserManagementCommandsV2.OrganizationManagementCommand, UserManagementCommandsV2",
+      "OperationType": "104",
+      "CommandOperator": {
+        "$type": "UserManagementCommandsV2.MoveOrganizationOperator, UserManagementCommandsV2",
+        "OrganizationId": {
+          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+          "SerializeProperty": "=组织节点ID"
+        },
+        "TargetOrganizationId": {
+          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+          "SerializeProperty": "=移动组织节点ID"
+        },
+        "MovePositionType": {
+          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+          "SerializeProperty": "=移动类型"
+        }
+      }
+    }
+  ]
+}

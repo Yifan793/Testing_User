@@ -1,0 +1,138 @@
+{
+  "Name": "批量加入角色",
+  "Enabled": true,
+  "Triggers": [
+    {
+      "$type": "Forguncy.SaveLoad.PostRequestTriggerSaveData, ServerDesignerCommon",
+      "Permission": {
+        "PermissionData": {
+          "$type": "Forguncy.RbacPermission.Core.Impl.ServerCommand.ServerCommandPermissionData, Forguncy.RbacPermission.Core",
+          "permissionResource": {
+            "$type": "Forguncy.RbacPermission.Core.Impl.ServerCommand.ServerCommandPermissionResource, Forguncy.RbacPermission.Core"
+          },
+          "permissionBindings": [
+            {
+              "$type": "Forguncy.RbacPermission.Core.Impl.ServerCommand.ServerCommandPermissionBinding, Forguncy.RbacPermission.Core",
+              "roleNames": [
+                "FGC_LoginUser"
+              ]
+            }
+          ]
+        }
+      },
+      "Parameters": [
+        {
+          "Name": "角色唯一标识",
+          "DataValidationInfo": {}
+        },
+        {
+          "Name": "角色成员",
+          "DataValidationInfo": {}
+        }
+      ]
+    }
+  ],
+  "Commands": [
+    {
+      "$type": "Forguncy.Model.ServerTransactionCommand, ServerDesignerCommon",
+      "CommandList": [
+        {
+          "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
+          "ParameterName": "角色ID",
+          "TableValue": {
+            "TableName": "角色文件夹关系视图",
+            "BindingInfos": [
+              {
+                "BindingInfo": {
+                  "TableName": "角色文件夹关系视图",
+                  "ColumnName": "Id",
+                  "GUID": "9d02966f-a5f4-49b8-a60f-24e17aca6455"
+                },
+                "ColumnName": "Id"
+              }
+            ],
+            "SqlCondition": {
+              "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
+              "SubConditions": [
+                {
+                  "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
+                  "CompareType": 8,
+                  "ColumnBindingInfo": {
+                    "TableName": "角色文件夹关系视图",
+                    "ColumnName": "角色唯一标识",
+                    "GUID": "878ea73f-891b-4efa-9879-0113bac6f8b7"
+                  },
+                  "Value": {
+                    "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                    "SerializeProperty": "=角色唯一标识"
+                  }
+                },
+                {
+                  "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                  "ColumnBindingInfo": {
+                    "TableName": "角色文件夹关系视图",
+                    "ColumnName": "是否角色",
+                    "GUID": "c134281c-9413-4ee0-8dcd-4fa0521ef50f"
+                  },
+                  "Value": "1"
+                }
+              ]
+            }
+          },
+          "ID": "6fee570ef7e14547a3e0280ed711fa7c"
+        },
+        {
+          "$type": "CollectionOperationKit.ServerSideArrayOp, CollectionOperationKit",
+          "Operation": 17,
+          "OperationParamaterAName": ",",
+          "OperationParamaterBName": {
+            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+            "SerializeProperty": "=角色成员"
+          },
+          "OutParamaterName": "角色成员集合"
+        },
+        {
+          "$type": "Forguncy.Model.LoopCommand, ServerDesignerCommon",
+          "LoopInfo": {
+            "$type": "Forguncy.Model.CountLoopInfo, ServerDesignerCommon",
+            "LoopCount": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "=角色ID"
+            },
+            "LoopItemParamName": "角色IDItem"
+          },
+          "CommandList": [
+            {
+              "$type": "Forguncy.Model.LoopCommand, ServerDesignerCommon",
+              "LoopInfo": {
+                "$type": "Forguncy.Model.CountLoopInfo, ServerDesignerCommon",
+                "LoopCount": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=角色成员集合"
+                },
+                "LoopItemParamName": "角色成员Item"
+              },
+              "CommandList": [
+                {
+                  "$type": "UserManagementCommandsV2.RoleManagementCommand, UserManagementCommandsV2",
+                  "OperationType": "301",
+                  "CommandOperator": {
+                    "$type": "UserManagementCommandsV2.AddUsersToRolesOnRoleOperator, UserManagementCommandsV2",
+                    "RoleIds": {
+                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                      "SerializeProperty": "=角色IDItem.Id"
+                    },
+                    "UserNames": {
+                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                      "SerializeProperty": "=角色成员Item"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

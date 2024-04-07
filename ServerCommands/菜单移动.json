@@ -1,0 +1,1079 @@
+{
+  "Name": "菜单移动",
+  "Enabled": true,
+  "Triggers": [
+    {
+      "$type": "Forguncy.SaveLoad.PostRequestTriggerSaveData, ServerDesignerCommon",
+      "Permission": {
+        "PermissionData": {
+          "$type": "Forguncy.RbacPermission.Core.Impl.ServerCommand.ServerCommandPermissionData, Forguncy.RbacPermission.Core",
+          "permissionResource": {
+            "$type": "Forguncy.RbacPermission.Core.Impl.ServerCommand.ServerCommandPermissionResource, Forguncy.RbacPermission.Core"
+          },
+          "permissionBindings": [
+            {
+              "$type": "Forguncy.RbacPermission.Core.Impl.ServerCommand.ServerCommandPermissionBinding, Forguncy.RbacPermission.Core",
+              "roleNames": [
+                "FGC_LoginUser"
+              ]
+            }
+          ]
+        }
+      },
+      "Parameters": [
+        {
+          "Name": "菜单类型",
+          "DataValidationInfo": {}
+        },
+        {
+          "Name": "移动方式",
+          "DataValidationInfo": {}
+        },
+        {
+          "Name": "菜单ID",
+          "DataValidationInfo": {}
+        }
+      ]
+    }
+  ],
+  "Commands": [
+    {
+      "$type": "Forguncy.Model.ServerTransactionCommand, ServerDesignerCommon",
+      "CommandList": [
+        {
+          "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
+          "ConditionAndCommandPairList": [
+            {
+              "Condition": {
+                "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                "param": {
+                  "$type": "Forguncy.Model.IfConditionServerSiteParam, ServerDesignerCommon",
+                  "ParamObject": {
+                    "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                    "SerializeProperty": "=菜单类型"
+                  }
+                },
+                "value": "前端菜单"
+              },
+              "CommandList": [
+                {
+                  "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
+                  "ParameterName": "当前前端菜单信息",
+                  "TableValue": {
+                    "TableName": "前端菜单表",
+                    "TableValueType": 1,
+                    "BindingInfos": [
+                      {
+                        "BindingInfo": {
+                          "TableName": "前端菜单表",
+                          "ColumnName": "顺序号",
+                          "GUID": "7ac1219a-8331-4f74-a510-4236234a9ff1"
+                        },
+                        "ColumnName": "顺序号"
+                      },
+                      {
+                        "BindingInfo": {
+                          "TableName": "前端菜单表",
+                          "ColumnName": "上级菜单值",
+                          "GUID": "a94083c8-4deb-4129-b87a-d96560b86c24"
+                        },
+                        "ColumnName": "上级菜单值"
+                      }
+                    ],
+                    "SqlCondition": {
+                      "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                      "ColumnBindingInfo": {
+                        "TableName": "前端菜单表",
+                        "ColumnName": "ID",
+                        "GUID": "bd696746-4ae8-4d32-987d-c3fb2c42479b"
+                      },
+                      "Value": {
+                        "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                        "SerializeProperty": "=菜单ID"
+                      }
+                    }
+                  },
+                  "ID": "13917e880ca145e9ab4e63545a3b8891"
+                },
+                {
+                  "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
+                  "ConditionAndCommandPairList": [
+                    {
+                      "Condition": {
+                        "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                        "param": {
+                          "$type": "Forguncy.Model.IfConditionServerSiteParam, ServerDesignerCommon",
+                          "ParamObject": {
+                            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                            "SerializeProperty": "=移动方式"
+                          }
+                        },
+                        "value": "上移"
+                      },
+                      "CommandList": [
+                        {
+                          "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
+                          "ParameterName": "是否存在前置菜单",
+                          "TableValue": {
+                            "TableName": "前端菜单表",
+                            "TableValueType": 3,
+                            "SqlCondition": {
+                              "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
+                              "SubConditions": [
+                                {
+                                  "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                                  "CompareType": 4,
+                                  "ColumnBindingInfo": {
+                                    "TableName": "前端菜单表",
+                                    "ColumnName": "顺序号",
+                                    "GUID": "ac77e022-d47d-4f0d-9589-1389798bd167"
+                                  },
+                                  "Value": {
+                                    "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                                    "SerializeProperty": "=当前前端菜单信息.顺序号"
+                                  }
+                                },
+                                {
+                                  "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                                  "ColumnBindingInfo": {
+                                    "TableName": "前端菜单表",
+                                    "ColumnName": "上级菜单值",
+                                    "GUID": "bc156ea4-1af3-46c3-8eb7-cebf5c34fa91"
+                                  },
+                                  "Value": {
+                                    "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                                    "SerializeProperty": "=当前前端菜单信息.上级菜单值"
+                                  }
+                                }
+                              ]
+                            }
+                          },
+                          "ID": "023d33dbc66a434aa1d5dee4aa71230c"
+                        },
+                        {
+                          "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
+                          "ConditionAndCommandPairList": [
+                            {
+                              "Condition": {
+                                "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                                "param": {
+                                  "$type": "Forguncy.Model.IfConditionServerSiteParam, ServerDesignerCommon",
+                                  "ParamObject": {
+                                    "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                                    "SerializeProperty": "=是否存在前置菜单"
+                                  }
+                                },
+                                "value": "0"
+                              },
+                              "CommandList": [
+                                {
+                                  "$type": "Forguncy.Model.ReturnCommand, ServerDesignerCommon",
+                                  "ErrorCode": "-1",
+                                  "Message": "已经是当前节点的菜单首项了"
+                                }
+                              ],
+                              "ID": "3a9ae107-50bf-4327-ab35-c885f0a9119f"
+                            },
+                            {
+                              "CommandList": [
+                                {
+                                  "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
+                                  "ParameterName": "前置菜单",
+                                  "TableValue": {
+                                    "TableName": "前端菜单表",
+                                    "TableValueType": 1,
+                                    "BindingInfos": [
+                                      {
+                                        "BindingInfo": {
+                                          "TableName": "前端菜单表",
+                                          "ColumnName": "ID",
+                                          "GUID": "1abea531-b41b-4acc-83d8-b8c2198352b7"
+                                        },
+                                        "ColumnName": "ID"
+                                      },
+                                      {
+                                        "BindingInfo": {
+                                          "TableName": "前端菜单表",
+                                          "ColumnName": "顺序号",
+                                          "GUID": "3ebcc662-55e7-425a-97b7-96b271921519"
+                                        },
+                                        "ColumnName": "顺序号"
+                                      }
+                                    ],
+                                    "SqlCondition": {
+                                      "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
+                                      "SubConditions": [
+                                        {
+                                          "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                                          "CompareType": 4,
+                                          "ColumnBindingInfo": {
+                                            "TableName": "前端菜单表",
+                                            "ColumnName": "顺序号",
+                                            "GUID": "88c19867-bd74-4b31-8b6d-1e91b218574f"
+                                          },
+                                          "Value": {
+                                            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                                            "SerializeProperty": "=当前前端菜单信息.顺序号"
+                                          }
+                                        },
+                                        {
+                                          "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                                          "ColumnBindingInfo": {
+                                            "TableName": "前端菜单表",
+                                            "ColumnName": "上级菜单值",
+                                            "GUID": "4b04beb8-25a4-4dae-85df-6cc8fb1bf747"
+                                          },
+                                          "Value": {
+                                            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                                            "SerializeProperty": "=当前前端菜单信息.上级菜单值"
+                                          }
+                                        }
+                                      ]
+                                    },
+                                    "TopCount": "1",
+                                    "OrderBySqlCondition": {
+                                      "OrderByColumns": [
+                                        {
+                                          "ColumnBindingInfo": {
+                                            "TableName": "前端菜单表",
+                                            "ColumnName": "顺序号",
+                                            "GUID": "6ef81b38-8cb8-4c3c-9fbc-7e47c510cc4f"
+                                          },
+                                          "Order": 1
+                                        }
+                                      ]
+                                    }
+                                  },
+                                  "ID": "cd377e2e23ea46bf96e48bef5ba49753"
+                                },
+                                {
+                                  "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
+                                  "ParameterName": "顺序号Temp",
+                                  "ParameterValue": {
+                                    "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                                    "SerializeProperty": "=前置菜单.顺序号"
+                                  },
+                                  "ID": "b473b3647b9644c9a80dc9c14aa8c830"
+                                },
+                                {
+                                  "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+                                  "TableName": "前端菜单表",
+                                  "ShowConfirm": false,
+                                  "RowsToUpdate": 1,
+                                  "RowsToUpdateCondition": {
+                                    "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                                    "ColumnBindingInfo": {
+                                      "TableName": "前端菜单表",
+                                      "ColumnName": "ID",
+                                      "GUID": "e96f37c4-fec9-4305-8351-04c975815d18"
+                                    },
+                                    "Value": {
+                                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                                      "SerializeProperty": "=菜单ID"
+                                    }
+                                  },
+                                  "UpdateBindingValues": [
+                                    {
+                                      "BindingInfo": {
+                                        "TableName": "前端菜单表",
+                                        "ColumnName": "顺序号",
+                                        "GUID": "6ad0fbe3-5663-438f-a762-0862175eb0ee"
+                                      },
+                                      "Value": {
+                                        "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                                        "SerializeProperty": "=顺序号Temp"
+                                      }
+                                    }
+                                  ]
+                                },
+                                {
+                                  "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+                                  "TableName": "前端菜单表",
+                                  "ShowConfirm": false,
+                                  "RowsToUpdate": 1,
+                                  "RowsToUpdateCondition": {
+                                    "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                                    "ColumnBindingInfo": {
+                                      "TableName": "前端菜单表",
+                                      "ColumnName": "ID",
+                                      "GUID": "41d6a42f-15d8-4343-a39c-4624252d1588"
+                                    },
+                                    "Value": {
+                                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                                      "SerializeProperty": "=前置菜单.ID"
+                                    }
+                                  },
+                                  "UpdateBindingValues": [
+                                    {
+                                      "BindingInfo": {
+                                        "TableName": "前端菜单表",
+                                        "ColumnName": "顺序号",
+                                        "GUID": "38148b59-4e59-4179-aa01-cb0399f20082"
+                                      },
+                                      "Value": {
+                                        "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                                        "SerializeProperty": "=当前前端菜单信息.顺序号"
+                                      }
+                                    }
+                                  ]
+                                }
+                              ],
+                              "ID": "c2e163e7-f72b-4f8a-88e3-bc0756004a38"
+                            }
+                          ]
+                        }
+                      ],
+                      "ID": "4e425f8d-2012-4684-a264-b255399b9d1c"
+                    },
+                    {
+                      "Condition": {
+                        "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                        "param": {
+                          "$type": "Forguncy.Model.IfConditionServerSiteParam, ServerDesignerCommon",
+                          "ParamObject": {
+                            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                            "SerializeProperty": "=移动方式"
+                          }
+                        },
+                        "value": "下移"
+                      },
+                      "CommandList": [
+                        {
+                          "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
+                          "ParameterName": "是否存在后置菜单",
+                          "TableValue": {
+                            "TableName": "前端菜单表",
+                            "TableValueType": 3,
+                            "SqlCondition": {
+                              "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
+                              "SubConditions": [
+                                {
+                                  "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                                  "CompareType": 2,
+                                  "ColumnBindingInfo": {
+                                    "TableName": "前端菜单表",
+                                    "ColumnName": "顺序号",
+                                    "GUID": "7862844e-7fa1-4bd6-90d4-203416f1540e"
+                                  },
+                                  "Value": {
+                                    "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                                    "SerializeProperty": "=当前前端菜单信息.顺序号"
+                                  }
+                                },
+                                {
+                                  "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                                  "ColumnBindingInfo": {
+                                    "TableName": "前端菜单表",
+                                    "ColumnName": "上级菜单值",
+                                    "GUID": "58a13f91-5edc-47bd-8ce8-367beb840f00"
+                                  },
+                                  "Value": {
+                                    "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                                    "SerializeProperty": "=当前前端菜单信息.上级菜单值"
+                                  }
+                                }
+                              ]
+                            }
+                          },
+                          "ID": "e955e0eb5db54a6cae266a0e661ba664"
+                        },
+                        {
+                          "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
+                          "ConditionAndCommandPairList": [
+                            {
+                              "Condition": {
+                                "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                                "param": {
+                                  "$type": "Forguncy.Model.IfConditionServerSiteParam, ServerDesignerCommon",
+                                  "ParamObject": {
+                                    "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                                    "SerializeProperty": "=是否存在后置菜单"
+                                  }
+                                },
+                                "value": "0"
+                              },
+                              "CommandList": [
+                                {
+                                  "$type": "Forguncy.Model.ReturnCommand, ServerDesignerCommon",
+                                  "ErrorCode": "-1",
+                                  "Message": "已经是当前节点的菜单末项了"
+                                }
+                              ],
+                              "ID": "c52f0c4c-8271-4639-9ae5-21dfed93ea62"
+                            },
+                            {
+                              "CommandList": [
+                                {
+                                  "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
+                                  "ParameterName": "后置菜单",
+                                  "TableValue": {
+                                    "TableName": "前端菜单表",
+                                    "TableValueType": 1,
+                                    "BindingInfos": [
+                                      {
+                                        "BindingInfo": {
+                                          "TableName": "前端菜单表",
+                                          "ColumnName": "ID",
+                                          "GUID": "32a902e9-1cba-4561-9be6-b2b979393cc3"
+                                        },
+                                        "ColumnName": "ID"
+                                      },
+                                      {
+                                        "BindingInfo": {
+                                          "TableName": "前端菜单表",
+                                          "ColumnName": "顺序号",
+                                          "GUID": "d4f5252a-dc99-41a4-bcbc-60dd4dedaccb"
+                                        },
+                                        "ColumnName": "顺序号"
+                                      }
+                                    ],
+                                    "SqlCondition": {
+                                      "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
+                                      "SubConditions": [
+                                        {
+                                          "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                                          "CompareType": 2,
+                                          "ColumnBindingInfo": {
+                                            "TableName": "前端菜单表",
+                                            "ColumnName": "顺序号",
+                                            "GUID": "8b62900a-5adf-41f4-9536-6aa2e319c019"
+                                          },
+                                          "Value": {
+                                            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                                            "SerializeProperty": "=当前前端菜单信息.顺序号"
+                                          }
+                                        },
+                                        {
+                                          "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                                          "ColumnBindingInfo": {
+                                            "TableName": "前端菜单表",
+                                            "ColumnName": "上级菜单值",
+                                            "GUID": "694345ef-8003-492d-aade-3b3acad6c2e1"
+                                          },
+                                          "Value": {
+                                            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                                            "SerializeProperty": "=当前前端菜单信息.上级菜单值"
+                                          }
+                                        }
+                                      ]
+                                    },
+                                    "TopCount": "1",
+                                    "OrderBySqlCondition": {
+                                      "OrderByColumns": [
+                                        {
+                                          "ColumnBindingInfo": {
+                                            "TableName": "前端菜单表",
+                                            "ColumnName": "顺序号",
+                                            "GUID": "499b5823-d0cf-458f-b366-3bb5a60db6c4"
+                                          },
+                                          "Order": 0
+                                        }
+                                      ]
+                                    }
+                                  },
+                                  "ID": "bbcb92174860405e90ce2d31a2143a1f"
+                                },
+                                {
+                                  "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
+                                  "ParameterName": "顺序号Temp",
+                                  "ParameterValue": {
+                                    "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                                    "SerializeProperty": "=后置菜单.顺序号"
+                                  },
+                                  "ID": "700672d0a14341239da8a68304d13db8"
+                                },
+                                {
+                                  "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+                                  "TableName": "前端菜单表",
+                                  "ShowConfirm": false,
+                                  "RowsToUpdate": 1,
+                                  "RowsToUpdateCondition": {
+                                    "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                                    "ColumnBindingInfo": {
+                                      "TableName": "前端菜单表",
+                                      "ColumnName": "ID",
+                                      "GUID": "942626a6-91e4-4d9e-a471-5f620c7dba6f"
+                                    },
+                                    "Value": {
+                                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                                      "SerializeProperty": "=菜单ID"
+                                    }
+                                  },
+                                  "UpdateBindingValues": [
+                                    {
+                                      "BindingInfo": {
+                                        "TableName": "前端菜单表",
+                                        "ColumnName": "顺序号",
+                                        "GUID": "eef1333b-fb91-47c0-808e-cecd30bc08e7"
+                                      },
+                                      "Value": {
+                                        "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                                        "SerializeProperty": "=顺序号Temp"
+                                      }
+                                    }
+                                  ]
+                                },
+                                {
+                                  "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+                                  "TableName": "前端菜单表",
+                                  "ShowConfirm": false,
+                                  "RowsToUpdate": 1,
+                                  "RowsToUpdateCondition": {
+                                    "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                                    "ColumnBindingInfo": {
+                                      "TableName": "前端菜单表",
+                                      "ColumnName": "ID",
+                                      "GUID": "d3af5767-3462-49bc-a3da-4b6fcf49b905"
+                                    },
+                                    "Value": {
+                                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                                      "SerializeProperty": "=后置菜单.ID"
+                                    }
+                                  },
+                                  "UpdateBindingValues": [
+                                    {
+                                      "BindingInfo": {
+                                        "TableName": "前端菜单表",
+                                        "ColumnName": "顺序号",
+                                        "GUID": "9b397457-88d6-4898-b664-28061bf21a8e"
+                                      },
+                                      "Value": {
+                                        "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                                        "SerializeProperty": "=当前前端菜单信息.顺序号"
+                                      }
+                                    }
+                                  ]
+                                }
+                              ],
+                              "ID": "65d7e43f-caef-430c-a550-e7bfd7782828"
+                            }
+                          ]
+                        }
+                      ],
+                      "ID": "a71d7270-28c7-404e-9eb9-51ad026c6dda"
+                    }
+                  ]
+                }
+              ],
+              "ID": "5bfd367e-bd1e-4410-8464-896713da2778"
+            },
+            {
+              "Condition": {
+                "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                "param": {
+                  "$type": "Forguncy.Model.IfConditionServerSiteParam, ServerDesignerCommon",
+                  "ParamObject": {
+                    "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                    "SerializeProperty": "=菜单类型"
+                  }
+                },
+                "value": "后端菜单"
+              },
+              "CommandList": [
+                {
+                  "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
+                  "ParameterName": "当前后端菜单信息",
+                  "TableValue": {
+                    "TableName": "后端菜单表",
+                    "TableValueType": 1,
+                    "BindingInfos": [
+                      {
+                        "BindingInfo": {
+                          "TableName": "后端菜单表",
+                          "ColumnName": "顺序号",
+                          "GUID": "1260000b-779a-4f7f-af9b-540608b3aeeb"
+                        },
+                        "ColumnName": "顺序号"
+                      },
+                      {
+                        "BindingInfo": {
+                          "TableName": "后端菜单表",
+                          "ColumnName": "上级菜单值",
+                          "GUID": "4beafdc3-af4f-4ca4-a40f-2fb4ef247c90"
+                        },
+                        "ColumnName": "上级菜单值"
+                      }
+                    ],
+                    "SqlCondition": {
+                      "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                      "ColumnBindingInfo": {
+                        "TableName": "后端菜单表",
+                        "ColumnName": "ID",
+                        "GUID": "317f47af-0060-4573-a7b2-3cd2a9450161"
+                      },
+                      "Value": {
+                        "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                        "SerializeProperty": "=菜单ID"
+                      }
+                    }
+                  },
+                  "ID": "2416972740f245d48df40614bf0adca9"
+                },
+                {
+                  "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
+                  "ConditionAndCommandPairList": [
+                    {
+                      "Condition": {
+                        "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                        "param": {
+                          "$type": "Forguncy.Model.IfConditionServerSiteParam, ServerDesignerCommon",
+                          "ParamObject": {
+                            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                            "SerializeProperty": "=移动方式"
+                          }
+                        },
+                        "value": "上移"
+                      },
+                      "CommandList": [
+                        {
+                          "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
+                          "ParameterName": "是否存在后置菜单",
+                          "TableValue": {
+                            "TableName": "后端菜单表",
+                            "TableValueType": 3,
+                            "SqlCondition": {
+                              "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
+                              "SubConditions": [
+                                {
+                                  "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                                  "CompareType": 4,
+                                  "ColumnBindingInfo": {
+                                    "TableName": "后端菜单表",
+                                    "ColumnName": "顺序号",
+                                    "GUID": "b1f45254-f261-4e70-bc31-e02264642ed6"
+                                  },
+                                  "Value": {
+                                    "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                                    "SerializeProperty": "=当前后端菜单信息.顺序号"
+                                  }
+                                },
+                                {
+                                  "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                                  "ColumnBindingInfo": {
+                                    "TableName": "后端菜单表",
+                                    "ColumnName": "上级菜单值",
+                                    "GUID": "e6c072ee-78d3-4b7b-8e00-3316ad7cde5b"
+                                  },
+                                  "Value": {
+                                    "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                                    "SerializeProperty": "=当前后端菜单信息.上级菜单值"
+                                  }
+                                }
+                              ]
+                            }
+                          },
+                          "ID": "176c4df28afa4051afe205b66bebfb46"
+                        },
+                        {
+                          "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
+                          "ConditionAndCommandPairList": [
+                            {
+                              "Condition": {
+                                "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                                "param": {
+                                  "$type": "Forguncy.Model.IfConditionServerSiteParam, ServerDesignerCommon",
+                                  "ParamObject": {
+                                    "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                                    "SerializeProperty": "=是否存在后置菜单"
+                                  }
+                                },
+                                "value": "0"
+                              },
+                              "CommandList": [
+                                {
+                                  "$type": "Forguncy.Model.ReturnCommand, ServerDesignerCommon",
+                                  "ErrorCode": "-1",
+                                  "Message": "已经是当前节点的菜单首项了"
+                                }
+                              ],
+                              "ID": "0ffd16a8-2bc0-4c43-812d-6111871f8f0f"
+                            },
+                            {
+                              "CommandList": [
+                                {
+                                  "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
+                                  "ParameterName": "前置菜单",
+                                  "TableValue": {
+                                    "TableName": "后端菜单表",
+                                    "TableValueType": 1,
+                                    "BindingInfos": [
+                                      {
+                                        "BindingInfo": {
+                                          "TableName": "后端菜单表",
+                                          "ColumnName": "ID",
+                                          "GUID": "6b178113-c548-43a8-b5ec-24f08445b417"
+                                        },
+                                        "ColumnName": "ID"
+                                      },
+                                      {
+                                        "BindingInfo": {
+                                          "TableName": "后端菜单表",
+                                          "ColumnName": "顺序号",
+                                          "GUID": "7142e944-36a6-4691-b74d-a1e864efb99b"
+                                        },
+                                        "ColumnName": "顺序号"
+                                      }
+                                    ],
+                                    "SqlCondition": {
+                                      "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
+                                      "SubConditions": [
+                                        {
+                                          "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                                          "CompareType": 4,
+                                          "ColumnBindingInfo": {
+                                            "TableName": "后端菜单表",
+                                            "ColumnName": "顺序号",
+                                            "GUID": "c4704bd4-4893-4993-a80c-e281c84ec7b1"
+                                          },
+                                          "Value": {
+                                            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                                            "SerializeProperty": "=当前后端菜单信息.顺序号"
+                                          }
+                                        },
+                                        {
+                                          "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                                          "ColumnBindingInfo": {
+                                            "TableName": "后端菜单表",
+                                            "ColumnName": "上级菜单值",
+                                            "GUID": "79b9d8d7-fb9e-43f1-9782-cdf7e04cdefe"
+                                          },
+                                          "Value": {
+                                            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                                            "SerializeProperty": "=当前后端菜单信息.上级菜单值"
+                                          }
+                                        }
+                                      ]
+                                    },
+                                    "TopCount": "1",
+                                    "OrderBySqlCondition": {
+                                      "OrderByColumns": [
+                                        {
+                                          "ColumnBindingInfo": {
+                                            "TableName": "后端菜单表",
+                                            "ColumnName": "顺序号",
+                                            "GUID": "ea76a20f-6068-4af8-a24d-fce0615666b7"
+                                          },
+                                          "Order": 1
+                                        }
+                                      ]
+                                    }
+                                  },
+                                  "ID": "9db54f725d9a468f8e70edbd2e4f114a"
+                                },
+                                {
+                                  "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
+                                  "ParameterName": "顺序号Temp",
+                                  "ParameterValue": {
+                                    "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                                    "SerializeProperty": "=前置菜单.顺序号"
+                                  },
+                                  "ID": "aa4d821cc839429eb285015006fa9467"
+                                },
+                                {
+                                  "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+                                  "TableName": "后端菜单表",
+                                  "ShowConfirm": false,
+                                  "RowsToUpdate": 1,
+                                  "RowsToUpdateCondition": {
+                                    "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                                    "ColumnBindingInfo": {
+                                      "TableName": "后端菜单表",
+                                      "ColumnName": "ID",
+                                      "GUID": "541abab6-bfc1-41c1-a387-80aa7969f6ec"
+                                    },
+                                    "Value": {
+                                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                                      "SerializeProperty": "=菜单ID"
+                                    }
+                                  },
+                                  "UpdateBindingValues": [
+                                    {
+                                      "BindingInfo": {
+                                        "TableName": "后端菜单表",
+                                        "ColumnName": "顺序号",
+                                        "GUID": "f4ce6391-73fa-4870-a678-4abf53ee5175"
+                                      },
+                                      "Value": {
+                                        "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                                        "SerializeProperty": "=顺序号Temp"
+                                      }
+                                    }
+                                  ]
+                                },
+                                {
+                                  "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+                                  "TableName": "后端菜单表",
+                                  "ShowConfirm": false,
+                                  "RowsToUpdate": 1,
+                                  "RowsToUpdateCondition": {
+                                    "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                                    "ColumnBindingInfo": {
+                                      "TableName": "后端菜单表",
+                                      "ColumnName": "ID",
+                                      "GUID": "2d1d243a-4104-4b97-bf94-e8361992211c"
+                                    },
+                                    "Value": {
+                                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                                      "SerializeProperty": "=前置菜单.ID"
+                                    }
+                                  },
+                                  "UpdateBindingValues": [
+                                    {
+                                      "BindingInfo": {
+                                        "TableName": "后端菜单表",
+                                        "ColumnName": "顺序号",
+                                        "GUID": "aa910f33-4e8c-4ad8-a189-cd968aff65cd"
+                                      },
+                                      "Value": {
+                                        "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                                        "SerializeProperty": "=当前后端菜单信息.顺序号"
+                                      }
+                                    }
+                                  ]
+                                }
+                              ],
+                              "ID": "61668f86-2627-4929-b072-98a1e598fd2f"
+                            }
+                          ]
+                        }
+                      ],
+                      "ID": "524e9c5c-6427-4389-95ba-270272894c7a"
+                    },
+                    {
+                      "Condition": {
+                        "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                        "param": {
+                          "$type": "Forguncy.Model.IfConditionServerSiteParam, ServerDesignerCommon",
+                          "ParamObject": {
+                            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                            "SerializeProperty": "=移动方式"
+                          }
+                        },
+                        "value": "下移"
+                      },
+                      "CommandList": [
+                        {
+                          "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
+                          "ParameterName": "是否存在后置菜单",
+                          "TableValue": {
+                            "TableName": "后端菜单表",
+                            "TableValueType": 3,
+                            "SqlCondition": {
+                              "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
+                              "SubConditions": [
+                                {
+                                  "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                                  "CompareType": 2,
+                                  "ColumnBindingInfo": {
+                                    "TableName": "后端菜单表",
+                                    "ColumnName": "顺序号",
+                                    "GUID": "2ac2bfc4-44e3-48cf-b0ec-43c56e598cc8"
+                                  },
+                                  "Value": {
+                                    "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                                    "SerializeProperty": "=当前后端菜单信息.顺序号"
+                                  }
+                                },
+                                {
+                                  "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                                  "ColumnBindingInfo": {
+                                    "TableName": "后端菜单表",
+                                    "ColumnName": "上级菜单值",
+                                    "GUID": "64d48b68-5631-4815-83e3-c9afce915016"
+                                  },
+                                  "Value": {
+                                    "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                                    "SerializeProperty": "=当前后端菜单信息.上级菜单值"
+                                  }
+                                }
+                              ]
+                            }
+                          },
+                          "ID": "132d7ac6d2e64b54a80fea8ac88861c6"
+                        },
+                        {
+                          "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
+                          "ConditionAndCommandPairList": [
+                            {
+                              "Condition": {
+                                "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                                "param": {
+                                  "$type": "Forguncy.Model.IfConditionServerSiteParam, ServerDesignerCommon",
+                                  "ParamObject": {
+                                    "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                                    "SerializeProperty": "=是否存在后置菜单"
+                                  }
+                                },
+                                "value": "0"
+                              },
+                              "CommandList": [
+                                {
+                                  "$type": "Forguncy.Model.ReturnCommand, ServerDesignerCommon",
+                                  "ErrorCode": "-1",
+                                  "Message": "已经是当前节点的菜单末项了"
+                                }
+                              ],
+                              "ID": "d85203f9-a565-495a-aebc-6a1b9d299cd2"
+                            },
+                            {
+                              "CommandList": [
+                                {
+                                  "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
+                                  "ParameterName": "后置菜单",
+                                  "TableValue": {
+                                    "TableName": "后端菜单表",
+                                    "TableValueType": 1,
+                                    "BindingInfos": [
+                                      {
+                                        "BindingInfo": {
+                                          "TableName": "后端菜单表",
+                                          "ColumnName": "ID",
+                                          "GUID": "012a3bac-3dec-4993-9bd6-e4b39ef64a7f"
+                                        },
+                                        "ColumnName": "ID"
+                                      },
+                                      {
+                                        "BindingInfo": {
+                                          "TableName": "后端菜单表",
+                                          "ColumnName": "顺序号",
+                                          "GUID": "2312d0a7-fab0-4f39-94ed-28e45f57b1f7"
+                                        },
+                                        "ColumnName": "顺序号"
+                                      }
+                                    ],
+                                    "SqlCondition": {
+                                      "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
+                                      "SubConditions": [
+                                        {
+                                          "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                                          "CompareType": 2,
+                                          "ColumnBindingInfo": {
+                                            "TableName": "后端菜单表",
+                                            "ColumnName": "顺序号",
+                                            "GUID": "d695eff0-9273-4695-83cb-9acec35178af"
+                                          },
+                                          "Value": {
+                                            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                                            "SerializeProperty": "=当前后端菜单信息.顺序号"
+                                          }
+                                        },
+                                        {
+                                          "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                                          "ColumnBindingInfo": {
+                                            "TableName": "后端菜单表",
+                                            "ColumnName": "上级菜单值",
+                                            "GUID": "97786ee4-8683-48b8-9711-5850516584a1"
+                                          },
+                                          "Value": {
+                                            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                                            "SerializeProperty": "=当前后端菜单信息.上级菜单值"
+                                          }
+                                        }
+                                      ]
+                                    },
+                                    "TopCount": "1",
+                                    "OrderBySqlCondition": {
+                                      "OrderByColumns": [
+                                        {
+                                          "ColumnBindingInfo": {
+                                            "TableName": "后端菜单表",
+                                            "ColumnName": "顺序号",
+                                            "GUID": "5d9ceb3f-b8fe-47ec-a94f-a7e81c698349"
+                                          },
+                                          "Order": 0
+                                        }
+                                      ]
+                                    }
+                                  },
+                                  "ID": "8f8bb4cc91ba4fb790fc75896b548ea7"
+                                },
+                                {
+                                  "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
+                                  "ParameterName": "顺序号Temp",
+                                  "ParameterValue": {
+                                    "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                                    "SerializeProperty": "=后置菜单.顺序号"
+                                  },
+                                  "ID": "3bd6c03911af4b87bbebcbc10e8db3f4"
+                                },
+                                {
+                                  "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+                                  "TableName": "后端菜单表",
+                                  "ShowConfirm": false,
+                                  "RowsToUpdate": 1,
+                                  "RowsToUpdateCondition": {
+                                    "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                                    "ColumnBindingInfo": {
+                                      "TableName": "后端菜单表",
+                                      "ColumnName": "ID",
+                                      "GUID": "3ddaaaa5-59cf-436e-aaad-c3b9b7eb9e49"
+                                    },
+                                    "Value": {
+                                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                                      "SerializeProperty": "=菜单ID"
+                                    }
+                                  },
+                                  "UpdateBindingValues": [
+                                    {
+                                      "BindingInfo": {
+                                        "TableName": "后端菜单表",
+                                        "ColumnName": "顺序号",
+                                        "GUID": "4973cb97-9d86-443a-81e0-8059698fb9ad"
+                                      },
+                                      "Value": {
+                                        "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                                        "SerializeProperty": "=顺序号Temp"
+                                      }
+                                    }
+                                  ]
+                                },
+                                {
+                                  "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+                                  "TableName": "后端菜单表",
+                                  "ShowConfirm": false,
+                                  "RowsToUpdate": 1,
+                                  "RowsToUpdateCondition": {
+                                    "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                                    "ColumnBindingInfo": {
+                                      "TableName": "后端菜单表",
+                                      "ColumnName": "ID",
+                                      "GUID": "4d6b2b8d-4c8e-4f81-946d-e773fa2d5c33"
+                                    },
+                                    "Value": {
+                                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                                      "SerializeProperty": "=后置菜单.ID"
+                                    }
+                                  },
+                                  "UpdateBindingValues": [
+                                    {
+                                      "BindingInfo": {
+                                        "TableName": "后端菜单表",
+                                        "ColumnName": "顺序号",
+                                        "GUID": "dba1a140-de86-4a43-a046-de38bd330ee6"
+                                      },
+                                      "Value": {
+                                        "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                                        "SerializeProperty": "=当前后端菜单信息.顺序号"
+                                      }
+                                    }
+                                  ]
+                                }
+                              ],
+                              "ID": "37f6753a-c6b5-408d-b445-9dc705e2e162"
+                            }
+                          ]
+                        }
+                      ],
+                      "ID": "f718912c-b349-416f-a2cf-dc606cc2e675"
+                    }
+                  ]
+                }
+              ],
+              "ID": "a61d1160-98d6-4ad0-a329-84dc2c1e4bbe"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "Name": "编辑文件夹",
+  "Enabled": true,
+  "Triggers": [
+    {
+      "$type": "Forguncy.SaveLoad.PostRequestTriggerSaveData, ServerDesignerCommon",
+      "Permission": {
+        "PermissionData": {
+          "$type": "Forguncy.RbacPermission.Core.Impl.ServerCommand.ServerCommandPermissionData, Forguncy.RbacPermission.Core",
+          "permissionResource": {
+            "$type": "Forguncy.RbacPermission.Core.Impl.ServerCommand.ServerCommandPermissionResource, Forguncy.RbacPermission.Core"
+          },
+          "permissionBindings": [
+            {
+              "$type": "Forguncy.RbacPermission.Core.Impl.ServerCommand.ServerCommandPermissionBinding, Forguncy.RbacPermission.Core",
+              "roleNames": [
+                "FGC_LoginUser"
+              ]
+            }
+          ]
+        }
+      },
+      "Parameters": [
+        {
+          "Name": "文件夹ID",
+          "DataValidationInfo": {},
+          "TestData": "9"
+        },
+        {
+          "Name": "文件夹名称",
+          "DataValidationInfo": {},
+          "TestData": "测试文件夹"
+        },
+        {
+          "Name": "上级文件夹ID",
+          "DataValidationInfo": {},
+          "TestData": "2"
+        }
+      ],
+      "InvokeTriggerTestData": {
+        "UserName": "Administrator"
+      }
+    }
+  ],
+  "Commands": [
+    {
+      "$type": "UserManagementCommandsV2.RoleManagementCommand, UserManagementCommandsV2",
+      "OperationType": "202",
+      "CommandOperator": {
+        "$type": "UserManagementCommandsV2.UpdateRoleFolderOperator, UserManagementCommandsV2",
+        "FolderId": {
+          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+          "SerializeProperty": "=文件夹ID"
+        },
+        "FolderName": {
+          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+          "SerializeProperty": "=文件夹名称"
+        },
+        "ParentFolderId": {
+          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+          "SerializeProperty": "=上级文件夹ID"
+        }
+      }
+    }
+  ]
+}

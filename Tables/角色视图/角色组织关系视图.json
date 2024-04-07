@@ -1,0 +1,53 @@
+{
+  "Name": "角色组织关系视图",
+  "Columns": [
+    {
+      "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
+      "DatabaseColumnType": "System.Int64",
+      "MaxLength": -1,
+      "Name": "组织Id",
+      "ColumnType": "System.Int64, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
+      "DatabaseColumnType": "System.Int64",
+      "MaxLength": -1,
+      "Name": "角色Id",
+      "ColumnType": "System.Int64, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
+      "DatabaseColumnType": "System.Int64",
+      "MaxLength": -1,
+      "Name": "是否对下级生效",
+      "ColumnType": "System.Int64, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    }
+  ],
+  "BuiltInViewInfo": {
+    "ViewName": "角色组织关系视图",
+    "SourceTableName": "FGC_UMV_ORR",
+    "CreateViewSql": "SELECT [组织Id] AS [组织Id], [角色Id] AS [角色Id], [是否对下级生效] AS [是否对下级生效] FROM [FGC_UMV_ORR]",
+    "ViewType": 8
+  },
+  "PrimaryKey": [
+    "组织Id",
+    "角色Id"
+  ],
+  "Relations": [
+    {
+      "PrimaryTable": "角色信息视图",
+      "PrimaryColumn": "角色Id",
+      "ForeignTable": "角色组织关系视图",
+      "ForeignColumn": "角色Id",
+      "IsDetailTableRelation": false
+    },
+    {
+      "PrimaryTable": "组织信息视图",
+      "PrimaryColumn": "组织Id",
+      "ForeignTable": "角色组织关系视图",
+      "ForeignColumn": "组织Id",
+      "IsDetailTableRelation": false
+    }
+  ],
+  "Indexes": []
+}

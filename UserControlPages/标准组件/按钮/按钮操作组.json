@@ -1,0 +1,123 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 40.0
+        }
+      }
+    },
+    "Count": 1,
+    "DefaultSize": 40.0
+  },
+  "Cols": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 160.0
+        }
+      },
+      "1": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 6.0
+        }
+      },
+      "2": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 160.0
+        }
+      }
+    },
+    "Count": 3,
+    "DefaultSize": 160.0
+  },
+  "Values": {
+    "0,0": "",
+    "0,1": "|",
+    "0,2": ""
+  },
+  "AttachInfos": {
+    "0,0": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.CallUserControlPageCommand, ServerDesignerCommon",
+            "CommandName": "操作一"
+          }
+        ],
+        "TemplateKey": "无边框"
+      },
+      "TemplateCellSource": "操作1名称"
+    },
+    "0,2": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.CallUserControlPageCommand, ServerDesignerCommon",
+            "CommandName": "操作二"
+          }
+        ],
+        "TemplateKey": "无边框"
+      },
+      "TemplateCellSource": "操作2名称"
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "Foreground": 0,
+        "HorizontalAlignment": 1,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Background 1 -15",
+        "Center",
+        "Body"
+      ]
+    },
+    "ColStyles": {
+      "1": 0
+    },
+    "SheetStyle": {
+      "FontFamily": 2,
+      "BorderBottom": null,
+      "BorderTop": null,
+      "BorderLeft": null,
+      "BorderRight": null
+    }
+  },
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.UserControlPage, ServerDesignerCommon",
+    "PropertyDefinitions": [
+      {
+        "Name": "操作1名称",
+        "DefaultValue": "操作一"
+      },
+      {
+        "Name": "操作2名称",
+        "DefaultValue": "操作二"
+      }
+    ],
+    "CommandDefinitions": [
+      {
+        "Name": "操作一"
+      },
+      {
+        "Name": "操作二"
+      }
+    ],
+    "MethodDefinitions": [],
+    "PageLoadedCommandList": []
+  },
+  "PrintInfo": {
+    "PaperSize": {},
+    "Margin": {}
+  }
+}//Zm/iyN7M88WhJEGwlRp/kCzbxshb2zZLDqZLO8XITNT66RMI63Ej3C5tlQR5+9vyIU0wRyZFfdjIzmrzeyux9NCrYhrzEj5tlrgTLUEh0Mk3zUEFpqFiXTjbyxQ3gIbLDlopBCwQ6EwXdQnaPLeUsselw+VlOJAAvJ6KfSeThE2iDfSgRkSPNBQ9+DkVbF32oYl3OWq+YpfKFpq/7dXNJKRDIpv3r0iXG4kWkyJ1NJWYwVijGbvS4kGjot581o2I3n4CLM+J6aIPFpDsNOwsOGNqW2wvuSi23rK6o2FKsTe+QKEKd3vgQCDhJ3p8pD9wKTm/NRgb6UrNc4AsK9sLQgmE42dPJurDqAeuOqJNFphuhb84extJcxPWZdoXyOcOKGFc7+85Vnh5VC0vMCHiOYkt6leM4ban6wkDTKaYGrdf/vMIy0Wl1xe3pGy2L9eikJ8AXRztz0vNMA7lKXrH59o9rQD2ok3lUjK09teZUA8XgLri6KFYRwd/+DFcPryoSYAeEBN47BtPKHT07dZGym5g5pp1j1c/ZsrMD+CaDhnExkW7AtBhgwJc2sjm+A0IXxYgn4d+SN0C0tN3feb/Ra6+HHpEp3qwdsExcXF3KfE9nI+7n2gWDRP6ezGO3L35Ab+3yPQ5b2Vh/pV4ADmqtC67KFJyH30l9wMJmuj+VqjLvyxfFmhYCAwKUAGeqgjSnqb70/zZXXvB/ZT5qxUyYr9Beg5dwxh4y49ud+AueKFZ/VHFMRmZPVBREpzUkaryiZdo3CaJFN0BLhzuwYs1/+xELe537A1m1hdYH+ZJvtgX00EVDfHJgYuM43nP/CSkatwhI0DzVOmdJ3vAzxg6aLRCCutubn+djm4LmHbXcPWQeFMw+pthYXA/48GC6BhYeMDKGP3Moq5gndSsaBtNOQ==|920

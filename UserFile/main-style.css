@@ -1,0 +1,103 @@
+/* padding */
+.pd-3 {
+    padding: 3px;
+}
+.pd-4 {
+    padding: 4px;
+}
+.pd-5 {
+    padding: 5px;
+}
+.pd-6 {
+    padding: 6px;
+}
+.pd-7 {
+    padding: 7px;
+}
+.pd-8 {
+    padding: 8px;
+}
+.pd-9 {
+    padding: 9px;
+}
+.pd-10 {
+    padding: 10px;
+}
+
+/* toolbarnav */
+.toolbarnav-left ul {
+    justify-content: flex-start;
+}
+.toolbarnav-center ul {
+    justify-content: center;
+}
+.toolbarnav-right ul {
+    justify-content: flex-end;
+}
+
+.toolbarnav ul {
+    box-sizing: inherit;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    align-items: center;
+}
+
+.toolbarnav li>a {
+    padding: 3px 16px !important;
+    max-height: 40px;
+}
+
+.toolbarnav li>a span {
+    margin: 0 !important;
+    line-height: 24px !important;
+}
+
+.toolbarnav li>a div[elemtype="icon"] {
+    margin-right: 6px !important;
+}
+
+.toolbarnav li {
+    width: auto !important;
+    margin: 0 3px !important;
+    
+}
+
+.toolbarnav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    align-items: center;
+}
+
+.wrap-centenr .fgc-align__inner {
+    justify-content: center !important;
+}
+
+/* menu */
+.menuContainerStandard li{
+    margin: 0 5px auto;
+}
+
+/* el-select */
+.menu-bar-select{
+    border: 5px solid white;
+}
+.menu-bar-select .el-select:focus{  
+    border-color: white !important;
+}
+
+/* action-bar */
+.fgc-bpm-panel-actionbutton, .fgc-bpm-panel-morebutton{
+    width:80px;
+    height: 32px;
+    line-height: 32px;
+    text-align: center;
+}
+
+/* image-text-view-list */
+.tight-card-list{
+    padding: 2px;
+}

@@ -1,0 +1,211 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "24": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      }
+    },
+    "Count": 25
+  },
+  "Cols": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "17": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      }
+    },
+    "Count": 18
+  },
+  "Values": {
+    "2,1": "重置密码邮件发送成功",
+    "5,1": "重置密码的邮件已经发送到您的电子邮箱中。收到邮件后，请点击邮件中的链接。之后在弹出的网页中输入新密码。如果邮件没有送达，就与管理员联系。",
+    "16,3": "登录"
+  },
+  "AttachInfos": {
+    "16,3": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+            "PageName": "FGC_登录_手机版",
+            "IgnoreTargetPageCachedCurrentRowInfo": false
+          }
+        ],
+        "Text": "登录",
+        "AutoExecute": true,
+        "TemplateKey": "样式13"
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 0,
+        "FontSize": 26.666666666666664,
+        "FontWeight": 1,
+        "Foreground": 2,
+        "Formatter": 3,
+        "TextIndent": 0,
+        "HorizontalAlignment": 4,
+        "VerticalAlignment": 5
+      },
+      {
+        "FontSize": 14.666666984558105,
+        "Foreground": 2,
+        "Formatter": 3,
+        "WordWrap": true,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontSize": 14.666666666666666,
+        "Foreground": 6,
+        "Formatter": 3,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Body",
+        "Bold",
+        "Background 1 0",
+        "[AUTO]General",
+        "Center",
+        "Bottom",
+        "Accent 1 0",
+        "#FF000000"
+      ]
+    },
+    "CellStyles": {
+      "1,3": 0,
+      "1,4": 0,
+      "1,5": 0,
+      "1,6": 0,
+      "1,7": 0,
+      "1,8": 0,
+      "1,9": 0,
+      "1,10": 0,
+      "1,11": 0,
+      "1,12": 0,
+      "1,13": 0,
+      "1,14": 0,
+      "2,1": 1,
+      "4,1": 0,
+      "4,2": 0,
+      "4,3": 0,
+      "4,4": 0,
+      "4,5": 0,
+      "4,6": 0,
+      "4,7": 0,
+      "4,8": 0,
+      "4,9": 0,
+      "4,10": 0,
+      "4,11": 0,
+      "4,12": 0,
+      "4,13": 0,
+      "4,14": 0,
+      "4,15": 0,
+      "4,16": 0,
+      "5,1": 2,
+      "16,3": 3
+    },
+    "SheetStyle": {
+      "FontFamily": 0,
+      "FontSize": 13.333333015441895,
+      "Foreground": 7,
+      "BorderBottom": null,
+      "BorderTop": null,
+      "BorderLeft": null,
+      "BorderRight": null
+    }
+  },
+  "Spans": [
+    "5,1,6,16",
+    "16,3,2,12",
+    "2,1,2,16"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "Title": "重置密码邮件发送成功",
+    "AuthorizeInfo": {
+      "VisitMode": 2
+    },
+    "RowBreakLines": [],
+    "RepeatRangeSettings": [],
+    "IsBuiltInPage": true,
+    "IsMobilePage": true
+  },
+  "PrintInfo": {
+    "PaperSize": {},
+    "Margin": {}
+  },
+  "BackgroundPictures": [
+    {
+      "FitToBrowserWidth": true,
+      "FitToBrowserHeight": true,
+      "Name": "d895a996-915e-4d25-b7b8-87c34f744aaf.png",
+      "DisplayName": "总体背景渐变",
+      "StyleInfo": {
+        "Fill": "linear-gradient(25deg, #FF845EC2 0.00%, #FF2C73D2 28.05%, #FF0081CF 48.01%, #FF0089BA 65.16%, #FF008E9B 78.25%, #FF008F7A 98.14%)",
+        "Stroke": "black",
+        "StrokeThickness": 0.0
+      },
+      "IsAutomaticStroke": false,
+      "IsAutomaticFill": false,
+      "Size": "360,500"
+    }
+  ]
+}//lAHQ8J32r//X84HTXSxkkmtaCaqRE5e33VTS+GzGBlY6faeufqGoz6aCq1WJvALF5xmvEH/6rJO1tM6EW+tZ61JoQWHrecxCdgjlHbP7ukSo2nIL0ShZ/kycwzFM/+fovDo2frNuH4x9HlvN8njuQLbMLqibzmUG6naKJhga9B9oCl3F7QTU4VfbRI0hGNfA52vXemIMhgTitvG2lCpk6ymFyNPFuY3lwVOEuMlSxfrouYSK5I6XKZyr5R9LVbZvEW7FnI5p/oiAwshadCxmF+55Y02suMUjj9Q7U7nGL5oM7z03nn2c8gSIQ4XC7XDzlexfHFz3BPvAx9jQaEE+B6vWe4g/2wa8gkyyo6GYpRxTvMH8hThz5+aAFH15ia/dPILkHDulHZzMK4nWCtghqXd5+F3pXcOxnNP0YP2VNt5q+TI9xlJmR1o152olwQycAGBKZyoiwvlunsYSzfSdPBdUf7OuuXLfdCToKr570Z+DSN6faW9SbavFFpNrWkEl6nXZz5CLj/nvsYjW2PxsSxHUQXQkGblOmom+su1Cyns1fE4T73HYMs/D0/dsZCxb/8JwrGn72Kb9ggCq3qk7XQclWmqMq8Q035bIpHCh9oEkCOKzThSVUiJND4HnGCN2FaHUgPN5o5l6EIvlGFvbrf8nV4I2Ga4sXQH1sf0TQEhRHHUxRGk+FdNlX1vaqmupieQgfKuV9pTEb759kmsIjsDlhOVJMCWEGRwAaLhpVjt5HELvGQY11YSmXiH2VwLeNOR5sqMTtNvCtZrj71kjgE29zZxlJuDhpQaXrIEycse7AEj0whRVaCUoZEHM3/wn9yib9KxNWE2reTKY+du8OH2+cpAnMNQoks+Eh8BOwK+qnsq8NVqaDGyGdPsKpGsXEH10dw0WqhHiLzCf57n1pQ==|920

@@ -1,0 +1,2188 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "1": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "2": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "3": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "4": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 10.0
+        }
+      },
+      "5": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "6": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 10.0
+        }
+      },
+      "7": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "8": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "9": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "10": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "11": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "12": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "13": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "14": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "15": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "16": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "17": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "18": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "19": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "20": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "21": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "22": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "23": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "24": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      }
+    },
+    "Count": 25,
+    "DefaultSize": 32.0
+  },
+  "Cols": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "1": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "2": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "3": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "17": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "18": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "32": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "35": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "57": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "58": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "59": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 130.0,
+          "IsHidden": true
+        }
+      }
+    },
+    "InLogicalVisibleIndexes": [
+      59
+    ],
+    "Count": 60
+  },
+  "Values": {
+    "2,4": "维森集团",
+    "5,2": "组织结构",
+    "5,53": "高级搜索",
+    "10,59": "通用命令"
+  },
+  "AttachInfos": {
+    "2,2": {
+      "CellType": {
+        "$type": "Forguncy.ImageCellType, ServerDesignerCommon",
+        "ImagePath": "钉钉.svg"
+      }
+    },
+    "2,18": {
+      "CellType": {
+        "$type": "Forguncy.UserControlPageCellType, ServerDesignerCommon"
+      }
+    },
+    "4,19": {
+      "CellType": {
+        "$type": "ElementUI.TabHeader, ElementUI",
+        "ClickCommand": {
+          "$type": "GrapeCity.Forguncy.Commands.CustomCommandObject, Forguncy.Commands",
+          "Commands": [
+            {
+              "$type": "Forguncy.Model.OperateCellTypeCommand, ServerDesignerCommon",
+              "TargetPageElement": {
+                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                "SerializeProperty": "=组织维护!BH11"
+              },
+              "TargetType": "Forguncy.ButtonCellType, ServerDesignerCommon, Version=10.0.1.0, Culture=neutral, PublicKeyToken=967100671921c115",
+              "MethodName": "ExecuteCommand"
+            }
+          ],
+          "ParamProperties": {
+            "itemIndex": "页签编号",
+            "itemValue": "页签值",
+            "itemText": "页签标题"
+          }
+        },
+        "useBinding": true,
+        "Tabs": [
+          {
+            "Value": "1",
+            "Name": "用户管理"
+          },
+          {
+            "Value": "2",
+            "Name": "配置管理"
+          },
+          {
+            "Value": "3",
+            "Name": "角色管理"
+          },
+          {
+            "Value": "4",
+            "Name": "任务管理"
+          }
+        ],
+        "bindingOptions": {
+          "$type": "ServerDesignerCommon.Model.BindingDataSourceModel, ServerDesignerCommon",
+          "TableName": "标签页头字典表",
+          "BindingInfos": [
+            {
+              "BindingInfo": {
+                "TableName": "标签页头字典表",
+                "ColumnName": "ID",
+                "GUID": "b692a778-be79-458a-a32a-93a9570bd15a"
+              },
+              "ColumnName": "Value"
+            },
+            {
+              "BindingInfo": {
+                "TableName": "标签页头字典表",
+                "ColumnName": "名称",
+                "GUID": "63af7221-4bc7-40b2-972b-5dd065e575e0"
+              },
+              "ColumnName": "Name"
+            }
+          ],
+          "SqlCondition": {
+            "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
+            "CompareType": 8,
+            "ColumnBindingInfo": {
+              "TableName": "标签页头字典表",
+              "ColumnName": "名称",
+              "GUID": "fb905d10-156b-45ac-a6fa-53ab12589a0f"
+            },
+            "Value": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "=组织维护!BH6"
+            }
+          },
+          "CustomColumns": []
+        },
+        "type": "default",
+        "position": "top"
+      }
+    },
+    "5,6": {
+      "CellType": {
+        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
+          }
+        ],
+        "Icon": {
+          "Name": "Application/047_search_8.svg",
+          "BuiltIn": true,
+          "Color": "Text 1 70"
+        },
+        "TemplateKey": "_RS_NewRightAngle",
+        "CommandList": []
+      }
+    },
+    "5,43": {
+      "CellType": {
+        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
+          }
+        ],
+        "Icon": {
+          "Name": "Application/047_search_8.svg",
+          "BuiltIn": true,
+          "Color": "Text 1 70"
+        },
+        "TemplateKey": "_RS_NewRightAngle",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
+            "ConditionAndCommandPairList": [
+              {
+                "Condition": {
+                  "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                  "param": {
+                    "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                    "cellLocations": [
+                      {
+                        "SerializeProperty": "=组织维护!EL标签页头"
+                      }
+                    ]
+                  },
+                  "value": "4,5",
+                  "compareType": 12
+                },
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.QueryCommand, ServerDesignerCommon",
+                    "TargetTableName": "组织信息视图",
+                    "SqlCondition": {
+                      "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
+                      "CompareType": 6,
+                      "ColumnBindingInfo": {
+                        "TableName": "组织信息视图",
+                        "ColumnName": "组织名",
+                        "GUID": "62df7d9a-529a-4a50-91fc-d48044bd002e"
+                      },
+                      "Value": {
+                        "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                        "SerializeProperty": "=组织维护!AR6"
+                      }
+                    },
+                    "ID": "bd6e22a7d9a44c83816a1ebcd65de051"
+                  }
+                ],
+                "ID": "5f3eb4d5-4db3-436a-8c6d-67b7975ebeb8"
+              },
+              {
+                "Condition": {
+                  "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                  "param": {
+                    "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                    "cellLocations": [
+                      {
+                        "SerializeProperty": "=组织维护!EL标签页头"
+                      }
+                    ]
+                  },
+                  "value": "6",
+                  "compareType": 12
+                },
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.QueryCommand, ServerDesignerCommon",
+                    "TargetTableName": "用户组织关系视图",
+                    "SqlCondition": {
+                      "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
+                      "SubConditions": [
+                        {
+                          "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
+                          "CompareType": 6,
+                          "ColumnBindingInfo": {
+                            "TableName": "用户组织关系视图",
+                            "ColumnName": "用户名",
+                            "GUID": "eecb61f7-dfe4-456b-9c1a-6f91bd50b1e8",
+                            "RelationBinding": {
+                              "RelatedTable": "用户信息视图",
+                              "RelatedColumn": "用户名",
+                              "DisplayColumn": "用户名"
+                            }
+                          },
+                          "Value": {
+                            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                            "SerializeProperty": "=组织维护!AR6"
+                          }
+                        },
+                        {
+                          "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
+                          "CompareType": 6,
+                          "ColumnBindingInfo": {
+                            "TableName": "用户组织关系视图",
+                            "ColumnName": "用户名",
+                            "GUID": "66a4cddd-57d1-4a2b-aa84-3e0905f9f457",
+                            "RelationBinding": {
+                              "RelatedTable": "用户信息视图",
+                              "RelatedColumn": "用户名",
+                              "DisplayColumn": "全名"
+                            }
+                          },
+                          "Value": {
+                            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                            "SerializeProperty": "=组织维护!AR6"
+                          }
+                        }
+                      ],
+                      "RelationType": 1
+                    },
+                    "ID": "b25c4c39cb4b4242a1706844554987f4"
+                  }
+                ],
+                "ID": "459a5189-9fec-4cb1-8661-7caba111ed12"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "5,53": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "Text": "高级搜索",
+        "TemplateKey": "组织结构_搜索按钮"
+      }
+    },
+    "5,59": {
+      "CellComment": {
+        "Comments": "标签页头动态查询条件\r\n触发时机：组织结构切换",
+        "CommentWidth": 227.0
+      }
+    },
+    "7,18": {
+      "CellType": {
+        "$type": "Forguncy.UserControlPageCellType, ServerDesignerCommon"
+      }
+    },
+    "8,2": {
+      "CellType": {
+        "$type": "ElementUI.TreeCellType, ElementUI",
+        "selectCommand": {
+          "$type": "GrapeCity.Forguncy.Commands.CustomCommandObject, Forguncy.Commands",
+          "Commands": [
+            {
+              "$type": "Forguncy.Model.RequestServerCommand, ServerDesignerCommon",
+              "ServerCommandName": "获取组织机构标签页头ID",
+              "Parameters": [
+                {
+                  "$type": "Forguncy.Model.RequestServerCommandObjectParam, ServerDesignerCommon",
+                  "ParamName": "部门ID",
+                  "Value": {
+                    "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                    "SerializeProperty": "=组织维护!C9"
+                  }
+                }
+              ],
+              "ReturnPropertiesTo": [
+                {
+                  "ResultPropertyName": "默认选中项",
+                  "ResultTo": {
+                    "SerializeProperty": "=组织维护!EL标签页头"
+                  }
+                },
+                {
+                  "ResultPropertyName": "标签页头",
+                  "ResultTo": {
+                    "SerializeProperty": "=组织维护!BH6"
+                  }
+                }
+              ],
+              "RefreshAfterFinish": true,
+              "CheckDataValidation": true
+            },
+            {
+              "$type": "Forguncy.Model.OperateCellTypeCommand, ServerDesignerCommon",
+              "TargetPageElement": {
+                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                "SerializeProperty": "=组织维护!BH11"
+              },
+              "TargetType": "Forguncy.ButtonCellType, ServerDesignerCommon, Version=10.0.1.0, Culture=neutral, PublicKeyToken=967100671921c115",
+              "MethodName": "ExecuteCommand"
+            }
+          ],
+          "ParamProperties": {
+            "value": "值",
+            "label": "显示文本",
+            "parentValue": "父节点值"
+          }
+        },
+        "dragCommand": {
+          "$type": "GrapeCity.Forguncy.Commands.CustomCommandObject, Forguncy.Commands",
+          "Commands": [
+            {
+              "$type": "Forguncy.Model.RequestServerCommand, ServerDesignerCommon",
+              "ServerCommandName": "移动部门",
+              "Parameters": [
+                {
+                  "$type": "Forguncy.Model.RequestServerCommandObjectParam, ServerDesignerCommon",
+                  "ParamName": "组织节点ID",
+                  "Value": {
+                    "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                    "SerializeProperty": "=组织维护!拖拽节点值"
+                  }
+                },
+                {
+                  "$type": "Forguncy.Model.RequestServerCommandObjectParam, ServerDesignerCommon",
+                  "ParamName": "移动组织节点ID",
+                  "Value": {
+                    "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                    "SerializeProperty": "=组织维护!目标节点值"
+                  }
+                },
+                {
+                  "$type": "Forguncy.Model.RequestServerCommandObjectParam, ServerDesignerCommon",
+                  "ParamName": "移动类型",
+                  "Value": {
+                    "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                    "SerializeProperty": "=组织维护!拖拽类型"
+                  }
+                }
+              ],
+              "ResultErrorCodeTo": {
+                "SerializeProperty": "返回码"
+              },
+              "ResultMessageTo": {
+                "SerializeProperty": "返回信息"
+              },
+              "RefreshAfterFinish": true,
+              "CheckDataValidation": true
+            },
+            {
+              "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
+              "ConditionAndCommandPairList": [
+                {
+                  "Condition": {
+                    "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                    "param": {
+                      "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                      "cellLocations": [
+                        {
+                          "SerializeProperty": "=组织维护!返回码"
+                        }
+                      ]
+                    },
+                    "value": "0",
+                    "compareType": 1
+                  },
+                  "CommandList": [
+                    {
+                      "$type": "ElementUI.Commands.ShowMessage, ElementUI",
+                      "Message": {
+                        "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                        "SerializeProperty": "=组织维护!返回信息"
+                      },
+                      "Type": "warning",
+                      "Duration": 3000,
+                      "Offset": null
+                    }
+                  ],
+                  "ID": "bab86ef1-68f9-4cff-9c13-d1c8f5c05224"
+                }
+              ]
+            }
+          ],
+          "ParamProperties": {
+            "draggingNodeValue": "拖拽节点值",
+            "dropNodeValue": "目标节点值",
+            "dragType": "拖拽类型"
+          }
+        },
+        "isTreeNodeFromDb": true,
+        "configTreeNodeOptions": [
+          {
+            "$type": "ElementUI.TreeCellTypeNode, ElementUI",
+            "value": "1",
+            "label": "节点1",
+            "icon": {
+              "Name": "Navigation/165_home_3.svg",
+              "BuiltIn": true,
+              "Color": "Background 1 -25",
+              "UseCellTypeForeColor": true
+            },
+            "children": [
+              {
+                "value": "2",
+                "label": "节点1_1",
+                "children": [
+                  {
+                    "value": "3",
+                    "label": "节点1_1_1"
+                  },
+                  {
+                    "value": "4",
+                    "label": "节点1_1_2"
+                  }
+                ]
+              },
+              {
+                "value": "5",
+                "label": "节点1_2"
+              }
+            ]
+          },
+          {
+            "$type": "ElementUI.TreeCellTypeNode, ElementUI",
+            "value": "6",
+            "label": "节点2",
+            "icon": {
+              "Name": "Navigation/169_user_2.svg",
+              "BuiltIn": true,
+              "Color": "Background 1 -25",
+              "UseCellTypeForeColor": true
+            },
+            "children": [
+              {
+                "value": "7",
+                "label": "节点2_1",
+                "children": [
+                  {
+                    "value": "8",
+                    "label": "节点2_1_1"
+                  },
+                  {
+                    "value": "9",
+                    "label": "节点2_1_2"
+                  }
+                ]
+              },
+              {
+                "value": "10",
+                "label": "节点2_2"
+              }
+            ]
+          }
+        ],
+        "bindingDataSource": {
+          "$type": "ServerDesignerCommon.Model.BindingDataSourceModel, ServerDesignerCommon",
+          "TableName": "组织信息视图",
+          "BindingInfos": [
+            {
+              "BindingInfo": {
+                "TableName": "组织信息视图",
+                "ColumnName": "组织Id",
+                "GUID": "d1c3a72f-c763-4022-9cef-664754d54f3d"
+              },
+              "ColumnName": "value"
+            },
+            {
+              "BindingInfo": {
+                "TableName": "组织信息视图",
+                "ColumnName": "组织名",
+                "GUID": "6a12b58f-827c-4732-8848-bada997b4524"
+              },
+              "ColumnName": "label"
+            },
+            {
+              "BindingInfo": {
+                "TableName": "组织信息视图",
+                "ColumnName": "父节点Id",
+                "GUID": "f74151f5-2a38-4ddb-8c10-6787a2559cd9"
+              },
+              "ColumnName": "parentValue"
+            }
+          ],
+          "SqlCondition": {
+            "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
+            "CompareType": 6,
+            "ColumnBindingInfo": {
+              "TableName": "组织信息视图",
+              "ColumnName": "组织名",
+              "GUID": "65b4e6d2-c978-4423-86b1-5416c227b54e"
+            },
+            "Value": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "=组织维护!G6"
+            }
+          },
+          "NullFormulaValueQueryPolicy": 1,
+          "OrderBySqlCondition": {
+            "OrderByColumns": [
+              {
+                "ColumnBindingInfo": {
+                  "TableName": "组织信息视图",
+                  "ColumnName": "排序",
+                  "GUID": "f5e4f3cf-56c0-4b6c-b97f-bb825894adc1"
+                },
+                "Order": 0
+              }
+            ]
+          },
+          "CustomColumns": []
+        },
+        "emptyText": "暂无数据",
+        "isDefaultExpandAll": true,
+        "isClickCanExpandNode": false,
+        "isHighlightCurrent": true,
+        "isDraggable": true
+      }
+    },
+    "10,59": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
+            "ConditionAndCommandPairList": [
+              {
+                "Condition": {
+                  "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                  "param": {
+                    "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                    "cellLocations": [
+                      {
+                        "SerializeProperty": "=组织维护!EL标签页头"
+                      }
+                    ]
+                  },
+                  "value": "1"
+                },
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.SetCellPropertyCommand, ServerDesignerCommon",
+                    "PropertyItemsList": [
+                      {
+                        "TargetCells": {
+                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                          "SerializeProperty": "=组织维护!查询文本框,组织维护!高级搜索按钮"
+                        },
+                        "PropertyType": 1,
+                        "Value": false
+                      }
+                    ]
+                  },
+                  {
+                    "$type": "Forguncy.Model.OperateCellTypeCommand, ServerDesignerCommon",
+                    "TargetPageElement": {
+                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                      "SerializeProperty": "=组织维护!按钮组件"
+                    },
+                    "TargetType": "Forguncy.UserControlPageCellType, ServerDesignerCommon, Version=10.0.1.0, Culture=neutral, PublicKeyToken=967100671921c115",
+                    "MethodName": "SetUserControlPage",
+                    "ParameterValues": {
+                      "userControlPageName": "总部信息按钮组",
+                      "propertyValues": {
+                        "$type": "System.Collections.Generic.List`1[[Forguncy.UserControlPagePropertyValue, ServerDesignerCommon]], System.Private.CoreLib",
+                        "$values": []
+                      },
+                      "commandHandlers": {
+                        "$type": "System.Collections.Generic.List`1[[Forguncy.UserControlPageCommandHandler, ServerDesignerCommon]], System.Private.CoreLib",
+                        "$values": [
+                          {
+                            "CommandName": "编辑事件",
+                            "Commands": {
+                              "Commands": [
+                                {
+                                  "$type": "Forguncy.Model.ShowPopupCommand, ServerDesignerCommon",
+                                  "PageName": "总部信息_编辑",
+                                  "PassValues": [
+                                    {
+                                      "Source": {
+                                        "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                                        "SerializeProperty": "=组织维护!组织结构ID"
+                                      },
+                                      "TargetCell": {
+                                        "SerializeProperty": "=总部信息_编辑!组织结构ID"
+                                      }
+                                    }
+                                  ]
+                                }
+                              ],
+                              "ParamProperties": {}
+                            }
+                          },
+                          {
+                            "CommandName": "新建分部事件",
+                            "Commands": {
+                              "Commands": [
+                                {
+                                  "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
+                                  "ParameterName": "组织级别ID",
+                                  "TableValue": {
+                                    "TableName": "组织信息视图",
+                                    "OnlyGetValue": true,
+                                    "TableValueType": 0,
+                                    "BindingInfos": [
+                                      {
+                                        "BindingInfo": {
+                                          "TableName": "组织信息视图",
+                                          "ColumnName": "组织级别Id",
+                                          "GUID": "bfd9878d-9fa4-46c0-b325-7b28a1c5d1a3"
+                                        },
+                                        "ColumnName": "组织级别Id"
+                                      }
+                                    ],
+                                    "SqlCondition": {
+                                      "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                                      "ColumnBindingInfo": {
+                                        "TableName": "组织信息视图",
+                                        "ColumnName": "组织Id",
+                                        "GUID": "43a85336-3c34-4cc2-9af1-13b41929b4da"
+                                      },
+                                      "Value": {
+                                        "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                                        "SerializeProperty": "=组织维护!组织结构ID"
+                                      }
+                                    }
+                                  },
+                                  "ID": "be6a64b03593436d8b5545e3fcf9b5c7"
+                                },
+                                {
+                                  "$type": "Forguncy.Model.ShowPopupCommand, ServerDesignerCommon",
+                                  "PageName": "分部信息_编辑",
+                                  "PassValues": [
+                                    {
+                                      "Source": {
+                                        "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                                        "SerializeProperty": "=组织维护!组织结构ID"
+                                      },
+                                      "TargetCell": {
+                                        "SerializeProperty": "=分部信息_编辑!上级组织结构ID"
+                                      }
+                                    },
+                                    {
+                                      "Source": {
+                                        "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                                        "SerializeProperty": "=组织维护!组织级别ID+1"
+                                      },
+                                      "TargetCell": {
+                                        "SerializeProperty": "=分部信息_编辑!I8"
+                                      }
+                                    }
+                                  ]
+                                }
+                              ],
+                              "ParamProperties": {}
+                            }
+                          },
+                          {
+                            "CommandName": "添加部门成员事件",
+                            "Commands": {
+                              "Commands": [
+                                {
+                                  "$type": "Forguncy.Model.ShowPopupCommand, ServerDesignerCommon",
+                                  "PageName": "组织成员添加",
+                                  "PassValues": [
+                                    {
+                                      "Source": {
+                                        "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                                        "SerializeProperty": "=组织维护!组织结构ID"
+                                      },
+                                      "TargetCell": {
+                                        "SerializeProperty": "=组织成员添加!组织结构ID"
+                                      }
+                                    }
+                                  ]
+                                }
+                              ],
+                              "ParamProperties": {}
+                            }
+                          }
+                        ]
+                      }
+                    }
+                  },
+                  {
+                    "$type": "Forguncy.Model.OperateCellTypeCommand, ServerDesignerCommon",
+                    "TargetPageElement": {
+                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                      "SerializeProperty": "=组织维护!子页面组件"
+                    },
+                    "TargetType": "Forguncy.UserControlPageCellType, ServerDesignerCommon, Version=10.0.1.0, Culture=neutral, PublicKeyToken=967100671921c115",
+                    "MethodName": "SetUserControlPage",
+                    "ParameterValues": {
+                      "userControlPageName": "总部信息_查看",
+                      "propertyValues": {
+                        "$type": "System.Collections.Generic.List`1[[Forguncy.UserControlPagePropertyValue, ServerDesignerCommon]], System.Private.CoreLib",
+                        "$values": [
+                          {
+                            "Name": "组织结构ID",
+                            "Value": {
+                              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                              "SerializeProperty": "=组织维护!组织结构ID"
+                            }
+                          }
+                        ]
+                      },
+                      "commandHandlers": {
+                        "$type": "System.Collections.Generic.List`1[[Forguncy.UserControlPageCommandHandler, ServerDesignerCommon]], System.Private.CoreLib",
+                        "$values": []
+                      }
+                    }
+                  }
+                ],
+                "ID": "8a4b65b7-04d3-43b8-a8a2-f223940889ff"
+              },
+              {
+                "Condition": {
+                  "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                  "param": {
+                    "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                    "cellLocations": [
+                      {
+                        "SerializeProperty": "=组织维护!EL标签页头"
+                      }
+                    ]
+                  },
+                  "value": "2,3",
+                  "compareType": 12
+                },
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.SetCellPropertyCommand, ServerDesignerCommon",
+                    "PropertyItemsList": [
+                      {
+                        "TargetCells": {
+                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                          "SerializeProperty": "=组织维护!查询文本框,组织维护!高级搜索按钮"
+                        },
+                        "PropertyType": 1,
+                        "Value": false
+                      }
+                    ]
+                  },
+                  {
+                    "$type": "Forguncy.Model.OperateCellTypeCommand, ServerDesignerCommon",
+                    "TargetPageElement": {
+                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                      "SerializeProperty": "=组织维护!按钮组件"
+                    },
+                    "TargetType": "Forguncy.UserControlPageCellType, ServerDesignerCommon, Version=10.0.1.0, Culture=neutral, PublicKeyToken=967100671921c115",
+                    "MethodName": "SetUserControlPage",
+                    "ParameterValues": {
+                      "userControlPageName": "部门信息按钮组",
+                      "propertyValues": {
+                        "$type": "System.Collections.Generic.List`1[[Forguncy.UserControlPagePropertyValue, ServerDesignerCommon]], System.Private.CoreLib",
+                        "$values": []
+                      },
+                      "commandHandlers": {
+                        "$type": "System.Collections.Generic.List`1[[Forguncy.UserControlPageCommandHandler, ServerDesignerCommon]], System.Private.CoreLib",
+                        "$values": [
+                          {
+                            "CommandName": "编辑事件",
+                            "Commands": {
+                              "Commands": [
+                                {
+                                  "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
+                                  "ConditionAndCommandPairList": [
+                                    {
+                                      "Condition": {
+                                        "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                                        "param": {
+                                          "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                                          "cellLocations": [
+                                            {
+                                              "SerializeProperty": "=组织维护!EL标签页头"
+                                            }
+                                          ]
+                                        },
+                                        "value": "2"
+                                      },
+                                      "CommandList": [
+                                        {
+                                          "$type": "Forguncy.Model.ShowPopupCommand, ServerDesignerCommon",
+                                          "PageName": "分部信息_编辑",
+                                          "PassValues": [
+                                            {
+                                              "Source": {
+                                                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                                                "SerializeProperty": "=组织维护!组织结构ID"
+                                              },
+                                              "TargetCell": {
+                                                "SerializeProperty": "=分部信息_编辑!组织结构ID"
+                                              }
+                                            }
+                                          ]
+                                        }
+                                      ],
+                                      "ID": "863de720-b2fb-44b3-a588-80c592fc2bdd"
+                                    },
+                                    {
+                                      "CommandList": [
+                                        {
+                                          "$type": "Forguncy.Model.ShowPopupCommand, ServerDesignerCommon",
+                                          "PageName": "部门信息_编辑",
+                                          "PassValues": [
+                                            {
+                                              "Source": {
+                                                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                                                "SerializeProperty": "=组织维护!组织结构ID"
+                                              },
+                                              "TargetCell": {
+                                                "SerializeProperty": "=部门信息_编辑!组织结构ID"
+                                              }
+                                            }
+                                          ]
+                                        }
+                                      ],
+                                      "ID": "6e519321-3fb2-4506-af80-5840c9e79373"
+                                    }
+                                  ]
+                                }
+                              ],
+                              "ParamProperties": {}
+                            }
+                          },
+                          {
+                            "CommandName": "新建同级部门事件",
+                            "Commands": {
+                              "Commands": [
+                                {
+                                  "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
+                                  "ParameterName": "组织结构信息",
+                                  "TableValue": {
+                                    "TableName": "组织信息视图",
+                                    "TableValueType": 1,
+                                    "BindingInfos": [
+                                      {
+                                        "BindingInfo": {
+                                          "TableName": "组织信息视图",
+                                          "ColumnName": "父节点Id",
+                                          "GUID": "1d8d125a-de5c-47c4-b025-fb00c72a4bb9"
+                                        },
+                                        "ColumnName": "父节点Id"
+                                      },
+                                      {
+                                        "BindingInfo": {
+                                          "TableName": "组织信息视图",
+                                          "ColumnName": "组织级别Id",
+                                          "GUID": "228f517f-bf86-4873-b802-8ee498815d24"
+                                        },
+                                        "ColumnName": "组织级别Id"
+                                      }
+                                    ],
+                                    "SqlCondition": {
+                                      "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                                      "ColumnBindingInfo": {
+                                        "TableName": "组织信息视图",
+                                        "ColumnName": "组织Id",
+                                        "GUID": "fd4f1264-c9db-4dd6-854f-62b3cab73e16"
+                                      },
+                                      "Value": {
+                                        "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                                        "SerializeProperty": "=组织维护!组织结构ID"
+                                      }
+                                    }
+                                  },
+                                  "ID": "4348e48dc95e42e1a045d3ed465e88b5"
+                                },
+                                {
+                                  "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
+                                  "ConditionAndCommandPairList": [
+                                    {
+                                      "Condition": {
+                                        "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                                        "param": {
+                                          "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                                          "cellLocations": [
+                                            {
+                                              "SerializeProperty": "=组织维护!EL标签页头"
+                                            }
+                                          ]
+                                        },
+                                        "value": "2"
+                                      },
+                                      "CommandList": [
+                                        {
+                                          "$type": "Forguncy.Model.ShowPopupCommand, ServerDesignerCommon",
+                                          "PageName": "分部信息_编辑",
+                                          "PassValues": [
+                                            {
+                                              "Source": {
+                                                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                                                "SerializeProperty": "=组织维护!组织结构信息.父节点Id"
+                                              },
+                                              "TargetCell": {
+                                                "SerializeProperty": "=分部信息_编辑!上级组织结构ID"
+                                              }
+                                            },
+                                            {
+                                              "Source": {
+                                                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                                                "SerializeProperty": "=组织维护!组织结构信息.组织级别Id+1"
+                                              },
+                                              "TargetCell": {
+                                                "SerializeProperty": "=分部信息_编辑!I8"
+                                              }
+                                            }
+                                          ]
+                                        }
+                                      ],
+                                      "ID": "6dbc6334-12df-4985-97b4-6d71b418489d"
+                                    },
+                                    {
+                                      "CommandList": [
+                                        {
+                                          "$type": "Forguncy.Model.ShowPopupCommand, ServerDesignerCommon",
+                                          "PageName": "部门信息_编辑",
+                                          "PassValues": [
+                                            {
+                                              "Source": {
+                                                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                                                "SerializeProperty": "=组织维护!组织结构信息.父节点Id"
+                                              },
+                                              "TargetCell": {
+                                                "SerializeProperty": "=部门信息_编辑!上级组织结构ID"
+                                              }
+                                            },
+                                            {
+                                              "Source": {
+                                                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                                                "SerializeProperty": "=组织维护!组织结构信息.组织级别Id+1"
+                                              },
+                                              "TargetCell": {
+                                                "SerializeProperty": "=部门信息_编辑!I8"
+                                              }
+                                            }
+                                          ]
+                                        }
+                                      ],
+                                      "ID": "b2cd0fbc-e9e7-4494-9755-0947dae5b4fb"
+                                    }
+                                  ]
+                                }
+                              ],
+                              "ParamProperties": {}
+                            }
+                          },
+                          {
+                            "CommandName": "新建下级部门事件",
+                            "Commands": {
+                              "Commands": [
+                                {
+                                  "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
+                                  "ParameterName": "组织级别ID",
+                                  "TableValue": {
+                                    "TableName": "组织信息视图",
+                                    "OnlyGetValue": true,
+                                    "TableValueType": 0,
+                                    "BindingInfos": [
+                                      {
+                                        "BindingInfo": {
+                                          "TableName": "组织信息视图",
+                                          "ColumnName": "组织级别Id",
+                                          "GUID": "aed01a04-1171-424c-86d4-ed22b1d7e15b"
+                                        },
+                                        "ColumnName": "组织级别Id"
+                                      }
+                                    ],
+                                    "SqlCondition": {
+                                      "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                                      "ColumnBindingInfo": {
+                                        "TableName": "组织信息视图",
+                                        "ColumnName": "组织Id",
+                                        "GUID": "cc9ed837-f61f-42e1-9509-c10f39579a82"
+                                      },
+                                      "Value": {
+                                        "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                                        "SerializeProperty": "=组织维护!组织结构ID"
+                                      }
+                                    }
+                                  },
+                                  "ID": "a3177fde88d04c798c33caa2b610c415"
+                                },
+                                {
+                                  "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
+                                  "ConditionAndCommandPairList": [
+                                    {
+                                      "Condition": {
+                                        "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                                        "param": {
+                                          "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                                          "cellLocations": [
+                                            {
+                                              "SerializeProperty": "=组织维护!EL标签页头"
+                                            }
+                                          ]
+                                        },
+                                        "value": "2"
+                                      },
+                                      "CommandList": [
+                                        {
+                                          "$type": "Forguncy.Model.ShowPopupCommand, ServerDesignerCommon",
+                                          "PageName": "分部信息_编辑",
+                                          "PassValues": [
+                                            {
+                                              "Source": {
+                                                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                                                "SerializeProperty": "=组织维护!组织结构ID"
+                                              },
+                                              "TargetCell": {
+                                                "SerializeProperty": "=分部信息_编辑!上级组织结构ID"
+                                              }
+                                            },
+                                            {
+                                              "Source": {
+                                                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                                                "SerializeProperty": "=组织维护!组织级别ID+1"
+                                              },
+                                              "TargetCell": {
+                                                "SerializeProperty": "=分部信息_编辑!I8"
+                                              }
+                                            }
+                                          ]
+                                        }
+                                      ],
+                                      "ID": "aab909b6-2a15-4687-a9b8-8be0dd6490d8"
+                                    },
+                                    {
+                                      "CommandList": [
+                                        {
+                                          "$type": "Forguncy.Model.ShowPopupCommand, ServerDesignerCommon",
+                                          "PageName": "部门信息_编辑",
+                                          "PassValues": [
+                                            {
+                                              "Source": {
+                                                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                                                "SerializeProperty": "=组织维护!组织结构ID"
+                                              },
+                                              "TargetCell": {
+                                                "SerializeProperty": "=部门信息_编辑!上级组织结构ID"
+                                              }
+                                            },
+                                            {
+                                              "Source": {
+                                                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                                                "SerializeProperty": "=组织维护!组织级别ID+1"
+                                              },
+                                              "TargetCell": {
+                                                "SerializeProperty": "=部门信息_编辑!I8"
+                                              }
+                                            }
+                                          ]
+                                        }
+                                      ],
+                                      "ID": "8f7ced93-cb7d-4fbe-afb9-e162e90cbcdd"
+                                    }
+                                  ]
+                                }
+                              ],
+                              "ParamProperties": {}
+                            }
+                          },
+                          {
+                            "CommandName": "添加部门成员事件",
+                            "Commands": {
+                              "Commands": [
+                                {
+                                  "$type": "Forguncy.Model.ShowPopupCommand, ServerDesignerCommon",
+                                  "PageName": "组织成员添加",
+                                  "PassValues": [
+                                    {
+                                      "Source": {
+                                        "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                                        "SerializeProperty": "=组织维护!组织结构ID"
+                                      },
+                                      "TargetCell": {
+                                        "SerializeProperty": "=组织成员添加!组织结构ID"
+                                      }
+                                    }
+                                  ]
+                                }
+                              ],
+                              "ParamProperties": {}
+                            }
+                          }
+                        ]
+                      }
+                    }
+                  },
+                  {
+                    "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
+                    "ConditionAndCommandPairList": [
+                      {
+                        "Condition": {
+                          "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                          "param": {
+                            "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                            "cellLocations": [
+                              {
+                                "SerializeProperty": "=组织维护!EL标签页头"
+                              }
+                            ]
+                          },
+                          "value": "2"
+                        },
+                        "CommandList": [
+                          {
+                            "$type": "Forguncy.Model.OperateCellTypeCommand, ServerDesignerCommon",
+                            "TargetPageElement": {
+                              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                              "SerializeProperty": "=组织维护!子页面组件"
+                            },
+                            "TargetType": "Forguncy.UserControlPageCellType, ServerDesignerCommon, Version=10.0.1.0, Culture=neutral, PublicKeyToken=967100671921c115",
+                            "MethodName": "SetUserControlPage",
+                            "ParameterValues": {
+                              "userControlPageName": "分部信息_查看",
+                              "propertyValues": {
+                                "$type": "System.Collections.Generic.List`1[[Forguncy.UserControlPagePropertyValue, ServerDesignerCommon]], System.Private.CoreLib",
+                                "$values": [
+                                  {
+                                    "Name": "组织结构ID",
+                                    "Value": {
+                                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                                      "SerializeProperty": "=组织维护!组织结构ID"
+                                    }
+                                  }
+                                ]
+                              },
+                              "commandHandlers": {
+                                "$type": "System.Collections.Generic.List`1[[Forguncy.UserControlPageCommandHandler, ServerDesignerCommon]], System.Private.CoreLib",
+                                "$values": []
+                              }
+                            }
+                          }
+                        ],
+                        "ID": "d40d6f4b-f8c0-4021-b5de-4bc71dc8fce7"
+                      },
+                      {
+                        "Condition": {
+                          "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                          "param": {
+                            "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                            "cellLocations": [
+                              {
+                                "SerializeProperty": "=组织维护!EL标签页头"
+                              }
+                            ]
+                          },
+                          "value": "3"
+                        },
+                        "CommandList": [
+                          {
+                            "$type": "Forguncy.Model.OperateCellTypeCommand, ServerDesignerCommon",
+                            "TargetPageElement": {
+                              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                              "SerializeProperty": "=组织维护!子页面组件"
+                            },
+                            "TargetType": "Forguncy.UserControlPageCellType, ServerDesignerCommon, Version=10.0.1.0, Culture=neutral, PublicKeyToken=967100671921c115",
+                            "MethodName": "SetUserControlPage",
+                            "ParameterValues": {
+                              "userControlPageName": "部门信息_查看",
+                              "propertyValues": {
+                                "$type": "System.Collections.Generic.List`1[[Forguncy.UserControlPagePropertyValue, ServerDesignerCommon]], System.Private.CoreLib",
+                                "$values": [
+                                  {
+                                    "Name": "组织结构ID",
+                                    "Value": {
+                                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                                      "SerializeProperty": "=组织维护!组织结构ID"
+                                    }
+                                  }
+                                ]
+                              },
+                              "commandHandlers": {
+                                "$type": "System.Collections.Generic.List`1[[Forguncy.UserControlPageCommandHandler, ServerDesignerCommon]], System.Private.CoreLib",
+                                "$values": []
+                              }
+                            }
+                          }
+                        ],
+                        "ID": "98083340-b5c0-415d-85e0-b9a00d4f63ba"
+                      }
+                    ]
+                  }
+                ],
+                "ID": "00b70ff0-fa7c-4a90-b2a2-422907d23a59"
+              },
+              {
+                "Condition": {
+                  "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                  "param": {
+                    "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                    "cellLocations": [
+                      {
+                        "SerializeProperty": "=组织维护!EL标签页头"
+                      }
+                    ]
+                  },
+                  "value": "4,5",
+                  "compareType": 12
+                },
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.SetCellPropertyCommand, ServerDesignerCommon",
+                    "PropertyItemsList": [
+                      {
+                        "TargetCells": {
+                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                          "SerializeProperty": "=组织维护!查询文本框,组织维护!高级搜索按钮"
+                        },
+                        "PropertyType": 1,
+                        "Value": true
+                      }
+                    ]
+                  },
+                  {
+                    "$type": "Forguncy.Model.OperateCellTypeCommand, ServerDesignerCommon",
+                    "TargetPageElement": {
+                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                      "SerializeProperty": "=组织维护!按钮组件"
+                    },
+                    "TargetType": "Forguncy.UserControlPageCellType, ServerDesignerCommon, Version=10.0.1.0, Culture=neutral, PublicKeyToken=967100671921c115",
+                    "MethodName": "SetUserControlPage",
+                    "ParameterValues": {
+                      "userControlPageName": "下级部门按钮组",
+                      "propertyValues": {
+                        "$type": "System.Collections.Generic.List`1[[Forguncy.UserControlPagePropertyValue, ServerDesignerCommon]], System.Private.CoreLib",
+                        "$values": []
+                      },
+                      "commandHandlers": {
+                        "$type": "System.Collections.Generic.List`1[[Forguncy.UserControlPageCommandHandler, ServerDesignerCommon]], System.Private.CoreLib",
+                        "$values": [
+                          {
+                            "CommandName": "新建部门事件",
+                            "Commands": {
+                              "Commands": [
+                                {
+                                  "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
+                                  "ConditionAndCommandPairList": [
+                                    {
+                                      "Condition": {
+                                        "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                                        "param": {
+                                          "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                                          "cellLocations": [
+                                            {
+                                              "SerializeProperty": "=组织维护!EL标签页头"
+                                            }
+                                          ]
+                                        },
+                                        "value": "4"
+                                      },
+                                      "CommandList": [
+                                        {
+                                          "$type": "Forguncy.Model.ShowPopupCommand, ServerDesignerCommon",
+                                          "PageName": "分部信息_编辑",
+                                          "PassValues": [
+                                            {
+                                              "Source": {
+                                                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                                                "SerializeProperty": "=组织维护!组织结构ID"
+                                              },
+                                              "TargetCell": {
+                                                "SerializeProperty": "=分部信息_编辑!上级组织结构ID"
+                                              }
+                                            }
+                                          ]
+                                        }
+                                      ],
+                                      "ID": "b16d0a6b-5aaf-4e3a-ac77-273d42f1468c"
+                                    },
+                                    {
+                                      "CommandList": [
+                                        {
+                                          "$type": "Forguncy.Model.ShowPopupCommand, ServerDesignerCommon",
+                                          "PageName": "部门信息_编辑",
+                                          "PassValues": [
+                                            {
+                                              "Source": {
+                                                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                                                "SerializeProperty": "=组织维护!组织结构ID"
+                                              },
+                                              "TargetCell": {
+                                                "SerializeProperty": "=部门信息_编辑!上级组织结构ID"
+                                              }
+                                            }
+                                          ]
+                                        }
+                                      ],
+                                      "ID": "768f7ea3-212a-4c82-9373-52cf6920bee6"
+                                    }
+                                  ]
+                                }
+                              ],
+                              "ParamProperties": {}
+                            }
+                          }
+                        ]
+                      }
+                    }
+                  },
+                  {
+                    "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
+                    "ConditionAndCommandPairList": [
+                      {
+                        "Condition": {
+                          "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                          "param": {
+                            "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                            "cellLocations": [
+                              {
+                                "SerializeProperty": "=组织维护!EL标签页头"
+                              }
+                            ]
+                          },
+                          "value": "4"
+                        },
+                        "CommandList": [
+                          {
+                            "$type": "Forguncy.Model.OperateCellTypeCommand, ServerDesignerCommon",
+                            "TargetPageElement": {
+                              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                              "SerializeProperty": "=组织维护!子页面组件"
+                            },
+                            "TargetType": "Forguncy.UserControlPageCellType, ServerDesignerCommon, Version=10.0.1.0, Culture=neutral, PublicKeyToken=967100671921c115",
+                            "MethodName": "SetUserControlPage",
+                            "ParameterValues": {
+                              "userControlPageName": "下级分部_查看",
+                              "propertyValues": {
+                                "$type": "System.Collections.Generic.List`1[[Forguncy.UserControlPagePropertyValue, ServerDesignerCommon]], System.Private.CoreLib",
+                                "$values": [
+                                  {
+                                    "Name": "组织结构ID",
+                                    "Value": {
+                                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                                      "SerializeProperty": "=组织维护!组织结构ID"
+                                    }
+                                  }
+                                ]
+                              },
+                              "commandHandlers": {
+                                "$type": "System.Collections.Generic.List`1[[Forguncy.UserControlPageCommandHandler, ServerDesignerCommon]], System.Private.CoreLib",
+                                "$values": [
+                                  {
+                                    "CommandName": "表格选择事件",
+                                    "Commands": {
+                                      "Commands": [
+                                        {
+                                          "$type": "Forguncy.Model.OperateCellTypeCommand, ServerDesignerCommon",
+                                          "TargetPageElement": {
+                                            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                                            "SerializeProperty": "=组织维护!按钮组件"
+                                          },
+                                          "TargetType": "Forguncy.UserControlPageCellType, ServerDesignerCommon, Version=10.0.1.0, Culture=neutral, PublicKeyToken=967100671921c115",
+                                          "MethodName": "SetPropertyValue",
+                                          "ParameterValues": {
+                                            "userControlProperties": {
+                                              "$type": "System.Collections.Generic.List`1[[Forguncy.SetUserControlPropertyValue, ServerDesignerCommon]], System.Private.CoreLib",
+                                              "$values": [
+                                                {
+                                                  "PropertyName": "表格选择项",
+                                                  "PropertyValue": {
+                                                    "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                                                    "SerializeProperty": "=组织维护!表格选择项"
+                                                  }
+                                                }
+                                              ]
+                                            }
+                                          }
+                                        }
+                                      ],
+                                      "ParamProperties": {
+                                        "表格选择项": "表格选择项"
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "CommandName": "跳转部门信息事件",
+                                    "Commands": {
+                                      "Commands": [
+                                        {
+                                          "$type": "Forguncy.Model.SetCellPropertyCommand, ServerDesignerCommon",
+                                          "PropertyItemsList": [
+                                            {
+                                              "TargetCells": {
+                                                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                                                "SerializeProperty": "=组织维护!组织结构ID"
+                                              },
+                                              "Value": {
+                                                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                                                "SerializeProperty": "=组织维护!组织ID"
+                                              }
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "$type": "Forguncy.Model.OperateCellTypeCommand, ServerDesignerCommon",
+                                          "TargetPageElement": {
+                                            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                                            "SerializeProperty": "=组织维护!组织结构ID"
+                                          },
+                                          "TargetType": "ElementUI.TreeCellType, ElementUI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e50995ee76bfe560",
+                                          "MethodName": "SetCurrentNode",
+                                          "ParameterValues": {
+                                            "currentNodeValue": {
+                                              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                                              "SerializeProperty": "=组织维护!组织ID"
+                                            }
+                                          }
+                                        },
+                                        {
+                                          "$type": "Forguncy.Model.OperateCellTypeCommand, ServerDesignerCommon",
+                                          "TargetPageElement": {
+                                            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                                            "SerializeProperty": "=组织维护!BH11"
+                                          },
+                                          "TargetType": "Forguncy.ButtonCellType, ServerDesignerCommon, Version=10.0.1.0, Culture=neutral, PublicKeyToken=967100671921c115",
+                                          "MethodName": "ExecuteCommand"
+                                        }
+                                      ],
+                                      "ParamProperties": {
+                                        "组织ID": "组织ID"
+                                      }
+                                    }
+                                  }
+                                ]
+                              }
+                            }
+                          }
+                        ],
+                        "ID": "59eaaf2f-77ac-4e35-b776-486860d01e4d"
+                      },
+                      {
+                        "Condition": {
+                          "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                          "param": {
+                            "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                            "cellLocations": [
+                              {
+                                "SerializeProperty": "=组织维护!EL标签页头"
+                              }
+                            ]
+                          },
+                          "value": "5"
+                        },
+                        "CommandList": [
+                          {
+                            "$type": "Forguncy.Model.OperateCellTypeCommand, ServerDesignerCommon",
+                            "TargetPageElement": {
+                              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                              "SerializeProperty": "=组织维护!子页面组件"
+                            },
+                            "TargetType": "Forguncy.UserControlPageCellType, ServerDesignerCommon, Version=10.0.1.0, Culture=neutral, PublicKeyToken=967100671921c115",
+                            "MethodName": "SetUserControlPage",
+                            "ParameterValues": {
+                              "userControlPageName": "下级部门_查看",
+                              "propertyValues": {
+                                "$type": "System.Collections.Generic.List`1[[Forguncy.UserControlPagePropertyValue, ServerDesignerCommon]], System.Private.CoreLib",
+                                "$values": [
+                                  {
+                                    "Name": "组织结构ID",
+                                    "Value": {
+                                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                                      "SerializeProperty": "=组织维护!组织结构ID"
+                                    }
+                                  }
+                                ]
+                              },
+                              "commandHandlers": {
+                                "$type": "System.Collections.Generic.List`1[[Forguncy.UserControlPageCommandHandler, ServerDesignerCommon]], System.Private.CoreLib",
+                                "$values": [
+                                  {
+                                    "CommandName": "表格选择事件",
+                                    "Commands": {
+                                      "Commands": [
+                                        {
+                                          "$type": "Forguncy.Model.OperateCellTypeCommand, ServerDesignerCommon",
+                                          "TargetPageElement": {
+                                            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                                            "SerializeProperty": "=组织维护!按钮组件"
+                                          },
+                                          "TargetType": "Forguncy.UserControlPageCellType, ServerDesignerCommon, Version=10.0.1.0, Culture=neutral, PublicKeyToken=967100671921c115",
+                                          "MethodName": "SetPropertyValue",
+                                          "ParameterValues": {
+                                            "userControlProperties": {
+                                              "$type": "System.Collections.Generic.List`1[[Forguncy.SetUserControlPropertyValue, ServerDesignerCommon]], System.Private.CoreLib",
+                                              "$values": [
+                                                {
+                                                  "PropertyName": "表格选择项",
+                                                  "PropertyValue": {
+                                                    "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                                                    "SerializeProperty": "=组织维护!表格选择项"
+                                                  }
+                                                }
+                                              ]
+                                            }
+                                          }
+                                        }
+                                      ],
+                                      "ParamProperties": {
+                                        "表格选择项": "表格选择项"
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "CommandName": "跳转部门信息事件",
+                                    "Commands": {
+                                      "Commands": [
+                                        {
+                                          "$type": "Forguncy.Model.SetCellPropertyCommand, ServerDesignerCommon",
+                                          "PropertyItemsList": [
+                                            {
+                                              "TargetCells": {
+                                                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                                                "SerializeProperty": "=组织维护!组织结构ID"
+                                              },
+                                              "Value": {
+                                                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                                                "SerializeProperty": "=组织维护!组织ID"
+                                              }
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "$type": "Forguncy.Model.OperateCellTypeCommand, ServerDesignerCommon",
+                                          "TargetPageElement": {
+                                            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                                            "SerializeProperty": "=组织维护!组织结构ID"
+                                          },
+                                          "TargetType": "ElementUI.TreeCellType, ElementUI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e50995ee76bfe560",
+                                          "MethodName": "SetCurrentNode",
+                                          "ParameterValues": {
+                                            "currentNodeValue": {
+                                              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                                              "SerializeProperty": "=组织维护!组织ID"
+                                            }
+                                          }
+                                        },
+                                        {
+                                          "$type": "Forguncy.Model.OperateCellTypeCommand, ServerDesignerCommon",
+                                          "TargetPageElement": {
+                                            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                                            "SerializeProperty": "=组织维护!BH11"
+                                          },
+                                          "TargetType": "Forguncy.ButtonCellType, ServerDesignerCommon, Version=10.0.1.0, Culture=neutral, PublicKeyToken=967100671921c115",
+                                          "MethodName": "ExecuteCommand"
+                                        }
+                                      ],
+                                      "ParamProperties": {
+                                        "组织ID": "组织ID"
+                                      }
+                                    }
+                                  }
+                                ]
+                              }
+                            }
+                          }
+                        ],
+                        "ID": "36cc1a0f-744a-458c-8966-6e820f2fb959"
+                      }
+                    ]
+                  }
+                ],
+                "ID": "3178a2da-fe3c-4416-b522-d4f5d9688bcf"
+              },
+              {
+                "Condition": {
+                  "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                  "param": {
+                    "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                    "cellLocations": [
+                      {
+                        "SerializeProperty": "=组织维护!EL标签页头"
+                      }
+                    ]
+                  },
+                  "value": "6"
+                },
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.SetCellPropertyCommand, ServerDesignerCommon",
+                    "PropertyItemsList": [
+                      {
+                        "TargetCells": {
+                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                          "SerializeProperty": "=组织维护!查询文本框,组织维护!高级搜索按钮"
+                        },
+                        "PropertyType": 1,
+                        "Value": true
+                      }
+                    ]
+                  },
+                  {
+                    "$type": "Forguncy.Model.OperateCellTypeCommand, ServerDesignerCommon",
+                    "TargetPageElement": {
+                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                      "SerializeProperty": "=组织维护!按钮组件"
+                    },
+                    "TargetType": "Forguncy.UserControlPageCellType, ServerDesignerCommon, Version=10.0.1.0, Culture=neutral, PublicKeyToken=967100671921c115",
+                    "MethodName": "SetUserControlPage",
+                    "ParameterValues": {
+                      "userControlPageName": "组织结构-人力资源按钮组",
+                      "propertyValues": {
+                        "$type": "System.Collections.Generic.List`1[[Forguncy.UserControlPagePropertyValue, ServerDesignerCommon]], System.Private.CoreLib",
+                        "$values": [
+                          {
+                            "Name": "组织结构ID",
+                            "Value": {
+                              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                              "SerializeProperty": "=组织维护!组织结构ID"
+                            }
+                          }
+                        ]
+                      },
+                      "commandHandlers": {
+                        "$type": "System.Collections.Generic.List`1[[Forguncy.UserControlPageCommandHandler, ServerDesignerCommon]], System.Private.CoreLib",
+                        "$values": [
+                          {
+                            "CommandName": "显示列定制事件",
+                            "Commands": {
+                              "Commands": [
+                                {
+                                  "$type": "Forguncy.Model.OperateCellTypeCommand, ServerDesignerCommon",
+                                  "TargetPageElement": {
+                                    "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                                    "SerializeProperty": "=组织维护!显示列定制"
+                                  },
+                                  "TargetType": "Forguncy.ButtonCellType, ServerDesignerCommon, Version=10.0.1.0, Culture=neutral, PublicKeyToken=967100671921c115",
+                                  "MethodName": "ExecuteCommand"
+                                }
+                              ],
+                              "ParamProperties": {}
+                            }
+                          }
+                        ]
+                      }
+                    }
+                  },
+                  {
+                    "$type": "Forguncy.Model.OperateCellTypeCommand, ServerDesignerCommon",
+                    "TargetPageElement": {
+                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                      "SerializeProperty": "=组织维护!子页面组件"
+                    },
+                    "TargetType": "Forguncy.UserControlPageCellType, ServerDesignerCommon, Version=10.0.1.0, Culture=neutral, PublicKeyToken=967100671921c115",
+                    "MethodName": "SetUserControlPage",
+                    "ParameterValues": {
+                      "userControlPageName": "人力资源_查看",
+                      "propertyValues": {
+                        "$type": "System.Collections.Generic.List`1[[Forguncy.UserControlPagePropertyValue, ServerDesignerCommon]], System.Private.CoreLib",
+                        "$values": [
+                          {
+                            "Name": "组织结构ID",
+                            "Value": {
+                              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                              "SerializeProperty": "=组织维护!组织结构ID"
+                            }
+                          }
+                        ]
+                      },
+                      "commandHandlers": {
+                        "$type": "System.Collections.Generic.List`1[[Forguncy.UserControlPageCommandHandler, ServerDesignerCommon]], System.Private.CoreLib",
+                        "$values": [
+                          {
+                            "CommandName": "表格选择事件",
+                            "Commands": {
+                              "Commands": [
+                                {
+                                  "$type": "Forguncy.Model.OperateCellTypeCommand, ServerDesignerCommon",
+                                  "TargetPageElement": {
+                                    "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                                    "SerializeProperty": "=组织维护!按钮组件"
+                                  },
+                                  "TargetType": "Forguncy.UserControlPageCellType, ServerDesignerCommon, Version=10.0.1.0, Culture=neutral, PublicKeyToken=967100671921c115",
+                                  "MethodName": "SetPropertyValue",
+                                  "ParameterValues": {
+                                    "userControlProperties": {
+                                      "$type": "System.Collections.Generic.List`1[[Forguncy.SetUserControlPropertyValue, ServerDesignerCommon]], System.Private.CoreLib",
+                                      "$values": [
+                                        {
+                                          "PropertyName": "表格选择项",
+                                          "PropertyValue": {
+                                            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                                            "SerializeProperty": "=组织维护!表格选择项"
+                                          }
+                                        }
+                                      ]
+                                    }
+                                  }
+                                }
+                              ],
+                              "ParamProperties": {
+                                "表格选择项": "表格选择项"
+                              }
+                            }
+                          }
+                        ]
+                      }
+                    }
+                  }
+                ],
+                "ID": "99a14e66-fc48-4405-8627-4973f795d4b5"
+              }
+            ]
+          }
+        ],
+        "Text": "通用命令",
+        "TemplateKey": "_RS_Main1"
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "Formatter": 0
+      },
+      {
+        "FontFamily": 1,
+        "Formatter": 0
+      },
+      {
+        "FontFamily": 1,
+        "FontSize": 13.333333333333332,
+        "Formatter": 0
+      },
+      {
+        "FontFamily": 1,
+        "FontSize": 14.67
+      },
+      {
+        "BorderRight": null
+      },
+      {
+        "BorderRight": 0
+      },
+      {
+        "FontSize": 13.333333333333332
+      },
+      {
+        "FontSize": 13.333333333333332,
+        "Formatter": 3
+      },
+      {
+        "BorderBottom": 0
+      },
+      {
+        "BorderBottom": 0,
+        "BorderRight": null
+      },
+      {
+        "BorderBottom": 0,
+        "BorderRight": 0
+      },
+      {
+        "Formatter": 3
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "[AUTO]General",
+        "Body",
+        "#FFE2E2E2",
+        "@"
+      ],
+      "Borders": [
+        {
+          "Color": 2
+        }
+      ]
+    },
+    "CellStyles": {
+      "0,0": 0,
+      "2,4": 1,
+      "2,10": 2,
+      "2,11": 3,
+      "2,12": 3,
+      "4,16": 4,
+      "4,17": 5,
+      "4,19": 3,
+      "5,2": 6,
+      "5,6": 7,
+      "5,17": 5,
+      "5,43": 7,
+      "5,53": 6,
+      "6,1": 8,
+      "6,2": 8,
+      "6,3": 8,
+      "6,4": 8,
+      "6,5": 8,
+      "6,6": 8,
+      "6,7": 8,
+      "6,8": 8,
+      "6,9": 8,
+      "6,10": 8,
+      "6,11": 8,
+      "6,12": 8,
+      "6,13": 8,
+      "6,14": 8,
+      "6,15": 8,
+      "6,16": 9,
+      "6,17": 10,
+      "6,18": 8,
+      "6,19": 8,
+      "6,20": 8,
+      "6,21": 8,
+      "6,22": 8,
+      "6,23": 8,
+      "6,24": 8,
+      "6,25": 8,
+      "6,26": 8,
+      "6,27": 8,
+      "6,28": 8,
+      "6,29": 8,
+      "6,30": 8,
+      "6,31": 8,
+      "6,32": 8,
+      "6,33": 8,
+      "6,34": 8,
+      "6,35": 8,
+      "6,36": 8,
+      "6,37": 8,
+      "6,38": 8,
+      "6,39": 8,
+      "6,40": 8,
+      "6,41": 8,
+      "6,42": 8,
+      "6,43": 8,
+      "6,44": 8,
+      "6,45": 8,
+      "6,46": 8,
+      "6,47": 8,
+      "6,48": 8,
+      "6,49": 8,
+      "6,50": 8,
+      "6,51": 8,
+      "6,52": 8,
+      "6,53": 8,
+      "6,54": 8,
+      "6,55": 8,
+      "6,56": 8,
+      "6,57": 8,
+      "7,16": 4,
+      "7,17": 5,
+      "7,18": 3,
+      "8,2": 3,
+      "8,17": 5,
+      "8,59": 11,
+      "9,17": 5,
+      "10,17": 5,
+      "11,17": 5,
+      "12,17": 5,
+      "13,17": 5,
+      "14,17": 5,
+      "15,17": 5,
+      "16,17": 5,
+      "17,17": 5,
+      "18,17": 5,
+      "19,17": 5,
+      "20,17": 5,
+      "21,17": 5,
+      "22,17": 5,
+      "23,17": 5
+    },
+    "SheetStyle": {
+      "FontFamily": 1
+    }
+  },
+  "Spans": [
+    "5,53,1,4",
+    "5,43,1,10",
+    "5,6,1,11",
+    "4,19,3,24",
+    "8,2,16,15",
+    "2,18,1,40",
+    "7,18,17,40"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "MasterPageName": "后台菜单导航-PC",
+    "PageLoadedCommandList": [
+      {
+        "$type": "Forguncy.Model.SetCellPropertyCommand, ServerDesignerCommon",
+        "PropertyItemsList": [
+          {
+            "TargetCells": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "=组织维护!组织结构ID"
+            },
+            "Value": "1"
+          }
+        ]
+      },
+      {
+        "$type": "LoadingCommand.EndLoadingCommand, LoadingCommand"
+      }
+    ],
+    "PermissionData": {
+      "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionData, Forguncy.RbacPermission.Core",
+      "permissionResource": {
+        "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionResource, Forguncy.RbacPermission.Core"
+      },
+      "permissionBindings": [
+        {
+          "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionBinding, Forguncy.RbacPermission.Core",
+          "roleNames": [
+            "FGC_LoginUser"
+          ]
+        }
+      ]
+    },
+    "RowBreakLines": [],
+    "RepeatRangeSettings": []
+  },
+  "PrintInfo": {
+    "PaperSize": {},
+    "Margin": {}
+  },
+  "BackgroundPictures": [
+    {
+      "FitToBrowserWidth": true,
+      "FitToBrowserHeight": true,
+      "Name": "bc4f56a1-af1b-4636-b078-cd18f74a43d3.png",
+      "DisplayName": "背景图1",
+      "StyleInfo": {
+        "Fill": "#FFF0F2F5"
+      },
+      "IsAutomaticFill": false,
+      "Size": "1164,658"
+    },
+    {
+      "Name": "9fbe544f-2c26-40a7-9bc3-2107b7905165.png",
+      "DisplayName": "背景图2",
+      "StyleInfo": {
+        "Fill": "Background 1 0"
+      },
+      "IsAutomaticFill": false,
+      "Location": "16,16",
+      "Size": "1132,626"
+    },
+    {
+      "Name": "deb69923-9ed5-413c-9825-23bafb1c55b4.png",
+      "DisplayName": "背景图3",
+      "StyleInfo": {
+        "Fill": "#FFF9F9F9"
+      },
+      "IsAutomaticFill": false,
+      "Location": "16,16",
+      "Size": "1132,64"
+    }
+  ],
+  "CustomNames": [
+    {
+      "Name": "组织结构ID",
+      "Formula": "组织维护!$C$9"
+    },
+    {
+      "Name": "EL标签页头",
+      "Formula": "组织维护!$T$5"
+    },
+    {
+      "Name": "按钮组件",
+      "Formula": "组织维护!$S$3"
+    },
+    {
+      "Name": "子页面组件",
+      "Formula": "组织维护!$S$8"
+    },
+    {
+      "Name": "查询文本框",
+      "Formula": "组织维护!$AR$6"
+    },
+    {
+      "Name": "高级搜索按钮",
+      "Formula": "组织维护!$BB$6"
+    }
+  ]
+}//3SyMftu7eSiKwlxVdimghlN1Lp1yp9D2uwQITP84u+gKQZwGru1D+Y2klFl4MAuydlIEZCJxj55vh8WOr4hegQVqXDuHY133OzEZuIaEVIMuCjZLktxOfbuBt1V/4OdQWbzUpki+Eos059Kap3tH4AYE6rfDCUkMlCPm1WozvsR+pa1oLdDHLsYyHp4O+0xpL4cTY6mQsH7i1FtgM+Mt83vwb1Rx3W4eviTH4A7MzHuTiXyhyAO4ckAeW1T/tK869bMKvYMycVoiDRGhaSPTh+W7dV44i1keM7GcYTrJxiG+rVD7IwOyFLoVJtmIt/c693RUfXnI/ZYRvblWLYrZWAVIRmxuACIK0JvdaA3XhdO9FbPACEsjl15Qb1gW+NiRzxPuF3FB7Ps/7nMUU3PtdwGg9KOUjEOyyC5Iyi7ZQZPHYbnFE7Xh3jXRCL5TFloNLC9NoxTdw1JO8JTNsz9mhWJVdn7l0yzC4+TzAt+ooD41aLqKo1Kt8+DUZbpF13SF7X/bsNGdfmHo30IgLRH/Pg9nmerWIvbE8yhXEhf+DKwA3meuAQKM1DJAWtnTdIqNcHcO3EZdJVPjZQs59gQmmuVCW6Do+z6s5Ct+QQlLnvpfTqoMZgowx7EPD3KVQmkCJnd2CsKmA8WcjmGsZFpN1nSQ1pocIJj0R82IKZn4NYCNA3qCwsCrZxPiRcLtBfhoo+i7gldxKwSqPratrQtZVf/Uyr41eSnM44eWWNneqYVrmpCfv/GYeTPMvxPAJdry2G1t5SR/CSEZvcE8W6fjfKhNZNzB0NGhcp/LVxWwJ2o+0NWerMpLHkC7/DFXoEdRihfTT17VrnkReiZT5GOAcfOEc+/7tzL7q1zVO9VTnt63XERPTdfrtOjlb/BQdml5OKErLyhVRbC2d3JpBnfOWw==|920

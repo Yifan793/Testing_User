@@ -1,0 +1,53 @@
+{
+  "Name": "绑定组织结构",
+  "Enabled": true,
+  "Triggers": [
+    {
+      "$type": "Forguncy.SaveLoad.PostRequestTriggerSaveData, ServerDesignerCommon",
+      "Permission": {
+        "PermissionData": {
+          "$type": "Forguncy.RbacPermission.Core.Impl.ServerCommand.ServerCommandPermissionData, Forguncy.RbacPermission.Core",
+          "permissionResource": {
+            "$type": "Forguncy.RbacPermission.Core.Impl.ServerCommand.ServerCommandPermissionResource, Forguncy.RbacPermission.Core"
+          },
+          "permissionBindings": [
+            {
+              "$type": "Forguncy.RbacPermission.Core.Impl.ServerCommand.ServerCommandPermissionBinding, Forguncy.RbacPermission.Core",
+              "roleNames": [
+                "FGC_LoginUser"
+              ]
+            }
+          ]
+        }
+      },
+      "Parameters": [
+        {
+          "Name": "角色ID",
+          "DataValidationInfo": {}
+        },
+        {
+          "Name": "组织节点ID",
+          "DataValidationInfo": {}
+        }
+      ]
+    }
+  ],
+  "Commands": [
+    {
+      "$type": "UserManagementCommandsV2.RoleManagementCommand, UserManagementCommandsV2",
+      "OperationType": "403",
+      "CommandOperator": {
+        "$type": "UserManagementCommandsV2.SetOrganizationsForRolesOperator, UserManagementCommandsV2",
+        "RoleIds": {
+          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+          "SerializeProperty": "=角色ID"
+        },
+        "OrganizationIds": {
+          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+          "SerializeProperty": "=组织节点ID"
+        },
+        "IsEffectedForSubOrganizations": "0"
+      }
+    }
+  ]
+}

@@ -1,0 +1,537 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 35.0
+        }
+      },
+      "1": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 10.0
+        }
+      },
+      "2": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 387.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      }
+    },
+    "Count": 3,
+    "DefaultSize": 35.0
+  },
+  "Cols": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 492.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "1": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 214.0,
+          "Mode": 1
+        }
+      },
+      "2": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "3": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 50.0,
+          "IsHidden": true
+        }
+      },
+      "4": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 50.0,
+          "IsHidden": true
+        }
+      },
+      "5": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 50.0,
+          "IsHidden": true
+        }
+      }
+    },
+    "InLogicalVisibleIndexes": [
+      3,
+      4,
+      5
+    ],
+    "Count": 6,
+    "DefaultSize": 50.0
+  },
+  "Values": {
+    "0,2": "···"
+  },
+  "AttachInfos": {
+    "0,0": {
+      "CellType": {
+        "$type": "Forguncy.UserControlPageCellType, ServerDesignerCommon"
+      },
+      "TemplateCellSource": "标题"
+    },
+    "0,1": {
+      "CellType": {
+        "$type": "Forguncy.RadioGroupCellType, ServerDesignerCommon",
+        "Style": 3,
+        "Items": [
+          {
+            "Value": "",
+            "DisplayValue": "全部渠道"
+          },
+          {
+            "Value": "线上",
+            "DisplayValue": "线上"
+          },
+          {
+            "Value": "门店",
+            "DisplayValue": "门店"
+          }
+        ]
+      }
+    },
+    "0,2": {
+      "CellType": {
+        "$type": "Forguncy.HyperlinkCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "ElementUI.Commands.ShowMessageBox, ElementUI",
+            "Title": "标题",
+            "Message": "正文内容",
+            "Type": "none",
+            "ConfirmButtonText": "确定",
+            "CancelButtonText": "取消",
+            "AdvancedSettings": {}
+          }
+        ],
+        "Text": "···",
+        "ClickMode": 1
+      }
+    },
+    "2,3": {
+      "ListViewInfo": {
+        "Name": "表格1",
+        "TableName": "销售信息",
+        "RowIndex": 2,
+        "ColumnIndex": 3,
+        "RowCount": 1,
+        "ColumnCount": 2,
+        "TopCondition": null,
+        "ListViewStyleName": "样式1",
+        "ShowColumnHeaderInDesigner": true,
+        "ShowEditStatusIcon": true,
+        "UseSimpleBar": true,
+        "ColumnOperation": 2
+      },
+      "BindingInfo": {
+        "TableName": "销售信息",
+        "ColumnName": "产品编号",
+        "GUID": "4bafd612-694b-444d-9c0d-0fea4b3ad739",
+        "RelationBinding": {
+          "RelatedTable": "产品信息",
+          "RelatedColumn": "产品编号",
+          "DisplayColumn": "产品类别ID",
+          "NextRelationBinding": {
+            "RelatedTable": "产品类别",
+            "RelatedColumn": "ID",
+            "DisplayColumn": "产品大类ID",
+            "NextRelationBinding": {
+              "RelatedTable": "产品大类",
+              "RelatedColumn": "ID",
+              "DisplayColumn": "产品大类"
+            }
+          }
+        }
+      }
+    },
+    "2,4": {
+      "BindingInfo": {
+        "TableName": "销售信息",
+        "ColumnName": "销售总计",
+        "GUID": "98c76f16-35f5-4615-88a1-bf39cfdd2201"
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "Foreground": 0,
+        "HorizontalAlignment": 1,
+        "Underline": false
+      },
+      {
+        "BorderBottom": 0
+      },
+      {
+        "Formatter": 3
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "#FF000000",
+        "Center",
+        "#FFF0F2F5",
+        " ¥#,##0.0_);[Red] ¥(#,##0.0)",
+        "Body"
+      ],
+      "Borders": [
+        {
+          "Color": 2
+        }
+      ]
+    },
+    "CellStyles": {
+      "0,2": 0,
+      "0,3": 0,
+      "0,4": 0,
+      "0,5": 0,
+      "1,0": 1,
+      "1,1": 1,
+      "1,2": 1,
+      "2,4": 2
+    },
+    "SheetStyle": {
+      "FontFamily": 4
+    }
+  },
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.UserControlPage, ServerDesignerCommon",
+    "PropertyDefinitions": [
+      {
+        "Name": "标题"
+      }
+    ],
+    "CommandDefinitions": [],
+    "MethodDefinitions": [],
+    "PageLoadedCommandList": []
+  },
+  "PrintInfo": {
+    "PaperSize": {},
+    "Margin": {}
+  },
+  "Charts": [
+    {
+      "ChartType": 24,
+      "DataOrientation": 1,
+      "Tag": {
+        "$type": "Forguncy.Model.ChartDataMapping, ServerDesignerCommon",
+        "DataSeriesMapping": [
+          {
+            "SheetName": "分析页_饼图卡片",
+            "ListViewName": "表格1",
+            "ListViewColumnFormula": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "=分析页_饼图卡片!E3"
+            }
+          }
+        ],
+        "ItemsMapping": {
+          "SheetName": "分析页_饼图卡片",
+          "ListViewName": "表格1",
+          "ListViewColumnFormula": {
+            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+            "SerializeProperty": "=分析页_饼图卡片!D3"
+          }
+        },
+        "DataSourceListviewName": "33c5bc97-b7ae-4449-aac7-8a42b4dcc5c0"
+      },
+      "DisplayHidden": true,
+      "ChartColorPalette": {
+        "RepeatAlgorithmTint": [
+          0.0,
+          -40.0,
+          20.0,
+          -20.0,
+          40.0,
+          -50.0,
+          30.0,
+          -30.0,
+          50.0
+        ],
+        "ColorList": [
+          "Accent 1",
+          "Accent 2",
+          "Accent 3",
+          "Accent 4",
+          "Accent 5",
+          "Accent 6"
+        ]
+      },
+      "XAxises": [
+        {
+          "Items": [
+            "彩妆",
+            "护肤品",
+            "洗护用品",
+            "美妆工具",
+            "食品"
+          ],
+          "UseCustomItems": true,
+          "LabelFormatter": "General",
+          "ShowMajorGridlines": false
+        }
+      ],
+      "YAxises": [
+        {
+          "Orientation": 1,
+          "Items": [
+            0.0,
+            "NaN"
+          ],
+          "LabelFormatter": "General"
+        },
+        {
+          "Visible": false,
+          "Orientation": 1,
+          "AxisPosition": 1,
+          "LabelFormatter": "General",
+          "ShowMajorGridlines": false
+        }
+      ],
+      "Legend": {},
+      "DataSeries": [
+        {
+          "ChartType": 24,
+          "Values": [
+            200223184.8,
+            246892369.9,
+            136099191.949999,
+            38787145.35,
+            84268898.1000001
+          ],
+          "Name": "销售额",
+          "DataLabelSettings": {
+            "ShowBubbleSize": false,
+            "ShowPercent": true,
+            "ShowSeriesName": false,
+            "ShowValue": false
+          },
+          "DataLabelStyle": {
+            "IsAutomaticStroke": false,
+            "IsAutomaticFill": false,
+            "StyleInfo": {
+              "Fill": null,
+              "FontFamily": "Body",
+              "FontSize": 14.670000076293945,
+              "FontStretch": "Normal",
+              "FontStyle": "Normal",
+              "FontWeight": "Normal",
+              "Foreground": "Background 1 0",
+              "Stroke": null,
+              "StrokeThickness": 1.0
+            }
+          },
+          "MarkerSize": "7,7",
+          "DataPoints": [
+            {
+              "IsAutomaticStroke": false,
+              "IsAutomaticFill": false,
+              "StyleInfo": {
+                "Fill": "Accent 1",
+                "Stroke": "Background 1",
+                "StrokeThickness": 2.0
+              }
+            },
+            {
+              "PointIndex": 1,
+              "IsAutomaticStroke": false,
+              "IsAutomaticFill": false,
+              "StyleInfo": {
+                "Fill": "Accent 2",
+                "Stroke": "Background 1",
+                "StrokeThickness": 2.0
+              }
+            },
+            {
+              "PointIndex": 2,
+              "IsAutomaticStroke": false,
+              "IsAutomaticFill": false,
+              "StyleInfo": {
+                "Fill": "Accent 3",
+                "Stroke": "Background 1",
+                "StrokeThickness": 2.0
+              }
+            },
+            {
+              "PointIndex": 3,
+              "IsAutomaticStroke": false,
+              "IsAutomaticFill": false,
+              "StyleInfo": {
+                "Fill": "Accent 4",
+                "Stroke": "Background 1",
+                "StrokeThickness": 2.0
+              }
+            },
+            {
+              "PointIndex": 4,
+              "IsAutomaticStroke": false,
+              "IsAutomaticFill": false,
+              "StyleInfo": {
+                "Fill": "Accent 5",
+                "Stroke": "Background 1",
+                "StrokeThickness": 2.0
+              }
+            },
+            {
+              "PointIndex": 5,
+              "IsAutomaticStroke": false,
+              "StyleInfo": {
+                "Stroke": "Accent 1",
+                "StrokeThickness": 0.0
+              }
+            },
+            {
+              "PointIndex": 6,
+              "IsAutomaticStroke": false,
+              "StyleInfo": {
+                "Stroke": "Accent 1",
+                "StrokeThickness": 0.0
+              }
+            },
+            {
+              "PointIndex": 7,
+              "IsAutomaticStroke": false,
+              "StyleInfo": {
+                "Stroke": "Accent 1",
+                "StrokeThickness": 0.0
+              }
+            },
+            {
+              "PointIndex": 8,
+              "IsAutomaticStroke": false,
+              "StyleInfo": {
+                "Stroke": "Accent 1",
+                "StrokeThickness": 0.0
+              }
+            },
+            {
+              "PointIndex": 9,
+              "IsAutomaticStroke": false,
+              "StyleInfo": {
+                "Stroke": "Accent 1",
+                "StrokeThickness": 0.0
+              }
+            },
+            {
+              "PointIndex": 10,
+              "IsAutomaticStroke": false,
+              "StyleInfo": {
+                "Stroke": "Accent 1",
+                "StrokeThickness": 0.0
+              }
+            },
+            {
+              "PointIndex": 11,
+              "IsAutomaticStroke": false,
+              "StyleInfo": {
+                "Stroke": "Accent 1",
+                "StrokeThickness": 0.0
+              }
+            },
+            {
+              "PointIndex": 12,
+              "IsAutomaticStroke": false,
+              "StyleInfo": {
+                "Stroke": "Accent 1",
+                "StrokeThickness": 0.0
+              }
+            },
+            {
+              "PointIndex": 13,
+              "IsAutomaticStroke": false,
+              "StyleInfo": {
+                "Stroke": "Accent 1",
+                "StrokeThickness": 0.0
+              }
+            },
+            {
+              "PointIndex": 14,
+              "IsAutomaticStroke": false,
+              "StyleInfo": {
+                "Stroke": "Accent 1",
+                "StrokeThickness": 0.0
+              }
+            },
+            {
+              "PointIndex": 15,
+              "IsAutomaticStroke": false,
+              "StyleInfo": {
+                "Stroke": "Accent 1",
+                "StrokeThickness": 0.0
+              }
+            },
+            {
+              "PointIndex": 16,
+              "IsAutomaticStroke": false,
+              "StyleInfo": {
+                "Stroke": "Accent 1",
+                "StrokeThickness": 0.0
+              }
+            },
+            {
+              "PointIndex": 17,
+              "IsAutomaticStroke": false,
+              "StyleInfo": {
+                "Stroke": "Accent 1",
+                "StrokeThickness": 0.0
+              }
+            },
+            {
+              "PointIndex": 18,
+              "IsAutomaticStroke": false,
+              "StyleInfo": {
+                "Stroke": "Accent 1",
+                "StrokeThickness": 0.0
+              }
+            },
+            {
+              "PointIndex": 19,
+              "IsAutomaticStroke": false,
+              "StyleInfo": {
+                "Stroke": "Accent 1",
+                "StrokeThickness": 0.0
+              }
+            }
+          ],
+          "IsAutomaticStroke": false,
+          "StyleInfo": {
+            "StrokeDashType": 8,
+            "Stroke": "Background 1",
+            "StrokeThickness": 2.0
+          }
+        }
+      ],
+      "PlotArea": {},
+      "StyleInfo": {
+        "Fill": null,
+        "StrokeDashType": 8,
+        "Stroke": "#FF868686",
+        "StrokeThickness": 0.0
+      },
+      "IsAutomaticStroke": false,
+      "IsAutomaticFill": false,
+      "Name": "Chart1",
+      "Location": "0,47",
+      "Size": "704,363"
+    }
+  ]
+}//2TMJnl7vtYgUdBWzHNdAvfE0yyHlx6IqyYtZBtw72lSz66/6atQ/RmHpobANzhhkMUSOymC++Gco0ddrJiKrzqbhcHtn7yXfOISMlRaKUAEErDcN1oceYb56uv4T+jcJ4tPS2QEXVMAC2RAtI+CF46jBuZ1L5mLKClCvWNKbu+ZWdBswf+qHnE5K7ChzATB9KnvbeXf4trXUPCyokgBotaXZegvbEjs6Xv6xBUNR5Vbn6SspsM70W0sutFMTaGrJoimBxKGHUUiMIT+/Ooo9MkC1rb+s/picSaVG5b1HKvFRkWqe71ZX6e1Ogxhwr2YKF9mJsjn4iBAzkzqcx9GqjEmI7SkpjyEns9CS93r9ZZK5tu4g0TdwXJEqs/TG+zj9iA1O3xH+N6QWe4jANRwRud4KM8W98U5hjNzD/thTCzE16CM+tbEhw6bBMCYKyoHj/XsUXt8DcpYBcweM/+APs5kwBGe0qW+FAjCUmRrpzuAhIluysx67oj7oivYRuOziTEW3x23n9OmYU5ybM2BKAvroYs8UZHQSodsfQw7XjuWnYtXR0uALLHKhFJPaMWabo5hbi/lp5TTX0JMgYaxmXcfxcea5ElYyWBnhcIRn2tDd+dUvWx9eV6kPgQvZTHqmVdGi//vSot7tydU8lkj/scD4ojuXGA7n1zgb2oreBoLapmWcYbsFlArSh3kItW4BZE8hyhLr7ho5NcJe5f9jFjIFDYBaiaA6ejpGpPBdjK460uVqtqd85krZHSdER4l1trenXRD6LUzV8SuDXLYafmTe8/4f6AVl9qrQOYvbKaMkeAc7nKLPZDLy1qh/oNt9wvkPw+E6IfvpRNGzlb3bm8600L6xob08Cp2dszm3qjSIzPzmeQzZTA2DUJzu9OkBEkCPQqhrHzvkvOLmUQeCVw==|920

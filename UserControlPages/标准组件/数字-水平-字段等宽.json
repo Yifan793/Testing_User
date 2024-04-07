@@ -1,0 +1,99 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      }
+    },
+    "Count": 1,
+    "DefaultSize": 30.0
+  },
+  "Cols": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 100.0,
+          "Mode": 2,
+          "MinLength": {
+            "Value": 10.0,
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 100.0,
+            "Unit": 1
+          }
+        }
+      },
+      "1": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 100.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      }
+    },
+    "Count": 2,
+    "DefaultSize": 100.0
+  },
+  "AttachInfos": {
+    "0,0": {
+      "TemplateCellSource": "字段"
+    },
+    "0,1": {
+      "CellType": {
+        "$type": "Forguncy.NumberCellType, ServerDesignerCommon",
+        "TemplateKey": "样式2",
+        "CommandList": []
+      },
+      "TemplateCellSource": "Fgc-UC-TwoWayBinding-Value-Column"
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "HorizontalAlignment": 0
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Left",
+        "Body"
+      ]
+    },
+    "ColStyles": {
+      "1": 0
+    },
+    "SheetStyle": {
+      "FontFamily": 1
+    }
+  },
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.UserControlPage, ServerDesignerCommon",
+    "PropertyDefinitions": [
+      {
+        "Name": "字段"
+      }
+    ],
+    "CommandDefinitions": [],
+    "MethodDefinitions": [],
+    "PageLoadedCommandList": []
+  },
+  "PrintInfo": {
+    "PaperSize": {},
+    "Margin": {}
+  }
+}//FxS1/Ix5RhYjnGmHQKh96FnX60tdeU3+Kb98WyW+pvRnWRjgzapa7apxInqBRqn/cWP3nc/ZPMwL6R2Dt2/erHLzIbpdel2r34TF7EkyS7YkSs+/xSamlmO6OcG4RKtYWKrzqBs/Mh6wWcc/av5/QFBN/G59ePEgQayJyqFStphWGWKMODqpqXhYtsY0H7zrGWI4zTmCd0sr6FivsmgYal5MW9i6v1rBV7zuk3SdlAlQQtVKtGwlmn6hx2Fn4/ZyWdvftx8+hIWRPMJphWYstdNIpzOBdehhLNV0lt852jqpSXyz2ZcPhJi8mXdHIdjOe7hEyQqIzen3QvfybUvuWljbundARz7PPd6VgoNUqBZgVGuNi1sjq/gkO8SAQZYtWYmSektaAuf18YBNHln5Q8rWxtTpTB9m4ITiFcbsQKdQsmGL+nW834KnOC57Mr2dyaYseiIQdpu/BIxpai49d/wDQM/iAwxmdTeDrBFsPCLdzma44kxZCaIHjcySrjyHHx4+fST35eOUUn2c7QX71n3u4aYKk9sT2fUBsf0QpjzQPchtbt9ZyonkpVaeiV8HqtzUBrLQ/oIbL21g4EyIlkhrWNZhIJ2cFadIOk/Y4nQbc/4xX3AHhwi+nspja7xxGhjFuvmotvuFRzZtuq9seKDgDXfD0caJlQau8jD8fpkVexn+4fDcijeg9y7GWgiyrXkYiI8nfbFVBnEhy1cAoA7gxQtjPcO2Ts0W04SRsZkH/HNAEW2y53Ev1uF4Wka7PYPCfg5+DzQ6q724oHwJrJAvVc2xfSiNZVMtHSG9k1WriGW5VUKpUldbPkJ7P888h8sDhDY0mWkZvi8wYnuH+4eONtPgNsyvKRLExoSLHCmeTUUvrgSoSy+lg5s87qutV6n7ZVogrKEVB+cQgIcDTg==|920

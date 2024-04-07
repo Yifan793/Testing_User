@@ -1,0 +1,413 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 8.0
+        }
+      },
+      "1": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 40.0
+        }
+      },
+      "2": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 8.0
+        }
+      },
+      "3": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 8.0
+        }
+      },
+      "4": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 600.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "5": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      }
+    },
+    "Count": 6,
+    "DefaultSize": 8.0
+  },
+  "Cols": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "1": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "2": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 532.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "3": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 72.0
+        }
+      },
+      "4": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      }
+    },
+    "Count": 5,
+    "DefaultSize": 16.0
+  },
+  "Values": {
+    "1,3": "添加"
+  },
+  "AttachInfos": {
+    "1,1": {
+      "CellType": {
+        "$type": "Forguncy.UserControlPageCellType, ServerDesignerCommon",
+        "UserControlPageName": "一级标题"
+      },
+      "TemplateCellSource": "标题"
+    },
+    "1,3": {
+      "CellType": {
+        "$type": "Forguncy.HyperlinkCellType, ServerDesignerCommon",
+        "Text": "添加",
+        "ClickMode": 1
+      }
+    },
+    "4,1": {
+      "CellType": {
+        "$type": "ElementUI.CalendarCellType, ElementUI",
+        "firstDayOfWeek": 1
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "FontSize": 18.666666666666664,
+        "TextIndent": 3,
+        "HorizontalAlignment": 0,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "Foreground": 1,
+        "HorizontalAlignment": 2,
+        "Underline": false,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "HorizontalAlignment": 3,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "BorderBottom": 0,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontSize": 18.666666666666664,
+        "Foreground": 5,
+        "TextIndent": 10,
+        "HorizontalAlignment": 0,
+        "BorderBottom": 0,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "Foreground": 6,
+        "HorizontalAlignment": 3,
+        "Underline": false,
+        "BorderBottom": 0,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontSize": 16.0,
+        "Foreground": 5,
+        "TextIndent": 10,
+        "HorizontalAlignment": 0,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "Foreground": 6,
+        "HorizontalAlignment": 3,
+        "Underline": false,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 7,
+        "HorizontalAlignment": 3,
+        "WordWrap": true,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 7,
+        "WordWrap": true,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Left",
+        "Accent 1 0",
+        "Right",
+        "Center",
+        "Background 1 -5",
+        "Text 1 0",
+        "Blue",
+        "Body"
+      ],
+      "Borders": [
+        {
+          "Color": 4
+        }
+      ]
+    },
+    "CellStyles": {
+      "1,1": 0,
+      "1,3": 1,
+      "1,4": 2,
+      "2,0": 3,
+      "2,1": 3,
+      "2,2": 4,
+      "2,3": 5,
+      "2,4": 5,
+      "3,2": 6,
+      "3,3": 7,
+      "3,4": 7,
+      "4,1": 8,
+      "4,4": 9,
+      "5,1": 8,
+      "5,2": 8,
+      "5,3": 8,
+      "5,4": 9
+    },
+    "SheetStyle": {
+      "FontFamily": 7,
+      "BorderBottom": null,
+      "BorderTop": null,
+      "BorderLeft": null,
+      "BorderRight": null
+    }
+  },
+  "Spans": [
+    "1,1,1,2",
+    "4,1,1,3"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.UserControlPage, ServerDesignerCommon",
+    "PropertyDefinitions": [
+      {
+        "Name": "标题"
+      }
+    ],
+    "CommandDefinitions": [
+      {
+        "Name": "详情点击"
+      }
+    ],
+    "MethodDefinitions": [],
+    "PageLoadedCommandList": [
+      {
+        "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
+        "ParameterName": "快捷导航列表",
+        "TableValue": {
+          "TableName": "快捷导航表",
+          "BindingInfos": [
+            {
+              "BindingInfo": {
+                "TableName": "快捷导航表",
+                "ColumnName": "菜单ID",
+                "GUID": "6d0230d8-32dc-433c-b990-e971a46da34b",
+                "RelationBinding": {
+                  "RelatedTable": "导航菜单表",
+                  "RelatedColumn": "ID",
+                  "DisplayColumn": "显示文本"
+                }
+              },
+              "ColumnName": "显示文本"
+            }
+          ],
+          "SqlCondition": {
+            "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+            "ColumnBindingInfo": {
+              "TableName": "快捷导航表",
+              "ColumnName": "用户",
+              "GUID": "f8d85c4a-fc7f-4cd8-8d5c-354d04387411"
+            },
+            "Value": "%CurrentUser.UserName%"
+          }
+        },
+        "ID": "e12bf5ae67ea4da5a446cb534cc230e2"
+      },
+      {
+        "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
+        "ParameterName": "导航数组",
+        "ID": "393b7520e2264b46a6b840ebf46e1aaa"
+      },
+      {
+        "$type": "Forguncy.Model.LoopCommand, ServerDesignerCommon",
+        "LoopInfo": {
+          "$type": "Forguncy.Model.CountLoopInfo, ServerDesignerCommon",
+          "LoopCount": {
+            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+            "SerializeProperty": "='工作台-日历'!快捷导航列表"
+          },
+          "LoopItemParamName": "Item"
+        },
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
+            "ParameterName": "导航数组",
+            "ParameterValue": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "='工作台-日历'!导航数组&\",\"&'工作台-日历'!Item.显示文本"
+            },
+            "ID": "a51920fff1b54d3ea2fca43d7078ca26"
+          }
+        ]
+      },
+      {
+        "$type": "Forguncy.Model.SetCellPropertyCommand, ServerDesignerCommon",
+        "PropertyItemsList": [
+          {
+            "TargetCells": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "='工作台-日历'!B5"
+            },
+            "Value": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "='工作台-日历'!导航数组"
+            }
+          }
+        ]
+      },
+      {
+        "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
+        "ParameterName": "快捷导航列表",
+        "TableValue": {
+          "TableName": "快捷导航表",
+          "BindingInfos": [
+            {
+              "BindingInfo": {
+                "TableName": "快捷导航表",
+                "ColumnName": "菜单ID",
+                "GUID": "fe717809-9240-4581-b43a-c9b0f5745d23",
+                "RelationBinding": {
+                  "RelatedTable": "导航菜单表",
+                  "RelatedColumn": "ID",
+                  "DisplayColumn": "显示文本"
+                }
+              },
+              "ColumnName": "显示文本"
+            }
+          ],
+          "SqlCondition": {
+            "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+            "ColumnBindingInfo": {
+              "TableName": "快捷导航表",
+              "ColumnName": "用户",
+              "GUID": "6bf71386-5452-4fd4-8fa5-8f26f5b8d4c1"
+            },
+            "Value": "%CurrentUser.UserName%"
+          }
+        },
+        "ID": "813ede1ddf07493bba4f480050c9cce9"
+      },
+      {
+        "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
+        "ParameterName": "导航数组",
+        "ID": "5d02e5ffe2584af0bc3047d6b34e3e98"
+      },
+      {
+        "$type": "Forguncy.Model.LoopCommand, ServerDesignerCommon",
+        "LoopInfo": {
+          "$type": "Forguncy.Model.CountLoopInfo, ServerDesignerCommon",
+          "LoopCount": {
+            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+            "SerializeProperty": "='工作台-日历'!快捷导航列表"
+          },
+          "LoopItemParamName": "Item"
+        },
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
+            "ParameterName": "导航数组",
+            "ParameterValue": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "='工作台-日历'!导航数组&\",\"&'工作台-日历'!Item.显示文本"
+            },
+            "ID": "d8b102074d2147d3a8150de281475467"
+          }
+        ]
+      },
+      {
+        "$type": "Forguncy.Model.SetCellPropertyCommand, ServerDesignerCommon",
+        "PropertyItemsList": [
+          {
+            "TargetCells": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "='工作台-日历'!B5"
+            },
+            "Value": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "='工作台-日历'!导航数组"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "PrintInfo": {
+    "PaperSize": {},
+    "Margin": {}
+  }
+}//dNSIJSNgNqrooyGCJJDgI7iHWiu0x0SgyIBSIPwnAGIJCIrNigriSZxv+xdOPJeDOD3AgrxdLcabQLHtzodwB7a7/OE0WIeu3XkKFWZBLYXxTAM6hkSEy3TYJouMTuppMj9bhhH1s+eHzCYgpc78fmrOhvfZ9Yf5BGtzJvotyHUn5cZZ0YcS0eb4T8plmmF/TIbbVoHEKT/1wDm9WreBffiu1gg+Uwohf6O6fFr2hwTRvFahzH7oikzj0ss6VOYeNroQVCY2xrHQFN6o82zXLAMi879JUrODZ1928uhL8mbPKrOG+685kMrNQWW4dD+NAXmpen36ZaF7fofzhOAP7zTQ3sAvBTLI+l9PWSMub6SufkPqdmCgxw8Q2HJYyqDR2i2DBnZ0j5BgFShdyZ5cQWbG0khpF8yUQ7PV2b55Hn07Bzc0h43QMmymWvCtjQ6mrv+SyrAnAPjfd9rrf8VCIW/9unSFNXJ3tSWa7YDWSft4ICDbYB9qplSigM6CtXALZN8Bp7mh2oz2C2x9MVy1cgcyBB1hFE1bi6msxJwoxcWLiq6tDNzLFytf8wo/VTkdSUMC4h/b+JxPwMNwTPvkAo/1+6LnUbMZCWHXLv0lVvl1oRH6CnY/83Ea5XvqirhPWOBAfcwmYbL27yanu1j9vxtih2mQmKbQKf6yYpIy4L0i/FipD6r9XxZGA6lY9IhFkKpeF9pow4OVqhLw99n4QzL5tkTNybwz7nwv/4ziF4en+wmrgH1qFeyY8efoitJqkIR6hs4IEh12K95yFZA8IgcxlRbYiXaMs+rK+lbX5YOmZkEXz7PU+F/xfQRUbjtQnxVq9ILuzxmA6VPvXl9y07Y04Qc36H+rt0CVZU+skl+YBvGiqBWAWrkjjvnPE0JdRX+UZt4c7RPDZ4Y8545giQ==|920

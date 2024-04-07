@@ -1,0 +1,48 @@
+{
+  "IntegrateWithOtherApplication": {
+    "Password": "vvQcb~$r~VRo"
+  },
+  "ShareCommandContainers": [],
+  "LoadingIndicatorSettings": {
+    "CSSLoading": 13
+  },
+  "ListviewLoadingIndicatorSettings": {},
+  "GlobalProperties": [],
+  "WebSitePort": 44055,
+  "UserServicePort": 32014,
+  "BpmServerSchemaId": "467368eb-25d7-47a2-951d-caf43caf0275",
+  "StartPage": "组织维护",
+  "ExecConcurrentScheduledTasks": false,
+  "StartDateFiscalYear": 1,
+  "BaseOnStartingMonth": true,
+  "KeepMasterPage": false,
+  "NameConflictPolicy": 1,
+  "PageLoadingMode": 2,
+  "MultipleLanguageSettings": {
+    "Languages": [
+      {
+        "Name": "cn",
+        "IsDefault": true,
+        "Description": "内置语言中文，不可删除",
+        "IsBuildIn": true,
+        "LanguageAttribute": "zh-cn",
+        "FontFamily": "Body"
+      },
+      {
+        "Name": "en",
+        "Description": "内置语言英文，不可删除",
+        "IsBuildIn": true,
+        "LanguageAttribute": "en",
+        "FontFamily": "Calibri"
+      }
+    ],
+    "PublicResource": {},
+    "RuntimeBuiltInResource": {
+      "FrontEndResources": {},
+      "ServerResources": {},
+      "ProcessDesignerResource": {},
+      "ProcessTrackerResource": {}
+    },
+    "PluginResource": {}
+  }
+}

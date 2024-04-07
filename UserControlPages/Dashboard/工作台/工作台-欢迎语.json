@@ -1,0 +1,108 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 8.0
+        }
+      },
+      "1": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 40.0
+        }
+      },
+      "2": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      }
+    },
+    "Count": 3,
+    "DefaultSize": 8.0
+  },
+  "Cols": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 60.0,
+          "Mode": 1
+        }
+      },
+      "1": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 60.0,
+          "Mode": 1
+        }
+      },
+      "2": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "3": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 60.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      }
+    },
+    "Count": 4,
+    "DefaultSize": 60.0
+  },
+  "Values": {
+    "1,0": "您好，",
+    "1,1": "%CurrentUser.FullName%",
+    "1,2": "，"
+  },
+  "AttachInfos": {
+    "1,3": {
+      "TemplateCellSource": "连接文本"
+    },
+    "2,0": {
+      "CellType": {
+        "$type": "Forguncy.UserControlPageCellType, ServerDesignerCommon",
+        "UserControlPageName": "欢迎语-连接文本"
+      }
+    }
+  },
+  "StyleDatas": {
+    "Types": {
+      "Strs": [
+        "Body"
+      ]
+    },
+    "SheetStyle": {
+      "FontFamily": 0,
+      "FontSize": 18.666666666666664,
+      "BorderBottom": null,
+      "BorderTop": null,
+      "BorderLeft": null,
+      "BorderRight": null
+    }
+  },
+  "Spans": [
+    "2,0,1,4"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.UserControlPage, ServerDesignerCommon",
+    "PropertyDefinitions": [
+      {
+        "Name": "连接文本",
+        "DefaultValue": "欢迎来到工作台！"
+      }
+    ],
+    "CommandDefinitions": [],
+    "MethodDefinitions": [],
+    "PageLoadedCommandList": []
+  },
+  "PrintInfo": {
+    "PaperSize": {},
+    "Margin": {}
+  }
+}//CuVi406PGG97uUWNlPaLyifQRWv9+K7/wplQEvU2q+uc1AynnmuJy3dET+qWapHnmiIh56WOJtJ74tOX66S3pkwIZ989OsMcttwn57CnSvJBXwryGCV673mYZ3Wdq3PwJV40iaSApJ1ptTszKsq/nDqWHpZT05sW0nWRRQFHWYA6et5KiejrETnPFADsHKrhU0TntvQVxLwOo0GeDKoloCx6GZKzzGPoTw+7CgJxkSooDCTfdky5PKB8YKqCNyzUHVwMQk1+rm3Rr7cAaLlZsG0hRv9xcefMv8+03LPU4Q0NlBDr3Q3BGS8r0ltqU9uFgU9IolbUKf5hyDyaPxsAZxDcsBCK1so3DxynJ7b9X97Fx7v03eIfzk1hjZkBefAFMmXEmZhZX4QuLXEB43pmPfJTUnyi8dF8qUWkPe9LWqMBTsU/vwohFsjM7JOVidwXCuv5essJocouMDs23rBGT6LvbHGFVOhYri750os3/DbLb6ffrdcPHbbPQQJLWA2Rdqw3MkoUgxbN2SiDA83jkTB0dY3mxA7FBSzq56l8+6rN7++mmr0ahInWX3XoJ9BF4CktoYvqcxqIFdJC9BG9CWswOROyIVKKlwcSgkBMDkuJAy4h2fBDGdP/3ecGcpDaGRY3n+xnxmS5o8n3h/8PJ3fbwmDFayfeOOvh497rK0noCnm9fl1WV7eXq9onZ7of6jfZTDO9Dl4bA/+qdKAIsVCgfeS2MYM16vOOFdeCmtquhcVvd6T5zJwTy/Jxu9UdEaSE3MQBzvX+BoBf74ArTrYwkevfyTCU+yjFl2bU2l9rxIB2LW5UZEsy5nfu0O160ouT7+yefyeih8MSKDwrV/nqvl7LUykmR0PIrHEVees76xHBqEg+y/GKJfL9Tw4Y1ZDocmtfuO3vo4qPCVvw3g==|920

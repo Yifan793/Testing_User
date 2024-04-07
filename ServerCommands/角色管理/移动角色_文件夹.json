@@ -1,0 +1,76 @@
+{
+  "Name": "移动角色_文件夹",
+  "Enabled": true,
+  "Triggers": [
+    {
+      "$type": "Forguncy.SaveLoad.PostRequestTriggerSaveData, ServerDesignerCommon",
+      "Permission": {
+        "PermissionData": {
+          "$type": "Forguncy.RbacPermission.Core.Impl.ServerCommand.ServerCommandPermissionData, Forguncy.RbacPermission.Core",
+          "permissionResource": {
+            "$type": "Forguncy.RbacPermission.Core.Impl.ServerCommand.ServerCommandPermissionResource, Forguncy.RbacPermission.Core"
+          },
+          "permissionBindings": [
+            {
+              "$type": "Forguncy.RbacPermission.Core.Impl.ServerCommand.ServerCommandPermissionBinding, Forguncy.RbacPermission.Core",
+              "roleNames": [
+                "FGC_LoginUser"
+              ]
+            }
+          ]
+        }
+      },
+      "Parameters": [
+        {
+          "Name": "移动节点ID",
+          "DataValidationInfo": {}
+        },
+        {
+          "Name": "拖动节点是否为角色",
+          "DataValidationInfo": {}
+        },
+        {
+          "Name": "移动位置类型",
+          "DataValidationInfo": {}
+        },
+        {
+          "Name": "目标节点ID",
+          "DataValidationInfo": {}
+        },
+        {
+          "Name": "目标节点是否为角色",
+          "DataValidationInfo": {}
+        }
+      ]
+    }
+  ],
+  "Commands": [
+    {
+      "$type": "UserManagementCommandsV2.RoleManagementCommand, UserManagementCommandsV2",
+      "OperationType": "204",
+      "CommandOperator": {
+        "$type": "UserManagementCommandsV2.MoveRoleOrFolderOperator, UserManagementCommandsV2",
+        "DragNodeId": {
+          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+          "SerializeProperty": "=移动节点ID"
+        },
+        "IsDraggedRole": {
+          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+          "SerializeProperty": "=拖动节点是否为角色"
+        },
+        "MovePositionType": {
+          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+          "SerializeProperty": "=移动位置类型"
+        },
+        "DropNodeId": {
+          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+          "SerializeProperty": "=目标节点ID"
+        },
+        "IsDroppedRole": {
+          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+          "SerializeProperty": "=目标节点是否为角色"
+        }
+      }
+    }
+  ]
+}

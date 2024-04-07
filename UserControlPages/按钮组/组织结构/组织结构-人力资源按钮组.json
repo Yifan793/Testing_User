@@ -1,0 +1,380 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      }
+    },
+    "Count": 1,
+    "DefaultSize": 30.0
+  },
+  "Cols": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 60.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "1": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 77.0,
+          "Mode": 1
+        }
+      },
+      "2": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "3": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 77.0,
+          "Mode": 1
+        }
+      },
+      "4": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "5": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 90.0,
+          "Mode": 1
+        }
+      },
+      "6": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "7": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 230.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          },
+          "IsHidden": true
+        }
+      }
+    },
+    "InLogicalVisibleIndexes": [
+      7
+    ],
+    "Count": 8,
+    "DefaultSize": 16.0
+  },
+  "Values": {
+    "0,1": "  添加人员  ",
+    "0,3": "  批量移除  ",
+    "0,5": "  显示列定制  "
+  },
+  "AttachInfos": {
+    "0,1": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.CallUserControlPageCommand, ServerDesignerCommon",
+            "CommandName": "添加人员事件"
+          },
+          {
+            "$type": "Forguncy.Model.ShowPopupCommand, ServerDesignerCommon",
+            "PageName": "组织成员添加",
+            "PassValues": [
+              {
+                "Source": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "='组织结构-人力资源按钮组'!组织结构ID"
+                },
+                "TargetCell": {
+                  "SerializeProperty": "=组织成员添加!组织结构ID"
+                }
+              }
+            ],
+            "LoadBindingDataOption": 2
+          }
+        ],
+        "Text": "  添加人员  ",
+        "TemplateKey": "组织结构_搜索按钮1"
+      }
+    },
+    "0,3": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.CallUserControlPageCommand, ServerDesignerCommon",
+            "CommandName": "批量删除事件"
+          },
+          {
+            "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
+            "ConditionAndCommandPairList": [
+              {
+                "Condition": {
+                  "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                  "param": {
+                    "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                    "cellLocations": [
+                      {
+                        "SerializeProperty": "='组织结构-人力资源按钮组'!表格选择项"
+                      }
+                    ]
+                  },
+                  "value": "%Null%"
+                },
+                "CommandList": [
+                  {
+                    "$type": "ElementUI.Commands.ShowMessage, ElementUI",
+                    "Message": "请选择数据后再进行批量操作",
+                    "Type": "warning",
+                    "Duration": 3000,
+                    "Offset": null
+                  }
+                ],
+                "ID": "ff713058-fed3-4315-9e37-4bbbf4bd9082"
+              },
+              {
+                "CommandList": [
+                  {
+                    "$type": "ElementUI.Commands.ShowMessageBox, ElementUI",
+                    "Title": "操作",
+                    "Message": "你确定要移除人员么？",
+                    "Type": "warning",
+                    "ConfirmButtonText": "确定",
+                    "CancelButtonText": "取消",
+                    "DialogResult": "result",
+                    "AdvancedSettings": {}
+                  },
+                  {
+                    "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
+                    "ConditionAndCommandPairList": [
+                      {
+                        "Condition": {
+                          "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                          "param": {
+                            "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                            "cellLocations": [
+                              {
+                                "SerializeProperty": "='组织结构-人力资源按钮组'!result"
+                              }
+                            ]
+                          },
+                          "value": "confirm"
+                        },
+                        "CommandList": [
+                          {
+                            "$type": "Forguncy.Model.RequestServerCommand, ServerDesignerCommon",
+                            "ServerCommandName": "移除组织人员",
+                            "Parameters": [
+                              {
+                                "$type": "Forguncy.Model.RequestServerCommandObjectParam, ServerDesignerCommon",
+                                "ParamName": "组织节点ID",
+                                "Value": {
+                                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                                  "SerializeProperty": "='组织结构-人力资源按钮组'!组织结构ID"
+                                }
+                              },
+                              {
+                                "$type": "Forguncy.Model.RequestServerCommandObjectParam, ServerDesignerCommon",
+                                "ParamName": "当前成员",
+                                "Value": {
+                                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                                  "SerializeProperty": "='组织结构-人力资源按钮组'!表格选择项"
+                                }
+                              }
+                            ],
+                            "ResultErrorCodeTo": {
+                              "SerializeProperty": "返回码"
+                            },
+                            "ResultMessageTo": {
+                              "SerializeProperty": "返回信息"
+                            },
+                            "RefreshAfterFinish": true,
+                            "CheckDataValidation": true
+                          },
+                          {
+                            "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
+                            "ConditionAndCommandPairList": [
+                              {
+                                "Condition": {
+                                  "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                                  "param": {
+                                    "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                                    "cellLocations": [
+                                      {
+                                        "SerializeProperty": "='组织结构-人力资源按钮组'!返回码"
+                                      }
+                                    ]
+                                  },
+                                  "value": "0"
+                                },
+                                "CommandList": [
+                                  {
+                                    "$type": "ElementUI.Commands.ShowMessage, ElementUI",
+                                    "Message": "人员移除成功",
+                                    "Type": "success",
+                                    "Duration": 3000,
+                                    "Offset": null
+                                  }
+                                ],
+                                "ID": "f639a734-2609-4455-811d-f2d690b71859"
+                              },
+                              {
+                                "CommandList": [
+                                  {
+                                    "$type": "ElementUI.Commands.ShowMessage, ElementUI",
+                                    "Message": {
+                                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                                      "SerializeProperty": "=\"人员移除失败。失败原因：\"&'组织结构-人力资源按钮组'!返回信息"
+                                    },
+                                    "Type": "error",
+                                    "Duration": 3000,
+                                    "Offset": null
+                                  }
+                                ],
+                                "ID": "9735eaf9-ce8f-4261-b09e-8aced0483155"
+                              }
+                            ]
+                          }
+                        ],
+                        "ID": "8ff9c883-7e1b-4e35-ba93-a69b435c4ff3"
+                      }
+                    ]
+                  }
+                ],
+                "ID": "bd612e34-3dd5-49f1-a7f5-c0598eeb2b01"
+              }
+            ]
+          }
+        ],
+        "Text": "  批量移除  ",
+        "IsDisabled": true,
+        "TemplateKey": "组织结构_搜索按钮1"
+      },
+      "RulesGuidList": [
+        "e1b92944-e57f-401c-b9c7-9ad02aacd137"
+      ]
+    },
+    "0,5": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.CallUserControlPageCommand, ServerDesignerCommon",
+            "CommandName": "显示列定制事件"
+          }
+        ],
+        "Text": "  显示列定制  ",
+        "TemplateKey": "组织结构_搜索按钮1"
+      }
+    },
+    "0,7": {
+      "TemplateCellSource": "表格选择项"
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "FontFamily": 0,
+        "FontSize": 13.333333333333332,
+        "Formatter": 1
+      },
+      {
+        "FontFamily": 0,
+        "FontSize": 13.333333333333332
+      },
+      {
+        "FontSize": 13.333333333333332
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Body",
+        "[AUTO]General"
+      ]
+    },
+    "CellStyles": {
+      "0,3": 0,
+      "0,5": 0,
+      "0,7": 1
+    },
+    "ColStyles": {
+      "1": 2,
+      "2": 2,
+      "3": 2,
+      "4": 2,
+      "5": 2,
+      "6": 2,
+      "7": 2
+    },
+    "SheetStyle": {
+      "FontFamily": 0
+    }
+  },
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.UserControlPage, ServerDesignerCommon",
+    "PropertyDefinitions": [
+      {
+        "Name": "组织结构ID"
+      },
+      {
+        "Name": "表格选择项"
+      }
+    ],
+    "CommandDefinitions": [
+      {
+        "Name": "添加人员事件"
+      },
+      {
+        "Name": "批量删除事件"
+      },
+      {
+        "Name": "显示列定制事件"
+      }
+    ],
+    "MethodDefinitions": [],
+    "PageLoadedCommandList": [],
+    "ConditionFormatRulesCollection": {
+      "Rules": [
+        {
+          "$type": "Forguncy.ConditionFormat.FormulaRule, ServerDesignerCommon",
+          "Formula": {
+            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+            "SerializeProperty": "=IF('组织结构-人力资源按钮组'!H1=0,0,1)"
+          },
+          "GUID": "e1b92944-e57f-401c-b9c7-9ad02aacd137",
+          "StyleInfo": {
+            "Underline": null,
+            "Strikethrough": null
+          },
+          "IsDisabled": false
+        }
+      ]
+    }
+  },
+  "PrintInfo": {
+    "PaperSize": {},
+    "Margin": {}
+  }
+}//Dwn8yrGsljusaoYcL1VIafEz+MtfG1wC7lJ4hB0xUWYo8ngYGRCKSQk/am9evHPRjzfwalRUjXnCJMJOyGZ0RMN8JALT3Q6mQnyNGFckKaIbly45kT4Cgr+JzVZcSe5vWHO1hJctqNnSsyfz96JsLKjM3yhJ5J57mtGsXeq1OQQUMJk40hyZFD90g7S3kuzy88IZfTzvq1AFasZfPnQAWVWuZg0WyxegG9lKqk03UJj67gpgZR15o5VHg4aVoIX1KPKos1VHpOos07LMcIRsxwB3BlqDlynUlEbqRNNe5DzXXdu4UXqvBvPkTjHqutlmFnrHX2n4cbsd3lr4r109jv5xj9qqkUTZxm0UpIlGINqOt1UrzsB84Zy4DqMVvBY0dzVuxt+NjGyXONXfZQXSD8Ug+A9vKyiGGNNtIgWsCG4IVfj97mjJv4Psr7VIzWVDs1pUPsZh0R+ZEUwe1xpDiH8BAB09c3EXD5fA15QH00jbQD+oI5MlKaiN6eoycGnYBQ4f35t7sWOl7DIFH4mNSCz3Sp74r9AbmWujCBP/qZ3k7KsVt0vxiU0bkgyS/AhBpzdtp+Nlver2+xyknOdCAJS1E3erPz/r4CdiS3mY04IjGXCuEmW/5U3r8+d9DFZtKhGIYPQRq7OYBXFHlNC/prpU+xyTlLvaPek4E6AWwcQ6W3zkOtKNiNhBbV1r7J03oSyOvnJIQHH9ezKQkmrROh6C92U5ZGsZAmu1AGOKw4yA6/nRW2zLHkqvGmIrCl3Y3bJ6Fs+H7jMjfNbOWziZz5gu/xY2Bz2ohKfuRpvIm3zkRI/JffYE7yw90H21mUvLmEhy8BbNLGzkOlcetVoEqJ3VBQzycjWsuHolYsCLgKTSxhqSvVIKSZH7zI8KilncsSZXUfOw4/UV9b0Nv2XghQ==|920

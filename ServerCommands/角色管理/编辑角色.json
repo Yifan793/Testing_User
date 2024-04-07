@@ -1,0 +1,68 @@
+{
+  "Name": "编辑角色",
+  "Enabled": true,
+  "Triggers": [
+    {
+      "$type": "Forguncy.SaveLoad.PostRequestTriggerSaveData, ServerDesignerCommon",
+      "Permission": {
+        "PermissionData": {
+          "$type": "Forguncy.RbacPermission.Core.Impl.ServerCommand.ServerCommandPermissionData, Forguncy.RbacPermission.Core",
+          "permissionResource": {
+            "$type": "Forguncy.RbacPermission.Core.Impl.ServerCommand.ServerCommandPermissionResource, Forguncy.RbacPermission.Core"
+          },
+          "permissionBindings": [
+            {
+              "$type": "Forguncy.RbacPermission.Core.Impl.ServerCommand.ServerCommandPermissionBinding, Forguncy.RbacPermission.Core",
+              "roleNames": [
+                "FGC_LoginUser"
+              ]
+            }
+          ]
+        }
+      },
+      "Parameters": [
+        {
+          "Name": "角色ID",
+          "DataValidationInfo": {}
+        },
+        {
+          "Name": "角色名称",
+          "DataValidationInfo": {}
+        },
+        {
+          "Name": "父文件夹ID",
+          "DataValidationInfo": {}
+        },
+        {
+          "Name": "描述",
+          "DataValidationInfo": {}
+        }
+      ]
+    }
+  ],
+  "Commands": [
+    {
+      "$type": "UserManagementCommandsV2.RoleManagementCommand, UserManagementCommandsV2",
+      "OperationType": "102",
+      "CommandOperator": {
+        "$type": "UserManagementCommandsV2.UpdateRoleOperator, UserManagementCommandsV2",
+        "RoleId": {
+          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+          "SerializeProperty": "=角色ID"
+        },
+        "RoleName": {
+          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+          "SerializeProperty": "=角色名称"
+        },
+        "Description": {
+          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+          "SerializeProperty": "=描述"
+        },
+        "ParentFolderId": {
+          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+          "SerializeProperty": "=父文件夹ID"
+        }
+      }
+    }
+  ]
+}

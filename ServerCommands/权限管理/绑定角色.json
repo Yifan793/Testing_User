@@ -1,0 +1,53 @@
+{
+  "Name": "绑定角色",
+  "Enabled": true,
+  "Triggers": [
+    {
+      "$type": "Forguncy.SaveLoad.PostRequestTriggerSaveData, ServerDesignerCommon",
+      "Permission": {
+        "PermissionData": {
+          "$type": "Forguncy.RbacPermission.Core.Impl.ServerCommand.ServerCommandPermissionData, Forguncy.RbacPermission.Core",
+          "permissionResource": {
+            "$type": "Forguncy.RbacPermission.Core.Impl.ServerCommand.ServerCommandPermissionResource, Forguncy.RbacPermission.Core"
+          },
+          "permissionBindings": [
+            {
+              "$type": "Forguncy.RbacPermission.Core.Impl.ServerCommand.ServerCommandPermissionBinding, Forguncy.RbacPermission.Core",
+              "roleNames": [
+                "FGC_LoginUser"
+              ]
+            }
+          ]
+        }
+      },
+      "Parameters": [
+        {
+          "Name": "权限ID",
+          "DataValidationInfo": {}
+        },
+        {
+          "Name": "角色ID字符串",
+          "DataValidationInfo": {}
+        }
+      ]
+    }
+  ],
+  "Commands": [
+    {
+      "$type": "UserManagementCommandsV2.RoleManagementCommand, UserManagementCommandsV2",
+      "OperationType": "223",
+      "CommandOperator": {
+        "$type": "UserManagementCommandsV2.SetRoleOwnedPermissionsOperator, UserManagementCommandsV2",
+        "InheritedType": "其他角色拥有此角色权限",
+        "RoleId": {
+          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+          "SerializeProperty": "=权限ID"
+        },
+        "OwnedRoleIds": {
+          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+          "SerializeProperty": "=角色ID字符串"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      }
+    },
+    "Count": 1,
+    "DefaultSize": 30.0
+  },
+  "Cols": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 60.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "1": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 77.0,
+          "Mode": 1
+        }
+      },
+      "2": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      }
+    },
+    "Count": 3,
+    "DefaultSize": 60.0
+  },
+  "Values": {
+    "0,1": "  绑定权限  "
+  },
+  "AttachInfos": {
+    "0,1": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.CallUserControlPageCommand, ServerDesignerCommon",
+            "CommandName": "绑定权限事件"
+          }
+        ],
+        "Text": "  绑定权限  ",
+        "TemplateKey": "组织结构_搜索按钮1"
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "FontSize": 13.333333333333332
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Body"
+      ]
+    },
+    "ColStyles": {
+      "1": 0,
+      "2": 0
+    },
+    "SheetStyle": {
+      "FontFamily": 0
+    }
+  },
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.UserControlPage, ServerDesignerCommon",
+    "PropertyDefinitions": [],
+    "CommandDefinitions": [
+      {
+        "Name": "绑定权限事件"
+      }
+    ],
+    "MethodDefinitions": [],
+    "PageLoadedCommandList": []
+  },
+  "PrintInfo": {
+    "PaperSize": {},
+    "Margin": {}
+  }
+}//0ShDp4ydjP4Thi5q8J4Fv650r1aEAhYFEMS0ZGcNKF08VqtfioX9gUKnWNC0MwvD/kyQoOt+0jrrnYWcrPoPRswe/PIeTIgKA6q+xuAdqdvVc9R7Q40MthwKV2mrw0IsXKmt6mul/+NTA2hbcXPQfiXV0VzkpqaoZg/1o2wMx6bObrj2uH2w5nWd6Nq2MxjFJiGV4FSmvA6B4Er1mgA61CW0QJD/7En2IvS0t2BufUVngk9m2y9Z5lKs1MLyiypE5mgiaXBVfeaG+3ZPZRr8CXTCI8JUP+2ylIiuPj6E6doMbk0Yesd2050nCILg/5+a++fVmB1gocxvMqH+tz0D3tZyQgirzMC5LCtwalJVAIbABhkR8zdux7Z5JIoQg6z4sEnzW+LuTejeJZAn+u08+pKcfwNRFOWhV1rGuij3A/oOqu5GJt/9/hPjiFL7bqDq3zRtIIsUCJ0iqIAQpKAGe9/aOkBiTQCfTPz2My1cxcNhOi36i24gPl/3zB4YZe6n5q+rbjagpJlP8HgSo4M08rGdxblELe5aga7liMlDEA1qdePlRTb/uh5/139kZ/Udu5a8bVLC2SZLNSZAoqONepgp6KFsuhFnQgqDAqe0AXS29NBOZsvdorlOxTE+0nc1ESEPQIZLqQ9t9vhWk/olFqhAHaj1mmqdFz/NcWtrevjtzP7lBUro6l6YrQ2KUiVq+77eMbIhIV7xjUoVsZTO63352K9LkGjkHLGaTD5Y9MMaQeqbMZEsjtRIZoPM0NUyJTQHWSS8DQ25apUSIsRoxYN0qBuCkIG9RiPZ90Ng4eq0Yp+ED8k/me3A70YtjaJ5MQOmPo7z31VPfPCr5cjvBSP3qqqrTumfoX4mgbTCIoNklexSSBo42gmdkpnBohRV5TSzArqrFUJAEixK95/M3w==|920

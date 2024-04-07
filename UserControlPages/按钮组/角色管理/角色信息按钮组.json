@@ -1,0 +1,462 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      }
+    },
+    "Count": 1,
+    "DefaultSize": 30.0
+  },
+  "Cols": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 60.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "1": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 77.0,
+          "Mode": 1
+        }
+      },
+      "2": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "3": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 90.0,
+          "Mode": 1
+        }
+      },
+      "4": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "5": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 59.0,
+          "Mode": 1
+        }
+      },
+      "6": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "7": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 59.0,
+          "Mode": 1
+        }
+      },
+      "8": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "9": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 103.0,
+          "Mode": 1
+        }
+      },
+      "10": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "11": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 103.0,
+          "Mode": 1
+        }
+      },
+      "12": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "13": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 103.0,
+          "Mode": 1
+        }
+      },
+      "14": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "15": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 230.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          },
+          "IsHidden": true
+        }
+      },
+      "16": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 230.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          },
+          "IsHidden": true
+        }
+      },
+      "17": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 230.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          },
+          "IsHidden": true
+        }
+      }
+    },
+    "InLogicalVisibleIndexes": [
+      15,
+      16,
+      17
+    ],
+    "Count": 18,
+    "DefaultSize": 16.0
+  },
+  "Values": {
+    "0,1": "  添加角色  ",
+    "0,3": "  添加文件夹  ",
+    "0,5": "  编  辑  ",
+    "0,7": "  删  除  ",
+    "0,9": "  添加角色成员  ",
+    "0,11": "  删除角色成员  ",
+    "0,13": "  绑定组织节点  "
+  },
+  "AttachInfos": {
+    "0,1": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.CallUserControlPageCommand, ServerDesignerCommon",
+            "CommandName": "添加角色事件"
+          }
+        ],
+        "Text": "  添加角色  ",
+        "TemplateKey": "组织结构_搜索按钮1"
+      }
+    },
+    "0,3": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.CallUserControlPageCommand, ServerDesignerCommon",
+            "CommandName": "添加文件夹事件"
+          }
+        ],
+        "Text": "  添加文件夹  ",
+        "TemplateKey": "组织结构_搜索按钮1"
+      }
+    },
+    "0,5": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.CallUserControlPageCommand, ServerDesignerCommon",
+            "CommandName": "编辑事件"
+          }
+        ],
+        "Text": "  编  辑  ",
+        "IsDisabled": true,
+        "TemplateKey": "组织结构_搜索按钮1"
+      },
+      "RulesGuidList": [
+        "55414cd4-b073-45c9-a939-d904cc17c5ab"
+      ]
+    },
+    "0,7": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.CallUserControlPageCommand, ServerDesignerCommon",
+            "CommandName": "删除事件"
+          }
+        ],
+        "Text": "  删  除  ",
+        "IsDisabled": true,
+        "TemplateKey": "组织结构_搜索按钮1"
+      },
+      "RulesGuidList": [
+        "704bc67e-fb07-46a0-8ba6-63a4abb7a7d5"
+      ]
+    },
+    "0,9": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.CallUserControlPageCommand, ServerDesignerCommon",
+            "CommandName": "添加角色成员事件"
+          }
+        ],
+        "Text": "  添加角色成员  ",
+        "IsDisabled": true,
+        "TemplateKey": "组织结构_搜索按钮1"
+      },
+      "RulesGuidList": [
+        "76646c74-1f3d-4dae-af53-76d403641966"
+      ]
+    },
+    "0,11": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.CallUserControlPageCommand, ServerDesignerCommon",
+            "CommandName": "删除角色成员事件"
+          }
+        ],
+        "Text": "  删除角色成员  ",
+        "IsDisabled": true,
+        "TemplateKey": "组织结构_搜索按钮1"
+      },
+      "RulesGuidList": [
+        "77990e00-3b14-4e83-89bc-d5fd7645f90d"
+      ]
+    },
+    "0,13": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.CallUserControlPageCommand, ServerDesignerCommon",
+            "CommandName": "绑定组织节点事件"
+          }
+        ],
+        "Text": "  绑定组织节点  ",
+        "IsDisabled": true,
+        "TemplateKey": "组织结构_搜索按钮1"
+      },
+      "RulesGuidList": [
+        "a97c819c-38a3-4cf9-97a8-0305aa9f5ed6"
+      ]
+    },
+    "0,15": {
+      "TemplateCellSource": "表格选择项"
+    },
+    "0,16": {
+      "TemplateCellSource": "是否选中树"
+    },
+    "0,17": {
+      "TemplateCellSource": "是否选中角色"
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "FontFamily": 0,
+        "FontSize": 13.333333333333332,
+        "Formatter": 1
+      },
+      {
+        "FontFamily": 0,
+        "FontSize": 13.333333333333332
+      },
+      {
+        "FontSize": 13.333333333333332
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Body",
+        "[AUTO]General"
+      ]
+    },
+    "CellStyles": {
+      "0,3": 0,
+      "0,7": 0,
+      "0,9": 0,
+      "0,10": 0,
+      "0,11": 0,
+      "0,12": 0,
+      "0,13": 0,
+      "0,15": 1,
+      "0,16": 1,
+      "0,17": 1
+    },
+    "ColStyles": {
+      "1": 2,
+      "2": 2,
+      "3": 2,
+      "4": 2,
+      "5": 2,
+      "6": 2,
+      "7": 2,
+      "8": 2,
+      "9": 2,
+      "10": 2,
+      "11": 2,
+      "12": 2,
+      "13": 2,
+      "14": 2,
+      "15": 2,
+      "16": 2,
+      "17": 2
+    },
+    "SheetStyle": {
+      "FontFamily": 0
+    }
+  },
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.UserControlPage, ServerDesignerCommon",
+    "PropertyDefinitions": [
+      {
+        "Name": "表格选择项"
+      },
+      {
+        "Name": "是否选中树"
+      },
+      {
+        "Name": "是否选中角色"
+      }
+    ],
+    "CommandDefinitions": [
+      {
+        "Name": "添加角色事件"
+      },
+      {
+        "Name": "添加文件夹事件"
+      },
+      {
+        "Name": "编辑事件"
+      },
+      {
+        "Name": "删除事件"
+      },
+      {
+        "Name": "添加角色成员事件"
+      },
+      {
+        "Name": "删除角色成员事件"
+      },
+      {
+        "Name": "绑定组织节点事件"
+      }
+    ],
+    "MethodDefinitions": [],
+    "PageLoadedCommandList": [],
+    "ConditionFormatRulesCollection": {
+      "Rules": [
+        {
+          "$type": "Forguncy.ConditionFormat.FormulaRule, ServerDesignerCommon",
+          "Formula": {
+            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+            "SerializeProperty": "=角色信息按钮组!Q1=1"
+          },
+          "GUID": "55414cd4-b073-45c9-a939-d904cc17c5ab",
+          "StyleInfo": {
+            "Underline": null,
+            "Strikethrough": null
+          },
+          "IsDisabled": false
+        },
+        {
+          "$type": "Forguncy.ConditionFormat.FormulaRule, ServerDesignerCommon",
+          "Formula": {
+            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+            "SerializeProperty": "=角色信息按钮组!Q1=1"
+          },
+          "Priority": 1,
+          "GUID": "704bc67e-fb07-46a0-8ba6-63a4abb7a7d5",
+          "StyleInfo": {
+            "Underline": null,
+            "Strikethrough": null
+          },
+          "IsDisabled": false
+        },
+        {
+          "$type": "Forguncy.ConditionFormat.FormulaRule, ServerDesignerCommon",
+          "Formula": {
+            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+            "SerializeProperty": "=角色信息按钮组!R1=1"
+          },
+          "Priority": 2,
+          "GUID": "76646c74-1f3d-4dae-af53-76d403641966",
+          "StyleInfo": {
+            "Underline": null,
+            "Strikethrough": null
+          },
+          "IsDisabled": false
+        },
+        {
+          "$type": "Forguncy.ConditionFormat.FormulaRule, ServerDesignerCommon",
+          "Formula": {
+            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+            "SerializeProperty": "=IF(角色信息按钮组!P1=0,0,1)"
+          },
+          "Priority": 3,
+          "GUID": "77990e00-3b14-4e83-89bc-d5fd7645f90d",
+          "StyleInfo": {
+            "Underline": null,
+            "Strikethrough": null
+          },
+          "IsDisabled": false
+        },
+        {
+          "$type": "Forguncy.ConditionFormat.FormulaRule, ServerDesignerCommon",
+          "Formula": {
+            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+            "SerializeProperty": "=角色信息按钮组!R1=1"
+          },
+          "Priority": 4,
+          "GUID": "a97c819c-38a3-4cf9-97a8-0305aa9f5ed6",
+          "StyleInfo": {
+            "Underline": null,
+            "Strikethrough": null
+          },
+          "IsDisabled": false
+        }
+      ]
+    }
+  },
+  "PrintInfo": {
+    "PaperSize": {},
+    "Margin": {}
+  }
+}//+W8h3NvDC0++x775gckqSRGouZA+JRO7kaE+OM9DqSFgBUB/+T08uz4AlvG2zDmWCXuwafAQeLDnsPURoxTTO45gPpcrwZVTma4GjxTVoxO+MXAK1A7YpZ19qBrjTixfc3WIPSDW/mXQiXNdc5ngCAdh0JS5cjOxDM1rPHaRmGxyDa5849AXxpzE5qNdTlNpMbOVkQXMog+NLs7WepgE/vU31JjvQqkv8Mww4gWk0syrjwO3kqj1m10T9HK4Iw5pUvFvX1iKck/fdQjXVqgtgnvGZdgETEVIFi5g0wr71ki6lkB7UXpzus9zMpgI7HlvHqjnrmdh5gPnVozT3GUWhdwdzYQj2tbk6ioeBPTjHSZrk/sJCwwBDgQbbTdFPHsiCA8XR4lsuB0qNCp+QduE7U5AX9nc3mMpW8f/w518bBkiWGg0c4y7Fzg0l+eHu4aHamtpJ/K6b/X/J1JfyRlNSAcnJKuB2k7NWDSRakA6qF5C2Yxa8eYKLWfvZiE/XRE57BZxRQyCCzCC1vZK4E2hZJSBZnIsF3zoGdUoT/BuhJSFrLmC9ifgoAmKroxxHEbUi6CI56wIKo0zBn/XN74q0Qw3PSqID4Va9355Wr7x3ssd6YECQX/+geOElPDKGwiMllfN7LYAboja9nOCfXv89CSp5DL0Z9gkII0PRZKaG1IDtxkgZqUnJZW7fgdTscM7OfPdTPN9zPDc5Mo4EcG84o0zotvDM88OW0b0CfNzYwNBhZJjcv4ilI/mBp58hhXdG21Mo1S3EhWWcQcB0OLjsSp7agda69ZAau2sHdZkam2bJgAat78VpD/RAJMBu/o2gWA1EjYUC6Wwk6b0O5wRE7h+qpIKMOfJ9yAeqxbWopjwB1o3zuc1HtPOr2+NKK5erPtAw5hMN4ngyFkbMVaGZA==|920

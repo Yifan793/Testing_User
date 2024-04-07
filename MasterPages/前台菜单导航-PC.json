@@ -1,0 +1,1689 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 8.0
+        }
+      },
+      "1": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 40.0
+        }
+      },
+      "2": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 8.0
+        }
+      },
+      "3": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "4": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "5": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "6": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "7": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "8": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "9": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "10": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "11": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "12": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "13": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "14": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "15": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "16": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "17": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "18": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "19": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "20": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "21": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "22": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "23": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "24": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      }
+    },
+    "Count": 25,
+    "DefaultSize": 32.0
+  },
+  "Cols": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "1": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "2": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "3": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "4": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "5": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 1
+        }
+      },
+      "6": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "7": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "8": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "9": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "10": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "11": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 25.0
+        }
+      },
+      "12": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "13": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 25.0
+        }
+      },
+      "14": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "15": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "16": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "17": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "18": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "19": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "20": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "21": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "22": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "23": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "24": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "25": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "26": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "27": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "28": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "29": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "30": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "31": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 44.0
+        }
+      },
+      "32": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "33": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "34": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "40": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "41": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "42": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "43": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "44": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "45": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "46": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "47": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "48": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "49": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "50": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "51": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "52": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "53": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "54": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 25.0
+        }
+      },
+      "55": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "56": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 25.0,
+          "IsHidden": true
+        }
+      },
+      "57": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "58": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 156.0,
+          "Mode": 1
+        }
+      },
+      "59": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "60": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 215.0,
+          "IsHidden": true
+        }
+      }
+    },
+    "InLogicalVisibleIndexes": [
+      56,
+      60
+    ],
+    "Count": 61
+  },
+  "Values": {
+    "0,15": "我的门户",
+    "1,1": "Forguncy | 前端用户中心",
+    "3,0": "%PageName%",
+    "3,60": false
+  },
+  "AttachInfos": {
+    "0,15": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.ShowPopupCommand, ServerDesignerCommon",
+            "PopupDisplayMode": 1,
+            "Placement": {
+              "SerializeProperty": "='前台菜单导航-PC'!P1"
+            },
+            "PageName": "我的门户-弹出页"
+          }
+        ],
+        "Text": "我的门户",
+        "TemplateKey": "母版页门户按钮",
+        "Icon": {
+          "Name": "Application/132_title_1.svg",
+          "BuiltIn": true,
+          "Color": "Background 1",
+          "UseCellTypeForeColor": true
+        }
+      }
+    },
+    "1,11": {
+      "CellType": {
+        "$type": "Forguncy.ImageCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
+            "ConditionAndCommandPairList": [
+              {
+                "Condition": {
+                  "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                  "param": {
+                    "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                    "cellLocations": [
+                      {
+                        "SerializeProperty": "='前台菜单导航-PC'!菜单显示"
+                      }
+                    ]
+                  },
+                  "value": "true"
+                },
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.SetRowColumnLayoutCommand, ServerDesignerCommon",
+                    "PropertyItemsList": [
+                      {
+                        "Location": {
+                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                          "SerializeProperty": "='前台菜单导航-PC'!A:J"
+                        },
+                        "Value": true
+                      }
+                    ]
+                  },
+                  {
+                    "$type": "Forguncy.Model.SetCellPropertyCommand, ServerDesignerCommon",
+                    "PropertyItemsList": [
+                      {
+                        "TargetCells": {
+                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                          "SerializeProperty": "='前台菜单导航-PC'!菜单显示"
+                        },
+                        "Value": "false"
+                      }
+                    ]
+                  }
+                ],
+                "ID": "6b343734-7b57-4c28-9893-4e25edd95345"
+              },
+              {
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.SetRowColumnLayoutCommand, ServerDesignerCommon",
+                    "PropertyItemsList": [
+                      {
+                        "Location": {
+                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                          "SerializeProperty": "='前台菜单导航-PC'!A:J"
+                        },
+                        "Value": false
+                      }
+                    ]
+                  },
+                  {
+                    "$type": "Forguncy.Model.SetCellPropertyCommand, ServerDesignerCommon",
+                    "PropertyItemsList": [
+                      {
+                        "TargetCells": {
+                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                          "SerializeProperty": "='前台菜单导航-PC'!菜单显示"
+                        },
+                        "Value": "true"
+                      }
+                    ]
+                  }
+                ],
+                "ID": "fa5d5477-0fa3-4157-98fc-5c2b10cbc4ac"
+              }
+            ]
+          }
+        ],
+        "ImagePath": "Navigation/131_list_3.svg",
+        "BuiltIn": true,
+        "UseCellForeColor": true
+      }
+    },
+    "1,13": {
+      "CellType": {
+        "$type": "Forguncy.ImageCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "LoadingCommand.StartLoadingCommand, LoadingCommand",
+            "LoadingTextColor": "Background 1 0"
+          },
+          {
+            "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+            "PageName": "个人门户",
+            "PassValues": [
+              {
+                "Source": "我的门户",
+                "TargetCell": {
+                  "SerializeProperty": "=个人门户!当前选中菜单"
+                }
+              }
+            ]
+          }
+        ],
+        "ImagePath": "Navigation/165_home_3.svg",
+        "BuiltIn": true,
+        "UseCellForeColor": true
+      }
+    },
+    "1,54": {
+      "CssName": "pd-3",
+      "CellType": {
+        "$type": "Forguncy.ImageCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+            "ValueFormula": "https://www.grapecity.com.cn/solutions/huozige/applyonline",
+            "IsOpenInNewTab": true
+          }
+        ],
+        "ImagePath": "Application/125_help_2.svg",
+        "BuiltIn": true,
+        "UseCellForeColor": true
+      }
+    },
+    "1,56": {
+      "CssName": "pd-3",
+      "CellType": {
+        "$type": "Forguncy.ImageCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "LoadingCommand.StartLoadingCommand, LoadingCommand",
+            "LoadingTextColor": "Background 1 0"
+          },
+          {
+            "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+            "PageName": "门户引擎",
+            "PassValues": [
+              {
+                "Source": "门户引擎",
+                "TargetCell": {
+                  "SerializeProperty": "=门户引擎!上级选中菜单"
+                }
+              }
+            ]
+          }
+        ],
+        "ToolTip": "后台引擎中心",
+        "ImagePath": "Navigation/245_settings_10.svg",
+        "BuiltIn": true,
+        "UseCellForeColor": true
+      }
+    },
+    "1,58": {
+      "CssName": "userView",
+      "CellType": {
+        "$type": "Forguncy.CurrentUserCellType, ServerDesignerCommon",
+        "CellCustomValue": "%CurrentUser%",
+        "NavigateSettingWhenLogout": {
+          "NavigateWhenLogoutMode": 1
+        }
+      }
+    },
+    "3,0": {
+      "CellType": {
+        "$type": "ElementUI.NavMenuCellType, ElementUI",
+        "SelectCommand": {
+          "Commands": [
+            {
+              "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
+              "ParameterName": "是否配置跳转链接",
+              "TableValue": {
+                "TableName": "前端菜单表",
+                "TableValueType": 3,
+                "SqlCondition": {
+                  "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
+                  "SubConditions": [
+                    {
+                      "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                      "ColumnBindingInfo": {
+                        "TableName": "前端菜单表",
+                        "ColumnName": "菜单值",
+                        "GUID": "e27ccfa7-89a9-4604-94fd-62cfb20d7c01"
+                      },
+                      "Value": {
+                        "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                        "SerializeProperty": "='前台菜单导航-PC'!Menu"
+                      }
+                    },
+                    {
+                      "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                      "CompareType": 1,
+                      "ColumnBindingInfo": {
+                        "TableName": "前端菜单表",
+                        "ColumnName": "链接地址",
+                        "GUID": "6e08c0bd-d2a7-4ba6-aef6-fef16f21064a"
+                      },
+                      "Value": "%Null%"
+                    }
+                  ]
+                }
+              },
+              "ID": "b1c57e62fa7b409ea75abdcb80773283"
+            },
+            {
+              "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
+              "ConditionAndCommandPairList": [
+                {
+                  "Condition": {
+                    "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                    "param": {
+                      "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                      "cellLocations": [
+                        {
+                          "SerializeProperty": "='前台菜单导航-PC'!是否配置跳转链接"
+                        }
+                      ]
+                    },
+                    "value": "0"
+                  },
+                  "CommandList": [
+                    {
+                      "$type": "ElementUI.Commands.ShowMessage, ElementUI",
+                      "Message": "暂未配置跳转链接，请配置后重试",
+                      "Type": "warning",
+                      "Duration": 3000,
+                      "Offset": null
+                    }
+                  ],
+                  "ID": "2e3e17b4-ff6d-4c94-be1e-ceeb467a67e7"
+                },
+                {
+                  "CommandList": [
+                    {
+                      "$type": "LoadingCommand.StartLoadingCommand, LoadingCommand",
+                      "LoadingTextColor": "Background 1 0"
+                    },
+                    {
+                      "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
+                      "ParameterName": "跳转链接地址",
+                      "TableValue": {
+                        "TableName": "前端菜单表",
+                        "OnlyGetValue": true,
+                        "TableValueType": 0,
+                        "BindingInfos": [
+                          {
+                            "BindingInfo": {
+                              "TableName": "前端菜单表",
+                              "ColumnName": "链接地址",
+                              "GUID": "c4e808ad-3ab8-45f9-9dce-dcb142fdbff0"
+                            },
+                            "ColumnName": "链接地址"
+                          }
+                        ],
+                        "SqlCondition": {
+                          "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                          "ColumnBindingInfo": {
+                            "TableName": "前端菜单表",
+                            "ColumnName": "菜单值",
+                            "GUID": "866e2a93-2e33-4749-b702-454d4609b155"
+                          },
+                          "Value": {
+                            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                            "SerializeProperty": "='前台菜单导航-PC'!Menu"
+                          }
+                        }
+                      },
+                      "ID": "7365d635b09740a6afc12207ffc54635"
+                    },
+                    {
+                      "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+                      "ValueFormula": {
+                        "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                        "SerializeProperty": "='前台菜单导航-PC'!跳转链接地址"
+                      },
+                      "PassValues": [
+                        {
+                          "Source": {
+                            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                            "SerializeProperty": "='前台菜单导航-PC'!上级选中菜单"
+                          },
+                          "CellName": "=上级选中菜单"
+                        }
+                      ]
+                    }
+                  ],
+                  "ID": "6b9b86f2-5138-4432-aa6e-6ae8b56f43df"
+                }
+              ]
+            }
+          ],
+          "ParamProperties": {
+            "value": "值",
+            "label": "显示文本",
+            "parentId": "父节点值"
+          }
+        },
+        "useBinding": true,
+        "options": [
+          {
+            "$type": "ElementUI.MenuNode, ElementUI",
+            "value": "zhinan",
+            "label": "指南",
+            "icon": {
+              "Name": "Application/130_list_2.svg",
+              "BuiltIn": true,
+              "Color": "Background 1 -25",
+              "UseCellTypeForeColor": true
+            },
+            "CanVisitRoleList": [
+              "FGC_Anonymous"
+            ],
+            "expend": true,
+            "children": [
+              {
+                "value": "shejiyuanze",
+                "label": "设计原则",
+                "CanVisitRoleList": [
+                  "FGC_Anonymous"
+                ],
+                "children": [
+                  {
+                    "value": "yizhi",
+                    "label": "一致",
+                    "CanVisitRoleList": [
+                      "FGC_Anonymous"
+                    ]
+                  },
+                  {
+                    "value": "fankui",
+                    "label": "反馈",
+                    "CanVisitRoleList": [
+                      "FGC_Anonymous"
+                    ]
+                  },
+                  {
+                    "value": "xiaolv",
+                    "label": "效率",
+                    "CanVisitRoleList": [
+                      "FGC_Anonymous"
+                    ]
+                  },
+                  {
+                    "value": "kekong",
+                    "label": "可控",
+                    "CanVisitRoleList": [
+                      "FGC_Anonymous"
+                    ]
+                  }
+                ]
+              },
+              {
+                "value": "daohang",
+                "label": "导航",
+                "CanVisitRoleList": [
+                  "FGC_Anonymous"
+                ],
+                "children": [
+                  {
+                    "value": "cexiangdaohang",
+                    "label": "侧向导航",
+                    "CanVisitRoleList": [
+                      "FGC_Anonymous"
+                    ]
+                  },
+                  {
+                    "value": "dingbudaohang",
+                    "label": "顶部导航",
+                    "CanVisitRoleList": [
+                      "FGC_Anonymous"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "$type": "ElementUI.MenuNode, ElementUI",
+            "value": "zujian",
+            "label": "组件",
+            "icon": {
+              "Name": "Navigation/196_settings_8.svg",
+              "BuiltIn": true,
+              "Color": "Background 1 -25",
+              "UseCellTypeForeColor": true
+            },
+            "CanVisitRoleList": [
+              "FGC_Anonymous"
+            ],
+            "expend": true,
+            "children": [
+              {
+                "value": "basic",
+                "label": "Basic",
+                "CanVisitRoleList": [
+                  "FGC_Anonymous"
+                ],
+                "children": [
+                  {
+                    "value": "layout",
+                    "label": "Layout 布局",
+                    "CanVisitRoleList": [
+                      "FGC_Anonymous"
+                    ]
+                  },
+                  {
+                    "value": "color",
+                    "label": "Color 色彩",
+                    "CanVisitRoleList": [
+                      "FGC_Anonymous"
+                    ]
+                  },
+                  {
+                    "value": "typography",
+                    "label": "Typography 字体",
+                    "CanVisitRoleList": [
+                      "FGC_Anonymous"
+                    ]
+                  },
+                  {
+                    "value": "icon",
+                    "label": "Icon 图标",
+                    "CanVisitRoleList": [
+                      "FGC_Anonymous"
+                    ]
+                  },
+                  {
+                    "value": "button",
+                    "label": "Button 按钮",
+                    "CanVisitRoleList": [
+                      "FGC_Anonymous"
+                    ]
+                  }
+                ]
+              },
+              {
+                "value": "form",
+                "label": "Form",
+                "CanVisitRoleList": [
+                  "FGC_Anonymous"
+                ],
+                "children": [
+                  {
+                    "value": "radio",
+                    "label": "Radio 单选框",
+                    "CanVisitRoleList": [
+                      "FGC_Anonymous"
+                    ]
+                  },
+                  {
+                    "value": "checkbox",
+                    "label": "Checkbox 多选框",
+                    "CanVisitRoleList": [
+                      "FGC_Anonymous"
+                    ]
+                  },
+                  {
+                    "value": "input",
+                    "label": "Input 输入框",
+                    "CanVisitRoleList": [
+                      "FGC_Anonymous"
+                    ]
+                  },
+                  {
+                    "value": "input-number",
+                    "label": "InputNumber 计数器",
+                    "CanVisitRoleList": [
+                      "FGC_Anonymous"
+                    ]
+                  },
+                  {
+                    "value": "select",
+                    "label": "Select 选择器",
+                    "CanVisitRoleList": [
+                      "FGC_Anonymous"
+                    ]
+                  },
+                  {
+                    "value": "cascader",
+                    "label": "Cascader 级联选择器",
+                    "CanVisitRoleList": [
+                      "FGC_Anonymous"
+                    ]
+                  },
+                  {
+                    "value": "switch",
+                    "label": "Switch 开关",
+                    "CanVisitRoleList": [
+                      "FGC_Anonymous"
+                    ]
+                  },
+                  {
+                    "value": "slider",
+                    "label": "Slider 滑块",
+                    "CanVisitRoleList": [
+                      "FGC_Anonymous"
+                    ]
+                  },
+                  {
+                    "value": "time-picker",
+                    "label": "TimePicker 时间选择器",
+                    "CanVisitRoleList": [
+                      "FGC_Anonymous"
+                    ]
+                  },
+                  {
+                    "value": "date-picker",
+                    "label": "DatePicker 日期选择器",
+                    "CanVisitRoleList": [
+                      "FGC_Anonymous"
+                    ]
+                  },
+                  {
+                    "value": "datetime-picker",
+                    "label": "DateTimePicker 日期时间选择器",
+                    "CanVisitRoleList": [
+                      "FGC_Anonymous"
+                    ]
+                  },
+                  {
+                    "value": "upload",
+                    "label": "Upload 上传",
+                    "CanVisitRoleList": [
+                      "FGC_Anonymous"
+                    ]
+                  },
+                  {
+                    "value": "rate",
+                    "label": "Rate 评分",
+                    "CanVisitRoleList": [
+                      "FGC_Anonymous"
+                    ]
+                  },
+                  {
+                    "value": "form",
+                    "label": "Form 表单",
+                    "CanVisitRoleList": [
+                      "FGC_Anonymous"
+                    ]
+                  }
+                ]
+              },
+              {
+                "value": "data",
+                "label": "Data",
+                "CanVisitRoleList": [
+                  "FGC_Anonymous"
+                ],
+                "children": [
+                  {
+                    "value": "table",
+                    "label": "Table 表格",
+                    "CanVisitRoleList": [
+                      "FGC_Anonymous"
+                    ]
+                  },
+                  {
+                    "value": "tag",
+                    "label": "Tag 标签",
+                    "CanVisitRoleList": [
+                      "FGC_Anonymous"
+                    ]
+                  },
+                  {
+                    "value": "progress",
+                    "label": "Progress 进度条",
+                    "CanVisitRoleList": [
+                      "FGC_Anonymous"
+                    ]
+                  },
+                  {
+                    "value": "tree",
+                    "label": "Tree 树形控件",
+                    "CanVisitRoleList": [
+                      "FGC_Anonymous"
+                    ]
+                  },
+                  {
+                    "value": "pagination",
+                    "label": "Pagination 分页",
+                    "CanVisitRoleList": [
+                      "FGC_Anonymous"
+                    ]
+                  },
+                  {
+                    "value": "badge",
+                    "label": "Badge 标记",
+                    "CanVisitRoleList": [
+                      "FGC_Anonymous"
+                    ]
+                  }
+                ]
+              },
+              {
+                "value": "notice",
+                "label": "Notice",
+                "CanVisitRoleList": [
+                  "FGC_Anonymous"
+                ],
+                "children": [
+                  {
+                    "value": "alert",
+                    "label": "Alert 警告",
+                    "CanVisitRoleList": [
+                      "FGC_Anonymous"
+                    ]
+                  },
+                  {
+                    "value": "loading",
+                    "label": "Loading 加载",
+                    "CanVisitRoleList": [
+                      "FGC_Anonymous"
+                    ]
+                  },
+                  {
+                    "value": "message",
+                    "label": "Message 消息提示",
+                    "CanVisitRoleList": [
+                      "FGC_Anonymous"
+                    ]
+                  },
+                  {
+                    "value": "message-box",
+                    "label": "MessageBox 弹框",
+                    "CanVisitRoleList": [
+                      "FGC_Anonymous"
+                    ]
+                  },
+                  {
+                    "value": "notification",
+                    "label": "Notification 通知",
+                    "CanVisitRoleList": [
+                      "FGC_Anonymous"
+                    ]
+                  }
+                ]
+              },
+              {
+                "value": "navigation",
+                "label": "Navigation",
+                "CanVisitRoleList": [
+                  "FGC_Anonymous"
+                ],
+                "children": [
+                  {
+                    "value": "menu",
+                    "label": "NavMenu 导航菜单",
+                    "CanVisitRoleList": [
+                      "FGC_Anonymous"
+                    ]
+                  },
+                  {
+                    "value": "tabs",
+                    "label": "Tabs 标签页",
+                    "CanVisitRoleList": [
+                      "FGC_Anonymous"
+                    ]
+                  },
+                  {
+                    "value": "breadcrumb",
+                    "label": "Breadcrumb 面包屑",
+                    "CanVisitRoleList": [
+                      "FGC_Anonymous"
+                    ]
+                  },
+                  {
+                    "value": "dropdown",
+                    "label": "Dropdown 下拉菜单",
+                    "CanVisitRoleList": [
+                      "FGC_Anonymous"
+                    ]
+                  },
+                  {
+                    "value": "steps",
+                    "label": "Steps 步骤条",
+                    "CanVisitRoleList": [
+                      "FGC_Anonymous"
+                    ]
+                  }
+                ]
+              },
+              {
+                "value": "others",
+                "label": "Others",
+                "CanVisitRoleList": [
+                  "FGC_Anonymous"
+                ],
+                "children": [
+                  {
+                    "value": "dialog",
+                    "label": "Dialog 对话框",
+                    "CanVisitRoleList": [
+                      "FGC_Anonymous"
+                    ]
+                  },
+                  {
+                    "value": "tooltip",
+                    "label": "Tooltip 文字提示",
+                    "CanVisitRoleList": [
+                      "FGC_Anonymous"
+                    ]
+                  },
+                  {
+                    "value": "popover",
+                    "label": "Popover 弹出框",
+                    "CanVisitRoleList": [
+                      "FGC_Anonymous"
+                    ]
+                  },
+                  {
+                    "value": "card",
+                    "label": "Card 卡片",
+                    "CanVisitRoleList": [
+                      "FGC_Anonymous"
+                    ]
+                  },
+                  {
+                    "value": "carousel",
+                    "label": "Carousel 走马灯",
+                    "CanVisitRoleList": [
+                      "FGC_Anonymous"
+                    ]
+                  },
+                  {
+                    "value": "collapse",
+                    "label": "Collapse 折叠面板",
+                    "CanVisitRoleList": [
+                      "FGC_Anonymous"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "$type": "ElementUI.MenuNode, ElementUI",
+            "value": "ziyuan",
+            "label": "资源",
+            "icon": {
+              "Name": "Mobile/419_share_1.svg",
+              "BuiltIn": true,
+              "Color": "Background 1 -25",
+              "UseCellTypeForeColor": true
+            },
+            "CanVisitRoleList": [
+              "FGC_Anonymous"
+            ],
+            "expend": true,
+            "children": [
+              {
+                "value": "jiaohu",
+                "label": "组件交互文档",
+                "CanVisitRoleList": [
+                  "FGC_Anonymous"
+                ]
+              }
+            ]
+          }
+        ],
+        "bindingOptions": {
+          "$type": "ServerDesignerCommon.Model.BindingDataSourceModel, ServerDesignerCommon",
+          "TableName": "前端菜单表",
+          "BindingInfos": [
+            {
+              "BindingInfo": {
+                "TableName": "前端菜单表",
+                "ColumnName": "菜单值",
+                "GUID": "45e2f3dd-8957-46fb-b17b-e41b193d448a"
+              },
+              "ColumnName": "value"
+            },
+            {
+              "BindingInfo": {
+                "TableName": "前端菜单表",
+                "ColumnName": "显示文本",
+                "GUID": "8142093c-cf40-4331-96f7-a3f1aed6a41d"
+              },
+              "ColumnName": "label"
+            },
+            {
+              "BindingInfo": {
+                "TableName": "前端菜单表",
+                "ColumnName": "上级菜单值",
+                "GUID": "d0de53e7-605a-407d-8f43-c2d614a70c74"
+              },
+              "ColumnName": "parentValue"
+            },
+            {
+              "BindingInfo": {
+                "TableName": "前端菜单表",
+                "ColumnName": "图标",
+                "GUID": "12f39a2f-f98b-4859-91ff-9968b8f4d3c3"
+              },
+              "ColumnName": "icon"
+            }
+          ],
+          "SqlCondition": {
+            "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+            "ColumnBindingInfo": {
+              "TableName": "前端菜单表",
+              "ColumnName": "上级菜单值",
+              "GUID": "abcb8e27-8c44-4c61-ad1f-625410ae1407"
+            },
+            "Value": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "='前台菜单导航-PC'!上级选中菜单"
+            }
+          },
+          "OrderBySqlCondition": {
+            "OrderByColumns": [
+              {
+                "ColumnBindingInfo": {
+                  "TableName": "前端菜单表",
+                  "ColumnName": "顺序号",
+                  "GUID": "ff3fbf35-a5ab-45c4-8231-071f282beda0"
+                },
+                "Order": 0
+              }
+            ]
+          },
+          "TreeSourceSetting": {
+            "IdColumn": "value",
+            "PidColumn": "parentValue",
+            "QueryResultMode": 1
+          },
+          "CustomColumns": []
+        },
+        "mode": "vertical",
+        "collapseTransition": true,
+        "DefaultExpansion": "expand",
+        "menuTrigger": "hover",
+        "theme": "custom",
+        "backgroundColor": "#FF2A2E35",
+        "textColor": "#fff",
+        "activeTextColor": "#FF0270C1"
+      }
+    },
+    "3,10": {
+      "IsPlaceHolderCell": true
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "Foreground": 0,
+        "HorizontalAlignment": 1,
+        "Underline": true,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 2,
+        "FontSize": 16.0,
+        "HorizontalAlignment": 3
+      },
+      {
+        "FontSize": 21.33333396911621,
+        "FontWeight": 4,
+        "Formatter": 5,
+        "HorizontalAlignment": 1,
+        "VerticalAlignment": 3,
+        "WordWrap": false,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontSize": 21.33333396911621,
+        "FontWeight": 4,
+        "Formatter": 5,
+        "HorizontalAlignment": 1,
+        "VerticalAlignment": 3,
+        "WordWrap": false
+      },
+      {
+        "Foreground": 6,
+        "HorizontalAlignment": 3
+      },
+      {
+        "Background": null,
+        "FontFamily": 2,
+        "FontSize": 13.333333333333332,
+        "Foreground": 6,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "Foreground": 0,
+        "HorizontalAlignment": 1,
+        "Underline": true
+      },
+      {
+        "Background": null,
+        "FontFamily": 2,
+        "Foreground": 6,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "Background": null,
+        "FontFamily": 2,
+        "FontSize": 13.333333333333332,
+        "Foreground": 6,
+        "Formatter": 7,
+        "HorizontalAlignment": 8
+      },
+      {
+        "Background": null,
+        "FontFamily": 9
+      },
+      {
+        "VerticalAlignment": 10
+      },
+      {
+        "Background": null,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Accent 1",
+        "Left",
+        "微软雅黑",
+        "Center",
+        "Normal",
+        "[AUTO]General",
+        "Background 1 0",
+        "General",
+        "Right",
+        "Body",
+        "Top"
+      ]
+    },
+    "CellStyles": {
+      "0,0": 0,
+      "0,1": 0,
+      "0,2": 1,
+      "0,3": 1,
+      "0,4": 1,
+      "0,5": 1,
+      "0,6": 1,
+      "0,7": 1,
+      "0,8": 1,
+      "0,9": 1,
+      "0,10": 1,
+      "0,11": 1,
+      "0,12": 1,
+      "0,13": 1,
+      "0,14": 1,
+      "0,15": 2,
+      "0,21": 3,
+      "0,22": 3,
+      "0,23": 3,
+      "0,24": 3,
+      "0,25": 3,
+      "0,26": 3,
+      "0,27": 3,
+      "0,28": 3,
+      "0,29": 3,
+      "0,30": 3,
+      "0,31": 3,
+      "0,32": 3,
+      "0,33": 3,
+      "0,34": 3,
+      "0,35": 4,
+      "0,36": 4,
+      "0,37": 4,
+      "0,38": 4,
+      "0,39": 4,
+      "0,40": 3,
+      "0,41": 3,
+      "0,42": 3,
+      "0,43": 3,
+      "0,44": 3,
+      "0,45": 3,
+      "0,46": 3,
+      "0,47": 3,
+      "0,48": 3,
+      "0,49": 3,
+      "0,50": 3,
+      "0,51": 3,
+      "0,52": 3,
+      "0,53": 3,
+      "0,54": 4,
+      "0,55": 4,
+      "0,56": 4,
+      "0,57": 4,
+      "0,58": 4,
+      "0,59": 4,
+      "0,60": 4,
+      "1,1": 5,
+      "1,11": 6,
+      "1,12": 7,
+      "1,13": 6,
+      "1,54": 8,
+      "1,56": 8,
+      "1,58": 9,
+      "2,2": 7,
+      "2,3": 7,
+      "2,4": 7,
+      "2,5": 7,
+      "2,6": 7,
+      "2,7": 7,
+      "2,8": 7,
+      "2,9": 7,
+      "2,10": 7,
+      "2,11": 7,
+      "2,12": 7,
+      "2,13": 7,
+      "2,14": 7,
+      "2,21": 4,
+      "2,22": 4,
+      "2,23": 4,
+      "2,24": 4,
+      "2,25": 4,
+      "2,26": 4,
+      "2,27": 4,
+      "2,28": 4,
+      "2,29": 4,
+      "2,30": 4,
+      "2,31": 4,
+      "2,32": 4,
+      "2,33": 4,
+      "2,34": 4,
+      "2,35": 4,
+      "2,36": 4,
+      "2,37": 4,
+      "2,38": 4,
+      "2,39": 4,
+      "2,40": 4,
+      "2,41": 4,
+      "2,42": 4,
+      "2,43": 4,
+      "2,44": 4,
+      "2,45": 4,
+      "2,46": 4,
+      "2,47": 4,
+      "2,48": 4,
+      "2,49": 4,
+      "2,50": 4,
+      "2,51": 4,
+      "2,52": 4,
+      "2,53": 4,
+      "2,54": 4,
+      "2,55": 4,
+      "2,56": 4,
+      "2,57": 4,
+      "2,58": 4,
+      "2,59": 4,
+      "2,60": 4,
+      "3,0": 10,
+      "4,60": 11
+    },
+    "RowStyles": {
+      "0": 12,
+      "1": 12,
+      "2": 12,
+      "3": 12
+    },
+    "ColStyles": {
+      "0": 12,
+      "1": 12,
+      "2": 12,
+      "3": 12,
+      "4": 12,
+      "5": 12,
+      "6": 12,
+      "7": 12
+    },
+    "SheetStyle": {
+      "FontFamily": 2,
+      "BorderBottom": null,
+      "BorderTop": null,
+      "BorderLeft": null,
+      "BorderRight": null
+    }
+  },
+  "Spans": [
+    "1,1,1,8",
+    "3,10,22,50",
+    "1,58,1,1",
+    "0,15,3,5",
+    "3,0,22,10"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.MasterPage, ServerDesignerCommon",
+    "PageLoadedCommandList": [
+      {
+        "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
+        "ConditionAndCommandPairList": [
+          {
+            "Condition": {
+              "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
+              "SubConditions": [
+                {
+                  "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                  "param": {
+                    "$type": "Forguncy.Model.IfConditionCurrentUserInfoParam, ServerDesignerCommon",
+                    "currentUserProperty": {
+                      "UserProperty": "角色",
+                      "PropertyType": 3
+                    }
+                  },
+                  "value": "Administrator",
+                  "compareType": 10
+                },
+                {
+                  "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                  "param": {
+                    "$type": "Forguncy.Model.IfConditionCurrentUserInfoParam, ServerDesignerCommon",
+                    "currentUserProperty": {
+                      "UserProperty": "用户名"
+                    }
+                  },
+                  "value": "Admin"
+                }
+              ],
+              "RelationType": 1
+            },
+            "CommandList": [
+              {
+                "$type": "Forguncy.Model.SetRowColumnLayoutCommand, ServerDesignerCommon",
+                "PropertyItemsList": [
+                  {
+                    "Location": {
+                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                      "SerializeProperty": "='前台菜单导航-PC'!BE:BE"
+                    },
+                    "Value": true
+                  }
+                ]
+              }
+            ],
+            "ID": "a36709f8-8613-4493-8d1a-4e1fbf2e3f30"
+          }
+        ]
+      }
+    ]
+  },
+  "PrintInfo": {
+    "PaperSize": {},
+    "Margin": {}
+  },
+  "BackgroundPictures": [
+    {
+      "FitToBrowserHeight": true,
+      "Name": "5018ccaf-d277-4557-b477-aafa6ca1eb62",
+      "DisplayName": "左侧菜单背景",
+      "StyleInfo": {
+        "Fill": "Background 1 0",
+        "Stroke": "black",
+        "StrokeThickness": 0.0
+      },
+      "IsAutomaticStroke": false,
+      "IsAutomaticFill": false,
+      "Size": "192,152"
+    },
+    {
+      "Name": "eaafdc9c-b9c2-4103-9c90-591b5f050ce1.png",
+      "DisplayName": "背景图1",
+      "StyleInfo": {
+        "Fill": "#FF008DF7"
+      },
+      "IsAutomaticFill": false,
+      "Size": "192,56"
+    },
+    {
+      "Name": "8670a7b3-3624-43c1-ace5-bf1bb9867a22.png",
+      "DisplayName": "背景图2",
+      "StyleInfo": {
+        "Fill": "#FF0270C1"
+      },
+      "IsAutomaticFill": false,
+      "Location": "192,0",
+      "Size": "1164,56"
+    },
+    {
+      "Name": "2e5e6d05-e637-4b0d-b747-9ec58e5f9ad1.png",
+      "DisplayName": "背景图3",
+      "StyleInfo": {
+        "Fill": "#FF2A2E35"
+      },
+      "IsAutomaticFill": false,
+      "Location": "0,56",
+      "Size": "191,704"
+    }
+  ],
+  "CustomNames": [
+    {
+      "Name": "Menu",
+      "Formula": "'前台菜单导航-PC'!$A$4"
+    },
+    {
+      "Name": "上级选中菜单",
+      "Formula": "'前台菜单导航-PC'!$P$1"
+    },
+    {
+      "Name": "菜单显示",
+      "Formula": "'前台菜单导航-PC'!$BI$4"
+    }
+  ]
+}//rKbMmO5Q2n+qxdtogfSAN/yl0dGurxLiC04o4ccURxeS7lfckXCrkgi2gKeKF9ZWxfL+HlmFmflyxV4+JZotiySeBryxrwsMs6tAkIUFl6VOa0TkaafpHtpF+iLEzrP1+ZnMa8wCD6lp1muUkMTCK55JB9Ep4zASGbz/rQqBGESay+4laljC3bQCaolxQBibawkVdACaywSqRNrdPnO41MmrMBmrNcCm2xbSfpZzu/+Rz4/Oip2dBkf5P9m1zeOw/bwAiLOSybr46tBRtnlNMUiiKsl4EFYGWnySskbACD+FusRAB1kZv6TIdnZ7Wonyvc1/mYrHMZs8EUYgb0bw+baCPYJDQaGycHfBfZLd+bjGrymiwzWVEQlEYTf8JmnUISO+w5cYD8OtBMFEu/rYZ2ZjNUf8pf6k8bUNQIl6cA5k/jWhT2Wt/x7SnDWVvJh9480gYqJ2hEwUNOtSh4/7a456WjHRa9eGCNz3FimrAnO8K9dOSLpZ0VXQEbTXHsKvOMBzyqxIBo+ZiSwPDfuYsUFLwXJH1hE8oqRDI+LK2oiE0cwM9okoYtd0gvROMU1jLVkOW+Q+NDKgsgIAzBGxYa+w3fTkeD12Zk3cHHpY0Zx21yg8xyoJHbU8w8hWWitbFuoD67/fh38i/Q6QCVbXFpVskbRRkAEfQmdV6RF+cgg/fhOzIBqjQB3Qch+xNsr4GvSbfJZ00mpA0wU3yohCOUWfCLgOpddz791ep7SXwb5OXFTRjbM4T/ckHiwtcUzNQZfmDVOokr+P7ZBaEVEQXxrFDAKnPQDAlChLhDBUVQsaIU/3biaN9nWctEyl30Dplyr8HU5+NySCYd309e45wdRRItjrQ5ZqIRF6D+K7oQMHDG1tuRFik0bDGPMY5WBJ47PW6O2puj1ynM4TCX09sQ==|920

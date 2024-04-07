@@ -1,0 +1,85 @@
+{
+  "Name": "角色文件夹关系视图",
+  "Columns": [
+    {
+      "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
+      "DatabaseColumnType": "System.Int64",
+      "MaxLength": -1,
+      "Name": "Id",
+      "ColumnType": "System.Int64, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
+      "DatabaseColumnType": "System.String",
+      "MaxLength": -1,
+      "Name": "名称",
+      "ColumnType": "System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
+      "DatabaseColumnType": "System.Int64",
+      "MaxLength": -1,
+      "Name": "是否角色",
+      "ColumnType": "System.Int64, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
+      "DatabaseColumnType": "System.Int64",
+      "MaxLength": -1,
+      "Name": "父节点Id",
+      "ColumnType": "System.Int64, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
+      "DatabaseColumnType": "System.Int64",
+      "MaxLength": -1,
+      "Name": "排序",
+      "ColumnType": "System.Int64, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.SaveLoad.FormulaColumnSaveData, ServerDesignerCommon",
+      "Formula": "[Id]&\"~\"&[是否角色]",
+      "Name": "角色唯一标识",
+      "ColumnType": "System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.SaveLoad.FormulaColumnSaveData, ServerDesignerCommon",
+      "Formula": "IF(ISBLANK([父节点Id]),\"\",[父节点Id]&\"~0\")",
+      "Name": "父角色唯一标识",
+      "ColumnType": "System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.SaveLoad.FormulaColumnSaveData, ServerDesignerCommon",
+      "Formula": "IF([是否角色]=1,2,1)",
+      "Name": "图标ID",
+      "ColumnType": "System.Int64, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    }
+  ],
+  "BuiltInViewInfo": {
+    "ViewName": "角色文件夹关系视图",
+    "SourceTableName": "FGC_UMV_RFR",
+    "CreateViewSql": "SELECT [Id] AS [Id], [名称] AS [名称], [是否角色] AS [是否角色], [父节点Id] AS [父节点Id], [排序] AS [排序] FROM [FGC_UMV_RFR]",
+    "ViewType": 7
+  },
+  "PrimaryKey": [
+    "Id",
+    "是否角色"
+  ],
+  "Relations": [
+    {
+      "PrimaryTable": "角色文件夹关系视图",
+      "PrimaryColumn": "Id",
+      "ForeignTable": "角色文件夹关系视图",
+      "ForeignColumn": "父节点Id",
+      "IsDetailTableRelation": false
+    },
+    {
+      "PrimaryTable": "树形控件图标表",
+      "PrimaryColumn": "ID",
+      "ForeignTable": "角色文件夹关系视图",
+      "ForeignColumn": "图标ID",
+      "IsDetailTableRelation": false
+    }
+  ],
+  "Indexes": []
+}

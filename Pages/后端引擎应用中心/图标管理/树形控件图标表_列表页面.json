@@ -1,0 +1,208 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "3": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 55.0
+        }
+      },
+      "5": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "7": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "8": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "9": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      }
+    },
+    "Count": 45
+  },
+  "Cols": {
+    "Count": 60
+  },
+  "Values": {
+    "3,11": "树形控件图标表 列表",
+    "7,6": "添加记录",
+    "9,11": "更改",
+    "9,14": "删除"
+  },
+  "AttachInfos": {
+    "5,10": {
+      "CellType": {
+        "$type": "Forguncy.CurrentUserCellType, ServerDesignerCommon",
+        "CellCustomValue": "%CurrentUser%",
+        "ShowCircleUserPicture": true,
+        "NavigateSettingWhenLogout": {
+          "NavigateWhenLogoutMode": 1
+        }
+      }
+    },
+    "7,6": {
+      "CellType": {
+        "$type": "Forguncy.HyperlinkCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+            "PageName": "树形控件图标表_详情页面",
+            "PassValues": [
+              {
+                "Source": "添加",
+                "TargetCell": {
+                  "SerializeProperty": "=树形控件图标表_详情页面!K13"
+                }
+              }
+            ],
+            "LoadBindingDataOption": 2
+          }
+        ],
+        "Text": "添加记录"
+      }
+    },
+    "8,6": {
+      "ListViewInfo": {
+        "Name": "表格1",
+        "TableName": "树形控件图标表",
+        "RowIndex": 8,
+        "ColumnIndex": 6,
+        "RowCount": 12,
+        "ColumnCount": 11,
+        "TopCondition": null,
+        "ListViewStyleName": "样式1",
+        "ShowColumnHeaderInDesigner": true,
+        "IsRowHeaderVisible": true,
+        "ShowEditStatusIcon": true,
+        "UseSimpleBar": true,
+        "ColumnOperation": 2
+      }
+    },
+    "9,8": {
+      "BindingInfo": {
+        "TableName": "树形控件图标表",
+        "ColumnName": "图片",
+        "GUID": "f36aa028-dbe9-4928-bf51-c7fa1b12700d"
+      },
+      "CellType": {
+        "$type": "Forguncy.UploadImageCellType, ServerDesignerCommon",
+        "UploadImageLimit": {
+          "AllowExtensions": ".png, .jpeg, .jpg, .bmp, .gif, .ico"
+        }
+      }
+    },
+    "9,11": {
+      "CellType": {
+        "$type": "Forguncy.HyperlinkCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+            "PageName": "树形控件图标表_详情页面",
+            "PassValues": [
+              {
+                "Source": "更改",
+                "TargetCell": {
+                  "SerializeProperty": "=树形控件图标表_详情页面!K13"
+                }
+              }
+            ],
+            "LoadBindingDataOption": 1
+          }
+        ],
+        "Text": "更改"
+      }
+    },
+    "9,14": {
+      "CellType": {
+        "$type": "Forguncy.HyperlinkCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.DeleteRecordCommand, ServerDesignerCommon",
+            "ConfirmText": "您确定要删除吗？"
+          }
+        ],
+        "Text": "删除"
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "FontSize": 30.0,
+        "HorizontalAlignment": 0,
+        "VerticalAlignment": 0
+      },
+      {
+        "FontSize": 15.0,
+        "HorizontalAlignment": 1,
+        "VerticalAlignment": 0
+      },
+      {
+        "Foreground": 2,
+        "Underline": true
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Center",
+        "Right",
+        "Blue",
+        "Body"
+      ]
+    },
+    "CellStyles": {
+      "3,11": 0,
+      "5,10": 1,
+      "7,6": 2,
+      "9,11": 2,
+      "9,14": 2
+    },
+    "SheetStyle": {
+      "FontFamily": 3
+    }
+  },
+  "Spans": [
+    "5,10,1,7",
+    "10,6,10,11",
+    "9,6,1,2",
+    "9,8,1,3",
+    "9,11,1,3",
+    "9,14,1,3",
+    "8,6,1,2",
+    "8,8,1,3",
+    "8,11,1,3",
+    "8,14,1,3"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "PermissionData": {
+      "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionData, Forguncy.RbacPermission.Core",
+      "permissionResource": {
+        "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionResource, Forguncy.RbacPermission.Core"
+      },
+      "permissionBindings": [
+        {
+          "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionBinding, Forguncy.RbacPermission.Core",
+          "roleNames": [
+            "FGC_LoginUser"
+          ]
+        }
+      ]
+    },
+    "RowBreakLines": [],
+    "RepeatRangeSettings": []
+  },
+  "PrintInfo": {
+    "PaperSize": {},
+    "Margin": {}
+  }
+}//f18qMLAaPC81EZcQ/lgv6iNA7czrVNG4V9pzyf4YrxkZ+6Vwcd5MfQaV18DT7npi354+9GZp4b7lyBdppdm6ulQjRfU99zDns1MMPpjkVBS3t8yUCZcfB9eWBK5SvWO7p7WsE1l9JKm9fpclmuSwCJ0FaSiYz22VNkv3AHnUdBKUkmq1KzQ3mdsLMwlPiS2mgRkpqj2ck4Cs/nbTnpKbAn5vGhbKx52+yGo4OgUwUx2e5xr+YKmgrrLmqfJn0Iw+h1DGp/BUIeD3OOxHj4jtoqP8kpkoGUV+Nv0sHV1+KjrCmSsUbzkihgBzjbtKLK/uX5ZXeBMK+O6Rzn8RbLWxiR2ke1UO0uBx2kU06eOh9lfbf6VCM4+OxEATHXv8kvWJrDdM3j8LShfS57iPQBe7QpWCM83UMg00FmAy4gmq8ceErtI7qzdt7Ka9cHUgv05hyadjLQ6qU3J+jOuPl1sRDyZov1kzsi98/j42/sODCjJUtnuKSg61MOA2AMQdXLri8vU+6ZqAezFZxIkkMZlkfFKmPuErGK15RobZB7yAqK73e+TMSyry74bFxKlRDu+a2dFoFucFCkJ3kLXAnzpw3R72XZu7FW3P2ICpReOPICbW+or+jVTInOzpPKK3rBXb+F3tx/XLNrsztjREiXjrLOOlT5TYvNUF7kCs/CCzWwkwwGc0PGAA/HCQhJk91x1J7zymho/7ge9txnaoRMdYo0Yfy3Xq56wDVehrBQKLWdR92ODzopnnj0l0Mg21r+yPHAdyfw/133PU2JScDhzc3OY91agyKdId6xTj1pVjpMgooVuAgaxQDgHN/6kJVljGR9fXTHx2mNZylLIP5KM094BjwJfHrBzoyRDzQZrLCHZjVrnf/V36BeEGGfFLfIP716f9ddTmakt6Os0p+SwjTw==|920

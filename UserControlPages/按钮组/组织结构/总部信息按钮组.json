@@ -1,0 +1,191 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      }
+    },
+    "Count": 1,
+    "DefaultSize": 30.0
+  },
+  "Cols": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 60.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "1": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 55.0,
+          "Mode": 1
+        }
+      },
+      "2": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "3": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 85.0,
+          "Mode": 1
+        }
+      },
+      "4": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "5": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 59.0,
+          "Mode": 1
+        }
+      },
+      "6": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "7": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 103.0,
+          "Mode": 1
+        }
+      },
+      "8": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      }
+    },
+    "Count": 9,
+    "DefaultSize": 16.0
+  },
+  "Values": {
+    "0,1": "  编 辑  ",
+    "0,3": "  新建分部  ",
+    "0,5": "  导 入  ",
+    "0,7": "  添加部门成员  "
+  },
+  "AttachInfos": {
+    "0,1": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.CallUserControlPageCommand, ServerDesignerCommon",
+            "CommandName": "编辑事件"
+          }
+        ],
+        "Text": "  编 辑  ",
+        "TemplateKey": "组织结构_搜索按钮1"
+      }
+    },
+    "0,3": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.CallUserControlPageCommand, ServerDesignerCommon",
+            "CommandName": "新建分部事件"
+          }
+        ],
+        "Text": "  新建分部  ",
+        "TemplateKey": "组织结构_搜索按钮1"
+      }
+    },
+    "0,5": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.CallUserControlPageCommand, ServerDesignerCommon",
+            "CommandName": "导入事件"
+          }
+        ],
+        "Text": "  导 入  ",
+        "TemplateKey": "组织结构_搜索按钮1"
+      }
+    },
+    "0,7": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.CallUserControlPageCommand, ServerDesignerCommon",
+            "CommandName": "添加部门成员事件"
+          }
+        ],
+        "Text": "  添加部门成员  ",
+        "TemplateKey": "组织结构_搜索按钮1"
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "FontSize": 13.333333333333332
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Body"
+      ]
+    },
+    "ColStyles": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0
+    },
+    "SheetStyle": {
+      "FontFamily": 0
+    }
+  },
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.UserControlPage, ServerDesignerCommon",
+    "PropertyDefinitions": [],
+    "CommandDefinitions": [
+      {
+        "Name": "编辑事件"
+      },
+      {
+        "Name": "新建分部事件"
+      },
+      {
+        "Name": "导入事件"
+      },
+      {
+        "Name": "添加部门成员事件"
+      }
+    ],
+    "MethodDefinitions": [],
+    "PageLoadedCommandList": []
+  },
+  "PrintInfo": {
+    "PaperSize": {},
+    "Margin": {}
+  }
+}//jvkyY7W64vxYkwhQIdOM/Mm91+LD1YKfBWNcWepCEPNIsx7z+6Tg4aV4u/DShEOvSABq2ejzjtsvR3d7PSlWPCIFot+8BTHtIfFMjBOJMDFkIeqV5AbC9aq5KLy240vZKBL7Eiyy7JbnaFmmK2eMCuqGNkDIXxIfxZpgGlVumqTK9jzhTYeyfCBCs4cTslq4/h7WE9ddwmiX+ML5TT/uYWy6PCNcr4JnrwKVqnptNJHy30UPI8z7akkMIp5bOJdNlcY+SnML293T9iIQWQ5wP5AdKxJC4waFqRzxQ9WV8GmN3lu2PDSVYiyJuliq/oJ5Xbc7gemssbordSeiPtAyBlZnm14dSrIMK8Ir0PMnf1oQMpSgF8+E8KFtnCRpcw4Cxoo2aCGuzG7+CbR6q6xkAEJyGZmtX65bFkn7X31z2WWOkjJ/eCQR/8v61qZAKnR7Rhze5yPB/dWjf2lHJ2oUXZIi+1q4RggJSkDhYUvWmcT3k3rjzo7HBV6nj/BbW3RYEl8gmEq/zEoEHc0AEWsu/roLJAROKoYJwuDZvtnalo0Rre79Hyw/NzoGpxZU3sKsH0Aqvm4NTFKHGkHyS6TrmvHbYIagfoituhVrjWX2zy9AMm6WJQUczqyx9wGqqa7N27eCaM/rhpP/7sU5oHtnF1dGCiCAlFOqyyjwUzKAekdOkRlM6j5NjPZxepC/vDNQnfjx13UD23rH8znMgtnjIqDQJ9s/RnuwsXZBJ7fv5yJQB3YftgSjeFBhipQCIcN6z/5qQzGwfkNWLIoQepCo6uH5nFlOGrUWunbQ1uozoePHwviw9zlsCvd4nYTsJPg4gKIZEsORKp8uvXSiSOK9gYBU8pktzOtm7w4HnBFj7b8kJuVwdmOC+s4F++DGQVkBZ4EPWT32rqAc/waVAWR1ZQ==|920

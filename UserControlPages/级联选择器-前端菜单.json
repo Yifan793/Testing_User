@@ -1,0 +1,424 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      }
+    },
+    "Count": 1,
+    "DefaultSize": 30.0
+  },
+  "Cols": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 100.0,
+          "Mode": 2,
+          "MinLength": {
+            "Value": 10.0,
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 100.0,
+            "Unit": 1
+          }
+        }
+      },
+      "1": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 100.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      }
+    },
+    "Count": 2,
+    "DefaultSize": 100.0
+  },
+  "AttachInfos": {
+    "0,0": {
+      "TemplateCellSource": "字段"
+    },
+    "0,1": {
+      "CellType": {
+        "$type": "ElementUI.CascaderCellType, ElementUI",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.CallUserControlPageCommand, ServerDesignerCommon",
+            "CommandName": "选择"
+          }
+        ],
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ],
+        "useBinding": true,
+        "options": [
+          {
+            "$type": "ElementUI.TreeNode, ElementUI",
+            "value": "zhinan",
+            "label": "指南",
+            "children": [
+              {
+                "value": "shejiyuanze",
+                "label": "设计原则",
+                "children": [
+                  {
+                    "value": "yizhi",
+                    "label": "一致"
+                  },
+                  {
+                    "value": "fankui",
+                    "label": "反馈"
+                  },
+                  {
+                    "value": "xiaolv",
+                    "label": "效率"
+                  },
+                  {
+                    "value": "kekong",
+                    "label": "可控"
+                  }
+                ]
+              },
+              {
+                "value": "daohang",
+                "label": "导航",
+                "children": [
+                  {
+                    "value": "cexiangdaohang",
+                    "label": "侧向导航"
+                  },
+                  {
+                    "value": "dingbudaohang",
+                    "label": "顶部导航"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "$type": "ElementUI.TreeNode, ElementUI",
+            "value": "zujian",
+            "label": "组件",
+            "children": [
+              {
+                "value": "basic",
+                "label": "Basic",
+                "children": [
+                  {
+                    "value": "layout",
+                    "label": "Layout 布局"
+                  },
+                  {
+                    "value": "color",
+                    "label": "Color 色彩"
+                  },
+                  {
+                    "value": "typography",
+                    "label": "Typography 字体"
+                  },
+                  {
+                    "value": "icon",
+                    "label": "Icon 图标"
+                  },
+                  {
+                    "value": "button",
+                    "label": "Button 按钮"
+                  }
+                ]
+              },
+              {
+                "value": "form",
+                "label": "Form",
+                "children": [
+                  {
+                    "value": "radio",
+                    "label": "Radio 单选框"
+                  },
+                  {
+                    "value": "checkbox",
+                    "label": "Checkbox 多选框"
+                  },
+                  {
+                    "value": "input",
+                    "label": "Input 输入框"
+                  },
+                  {
+                    "value": "input-number",
+                    "label": "InputNumber 计数器"
+                  },
+                  {
+                    "value": "select",
+                    "label": "Select 选择器"
+                  },
+                  {
+                    "value": "cascader",
+                    "label": "Cascader 级联选择器"
+                  },
+                  {
+                    "value": "switch",
+                    "label": "Switch 开关"
+                  },
+                  {
+                    "value": "slider",
+                    "label": "Slider 滑块"
+                  },
+                  {
+                    "value": "time-picker",
+                    "label": "TimePicker 时间选择器"
+                  },
+                  {
+                    "value": "date-picker",
+                    "label": "DatePicker 日期选择器"
+                  },
+                  {
+                    "value": "datetime-picker",
+                    "label": "DateTimePicker 日期时间选择器"
+                  },
+                  {
+                    "value": "upload",
+                    "label": "Upload 上传"
+                  },
+                  {
+                    "value": "rate",
+                    "label": "Rate 评分"
+                  },
+                  {
+                    "value": "form",
+                    "label": "Form 表单"
+                  }
+                ]
+              },
+              {
+                "value": "data",
+                "label": "Data",
+                "children": [
+                  {
+                    "value": "table",
+                    "label": "Table 表格"
+                  },
+                  {
+                    "value": "tag",
+                    "label": "Tag 标签"
+                  },
+                  {
+                    "value": "progress",
+                    "label": "Progress 进度条"
+                  },
+                  {
+                    "value": "tree",
+                    "label": "Tree 树形控件"
+                  },
+                  {
+                    "value": "pagination",
+                    "label": "Pagination 分页"
+                  },
+                  {
+                    "value": "badge",
+                    "label": "Badge 标记"
+                  }
+                ]
+              },
+              {
+                "value": "notice",
+                "label": "Notice",
+                "children": [
+                  {
+                    "value": "alert",
+                    "label": "Alert 警告"
+                  },
+                  {
+                    "value": "loading",
+                    "label": "Loading 加载"
+                  },
+                  {
+                    "value": "message",
+                    "label": "Message 消息提示"
+                  },
+                  {
+                    "value": "message-box",
+                    "label": "MessageBox 弹框"
+                  },
+                  {
+                    "value": "notification",
+                    "label": "Notification 通知"
+                  }
+                ]
+              },
+              {
+                "value": "navigation",
+                "label": "Navigation",
+                "children": [
+                  {
+                    "value": "menu",
+                    "label": "NavMenu 导航菜单"
+                  },
+                  {
+                    "value": "tabs",
+                    "label": "Tabs 标签页"
+                  },
+                  {
+                    "value": "breadcrumb",
+                    "label": "Breadcrumb 面包屑"
+                  },
+                  {
+                    "value": "dropdown",
+                    "label": "Dropdown 下拉菜单"
+                  },
+                  {
+                    "value": "steps",
+                    "label": "Steps 步骤条"
+                  }
+                ]
+              },
+              {
+                "value": "others",
+                "label": "Others",
+                "children": [
+                  {
+                    "value": "dialog",
+                    "label": "Dialog 对话框"
+                  },
+                  {
+                    "value": "tooltip",
+                    "label": "Tooltip 文字提示"
+                  },
+                  {
+                    "value": "popover",
+                    "label": "Popover 弹出框"
+                  },
+                  {
+                    "value": "card",
+                    "label": "Card 卡片"
+                  },
+                  {
+                    "value": "carousel",
+                    "label": "Carousel 走马灯"
+                  },
+                  {
+                    "value": "collapse",
+                    "label": "Collapse 折叠面板"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "$type": "ElementUI.TreeNode, ElementUI",
+            "value": "ziyuan",
+            "label": "资源",
+            "children": [
+              {
+                "value": "jiaohu",
+                "label": "组件交互文档"
+              }
+            ]
+          }
+        ],
+        "bindingOptions": {
+          "$type": "ServerDesignerCommon.Model.BindingDataSourceModel, ServerDesignerCommon",
+          "TableName": "前端菜单表",
+          "BindingInfos": [
+            {
+              "BindingInfo": {
+                "TableName": "前端菜单表",
+                "ColumnName": "菜单值",
+                "GUID": "eb32c29f-3b45-4355-89ff-428e78ae8d11"
+              },
+              "ColumnName": "value"
+            },
+            {
+              "BindingInfo": {
+                "TableName": "前端菜单表",
+                "ColumnName": "显示文本",
+                "GUID": "f77efed7-36cf-416b-b565-d5b4f0e5081a"
+              },
+              "ColumnName": "label"
+            },
+            {
+              "BindingInfo": {
+                "TableName": "前端菜单表",
+                "ColumnName": "上级菜单值",
+                "GUID": "cf0915f8-0f0f-4931-9b7f-cc7189e1a718"
+              },
+              "ColumnName": "parentValue"
+            }
+          ],
+          "CustomColumns": []
+        },
+        "placeholder": "上级菜单为空默认添加一级菜单",
+        "separator": "/",
+        "tagType": "info",
+        "checkStrictly": true,
+        "filterable": true,
+        "clearable": true
+      },
+      "TemplateCellSource": "Fgc-UC-TwoWayBinding-Value-Column"
+    }
+  },
+  "StyleDatas": {
+    "Types": {
+      "Strs": [
+        "Body"
+      ]
+    },
+    "SheetStyle": {
+      "FontFamily": 0
+    }
+  },
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.UserControlPage, ServerDesignerCommon",
+    "PropertyDefinitions": [
+      {
+        "Name": "字段"
+      },
+      {
+        "Name": "数据源"
+      }
+    ],
+    "CommandDefinitions": [
+      {
+        "Name": "选择"
+      }
+    ],
+    "MethodDefinitions": [],
+    "PageLoadedCommandList": [],
+    "PropertyChangedHandlers": {
+      "Commands": [],
+      "ParamProperties": {
+        "propertyName": "属性名",
+        "oldValue": "原值",
+        "newValue": "新值"
+      }
+    }
+  },
+  "PrintInfo": {
+    "PaperSize": {},
+    "Margin": {}
+  }
+}//FXr97drVjqKaeRbDSU1mo6Aw4G5dV5gMjvAu5c0fszg+wsMusjdSIDwxXPdqZhHy9cJ4E2vbazD7OW9PR9j4zmK9J8P41kLqyd9tIiy0CALcqjtnmCKoCl7ZupoN7rskMNsBvy6gs81/OtnkmeOydQxQA8+fk/YJo3scr9ikiIHdOLEsBxc4TZoagqtqJO0aaY2yUQiL8vCroRorq84m1jptS6pxVKoSPrcA4AAFVsny/GLNH5I/No2hhyfKttaUOWiam4JMwoeIV6U4kvWtihkqWnqXeRi/6ORMbpwodLiU8+9hfTo30/KH9nsdwJ6532DVVpczTU5Dh1Ho60h4cSXKBLgqzRzOf2TxkHPE8C8OMmFyFIVlxUxiL6LNGjnNwIa+dSfBPECaBZ7N2dGikyhgE5OJ+4U/GzuZEFLm4qwrg4W7qD6cvsTniXq2Of0QH0gX1m2v/V817Y7WjnNvzWsVjTj6/yw+eemYbKpkamc6/QHxvT4rqFtb/TaUSX9PVWh7GS1E51h2TguL7cqwEUz5zOK0RgIOwlgaIFRuYWAvAVoX5J0BV1//omSLOU82Nu1PyVWHK00QFjvfVyBhlLgV41EbzbhfMyqa1PWHDRQCuhnz6QMnyhD0Y6k9O7zPTVLIkpaIcjKkY3hmNiObdhHlb83vhNbywkvTIfNmEpEvWFKi/LSoj+wPWXVVDEOMYTWGU4m5JpOpjMBgL7Y/u8F9ORbOWR4raX8UxKxwt2C75tquC8YGChd1H/Nep3rS06WworPI+3uTKr2JWScGoRAN+VRQTQdJjveF6fy2zmTc6z5TMyTWOhUf/FGw8dxoQaUIWJgngdcdiZ1s8UC8MX3Q3IvaMkNAJuiXuToo+4jmj+xNwObAPNecwrcn8oU8a8h10U+uP5hMjekF3Tn2Ow==|920

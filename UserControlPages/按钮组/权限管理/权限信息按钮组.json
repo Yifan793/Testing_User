@@ -1,0 +1,201 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      }
+    },
+    "Count": 1,
+    "DefaultSize": 30.0
+  },
+  "Cols": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 60.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "1": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 77.0,
+          "Mode": 1
+        }
+      },
+      "2": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "3": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 90.0,
+          "Mode": 1
+        }
+      },
+      "4": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "5": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 59.0,
+          "Mode": 1
+        }
+      },
+      "6": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "7": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 59.0,
+          "Mode": 1
+        }
+      },
+      "8": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      }
+    },
+    "Count": 9,
+    "DefaultSize": 16.0
+  },
+  "Values": {
+    "0,1": "  添加权限  ",
+    "0,3": "  添加文件夹  ",
+    "0,5": "  编  辑  ",
+    "0,7": "  删  除  "
+  },
+  "AttachInfos": {
+    "0,1": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.CallUserControlPageCommand, ServerDesignerCommon",
+            "CommandName": "添加权限事件"
+          }
+        ],
+        "Text": "  添加权限  ",
+        "TemplateKey": "组织结构_搜索按钮1"
+      }
+    },
+    "0,3": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.CallUserControlPageCommand, ServerDesignerCommon",
+            "CommandName": "添加文件夹事件"
+          }
+        ],
+        "Text": "  添加文件夹  ",
+        "TemplateKey": "组织结构_搜索按钮1"
+      }
+    },
+    "0,5": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.CallUserControlPageCommand, ServerDesignerCommon",
+            "CommandName": "编辑事件"
+          }
+        ],
+        "Text": "  编  辑  ",
+        "TemplateKey": "组织结构_搜索按钮1"
+      }
+    },
+    "0,7": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.CallUserControlPageCommand, ServerDesignerCommon",
+            "CommandName": "删除事件"
+          }
+        ],
+        "Text": "  删  除  ",
+        "TemplateKey": "组织结构_搜索按钮1"
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "FontFamily": 0,
+        "FontSize": 13.333333333333332,
+        "Formatter": 1
+      },
+      {
+        "FontSize": 13.333333333333332
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Body",
+        "[AUTO]General"
+      ]
+    },
+    "CellStyles": {
+      "0,3": 0,
+      "0,7": 0
+    },
+    "ColStyles": {
+      "1": 1,
+      "2": 1,
+      "3": 1,
+      "4": 1,
+      "5": 1,
+      "6": 1,
+      "7": 1,
+      "8": 1
+    },
+    "SheetStyle": {
+      "FontFamily": 0
+    }
+  },
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.UserControlPage, ServerDesignerCommon",
+    "PropertyDefinitions": [],
+    "CommandDefinitions": [
+      {
+        "Name": "添加权限事件"
+      },
+      {
+        "Name": "添加文件夹事件"
+      },
+      {
+        "Name": "编辑事件"
+      },
+      {
+        "Name": "删除事件"
+      }
+    ],
+    "MethodDefinitions": [],
+    "PageLoadedCommandList": []
+  },
+  "PrintInfo": {
+    "PaperSize": {},
+    "Margin": {}
+  }
+}//WzQt6KZHAjStISLXShEHDUuogeDbasoPJK7uhZwP9DL+B3eogpoJ2Njx1epzaAG4ejj1tcmw49908kmd8wsueY8CWLTeY/aA+fBIp5Ff9GPJsr+DcG4U5RD6Ai/Q+glGRlZxGdOaVL24oAlVLAx/AXeGuimipwgTpYsgIa/VwkPQ7tpJK+ul/PbGmvdO9stPYOw2lwnl9l5cQPp3N0zAjNS5FTyOWFiFjywIUdC4v/O6p5rfgbai3RKQPdCL1rLOHHkh7KrI2eulxG/9H+g31f9NBWxJlorB/J59XFRGjt2qAv6cqOBSjOi/05M6WG62V8K4496HfTGDyc5BYai/On8VE9oRXQUlKswnWI40VE4uhsHqCZLGfDhnTrbTd5zzqshRu9x+ScBG8vcv63X04XVenysQkXUqlTEvgmCCJzj6X9QsG4WtE4tx5JVqmQEaswFK7dprK8Y9Y1302zqf5FnpRZnhZQ6OUl8xSPOrZeeTNRRFQbhAFoFnv7Cr8v0fq6zuWa8qwUutdz92dLTu+C3hn1Ti+4K94XEtdWBcpCjzg0pcl2Ttw/D8Jq5lXhQ+WvDnkpI0DwH3urhcRMrqOm6pm3qeQU6BPz76Ief2ETHu43+A5GKLCah978l/KorIO0OZfIt1wEyCe3H8UWPBy4DKyLZScpVYoqqpVkFFzotoczeT+V6QhdHdfoR4xWcs1XCMh1X6RZQSorxoL0pFNSW9EEKbeurnf/rbvhkOhUsgU3ETgrlNOdh/f2lkApjVBhf1tBW8C0aSxZZN+j4RL22z0YcwcQ0MtP5kl27vsOLZbdR/9v99yhVQUqMJEf3DbP1J5QZGvDz/gfXX9KUaY2Z9lca5eTQyTS97aCDW6N9HMHJhQqS5kg3D4TbprcQaTUCJ930KHCmGbVYR49k2ow==|920

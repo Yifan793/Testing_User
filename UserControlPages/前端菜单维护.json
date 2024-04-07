@@ -1,0 +1,1049 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 8.0
+        }
+      },
+      "1": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 8.0
+        }
+      },
+      "2": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "3": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 8.0
+        }
+      },
+      "4": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 8.0
+        }
+      },
+      "5": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 48.0
+        }
+      },
+      "6": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 48.0
+        }
+      },
+      "7": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 378.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "8": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "9": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0,
+          "Mode": 1
+        }
+      },
+      "10": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "11": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          },
+          "IsHidden": true
+        }
+      }
+    },
+    "InLogicalVisibleIndexes": [
+      11
+    ],
+    "Count": 12,
+    "DefaultSize": 8.0
+  },
+  "Cols": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "1": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 200.0
+        }
+      },
+      "2": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "3": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 67.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "4": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 99.0
+        }
+      },
+      "5": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 99.0
+        }
+      },
+      "6": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 100.0
+        }
+      },
+      "7": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 50.0
+        }
+      },
+      "8": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 115.0
+        }
+      },
+      "9": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 98.0
+        }
+      },
+      "10": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "11": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "12": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "13": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "14": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0,
+          "IsHidden": true
+        }
+      },
+      "15": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "16": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "17": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "18": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "19": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "20": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "21": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "22": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "23": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "24": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "25": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      }
+    },
+    "InLogicalVisibleIndexes": [
+      14
+    ],
+    "Count": 26
+  },
+  "Values": {
+    "2,22": "添加",
+    "5,3": "菜单名称",
+    "5,5": "上级菜单名称",
+    "5,15": "操作",
+    "6,15": "添加",
+    "6,17": "修改",
+    "6,19": "上移",
+    "6,21": "下移",
+    "6,23": "删除"
+  },
+  "Formulas": {
+    "11,1": "IF(MenuTree=\"\",-1,MenuTree)"
+  },
+  "AttachInfos": {
+    "1,1": {
+      "CellType": {
+        "$type": "Forguncy.UserControlPageCellType, ServerDesignerCommon",
+        "UserControlPageName": "一级标题"
+      },
+      "TemplateCellSource": "标题"
+    },
+    "2,22": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.ShowPopupCommand, ServerDesignerCommon",
+            "PageName": "前端添加菜单",
+            "PassValues": [
+              {
+                "Source": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=前端菜单维护!MenuTree"
+                },
+                "TargetCell": {
+                  "SerializeProperty": "=前端添加菜单!B4"
+                }
+              },
+              {
+                "Source": "添加",
+                "TargetCell": {
+                  "SerializeProperty": "=前端添加菜单!F19"
+                }
+              }
+            ],
+            "LoadBindingDataOption": 2
+          }
+        ],
+        "Text": "添加",
+        "TemplateKey": "样式14",
+        "IconSize": 14.0
+      }
+    },
+    "3,0": {
+      "CellType": {
+        "$type": "Forguncy.UserControlPageCellType, ServerDesignerCommon"
+      }
+    },
+    "5,1": {
+      "CellType": {
+        "$type": "Forguncy.CustomMenu.ForguncyTreeCellType, Forguncy.CustomMenu",
+        "IsBinding": true,
+        "BindingSourceTreeLevelInfo": {
+          "LevelName": "级别1",
+          "BindingDataSource": {
+            "$type": "ServerDesignerCommon.Model.BindingDataSourceModel, ServerDesignerCommon",
+            "TableName": "前端菜单表",
+            "BindingInfos": [
+              {
+                "BindingInfo": {
+                  "TableName": "前端菜单表",
+                  "ColumnName": "菜单值",
+                  "GUID": "b64b667c-6a61-47b7-b829-d387adc19ab5"
+                },
+                "ColumnName": "id"
+              },
+              {
+                "BindingInfo": {
+                  "TableName": "前端菜单表",
+                  "ColumnName": "显示文本",
+                  "GUID": "494a12d6-f1ad-4d02-bced-57f419723640"
+                },
+                "ColumnName": "name"
+              },
+              {
+                "BindingInfo": {
+                  "TableName": "前端菜单表",
+                  "ColumnName": "上级菜单值",
+                  "GUID": "cf5f29cd-099d-4e37-8252-485915e80b31"
+                },
+                "ColumnName": "pid"
+              }
+            ],
+            "NullFormulaValueQueryPolicy": 1,
+            "OrderBySqlCondition": {
+              "OrderByColumns": [
+                {
+                  "ColumnBindingInfo": {
+                    "TableName": "前端菜单表",
+                    "ColumnName": "顺序号",
+                    "GUID": "4f1ea793-73ee-4553-9c36-5504faf4db94"
+                  },
+                  "Order": 0
+                }
+              ]
+            },
+            "TreeSourceSetting": {
+              "IdColumn": "id",
+              "PidColumn": "pid",
+              "QueryResultMode": 0
+            },
+            "CustomColumns": []
+          }
+        },
+        "Items": [
+          {
+            "Value": "结点1",
+            "Text": "结点1",
+            "CanVisitRoleList": [
+              "FGC_Anonymous"
+            ],
+            "SubItems": [
+              {
+                "Value": "结点1_1",
+                "Text": "结点1_1",
+                "CanVisitRoleList": [
+                  "FGC_Anonymous"
+                ]
+              },
+              {
+                "Value": "结点1_2",
+                "Text": "结点1_2",
+                "CanVisitRoleList": [
+                  "FGC_Anonymous"
+                ]
+              }
+            ]
+          },
+          {
+            "Value": "结点2",
+            "Text": "结点2",
+            "CanVisitRoleList": [
+              "FGC_Anonymous"
+            ],
+            "SubItems": [
+              {
+                "Value": "结点2_1",
+                "Text": "结点2_1",
+                "CanVisitRoleList": [
+                  "FGC_Anonymous"
+                ]
+              },
+              {
+                "Value": "结点2_2",
+                "Text": "结点2_2",
+                "CanVisitRoleList": [
+                  "FGC_Anonymous"
+                ]
+              }
+            ]
+          },
+          {
+            "Value": "结点3",
+            "Text": "结点3",
+            "CanVisitRoleList": [
+              "FGC_Anonymous"
+            ],
+            "SubItems": [
+              {
+                "Value": "结点3_1",
+                "Text": "结点3_1",
+                "CanVisitRoleList": [
+                  "FGC_Anonymous"
+                ]
+              },
+              {
+                "Value": "结点3_2",
+                "Text": "结点3_2",
+                "CanVisitRoleList": [
+                  "FGC_Anonymous"
+                ]
+              }
+            ]
+          }
+        ],
+        "DefaultExpandStyle": 0,
+        "TemplateKey": "样式1"
+      }
+    },
+    "5,3": {
+      "ListViewInfo": {
+        "Name": "表格1",
+        "TableName": "前端菜单表",
+        "RowIndex": 5,
+        "ColumnIndex": 3,
+        "RowCount": 3,
+        "ColumnCount": 22,
+        "SqlCondition": {
+          "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
+          "SubConditions": [
+            {
+              "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+              "ColumnBindingInfo": {
+                "TableName": "前端菜单表",
+                "ColumnName": "菜单值",
+                "GUID": "068d93d1-6c11-41f9-962a-a5251ffb7021"
+              },
+              "Value": {
+                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                "SerializeProperty": "=前端菜单维护!B12"
+              }
+            },
+            {
+              "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+              "ColumnBindingInfo": {
+                "TableName": "前端菜单表",
+                "ColumnName": "上级菜单值",
+                "GUID": "e26032d8-5316-4a9e-bee8-9e3cc4ec033a"
+              },
+              "Value": {
+                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                "SerializeProperty": "=前端菜单维护!B12"
+              }
+            }
+          ],
+          "RelationType": 1
+        },
+        "OrderByCondition": {
+          "OrderByColumns": [
+            {
+              "ColumnBindingInfo": {
+                "TableName": "前端菜单表",
+                "ColumnName": "上级菜单值",
+                "GUID": "6dbf5bda-db4f-46d4-89ab-d7c283276c7c"
+              },
+              "Order": 0
+            },
+            {
+              "ColumnBindingInfo": {
+                "TableName": "前端菜单表",
+                "ColumnName": "顺序号",
+                "GUID": "fc375a9e-3641-4e98-9efb-34b9f9d9be7c"
+              },
+              "Order": 0
+            }
+          ]
+        },
+        "TopCondition": null,
+        "ListViewStyleName": "样式4",
+        "ShowColumnHeaderInDesigner": true,
+        "ShowEditStatusIcon": true,
+        "UseSimpleBar": true,
+        "ColumnOperation": 2
+      }
+    },
+    "6,3": {
+      "BindingInfo": {
+        "TableName": "前端菜单表",
+        "ColumnName": "显示文本",
+        "GUID": "b096e725-8add-455b-ba10-6c0a05e3831d"
+      }
+    },
+    "6,5": {
+      "BindingInfo": {
+        "TableName": "前端菜单表",
+        "ColumnName": "上级菜单值",
+        "GUID": "c595a3d3-7ba0-462a-8149-aed74037104d",
+        "RelationBinding": {
+          "RelatedTable": "前端菜单表",
+          "RelatedColumn": "菜单值",
+          "DisplayColumn": "显示文本"
+        }
+      }
+    },
+    "6,7": {
+      "BindingInfo": {
+        "TableName": "前端菜单表",
+        "ColumnName": "图标",
+        "GUID": "738fa8f0-a6d0-4e53-a6b0-5d035ddf5419"
+      }
+    },
+    "6,8": {
+      "BindingInfo": {
+        "TableName": "前端菜单表",
+        "ColumnName": "链接类型",
+        "GUID": "d85b1555-3073-4151-b540-ab25dea5545a",
+        "RelationBinding": {
+          "RelatedTable": "链接类型字典表",
+          "RelatedColumn": "ID",
+          "DisplayColumn": "链接类型"
+        }
+      }
+    },
+    "6,9": {
+      "BindingInfo": {
+        "TableName": "前端菜单表",
+        "ColumnName": "链接地址",
+        "GUID": "b62572ba-5327-473f-affd-833a169154fc"
+      }
+    },
+    "6,14": {
+      "BindingInfo": {
+        "TableName": "前端菜单表",
+        "ColumnName": "ID",
+        "GUID": "beb178e3-7428-4fab-a6da-e7ba169d0990"
+      }
+    },
+    "6,15": {
+      "CellType": {
+        "$type": "Forguncy.HyperlinkCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.ShowPopupCommand, ServerDesignerCommon",
+            "PageName": "前端添加菜单",
+            "PassValues": [
+              {
+                "Source": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=前端菜单维护!MenuTree"
+                },
+                "TargetCell": {
+                  "SerializeProperty": "=前端添加菜单!B4"
+                }
+              },
+              {
+                "Source": "添加",
+                "TargetCell": {
+                  "SerializeProperty": "=前端添加菜单!F19"
+                }
+              }
+            ],
+            "LoadBindingDataOption": 2
+          }
+        ],
+        "Text": "添加",
+        "ClickMode": 1
+      }
+    },
+    "6,17": {
+      "CellType": {
+        "$type": "Forguncy.HyperlinkCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.ShowPopupCommand, ServerDesignerCommon",
+            "PageName": "前端添加菜单",
+            "PassValues": [
+              {
+                "Source": "修改",
+                "TargetCell": {
+                  "SerializeProperty": "=前端添加菜单!F19"
+                }
+              }
+            ],
+            "LoadBindingDataOption": 1
+          }
+        ],
+        "Text": "修改",
+        "ClickMode": 1
+      }
+    },
+    "6,19": {
+      "CellType": {
+        "$type": "Forguncy.HyperlinkCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.RequestServerCommand, ServerDesignerCommon",
+            "ServerCommandName": "菜单移动",
+            "Parameters": [
+              {
+                "$type": "Forguncy.Model.RequestServerCommandObjectParam, ServerDesignerCommon",
+                "ParamName": "菜单类型",
+                "Value": "前端菜单"
+              },
+              {
+                "$type": "Forguncy.Model.RequestServerCommandObjectParam, ServerDesignerCommon",
+                "ParamName": "移动方式",
+                "Value": "上移"
+              },
+              {
+                "$type": "Forguncy.Model.RequestServerCommandObjectParam, ServerDesignerCommon",
+                "ParamName": "菜单ID",
+                "Value": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=前端菜单维护!O7"
+                }
+              }
+            ],
+            "ResultErrorCodeTo": {
+              "SerializeProperty": "返回码"
+            },
+            "ResultMessageTo": {
+              "SerializeProperty": "返回信息"
+            },
+            "RefreshAfterFinish": true,
+            "CheckDataValidation": true
+          },
+          {
+            "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
+            "ConditionAndCommandPairList": [
+              {
+                "Condition": {
+                  "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                  "param": {
+                    "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                    "cellLocations": [
+                      {
+                        "SerializeProperty": "=前端菜单维护!返回码"
+                      }
+                    ]
+                  },
+                  "value": "0",
+                  "compareType": 1
+                },
+                "CommandList": [
+                  {
+                    "$type": "ElementUI.Commands.ShowMessage, ElementUI",
+                    "Message": {
+                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                      "SerializeProperty": "=前端菜单维护!返回信息"
+                    },
+                    "Type": "warning",
+                    "Duration": 3000,
+                    "Offset": null
+                  }
+                ],
+                "ID": "cd2399b4-2d85-46f0-948a-e336f8ef5f8b"
+              }
+            ]
+          }
+        ],
+        "Text": "上移",
+        "ClickMode": 1
+      }
+    },
+    "6,21": {
+      "CellType": {
+        "$type": "Forguncy.HyperlinkCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.RequestServerCommand, ServerDesignerCommon",
+            "ServerCommandName": "菜单移动",
+            "Parameters": [
+              {
+                "$type": "Forguncy.Model.RequestServerCommandObjectParam, ServerDesignerCommon",
+                "ParamName": "菜单类型",
+                "Value": "前端菜单"
+              },
+              {
+                "$type": "Forguncy.Model.RequestServerCommandObjectParam, ServerDesignerCommon",
+                "ParamName": "移动方式",
+                "Value": "下移"
+              },
+              {
+                "$type": "Forguncy.Model.RequestServerCommandObjectParam, ServerDesignerCommon",
+                "ParamName": "菜单ID",
+                "Value": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=前端菜单维护!O7"
+                }
+              }
+            ],
+            "ResultErrorCodeTo": {
+              "SerializeProperty": "返回码"
+            },
+            "ResultMessageTo": {
+              "SerializeProperty": "返回信息"
+            },
+            "RefreshAfterFinish": true,
+            "CheckDataValidation": true
+          },
+          {
+            "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
+            "ConditionAndCommandPairList": [
+              {
+                "Condition": {
+                  "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                  "param": {
+                    "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                    "cellLocations": [
+                      {
+                        "SerializeProperty": "=前端菜单维护!返回码"
+                      }
+                    ]
+                  },
+                  "value": "0",
+                  "compareType": 1
+                },
+                "CommandList": [
+                  {
+                    "$type": "ElementUI.Commands.ShowMessage, ElementUI",
+                    "Message": {
+                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                      "SerializeProperty": "=前端菜单维护!返回信息"
+                    },
+                    "Type": "warning",
+                    "Duration": 3000,
+                    "Offset": null
+                  }
+                ],
+                "ID": "8c068a5a-3f88-4c75-a063-efb969080591"
+              }
+            ]
+          }
+        ],
+        "Text": "下移",
+        "ClickMode": 1
+      }
+    },
+    "6,23": {
+      "CellType": {
+        "$type": "Forguncy.HyperlinkCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "ElementUI.Commands.ShowMessageBox, ElementUI",
+            "Title": "操作",
+            "Message": "您确定要删除吗？",
+            "Type": "info",
+            "ConfirmButtonText": "确定",
+            "ShowCancelButton": true,
+            "CancelButtonText": "取消",
+            "ShowClose": false,
+            "DialogResult": "result",
+            "AdvancedSettings": {
+              "Center": true,
+              "CloseOnPressEscape": true
+            }
+          },
+          {
+            "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
+            "ConditionAndCommandPairList": [
+              {
+                "Condition": {
+                  "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                  "param": {
+                    "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                    "cellLocations": [
+                      {
+                        "SerializeProperty": "=前端菜单维护!result"
+                      }
+                    ]
+                  },
+                  "value": "confirm"
+                },
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.DeleteRecordCommand, ServerDesignerCommon",
+                    "ShowConfirm": false
+                  }
+                ],
+                "ID": "69292e6e-a3c4-485a-8895-adbb52349c01"
+              }
+            ]
+          }
+        ],
+        "Text": "删除",
+        "ClickMode": 1
+      }
+    },
+    "9,3": {
+      "CellType": {
+        "$type": "ElementUI.CellTypes.PaginationCellType, ElementUI",
+        "ListviewName": "表格1",
+        "ElementTableName": "EL表格1",
+        "pageSize": 8,
+        "pagerCount": 7,
+        "layout": [
+          {
+            "layoutItem": "total"
+          },
+          {
+            "layoutItem": "->"
+          },
+          {
+            "layoutItem": "prev"
+          },
+          {
+            "layoutItem": "pager"
+          },
+          {
+            "layoutItem": "next"
+          },
+          {
+            "layoutItem": "jumper"
+          }
+        ],
+        "pageSizes": [
+          {},
+          {
+            "value": 20
+          },
+          {
+            "value": 30
+          },
+          {
+            "value": 40
+          },
+          {
+            "value": 50
+          },
+          {
+            "value": 100
+          }
+        ],
+        "small": true,
+        "background": true
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "FontSize": 16.0,
+        "Foreground": 0
+      },
+      {
+        "FontFamily": 1,
+        "Foreground": 2,
+        "HorizontalAlignment": 3,
+        "Underline": false
+      },
+      {
+        "FontFamily": 1,
+        "Formatter": 4,
+        "HorizontalAlignment": 3,
+        "Underline": false
+      },
+      {
+        "FontFamily": 1,
+        "HorizontalAlignment": 3
+      },
+      {
+        "BorderLeft": 0
+      },
+      {
+        "HorizontalAlignment": 3
+      },
+      {
+        "FontFamily": 1,
+        "Foreground": 6,
+        "Formatter": 4,
+        "HorizontalAlignment": 3,
+        "Underline": false
+      },
+      {
+        "FontFamily": 1
+      },
+      {
+        "Foreground": 6,
+        "HorizontalAlignment": 3,
+        "Underline": false
+      },
+      {
+        "FontFamily": 1,
+        "Foreground": 6,
+        "HorizontalAlignment": 3,
+        "Underline": false
+      },
+      {
+        "FontFamily": 1,
+        "HorizontalAlignment": 3,
+        "WordWrap": true
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Text 1 0",
+        "Body",
+        "Accent 1 0",
+        "Center",
+        "[AUTO]General",
+        "Background 1 -15",
+        "#FF0270C1"
+      ],
+      "Borders": [
+        {
+          "Color": 5
+        }
+      ]
+    },
+    "CellStyles": {
+      "1,1": 0,
+      "2,10": 1,
+      "2,22": 2,
+      "2,25": 3,
+      "5,2": 4,
+      "5,3": 5,
+      "5,5": 5,
+      "5,7": 5,
+      "5,8": 5,
+      "5,9": 5,
+      "5,14": 5,
+      "5,15": 5,
+      "5,17": 5,
+      "5,19": 5,
+      "5,21": 5,
+      "5,23": 5,
+      "6,2": 4,
+      "6,3": 5,
+      "6,5": 5,
+      "6,7": 3,
+      "6,8": 5,
+      "6,9": 5,
+      "6,15": 6,
+      "6,16": 7,
+      "6,17": 8,
+      "6,19": 9,
+      "6,20": 7,
+      "6,21": 9,
+      "6,22": 7,
+      "6,23": 8,
+      "7,2": 4,
+      "8,2": 4,
+      "9,2": 4,
+      "9,3": 10,
+      "9,25": 10,
+      "10,1": 10,
+      "10,2": 10,
+      "10,3": 10,
+      "10,4": 10,
+      "10,5": 10,
+      "10,6": 10,
+      "10,7": 10,
+      "10,8": 10,
+      "10,9": 10,
+      "10,10": 10,
+      "10,11": 10,
+      "10,12": 10,
+      "10,13": 10,
+      "10,14": 10,
+      "10,15": 10,
+      "10,16": 10,
+      "10,17": 10,
+      "10,18": 10,
+      "10,19": 10,
+      "10,20": 10,
+      "10,21": 10,
+      "10,22": 10,
+      "10,23": 10,
+      "10,24": 10,
+      "10,25": 10,
+      "11,1": 10,
+      "11,2": 10,
+      "11,3": 10,
+      "11,4": 10,
+      "11,5": 10,
+      "11,6": 10,
+      "11,7": 10,
+      "11,8": 10,
+      "11,9": 10,
+      "11,10": 10,
+      "11,11": 10,
+      "11,12": 10,
+      "11,13": 10,
+      "11,14": 10,
+      "11,15": 10,
+      "11,16": 10,
+      "11,17": 10,
+      "11,18": 10,
+      "11,19": 10,
+      "11,20": 10,
+      "11,21": 10,
+      "11,22": 10,
+      "11,23": 10,
+      "11,24": 10,
+      "11,25": 10
+    },
+    "SheetStyle": {
+      "FontFamily": 1
+    }
+  },
+  "Spans": [
+    "1,1,2,9",
+    "9,3,1,22",
+    "5,1,5,1",
+    "3,0,1,26",
+    "2,22,1,3",
+    "7,3,1,22",
+    "6,3,1,2",
+    "6,5,1,2",
+    "6,9,1,5",
+    "6,15,1,2",
+    "6,17,1,2",
+    "6,19,1,2",
+    "6,21,1,2",
+    "6,23,1,2",
+    "5,3,1,2",
+    "5,5,1,2",
+    "5,9,1,5",
+    "5,15,1,2",
+    "5,17,1,2",
+    "5,19,1,2",
+    "5,21,1,2",
+    "5,23,1,2"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.UserControlPage, ServerDesignerCommon",
+    "PropertyDefinitions": [
+      {
+        "Name": "标题"
+      }
+    ],
+    "CommandDefinitions": [],
+    "MethodDefinitions": [],
+    "PageLoadedCommandList": []
+  },
+  "PrintInfo": {
+    "PaperSize": {},
+    "Margin": {}
+  },
+  "CustomNames": [
+    {
+      "Name": "MenuTree",
+      "Formula": "前端菜单维护!$B$6"
+    }
+  ]
+}//9S9pll1fgfL8hNlIjond9PQczqX6iHkYwkOaLGG+/Qo3O/bodXxOSFaOoK4j9warSup5zJm7UoczNPjCLGH6TbUS/qK/DvlIQ5wMQ/u2lKXRroyotHAPsmMnd13vV02jtbIq/FeB+MYq5W2E0ipQCwdX6HXQemvzVZgqHDBqxgEIQtPVM6rsr03PvrlXC1vCCFkZEGh8QfHtxeb0Wi784pfAk/tX5YCzE+wAs+5GeMoO+YDT4itgYfNJPziS5KwS+FwtZeeReFrcqsCefRYl0THnODtw5l/E2NFt/v5jJqeJqYdxoZ0V3kLkQUfeetsNDoZYli0VkrOanFa9ZV61MSYxuwaGP/J0q1rMhYzEc17G4ybF56xllD8l8H76+z8xT6te+IpiEu09XnqoEC1MupHwZhFCzsteEHz3tFUuOMtz8iyGNB3IKmQQT82z9rN+3UyfbzppZbNLu2bMDWOq591ImpjDpkALwhWrdRFtlaWsB4Texl09ABrjoLUVQBehZzdeBOxRpxUPZcZ1FHcG5B2Q435nOdDcanGRQ6O9YbG5Q+JDveTC/nkDIbCPbuKw3PLiseY3UPRWTWrfseLLWk+EuziEIs3RgfoE36KTrVry52TrIoluVMNiu+JfyWfylUopwIBnYHucE8aRnujPGdrtAv4bomk/bB0q1DjCyzqqewgf6EzqpgetAz9wqh98g7NbrU6h2AnnT1r+BaHzDaBime+Ey3inS99bXY7csYddCMZrXbIPr9OHe5W7UvXnFbRE73Mqew2hxmCVLHdz9HwV6Fp9ncPRaRCiALpoLlwE3iog/amPNX2dCFOyfmU/c7ZbzJsv8EKZM+R9jxIlE3Na7/GVuKmyQ1pz7YocKbxzD7CSf47ln9lwFnWbA91LGipr0t3N3sIBWKzjgtAV8w==|920

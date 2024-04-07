@@ -1,0 +1,182 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      }
+    },
+    "Count": 1,
+    "DefaultSize": 30.0
+  },
+  "Cols": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 100.0,
+          "Mode": 2,
+          "MinLength": {
+            "Value": 10.0,
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 100.0,
+            "Unit": 1
+          }
+        }
+      },
+      "1": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 100.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      }
+    },
+    "Count": 2,
+    "DefaultSize": 100.0
+  },
+  "Values": {
+    "0,1": "1"
+  },
+  "AttachInfos": {
+    "0,0": {
+      "TemplateCellSource": "字段"
+    },
+    "0,1": {
+      "CellType": {
+        "$type": "ElementUI.SelectCellType, ElementUI",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.CallUserControlPageCommand, ServerDesignerCommon",
+            "CommandName": "选择"
+          }
+        ],
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ],
+        "DefaultValue": "1",
+        "useBinding": true,
+        "options": [
+          {
+            "value": "黄金糕",
+            "label": "黄金糕"
+          },
+          {
+            "value": "双皮奶",
+            "label": "双皮奶"
+          },
+          {
+            "value": "蚵仔煎",
+            "label": "蚵仔煎"
+          },
+          {
+            "value": "龙须面",
+            "label": "龙须面"
+          },
+          {
+            "value": "北京烤鸭",
+            "label": "北京烤鸭"
+          }
+        ],
+        "bindingOptions": {
+          "$type": "ServerDesignerCommon.Model.BindingDataSourceModel, ServerDesignerCommon",
+          "TableName": "链接类型字典表",
+          "BindingInfos": [
+            {
+              "BindingInfo": {
+                "TableName": "链接类型字典表",
+                "ColumnName": "ID",
+                "GUID": "9aee8775-a2ca-437e-8e2c-dd605d8c07c8"
+              },
+              "ColumnName": "value"
+            },
+            {
+              "BindingInfo": {
+                "TableName": "链接类型字典表",
+                "ColumnName": "链接类型",
+                "GUID": "93e528ca-a9ae-47ae-a60d-ac8b08793760"
+              },
+              "ColumnName": "label"
+            }
+          ],
+          "CustomColumns": []
+        },
+        "placeholder": "请选择",
+        "noDataText": "无数据",
+        "filterable": true,
+        "filterInServerOptions": {
+          "matchMethod": "contains",
+          "loadingText": "加载中"
+        },
+        "noMatchText": "无匹配数据",
+        "clearable": true
+      },
+      "TemplateCellSource": "Fgc-UC-TwoWayBinding-Value-Column"
+    }
+  },
+  "StyleDatas": {
+    "Types": {
+      "Strs": [
+        "Body"
+      ]
+    },
+    "SheetStyle": {
+      "FontFamily": 0
+    }
+  },
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.UserControlPage, ServerDesignerCommon",
+    "PropertyDefinitions": [
+      {
+        "Name": "字段"
+      },
+      {
+        "Name": "数据源"
+      }
+    ],
+    "CommandDefinitions": [
+      {
+        "Name": "选择"
+      }
+    ],
+    "MethodDefinitions": [],
+    "PageLoadedCommandList": [],
+    "PropertyChangedHandlers": {
+      "Commands": [],
+      "ParamProperties": {
+        "propertyName": "属性名",
+        "oldValue": "原值",
+        "newValue": "新值"
+      }
+    }
+  },
+  "PrintInfo": {
+    "PaperSize": {},
+    "Margin": {}
+  }
+}//VL/9WwwWYWiyLV2qciPHepwNdFPaooacMClzw0i7Sif0NKG5dSEMPz81QP7rRT3m7lohc/u9rKzs7vk9kSMWFOZt6YqmRWzRyvTGuNm3ueLkWaSqraEL6cnDbL6wqsTHOwhsGYyFvQeqxWxd8BfR6z9xwCWZC5LlP7G7ro5YeUg/p1rL4JoJNgCKsF2idbejizT12ZUTRnB6B2arcmZMEVqpD0nmjsvdr7pFme2soy5pd8gUSj9lIBfCNL25dDHHjz7JmirDTSCuxM51zdqBuVQU6Y2f6bqzRQbXVY1fbKOyKwCkdcuIxFzYn24pe/qg4bfz/Qijh3xp1/7VHeY9Yp+CjWVcSCkI5rC4huj2sFEd4WZrWDso+ACMK7U1fiyXvy1sYK7+PdUkMTo9xy6cqgwi/M28ctNbg9UM/7y8fe6omScQbCUzxRF0TfuuuFeMQPxEbKSkqk4Jnypc4Ay1IxQwfdDkh+UkOyLq8D/0vbQz8UJgkLZt40t8fANPB40NVzBFpiTh4z5xU9VmV/z17ZxLlKCLgdReU8WjW2sUWhHooFxgm8V0kxvMLU5gN4FfSq/rQvayhqTJYF/mCzqMaagrLas1qlnkkwEHZtq8FStnVASH6GS1+wJRxESlE7OfBN+S+B1G8u5sb+NTdiafiF6DtXznO2qgLOG5RRTsgIHg/kHW/vcDICC4J0FZTx63bA1laOFCfaQlOW1RMSoI5DClxpqsiaRTc4CtLDulz382498DkdDeNc8G5lsOKIjRjyyVR29K5BpuCMr0Fr5vCywSkot8PlQ87ayiEKzDYTJzxjXyJnkZn4wXQfUVZXZQuU6MI0og0hzqqNiVetvnoCRyDsJiiuQ/EHo8/WLKJN47x46k+BCJaRbV2f04IosWleagfp4N7WZS3IVzcHlf6w==|920

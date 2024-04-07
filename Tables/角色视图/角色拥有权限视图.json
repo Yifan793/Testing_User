@@ -1,0 +1,46 @@
+{
+  "Name": "角色拥有权限视图",
+  "Columns": [
+    {
+      "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
+      "DatabaseColumnType": "System.Int64",
+      "MaxLength": -1,
+      "Name": "角色Id",
+      "ColumnType": "System.Int64, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
+      "DatabaseColumnType": "System.Int64",
+      "MaxLength": -1,
+      "Name": "拥有权限的角色Id",
+      "ColumnType": "System.Int64, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    }
+  ],
+  "BuiltInViewInfo": {
+    "ViewName": "角色拥有权限视图",
+    "SourceTableName": "FGC_UMV_RII",
+    "CreateViewSql": "SELECT [角色Id] AS [角色Id], [拥有权限的角色Id] AS [拥有权限的角色Id] FROM [FGC_UMV_RII]",
+    "ViewType": 9
+  },
+  "PrimaryKey": [
+    "角色Id",
+    "拥有权限的角色Id"
+  ],
+  "Relations": [
+    {
+      "PrimaryTable": "角色信息视图",
+      "PrimaryColumn": "角色Id",
+      "ForeignTable": "角色拥有权限视图",
+      "ForeignColumn": "角色Id",
+      "IsDetailTableRelation": false
+    },
+    {
+      "PrimaryTable": "角色信息视图",
+      "PrimaryColumn": "角色Id",
+      "ForeignTable": "角色拥有权限视图",
+      "ForeignColumn": "拥有权限的角色Id",
+      "IsDetailTableRelation": false
+    }
+  ],
+  "Indexes": []
+}

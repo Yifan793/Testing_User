@@ -1,0 +1,103 @@
+{
+  "Name": "批量加入部门",
+  "Enabled": true,
+  "Triggers": [
+    {
+      "$type": "Forguncy.SaveLoad.PostRequestTriggerSaveData, ServerDesignerCommon",
+      "Permission": {
+        "PermissionData": {
+          "$type": "Forguncy.RbacPermission.Core.Impl.ServerCommand.ServerCommandPermissionData, Forguncy.RbacPermission.Core",
+          "permissionResource": {
+            "$type": "Forguncy.RbacPermission.Core.Impl.ServerCommand.ServerCommandPermissionResource, Forguncy.RbacPermission.Core"
+          },
+          "permissionBindings": [
+            {
+              "$type": "Forguncy.RbacPermission.Core.Impl.ServerCommand.ServerCommandPermissionBinding, Forguncy.RbacPermission.Core",
+              "roleNames": [
+                "FGC_LoginUser"
+              ]
+            }
+          ]
+        }
+      },
+      "Parameters": [
+        {
+          "Name": "部门IDS",
+          "DataValidationInfo": {}
+        },
+        {
+          "Name": "组织成员",
+          "DataValidationInfo": {}
+        }
+      ]
+    }
+  ],
+  "Commands": [
+    {
+      "$type": "Forguncy.Model.ServerTransactionCommand, ServerDesignerCommon",
+      "CommandList": [
+        {
+          "$type": "CollectionOperationKit.ServerSideArrayOp, CollectionOperationKit",
+          "Operation": 17,
+          "OperationParamaterAName": ",",
+          "OperationParamaterBName": {
+            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+            "SerializeProperty": "=部门IDS"
+          },
+          "OutParamaterName": "部门ID集合"
+        },
+        {
+          "$type": "CollectionOperationKit.ServerSideArrayOp, CollectionOperationKit",
+          "Operation": 17,
+          "OperationParamaterAName": ",",
+          "OperationParamaterBName": {
+            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+            "SerializeProperty": "=组织成员"
+          },
+          "OutParamaterName": "组织成员集合"
+        },
+        {
+          "$type": "Forguncy.Model.LoopCommand, ServerDesignerCommon",
+          "LoopInfo": {
+            "$type": "Forguncy.Model.CountLoopInfo, ServerDesignerCommon",
+            "LoopCount": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "=部门ID集合"
+            },
+            "LoopItemParamName": "部门IDItem"
+          },
+          "CommandList": [
+            {
+              "$type": "Forguncy.Model.LoopCommand, ServerDesignerCommon",
+              "LoopInfo": {
+                "$type": "Forguncy.Model.CountLoopInfo, ServerDesignerCommon",
+                "LoopCount": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=组织成员集合"
+                },
+                "LoopItemParamName": "组织成员Item"
+              },
+              "CommandList": [
+                {
+                  "$type": "UserManagementCommandsV2.OrganizationManagementCommand, UserManagementCommandsV2",
+                  "OperationType": "401",
+                  "CommandOperator": {
+                    "$type": "UserManagementCommandsV2.AddUsersToOrganizationOnOrganizationOperator, UserManagementCommandsV2",
+                    "OrganizationIds": {
+                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                      "SerializeProperty": "=部门IDItem"
+                    },
+                    "UserNames": {
+                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                      "SerializeProperty": "=组织成员Item"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

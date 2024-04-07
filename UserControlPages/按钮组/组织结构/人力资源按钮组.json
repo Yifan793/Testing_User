@@ -1,0 +1,690 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      }
+    },
+    "Count": 1,
+    "DefaultSize": 30.0
+  },
+  "Cols": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 60.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "1": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 77.0,
+          "Mode": 1
+        }
+      },
+      "2": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "3": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 55.0,
+          "Mode": 1
+        }
+      },
+      "4": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "5": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 77.0,
+          "Mode": 1
+        }
+      },
+      "6": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "7": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 77.0,
+          "Mode": 1
+        }
+      },
+      "8": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "9": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 103.0,
+          "Mode": 1
+        }
+      },
+      "10": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "11": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 90.0,
+          "Mode": 1
+        }
+      },
+      "12": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "13": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 230.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          },
+          "IsHidden": true
+        }
+      },
+      "14": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 230.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          },
+          "IsHidden": true
+        }
+      }
+    },
+    "InLogicalVisibleIndexes": [
+      13,
+      14
+    ],
+    "Count": 15,
+    "DefaultSize": 16.0
+  },
+  "Values": {
+    "0,1": "  新建人员  ",
+    "0,3": "  编 辑  ",
+    "0,5": "  批量操作  ",
+    "0,7": "  批量删除  ",
+    "0,9": "  批量重置密码  ",
+    "0,11": "  显示列定制  "
+  },
+  "AttachInfos": {
+    "0,1": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.CallUserControlPageCommand, ServerDesignerCommon",
+            "CommandName": "新建人员事件"
+          },
+          {
+            "$type": "Forguncy.Model.ShowPopupCommand, ServerDesignerCommon",
+            "PageName": "人员操作_编辑",
+            "LoadBindingDataOption": 2
+          }
+        ],
+        "Text": "  新建人员  ",
+        "TemplateKey": "组织结构_搜索按钮1"
+      }
+    },
+    "0,3": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.CallUserControlPageCommand, ServerDesignerCommon",
+            "CommandName": "编辑事件"
+          },
+          {
+            "$type": "Forguncy.Model.ShowPopupCommand, ServerDesignerCommon",
+            "PageName": "人员操作_编辑",
+            "LoadBindingDataOption": 1
+          }
+        ],
+        "Text": "  编 辑  ",
+        "TemplateKey": "组织结构_搜索按钮1"
+      }
+    },
+    "0,5": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.ShowPopupCommand, ServerDesignerCommon",
+            "PopupDisplayMode": 1,
+            "Placement": {
+              "SerializeProperty": "=人力资源按钮组!F1"
+            },
+            "PageName": "批量操作_弹出页",
+            "PassValues": [
+              {
+                "Source": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=人力资源按钮组!O1"
+                },
+                "TargetCell": {
+                  "SerializeProperty": "=批量操作_弹出页!A3"
+                }
+              }
+            ]
+          }
+        ],
+        "Text": "  批量操作  ",
+        "IsDisabled": true,
+        "TemplateKey": "组织结构_搜索按钮1"
+      },
+      "RulesGuidList": [
+        "3e2e9afe-f019-445f-8c73-94dade826267"
+      ]
+    },
+    "0,7": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.CallUserControlPageCommand, ServerDesignerCommon",
+            "CommandName": "批量删除事件"
+          },
+          {
+            "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
+            "ConditionAndCommandPairList": [
+              {
+                "Condition": {
+                  "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                  "param": {
+                    "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                    "cellLocations": [
+                      {
+                        "SerializeProperty": "=人力资源按钮组!表格选择项"
+                      }
+                    ]
+                  },
+                  "value": "%Null%"
+                },
+                "CommandList": [
+                  {
+                    "$type": "ElementUI.Commands.ShowMessage, ElementUI",
+                    "Message": "请选择数据后再进行批量操作",
+                    "Type": "warning",
+                    "Duration": 3000,
+                    "Offset": null
+                  }
+                ],
+                "ID": "777581de-298a-43dc-beae-ea5898867197"
+              },
+              {
+                "CommandList": [
+                  {
+                    "$type": "ElementUI.Commands.ShowMessageBox, ElementUI",
+                    "Title": "操作",
+                    "Message": "你确定要删除人员么？",
+                    "Type": "warning",
+                    "ConfirmButtonText": "确定",
+                    "CancelButtonText": "取消",
+                    "DialogResult": "result",
+                    "AdvancedSettings": {}
+                  },
+                  {
+                    "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
+                    "ConditionAndCommandPairList": [
+                      {
+                        "Condition": {
+                          "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                          "param": {
+                            "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                            "cellLocations": [
+                              {
+                                "SerializeProperty": "=人力资源按钮组!result"
+                              }
+                            ]
+                          },
+                          "value": "confirm"
+                        },
+                        "CommandList": [
+                          {
+                            "$type": "Forguncy.Model.RequestServerCommand, ServerDesignerCommon",
+                            "ServerCommandName": "删除人员",
+                            "Parameters": [
+                              {
+                                "$type": "Forguncy.Model.RequestServerCommandObjectParam, ServerDesignerCommon",
+                                "ParamName": "用户名",
+                                "Value": {
+                                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                                  "SerializeProperty": "=人力资源按钮组!表格选择项"
+                                }
+                              }
+                            ],
+                            "ResultErrorCodeTo": {
+                              "SerializeProperty": "返回码"
+                            },
+                            "ResultMessageTo": {
+                              "SerializeProperty": "返回信息"
+                            },
+                            "RefreshAfterFinish": true,
+                            "CheckDataValidation": true
+                          },
+                          {
+                            "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
+                            "ConditionAndCommandPairList": [
+                              {
+                                "Condition": {
+                                  "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                                  "param": {
+                                    "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                                    "cellLocations": [
+                                      {
+                                        "SerializeProperty": "=人力资源按钮组!返回码"
+                                      }
+                                    ]
+                                  },
+                                  "value": "0"
+                                },
+                                "CommandList": [
+                                  {
+                                    "$type": "ElementUI.Commands.ShowMessage, ElementUI",
+                                    "Message": "人员删除成功",
+                                    "Type": "success",
+                                    "Duration": 3000,
+                                    "Offset": null
+                                  }
+                                ],
+                                "ID": "639e49d7-7ebf-42d0-8605-7930b6c2ee91"
+                              },
+                              {
+                                "CommandList": [
+                                  {
+                                    "$type": "ElementUI.Commands.ShowMessage, ElementUI",
+                                    "Message": {
+                                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                                      "SerializeProperty": "=\"人员删除失败。失败原因：\"&人力资源按钮组!返回信息"
+                                    },
+                                    "Type": "error",
+                                    "Duration": 3000,
+                                    "Offset": null
+                                  }
+                                ],
+                                "ID": "5ea4ecc5-e0c5-4676-8494-12b84c9aa62a"
+                              }
+                            ]
+                          }
+                        ],
+                        "ID": "075c9119-0f8a-4ea9-82fc-471bb1e72dfc"
+                      }
+                    ]
+                  }
+                ],
+                "ID": "02ab15f7-a746-4a97-8518-40bdc4d98fc0"
+              }
+            ]
+          }
+        ],
+        "Text": "  批量删除  ",
+        "IsDisabled": true,
+        "TemplateKey": "组织结构_搜索按钮1"
+      },
+      "RulesGuidList": [
+        "49fa247c-c914-4e49-ae3f-9dfd31a066ce"
+      ]
+    },
+    "0,9": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.CallUserControlPageCommand, ServerDesignerCommon",
+            "CommandName": "批量重置密码事件"
+          },
+          {
+            "$type": "Forguncy.Model.ShowPopupCommand, ServerDesignerCommon",
+            "PageName": "重置密码_编辑",
+            "PassValues": [
+              {
+                "Source": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=人力资源按钮组!表格选择项"
+                },
+                "TargetCell": {
+                  "SerializeProperty": "=重置密码_编辑!Z2"
+                }
+              }
+            ]
+          }
+        ],
+        "Text": "  批量重置密码  ",
+        "IsDisabled": true,
+        "TemplateKey": "组织结构_搜索按钮1"
+      },
+      "RulesGuidList": [
+        "4ef39283-1819-4f0b-bd14-eee464347a93"
+      ]
+    },
+    "0,11": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.CallUserControlPageCommand, ServerDesignerCommon",
+            "CommandName": "显示列定制事件"
+          }
+        ],
+        "Text": "  显示列定制  ",
+        "TemplateKey": "组织结构_搜索按钮1"
+      }
+    },
+    "0,13": {
+      "TemplateCellSource": "表格选择项"
+    },
+    "0,14": {
+      "CellComment": {
+        "Comments": "点击批量操作按钮用于弹出对应页面"
+      },
+      "CellType": {
+        "$type": "ElementUI.InputCellType, ElementUI",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
+            "ConditionAndCommandPairList": [
+              {
+                "Condition": {
+                  "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                  "param": {
+                    "$type": "Forguncy.Model.IfConditionContextPropertyParam, ServerDesignerCommon",
+                    "contextProperty": {
+                      "Display": "值变更原因"
+                    }
+                  },
+                  "value": "passValue"
+                },
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
+                    "ConditionAndCommandPairList": [
+                      {
+                        "Condition": {
+                          "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                          "param": {
+                            "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                            "cellLocations": [
+                              {
+                                "SerializeProperty": "=人力资源按钮组!O1"
+                              }
+                            ]
+                          },
+                          "value": "批量加入角色",
+                          "compareType": 10
+                        },
+                        "CommandList": [
+                          {
+                            "$type": "Forguncy.Model.SetCellPropertyCommand, ServerDesignerCommon",
+                            "PropertyItemsList": [
+                              {
+                                "TargetCells": {
+                                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                                  "SerializeProperty": "=人力资源按钮组!O1"
+                                },
+                                "Value": "%Null%"
+                              }
+                            ]
+                          },
+                          {
+                            "$type": "Forguncy.Model.ShowPopupCommand, ServerDesignerCommon",
+                            "PageName": "批量加入角色",
+                            "PassValues": [
+                              {
+                                "Source": {
+                                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                                  "SerializeProperty": "=人力资源按钮组!表格选择项"
+                                },
+                                "TargetCell": {
+                                  "SerializeProperty": "=批量加入角色!AC2"
+                                }
+                              }
+                            ]
+                          }
+                        ],
+                        "ID": "8e6a34fe-ef44-4ea5-942c-ee96f4f53175"
+                      },
+                      {
+                        "Condition": {
+                          "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                          "param": {
+                            "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                            "cellLocations": [
+                              {
+                                "SerializeProperty": "=人力资源按钮组!O1"
+                              }
+                            ]
+                          },
+                          "value": "批量加入部门",
+                          "compareType": 10
+                        },
+                        "CommandList": [
+                          {
+                            "$type": "Forguncy.Model.SetCellPropertyCommand, ServerDesignerCommon",
+                            "PropertyItemsList": [
+                              {
+                                "TargetCells": {
+                                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                                  "SerializeProperty": "=人力资源按钮组!O1"
+                                },
+                                "Value": "%Null%"
+                              }
+                            ]
+                          },
+                          {
+                            "$type": "Forguncy.Model.ShowPopupCommand, ServerDesignerCommon",
+                            "PageName": "批量加入部门",
+                            "PassValues": [
+                              {
+                                "Source": {
+                                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                                  "SerializeProperty": "=人力资源按钮组!表格选择项"
+                                },
+                                "TargetCell": {
+                                  "SerializeProperty": "=批量加入部门!AC2"
+                                }
+                              }
+                            ]
+                          }
+                        ],
+                        "ID": "0c9e9ab9-de4f-452a-8663-a1858a511fe3"
+                      }
+                    ]
+                  }
+                ],
+                "ID": "90a5de82-0270-4c67-a708-73e58ffa0d66"
+              }
+            ]
+          }
+        ],
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 4,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ],
+        "type": "text",
+        "resize": "none"
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "FontFamily": 0,
+        "FontSize": 13.333333333333332,
+        "Formatter": 1
+      },
+      {
+        "FontFamily": 0,
+        "FontSize": 13.333333333333332
+      },
+      {
+        "FontSize": 13.333333333333332
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Body",
+        "[AUTO]General"
+      ]
+    },
+    "CellStyles": {
+      "0,3": 0,
+      "0,7": 0,
+      "0,9": 0,
+      "0,10": 0,
+      "0,11": 0,
+      "0,13": 1,
+      "0,14": 1
+    },
+    "ColStyles": {
+      "1": 2,
+      "2": 2,
+      "3": 2,
+      "4": 2,
+      "5": 2,
+      "6": 2,
+      "7": 2,
+      "8": 2,
+      "9": 2,
+      "10": 2,
+      "11": 2,
+      "12": 2,
+      "13": 2,
+      "14": 2
+    },
+    "SheetStyle": {
+      "FontFamily": 0
+    }
+  },
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.UserControlPage, ServerDesignerCommon",
+    "PropertyDefinitions": [
+      {
+        "Name": "表格选择项"
+      }
+    ],
+    "CommandDefinitions": [
+      {
+        "Name": "新建人员事件"
+      },
+      {
+        "Name": "编辑事件"
+      },
+      {
+        "Name": "批量操作事件",
+        "CommandParameters": [
+          {
+            "Name": "操作"
+          }
+        ]
+      },
+      {
+        "Name": "批量删除事件"
+      },
+      {
+        "Name": "批量重置密码事件"
+      },
+      {
+        "Name": "显示列定制事件"
+      }
+    ],
+    "MethodDefinitions": [],
+    "PageLoadedCommandList": [],
+    "ConditionFormatRulesCollection": {
+      "Rules": [
+        {
+          "$type": "Forguncy.ConditionFormat.FormulaRule, ServerDesignerCommon",
+          "Formula": {
+            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+            "SerializeProperty": "=IF(人力资源按钮组!N1=0,0,1)"
+          },
+          "GUID": "3e2e9afe-f019-445f-8c73-94dade826267",
+          "StyleInfo": {
+            "Underline": null,
+            "Strikethrough": null
+          },
+          "IsDisabled": false
+        },
+        {
+          "$type": "Forguncy.ConditionFormat.FormulaRule, ServerDesignerCommon",
+          "Formula": {
+            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+            "SerializeProperty": "=IF(人力资源按钮组!N1=0,0,1)"
+          },
+          "Priority": 1,
+          "GUID": "49fa247c-c914-4e49-ae3f-9dfd31a066ce",
+          "StyleInfo": {
+            "Underline": null,
+            "Strikethrough": null
+          },
+          "IsDisabled": false
+        },
+        {
+          "$type": "Forguncy.ConditionFormat.FormulaRule, ServerDesignerCommon",
+          "Formula": {
+            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+            "SerializeProperty": "=IF(人力资源按钮组!N1=0,0,1)"
+          },
+          "Priority": 2,
+          "GUID": "4ef39283-1819-4f0b-bd14-eee464347a93",
+          "StyleInfo": {
+            "Underline": null,
+            "Strikethrough": null
+          },
+          "IsDisabled": false
+        }
+      ]
+    }
+  },
+  "PrintInfo": {
+    "PaperSize": {},
+    "Margin": {}
+  }
+}//9DJClAD6rZa+L8n1fWWHCVcjRW430i3KqvMdTN4VxaKJvAsVcYWiccfc5FnLWvPqr7Y2zcXu6OHE/cyVdd9hvv0z8fj9RT83wnLwgmwujVcZ30dWh+8E1DF8JP4QfdoHRZZpMrpRgXdXyoq7npmzrSpcDPezffQ0PHIjKOAp/nX8Nrf4THXpyAquXhTKM8J3GciLId56Xz0RB+yh8LGj7Mzi3ZQf5df5I3EgyQVQz+6t9Yl077r/qvGEt1gRfIBtasSasR3fo2dsWXvZ943rXE0uAC9Q6fFgX+0itOAO7lSivw5ausAoS+slaX9KR6Wh/1eSvg6S6a5ynduz8hbX45jWk9EoykhRgwAyf39Uqy1lK3Bp9haNhaiyNWY8KbNlAJrmprMY0dnoa8hsMOJ82A3ER5GItzSgibqePY/EXlMWLIvZI5LPBlebmr2bRFpErSk97JpTOPd0MuODXsINUytSK8gwgtrypLLQb+PsL29p67+6SaJBmV2uKmP7q3wXtQNsNvJmfkFyBarPUiGIwHXt0QndpwOb6rTcgmXFZC8sUGp5kBUEcOVBExbp5nah/klg+l35dPSUz02Sifr0m8BoaZQ+kGGZUzJVsRqZA9fadlUwX0E7tEvHyao2l0kCPkCT6ukuv70OPer3cm2QonfEA0Fr6F2rXLIDUeE3Z0NPRuq6QX4AZkRfY55twBAXpTDEiJ+lOtPF/RwWbpFn8/LA6kOORypggpI/ez2bnS/ywquG5CFOC94UICMBEP9chGtZJfFyC5CMkiNa4+fgubxhRYJ/kHWGJtDAn19F2gtkn2+HoB/k7C9OltEkzMvsvLB4Wfm9L1Ost3F7EA/HQgQeH7rwJTRkp/5CydGlhHMk5tluZUSTvu0UJFBlaH4eY19xIsnejxx8GpTIlsiTqw==|920

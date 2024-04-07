@@ -1,0 +1,2104 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "1": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "2": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "3": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "4": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 10.0
+        }
+      },
+      "5": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "6": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 10.0
+        }
+      },
+      "7": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "8": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "9": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "10": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "11": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "12": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "13": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "14": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "15": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "16": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "17": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "18": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "19": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "20": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "21": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "22": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "23": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "24": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      }
+    },
+    "Count": 25,
+    "DefaultSize": 32.0
+  },
+  "Cols": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "1": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "2": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "3": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "17": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "18": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "32": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "35": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "57": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "58": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "59": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 130.0,
+          "IsHidden": true
+        }
+      }
+    },
+    "InLogicalVisibleIndexes": [
+      59
+    ],
+    "Count": 60
+  },
+  "Values": {
+    "2,4": "维森集团",
+    "4,19": "角色成员信息_编辑",
+    "5,2": "角色",
+    "5,53": "高级搜索",
+    "8,2": 0
+  },
+  "AttachInfos": {
+    "2,2": {
+      "CellType": {
+        "$type": "Forguncy.ImageCellType, ServerDesignerCommon",
+        "ImagePath": "钉钉.svg"
+      }
+    },
+    "2,18": {
+      "CellType": {
+        "$type": "Forguncy.UserControlPageCellType, ServerDesignerCommon",
+        "UserControlPageName": "角色信息按钮组",
+        "CommandHandlers": [
+          {
+            "CommandName": "添加角色事件",
+            "Commands": {
+              "Commands": [
+                {
+                  "$type": "Forguncy.Model.ShowPopupCommand, ServerDesignerCommon",
+                  "PageName": "角色操作_编辑",
+                  "PassValues": [
+                    {
+                      "Source": {
+                        "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                        "SerializeProperty": "=角色维护!角色唯一标识"
+                      },
+                      "TargetCell": {
+                        "SerializeProperty": "=角色操作_编辑!角色唯一标识"
+                      }
+                    },
+                    {
+                      "Source": "添加",
+                      "TargetCell": {
+                        "SerializeProperty": "=角色操作_编辑!操作"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "ParamProperties": {}
+            }
+          },
+          {
+            "CommandName": "添加文件夹事件",
+            "Commands": {
+              "Commands": [
+                {
+                  "$type": "Forguncy.Model.ShowPopupCommand, ServerDesignerCommon",
+                  "PageName": "角色文件夹操作_编辑",
+                  "PassValues": [
+                    {
+                      "Source": {
+                        "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                        "SerializeProperty": "=角色维护!角色唯一标识"
+                      },
+                      "TargetCell": {
+                        "SerializeProperty": "=角色文件夹操作_编辑!角色唯一标识"
+                      }
+                    },
+                    {
+                      "Source": "添加",
+                      "TargetCell": {
+                        "SerializeProperty": "=角色文件夹操作_编辑!操作"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "ParamProperties": {}
+            }
+          },
+          {
+            "CommandName": "删除事件",
+            "Commands": {
+              "Commands": [
+                {
+                  "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
+                  "ParameterName": "是否为角色",
+                  "TableValue": {
+                    "TableName": "角色文件夹关系视图",
+                    "OnlyGetValue": true,
+                    "TableValueType": 0,
+                    "BindingInfos": [
+                      {
+                        "BindingInfo": {
+                          "TableName": "角色文件夹关系视图",
+                          "ColumnName": "是否角色",
+                          "GUID": "acdf752a-9fbb-414c-bd16-ea9eb4caf9cf"
+                        },
+                        "ColumnName": "是否角色"
+                      }
+                    ],
+                    "SqlCondition": {
+                      "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                      "ColumnBindingInfo": {
+                        "TableName": "角色文件夹关系视图",
+                        "ColumnName": "角色唯一标识",
+                        "GUID": "48280e8e-3f9f-4a81-8c18-1f9f8c2b4605"
+                      },
+                      "Value": {
+                        "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                        "SerializeProperty": "=角色维护!角色唯一标识"
+                      }
+                    }
+                  },
+                  "ID": "7097dd62ec924ab1aaa93b671a900511"
+                },
+                {
+                  "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
+                  "ConditionAndCommandPairList": [
+                    {
+                      "Condition": {
+                        "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                        "param": {
+                          "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                          "cellLocations": [
+                            {
+                              "SerializeProperty": "=角色维护!是否为角色"
+                            }
+                          ]
+                        },
+                        "value": "1"
+                      },
+                      "CommandList": [
+                        {
+                          "$type": "ElementUI.Commands.ShowMessageBox, ElementUI",
+                          "Title": "操作",
+                          "Message": "你确定要删除角色么？",
+                          "Type": "warning",
+                          "ConfirmButtonText": "确定",
+                          "CancelButtonText": "取消",
+                          "DialogResult": "result",
+                          "AdvancedSettings": {}
+                        }
+                      ],
+                      "ID": "47e6abd1-52a1-4da6-a9e3-ed08412ccb6e"
+                    },
+                    {
+                      "CommandList": [
+                        {
+                          "$type": "ElementUI.Commands.ShowMessageBox, ElementUI",
+                          "Title": "操作",
+                          "Message": "你确定要删除角色文件夹么？",
+                          "Type": "warning",
+                          "ConfirmButtonText": "确定",
+                          "CancelButtonText": "取消",
+                          "DialogResult": "result",
+                          "AdvancedSettings": {}
+                        }
+                      ],
+                      "ID": "c26ace47-49a4-4bbf-b666-a2a57a6d4a36"
+                    }
+                  ]
+                },
+                {
+                  "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
+                  "ConditionAndCommandPairList": [
+                    {
+                      "Condition": {
+                        "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                        "param": {
+                          "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                          "cellLocations": [
+                            {
+                              "SerializeProperty": "=角色维护!result"
+                            }
+                          ]
+                        },
+                        "value": "confirm"
+                      },
+                      "CommandList": [
+                        {
+                          "$type": "Forguncy.Model.RequestServerCommand, ServerDesignerCommon",
+                          "ServerCommandName": "删除角色_文件夹",
+                          "Parameters": [
+                            {
+                              "$type": "Forguncy.Model.RequestServerCommandObjectParam, ServerDesignerCommon",
+                              "ParamName": "角色唯一标识",
+                              "Value": {
+                                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                                "SerializeProperty": "=角色维护!角色唯一标识"
+                              }
+                            }
+                          ],
+                          "ResultErrorCodeTo": {
+                            "SerializeProperty": "返回码"
+                          },
+                          "ResultMessageTo": {
+                            "SerializeProperty": "返回信息"
+                          },
+                          "RefreshAfterFinish": true,
+                          "CheckDataValidation": true
+                        },
+                        {
+                          "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
+                          "ConditionAndCommandPairList": [
+                            {
+                              "Condition": {
+                                "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                                "param": {
+                                  "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                                  "cellLocations": [
+                                    {
+                                      "SerializeProperty": "=角色维护!返回码"
+                                    }
+                                  ]
+                                },
+                                "value": "0"
+                              },
+                              "CommandList": [
+                                {
+                                  "$type": "ElementUI.Commands.ShowMessage, ElementUI",
+                                  "Message": {
+                                    "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                                    "SerializeProperty": "=角色维护!返回信息"
+                                  },
+                                  "Type": "success",
+                                  "Duration": 3000,
+                                  "Offset": null
+                                }
+                              ],
+                              "ID": "b35e89c3-d668-4120-b7ac-1b05b3491d7c"
+                            },
+                            {
+                              "CommandList": [
+                                {
+                                  "$type": "ElementUI.Commands.ShowMessage, ElementUI",
+                                  "Message": {
+                                    "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                                    "SerializeProperty": "=\"删除失败。失败原因：\"&角色维护!返回信息"
+                                  },
+                                  "Type": "error",
+                                  "Duration": 3000,
+                                  "Offset": null
+                                }
+                              ],
+                              "ID": "bbb47310-8e6c-462b-9bdb-08213eac5fad"
+                            }
+                          ]
+                        }
+                      ],
+                      "ID": "4ba2cb76-34b4-407a-9e2c-293c4727fb22"
+                    }
+                  ]
+                }
+              ],
+              "ParamProperties": {}
+            }
+          },
+          {
+            "CommandName": "编辑事件",
+            "Commands": {
+              "Commands": [
+                {
+                  "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
+                  "ParameterName": "是否为角色",
+                  "TableValue": {
+                    "TableName": "角色文件夹关系视图",
+                    "OnlyGetValue": true,
+                    "TableValueType": 0,
+                    "BindingInfos": [
+                      {
+                        "BindingInfo": {
+                          "TableName": "角色文件夹关系视图",
+                          "ColumnName": "是否角色",
+                          "GUID": "c4f608b2-9044-40c2-a7f7-42eb46288f66"
+                        },
+                        "ColumnName": "是否角色"
+                      }
+                    ],
+                    "SqlCondition": {
+                      "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                      "ColumnBindingInfo": {
+                        "TableName": "角色文件夹关系视图",
+                        "ColumnName": "角色唯一标识",
+                        "GUID": "f501af6a-6f0f-42f4-aa16-9c0183edbef4"
+                      },
+                      "Value": {
+                        "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                        "SerializeProperty": "=角色维护!角色唯一标识"
+                      }
+                    }
+                  },
+                  "ID": "d353d56a963a489e846f0664fa186d8a"
+                },
+                {
+                  "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
+                  "ConditionAndCommandPairList": [
+                    {
+                      "Condition": {
+                        "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                        "param": {
+                          "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                          "cellLocations": [
+                            {
+                              "SerializeProperty": "=角色维护!是否为角色"
+                            }
+                          ]
+                        },
+                        "value": "1"
+                      },
+                      "CommandList": [
+                        {
+                          "$type": "Forguncy.Model.ShowPopupCommand, ServerDesignerCommon",
+                          "PageName": "角色操作_编辑",
+                          "PassValues": [
+                            {
+                              "Source": {
+                                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                                "SerializeProperty": "=角色维护!角色唯一标识"
+                              },
+                              "TargetCell": {
+                                "SerializeProperty": "=角色操作_编辑!角色唯一标识"
+                              }
+                            },
+                            {
+                              "Source": "编辑",
+                              "TargetCell": {
+                                "SerializeProperty": "=角色操作_编辑!操作"
+                              }
+                            }
+                          ]
+                        }
+                      ],
+                      "ID": "b5488ccd-36c1-4449-af3d-5dca3fb7639a"
+                    },
+                    {
+                      "CommandList": [
+                        {
+                          "$type": "Forguncy.Model.ShowPopupCommand, ServerDesignerCommon",
+                          "PageName": "角色文件夹操作_编辑",
+                          "PassValues": [
+                            {
+                              "Source": {
+                                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                                "SerializeProperty": "=角色维护!角色唯一标识"
+                              },
+                              "TargetCell": {
+                                "SerializeProperty": "=角色文件夹操作_编辑!角色唯一标识"
+                              }
+                            },
+                            {
+                              "Source": "编辑",
+                              "TargetCell": {
+                                "SerializeProperty": "=角色文件夹操作_编辑!操作"
+                              }
+                            }
+                          ]
+                        }
+                      ],
+                      "ID": "eda19e43-1262-4f95-b15b-79c8d4b25714"
+                    }
+                  ]
+                }
+              ],
+              "ParamProperties": {}
+            }
+          },
+          {
+            "CommandName": "添加角色成员事件",
+            "Commands": {
+              "Commands": [
+                {
+                  "$type": "Forguncy.Model.ShowPopupCommand, ServerDesignerCommon",
+                  "PageName": "角色成员添加",
+                  "PassValues": [
+                    {
+                      "Source": {
+                        "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                        "SerializeProperty": "=角色维护!角色唯一标识"
+                      },
+                      "TargetCell": {
+                        "SerializeProperty": "=角色成员添加!角色唯一标识"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "ParamProperties": {}
+            }
+          },
+          {
+            "CommandName": "删除角色成员事件",
+            "Commands": {
+              "Commands": [
+                {
+                  "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
+                  "ParameterName": "角色ID",
+                  "TableValue": {
+                    "TableName": "角色文件夹关系视图",
+                    "OnlyGetValue": true,
+                    "TableValueType": 0,
+                    "BindingInfos": [
+                      {
+                        "BindingInfo": {
+                          "TableName": "角色文件夹关系视图",
+                          "ColumnName": "Id",
+                          "GUID": "97e3ce27-b3a7-48c6-81cf-c38ea49932f1"
+                        },
+                        "ColumnName": "Id"
+                      }
+                    ],
+                    "SqlCondition": {
+                      "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                      "ColumnBindingInfo": {
+                        "TableName": "角色文件夹关系视图",
+                        "ColumnName": "角色唯一标识",
+                        "GUID": "fac6b7fd-d12a-4eb6-a02e-a6221a67c06b"
+                      },
+                      "Value": {
+                        "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                        "SerializeProperty": "=角色维护!角色唯一标识"
+                      }
+                    }
+                  },
+                  "ID": "cc74d98610da43768bbcf56f556c7f48"
+                },
+                {
+                  "$type": "ElementUI.Commands.ShowMessageBox, ElementUI",
+                  "Title": "操作",
+                  "Message": "你确定要删除角色成员么？",
+                  "Type": "warning",
+                  "ConfirmButtonText": "确定",
+                  "CancelButtonText": "取消",
+                  "DialogResult": "result",
+                  "AdvancedSettings": {}
+                },
+                {
+                  "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
+                  "ConditionAndCommandPairList": [
+                    {
+                      "Condition": {
+                        "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                        "param": {
+                          "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                          "cellLocations": [
+                            {
+                              "SerializeProperty": "=角色维护!result"
+                            }
+                          ]
+                        },
+                        "value": "confirm"
+                      },
+                      "CommandList": [
+                        {
+                          "$type": "Forguncy.Model.RequestServerCommand, ServerDesignerCommon",
+                          "ServerCommandName": "移除角色成员",
+                          "Parameters": [
+                            {
+                              "$type": "Forguncy.Model.RequestServerCommandObjectParam, ServerDesignerCommon",
+                              "ParamName": "角色ID",
+                              "Value": {
+                                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                                "SerializeProperty": "=角色维护!角色ID"
+                              }
+                            },
+                            {
+                              "$type": "Forguncy.Model.RequestServerCommandObjectParam, ServerDesignerCommon",
+                              "ParamName": "当前成员",
+                              "Value": {
+                                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                                "SerializeProperty": "=角色维护!BH6"
+                              }
+                            }
+                          ],
+                          "ResultErrorCodeTo": {
+                            "SerializeProperty": "返回码"
+                          },
+                          "ResultMessageTo": {
+                            "SerializeProperty": "返回信息"
+                          },
+                          "RefreshAfterFinish": true,
+                          "CheckDataValidation": true
+                        },
+                        {
+                          "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
+                          "ConditionAndCommandPairList": [
+                            {
+                              "Condition": {
+                                "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                                "param": {
+                                  "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                                  "cellLocations": [
+                                    {
+                                      "SerializeProperty": "=角色维护!返回码"
+                                    }
+                                  ]
+                                },
+                                "value": "0"
+                              },
+                              "CommandList": [
+                                {
+                                  "$type": "ElementUI.Commands.ShowMessage, ElementUI",
+                                  "Message": "角色成员删除成功",
+                                  "Type": "success",
+                                  "Duration": 3000,
+                                  "Offset": null
+                                }
+                              ],
+                              "ID": "0656a5dc-5461-4f99-b332-b2be019384d3"
+                            },
+                            {
+                              "CommandList": [
+                                {
+                                  "$type": "ElementUI.Commands.ShowMessage, ElementUI",
+                                  "Message": {
+                                    "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                                    "SerializeProperty": "=\"角色成员删除失败。失败原因：\"&角色维护!返回信息"
+                                  },
+                                  "Type": "error",
+                                  "Duration": 3000,
+                                  "Offset": null
+                                }
+                              ],
+                              "ID": "592c4aad-cc32-4bb5-ab6a-2ca4de213192"
+                            }
+                          ]
+                        }
+                      ],
+                      "ID": "6447245c-f81b-4858-94f2-c94c03e5d89b"
+                    }
+                  ]
+                }
+              ],
+              "ParamProperties": {}
+            }
+          },
+          {
+            "CommandName": "绑定组织节点事件",
+            "Commands": {
+              "Commands": [
+                {
+                  "$type": "Forguncy.Model.ShowPopupCommand, ServerDesignerCommon",
+                  "PageName": "绑定组织节点",
+                  "PassValues": [
+                    {
+                      "Source": {
+                        "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                        "SerializeProperty": "=角色维护!角色唯一标识"
+                      },
+                      "TargetCell": {
+                        "SerializeProperty": "=绑定组织节点!角色唯一标识"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "ParamProperties": {}
+            }
+          }
+        ],
+        "PropertyValues": [
+          {
+            "Name": "按钮权限",
+            "Value": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "=IF(角色维护!角色唯一标识=0,0,1)"
+            }
+          },
+          {
+            "Name": "是否选中树",
+            "Value": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "=IF(角色维护!角色唯一标识=0,0,1)"
+            }
+          },
+          {
+            "Name": "是否选中角色",
+            "Value": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "=角色维护!BH3"
+            }
+          }
+        ]
+      }
+    },
+    "4,19": {
+      "CellType": {
+        "$type": "ElementUI.TabHeader, ElementUI",
+        "ClickCommand": {
+          "$type": "GrapeCity.Forguncy.Commands.CustomCommandObject, Forguncy.Commands",
+          "Commands": [
+            {
+              "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
+              "ConditionAndCommandPairList": [
+                {
+                  "Condition": {
+                    "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                    "param": {
+                      "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                      "cellLocations": [
+                        {
+                          "SerializeProperty": "=角色维护!页签值"
+                        }
+                      ]
+                    },
+                    "value": "7"
+                  },
+                  "CommandList": [
+                    {
+                      "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
+                      "ParameterName": "当前选中节点是否为角色",
+                      "TableValue": {
+                        "TableName": "角色文件夹关系视图",
+                        "OnlyGetValue": true,
+                        "TableValueType": 0,
+                        "BindingInfos": [
+                          {
+                            "BindingInfo": {
+                              "TableName": "角色文件夹关系视图",
+                              "ColumnName": "是否角色",
+                              "GUID": "e8736f91-b266-43ba-9af6-08044d6bc95d"
+                            },
+                            "ColumnName": "是否角色"
+                          }
+                        ],
+                        "SqlCondition": {
+                          "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                          "ColumnBindingInfo": {
+                            "TableName": "角色文件夹关系视图",
+                            "ColumnName": "角色唯一标识",
+                            "GUID": "e92db85d-95ab-4127-a0fa-d4e5a8c34224"
+                          },
+                          "Value": {
+                            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                            "SerializeProperty": "=角色维护!角色唯一标识"
+                          }
+                        }
+                      },
+                      "ID": "c4a0baefc5b64e50ab3120760a1c87e3"
+                    },
+                    {
+                      "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
+                      "ConditionAndCommandPairList": [
+                        {
+                          "Condition": {
+                            "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                            "param": {
+                              "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                              "cellLocations": [
+                                {
+                                  "SerializeProperty": "=角色维护!当前选中节点是否为角色"
+                                }
+                              ]
+                            },
+                            "value": "0"
+                          },
+                          "CommandList": [
+                            {
+                              "$type": "Forguncy.Model.SetCellPropertyCommand, ServerDesignerCommon",
+                              "PropertyItemsList": [
+                                {
+                                  "TargetCells": {
+                                    "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                                    "SerializeProperty": "=角色维护!是否选中角色"
+                                  },
+                                  "Value": "0"
+                                }
+                              ]
+                            },
+                            {
+                              "$type": "Forguncy.Model.OperateCellTypeCommand, ServerDesignerCommon",
+                              "TargetPageElement": {
+                                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                                "SerializeProperty": "=角色维护!T8"
+                              },
+                              "TargetType": "Forguncy.UserControlPageCellType, ServerDesignerCommon, Version=10.0.1.0, Culture=neutral, PublicKeyToken=967100671921c115",
+                              "MethodName": "SetUserControlPage",
+                              "ParameterValues": {
+                                "userControlPageName": "角色文件夹信息_查看",
+                                "propertyValues": {
+                                  "$type": "System.Collections.Generic.List`1[[Forguncy.UserControlPagePropertyValue, ServerDesignerCommon]], System.Private.CoreLib",
+                                  "$values": [
+                                    {
+                                      "Name": "角色唯一标识",
+                                      "Value": {
+                                        "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                                        "SerializeProperty": "=角色维护!角色唯一标识"
+                                      }
+                                    }
+                                  ]
+                                },
+                                "commandHandlers": {
+                                  "$type": "System.Collections.Generic.List`1[[Forguncy.UserControlPageCommandHandler, ServerDesignerCommon]], System.Private.CoreLib",
+                                  "$values": []
+                                }
+                              }
+                            }
+                          ],
+                          "ID": "6b72e884-25da-4fab-8ddd-80462eb96d7e"
+                        },
+                        {
+                          "CommandList": [
+                            {
+                              "$type": "Forguncy.Model.SetCellPropertyCommand, ServerDesignerCommon",
+                              "PropertyItemsList": [
+                                {
+                                  "TargetCells": {
+                                    "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                                    "SerializeProperty": "=角色维护!是否选中角色"
+                                  },
+                                  "Value": "1"
+                                }
+                              ]
+                            },
+                            {
+                              "$type": "Forguncy.Model.OperateCellTypeCommand, ServerDesignerCommon",
+                              "TargetPageElement": {
+                                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                                "SerializeProperty": "=角色维护!T8"
+                              },
+                              "TargetType": "Forguncy.UserControlPageCellType, ServerDesignerCommon, Version=10.0.1.0, Culture=neutral, PublicKeyToken=967100671921c115",
+                              "MethodName": "SetUserControlPage",
+                              "ParameterValues": {
+                                "userControlPageName": "角色成员信息_编辑",
+                                "propertyValues": {
+                                  "$type": "System.Collections.Generic.List`1[[Forguncy.UserControlPagePropertyValue, ServerDesignerCommon]], System.Private.CoreLib",
+                                  "$values": [
+                                    {
+                                      "Name": "角色唯一标识",
+                                      "Value": {
+                                        "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                                        "SerializeProperty": "=角色维护!角色唯一标识"
+                                      }
+                                    }
+                                  ]
+                                },
+                                "commandHandlers": {
+                                  "$type": "System.Collections.Generic.List`1[[Forguncy.UserControlPageCommandHandler, ServerDesignerCommon]], System.Private.CoreLib",
+                                  "$values": [
+                                    {
+                                      "CommandName": "表格选择事件",
+                                      "Commands": {
+                                        "Commands": [
+                                          {
+                                            "$type": "Forguncy.Model.OperateCellTypeCommand, ServerDesignerCommon",
+                                            "TargetPageElement": {
+                                              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                                              "SerializeProperty": "=角色维护!按钮组件"
+                                            },
+                                            "TargetType": "Forguncy.UserControlPageCellType, ServerDesignerCommon, Version=10.0.1.0, Culture=neutral, PublicKeyToken=967100671921c115",
+                                            "MethodName": "SetPropertyValue",
+                                            "ParameterValues": {
+                                              "userControlProperties": {
+                                                "$type": "System.Collections.Generic.List`1[[Forguncy.SetUserControlPropertyValue, ServerDesignerCommon]], System.Private.CoreLib",
+                                                "$values": [
+                                                  {
+                                                    "PropertyName": "表格选择项",
+                                                    "PropertyValue": {
+                                                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                                                      "SerializeProperty": "=IF(角色维护!表格选择项=0,0,1)"
+                                                    }
+                                                  }
+                                                ]
+                                              },
+                                              "propertyName": {
+                                                "$type": "System.Collections.Generic.List`1[[Forguncy.SetUserControlPropertyValue, ServerDesignerCommon]], System.Private.CoreLib",
+                                                "$values": [
+                                                  {
+                                                    "PropertyName": "表格选择项",
+                                                    "PropertyValue": {
+                                                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                                                      "SerializeProperty": "=IF(角色维护!表格选择项=0,0,1)"
+                                                    }
+                                                  }
+                                                ]
+                                              }
+                                            }
+                                          },
+                                          {
+                                            "$type": "Forguncy.Model.SetCellPropertyCommand, ServerDesignerCommon",
+                                            "PropertyItemsList": [
+                                              {
+                                                "TargetCells": {
+                                                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                                                  "SerializeProperty": "=角色维护!BH6"
+                                                },
+                                                "Value": {
+                                                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                                                  "SerializeProperty": "=角色维护!表格选择项"
+                                                }
+                                              }
+                                            ]
+                                          }
+                                        ],
+                                        "ParamProperties": {
+                                          "表格选择项": "表格选择项"
+                                        }
+                                      }
+                                    }
+                                  ]
+                                }
+                              }
+                            }
+                          ],
+                          "ID": "923abf78-c32c-4496-81da-f8c4682f2de2"
+                        }
+                      ]
+                    }
+                  ],
+                  "ID": "8ef4f372-40a5-4e16-abd3-880c1cacbc08"
+                },
+                {
+                  "Condition": {
+                    "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                    "param": {
+                      "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                      "cellLocations": [
+                        {
+                          "SerializeProperty": "=角色维护!页签值"
+                        }
+                      ]
+                    },
+                    "value": "8"
+                  },
+                  "CommandList": [
+                    {
+                      "$type": "Forguncy.Model.OperateCellTypeCommand, ServerDesignerCommon",
+                      "TargetPageElement": {
+                        "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                        "SerializeProperty": "=角色维护!T8"
+                      },
+                      "TargetType": "Forguncy.UserControlPageCellType, ServerDesignerCommon, Version=10.0.1.0, Culture=neutral, PublicKeyToken=967100671921c115",
+                      "MethodName": "SetUserControlPage",
+                      "ParameterValues": {
+                        "userControlPageName": "角色权限关系",
+                        "propertyValues": {
+                          "$type": "System.Collections.Generic.List`1[[Forguncy.UserControlPagePropertyValue, ServerDesignerCommon]], System.Private.CoreLib",
+                          "$values": [
+                            {
+                              "Name": "角色唯一标识",
+                              "Value": {
+                                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                                "SerializeProperty": "=角色维护!角色唯一标识"
+                              }
+                            }
+                          ]
+                        },
+                        "commandHandlers": {
+                          "$type": "System.Collections.Generic.List`1[[Forguncy.UserControlPageCommandHandler, ServerDesignerCommon]], System.Private.CoreLib",
+                          "$values": []
+                        }
+                      }
+                    }
+                  ],
+                  "ID": "c3d4ebc7-cbdf-444c-a678-f1dd15ee4bae"
+                }
+              ]
+            }
+          ],
+          "ParamProperties": {
+            "itemIndex": "页签编号",
+            "itemValue": "页签值",
+            "itemText": "页签标题"
+          }
+        },
+        "DefaultValue": "角色成员信息_编辑",
+        "useBinding": true,
+        "Tabs": [
+          {
+            "Value": "1",
+            "Name": "基本信息"
+          },
+          {
+            "Value": "2",
+            "Name": "角色的权限关系"
+          }
+        ],
+        "bindingOptions": {
+          "$type": "ServerDesignerCommon.Model.BindingDataSourceModel, ServerDesignerCommon",
+          "TableName": "标签页头字典表",
+          "BindingInfos": [
+            {
+              "BindingInfo": {
+                "TableName": "标签页头字典表",
+                "ColumnName": "ID",
+                "GUID": "4f7d42a8-1630-4f68-9ea1-823bbda25b64"
+              },
+              "ColumnName": "Value"
+            },
+            {
+              "BindingInfo": {
+                "TableName": "标签页头字典表",
+                "ColumnName": "名称",
+                "GUID": "6e3e33c5-c3ca-4fd1-b45a-82a79ceb2bb4"
+              },
+              "ColumnName": "Name"
+            }
+          ],
+          "SqlCondition": {
+            "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
+            "CompareType": 6,
+            "ColumnBindingInfo": {
+              "TableName": "标签页头字典表",
+              "ColumnName": "使用范围",
+              "GUID": "24b732b6-fc78-4aa9-b0c9-b11551efa064"
+            },
+            "Value": "角色维护"
+          },
+          "CustomColumns": []
+        },
+        "type": "default",
+        "position": "top"
+      }
+    },
+    "5,4": {
+      "CellType": {
+        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
+          }
+        ],
+        "Icon": {
+          "Name": "Application/047_search_8.svg",
+          "BuiltIn": true,
+          "Color": "Text 1 70"
+        },
+        "TemplateKey": "_RS_NewRightAngle",
+        "CommandList": []
+      }
+    },
+    "5,43": {
+      "CellType": {
+        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
+          }
+        ],
+        "Icon": {
+          "Name": "Application/047_search_8.svg",
+          "BuiltIn": true,
+          "Color": "Text 1 70"
+        },
+        "TemplateKey": "_RS_NewRightAngle",
+        "CommandList": []
+      }
+    },
+    "5,53": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "Text": "高级搜索",
+        "TemplateKey": "组织结构_搜索按钮"
+      }
+    },
+    "5,59": {
+      "CellComment": {
+        "Comments": "表格选择项"
+      }
+    },
+    "7,19": {
+      "CellType": {
+        "$type": "Forguncy.UserControlPageCellType, ServerDesignerCommon"
+      }
+    },
+    "8,2": {
+      "CellType": {
+        "$type": "ElementUI.TreeCellType, ElementUI",
+        "selectCommand": {
+          "$type": "GrapeCity.Forguncy.Commands.CustomCommandObject, Forguncy.Commands",
+          "Commands": [
+            {
+              "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
+              "ParameterName": "当前选中节点是否为角色",
+              "TableValue": {
+                "TableName": "角色文件夹关系视图",
+                "OnlyGetValue": true,
+                "TableValueType": 0,
+                "BindingInfos": [
+                  {
+                    "BindingInfo": {
+                      "TableName": "角色文件夹关系视图",
+                      "ColumnName": "是否角色",
+                      "GUID": "b1151a3a-7519-4902-bf62-3f2b506eab23"
+                    },
+                    "ColumnName": "是否角色"
+                  }
+                ],
+                "SqlCondition": {
+                  "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                  "ColumnBindingInfo": {
+                    "TableName": "角色文件夹关系视图",
+                    "ColumnName": "角色唯一标识",
+                    "GUID": "724cdea6-cfbc-4a60-88d6-c87e8d97f4f7"
+                  },
+                  "Value": {
+                    "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                    "SerializeProperty": "=角色维护!角色唯一标识"
+                  }
+                }
+              },
+              "ID": "169a1c45c3e944189af01f9b4bd3f588"
+            },
+            {
+              "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
+              "ConditionAndCommandPairList": [
+                {
+                  "Condition": {
+                    "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                    "param": {
+                      "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                      "cellLocations": [
+                        {
+                          "SerializeProperty": "=角色维护!当前选中节点是否为角色"
+                        }
+                      ]
+                    },
+                    "value": "0"
+                  },
+                  "CommandList": [
+                    {
+                      "$type": "Forguncy.Model.SetCellPropertyCommand, ServerDesignerCommon",
+                      "PropertyItemsList": [
+                        {
+                          "TargetCells": {
+                            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                            "SerializeProperty": "=角色维护!是否选中角色"
+                          },
+                          "Value": "0"
+                        },
+                        {
+                          "TargetCells": {
+                            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                            "SerializeProperty": "=角色维护!标签页头"
+                          },
+                          "Value": "7"
+                        }
+                      ]
+                    },
+                    {
+                      "$type": "Forguncy.Model.OperateCellTypeCommand, ServerDesignerCommon",
+                      "TargetPageElement": {
+                        "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                        "SerializeProperty": "=角色维护!T8"
+                      },
+                      "TargetType": "Forguncy.UserControlPageCellType, ServerDesignerCommon, Version=10.0.1.0, Culture=neutral, PublicKeyToken=967100671921c115",
+                      "MethodName": "SetUserControlPage",
+                      "ParameterValues": {
+                        "userControlPageName": "角色文件夹信息_查看",
+                        "propertyValues": {
+                          "$type": "System.Collections.Generic.List`1[[Forguncy.UserControlPagePropertyValue, ServerDesignerCommon]], System.Private.CoreLib",
+                          "$values": [
+                            {
+                              "Name": "角色唯一标识",
+                              "Value": {
+                                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                                "SerializeProperty": "=角色维护!角色唯一标识"
+                              }
+                            }
+                          ]
+                        },
+                        "commandHandlers": {
+                          "$type": "System.Collections.Generic.List`1[[Forguncy.UserControlPageCommandHandler, ServerDesignerCommon]], System.Private.CoreLib",
+                          "$values": []
+                        }
+                      }
+                    },
+                    {
+                      "$type": "Forguncy.Model.OperateCellTypeCommand, ServerDesignerCommon",
+                      "TargetPageElement": {
+                        "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                        "SerializeProperty": "=角色维护!标签页头"
+                      },
+                      "TargetType": "ElementUI.TabHeader, ElementUI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e50995ee76bfe560",
+                      "MethodName": "HideItems",
+                      "ParameterValues": {
+                        "items": "8"
+                      }
+                    }
+                  ],
+                  "ID": "d158828e-4a75-4bb7-91b5-4b601ce19e17"
+                },
+                {
+                  "CommandList": [
+                    {
+                      "$type": "Forguncy.Model.SetCellPropertyCommand, ServerDesignerCommon",
+                      "PropertyItemsList": [
+                        {
+                          "TargetCells": {
+                            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                            "SerializeProperty": "=角色维护!是否选中角色"
+                          },
+                          "Value": "1"
+                        },
+                        {
+                          "TargetCells": {
+                            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                            "SerializeProperty": "=角色维护!标签页头"
+                          },
+                          "Value": "7"
+                        }
+                      ]
+                    },
+                    {
+                      "$type": "Forguncy.Model.OperateCellTypeCommand, ServerDesignerCommon",
+                      "TargetPageElement": {
+                        "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                        "SerializeProperty": "=角色维护!T8"
+                      },
+                      "TargetType": "Forguncy.UserControlPageCellType, ServerDesignerCommon, Version=10.0.1.0, Culture=neutral, PublicKeyToken=967100671921c115",
+                      "MethodName": "SetUserControlPage",
+                      "ParameterValues": {
+                        "userControlPageName": "角色成员信息_编辑",
+                        "propertyValues": {
+                          "$type": "System.Collections.Generic.List`1[[Forguncy.UserControlPagePropertyValue, ServerDesignerCommon]], System.Private.CoreLib",
+                          "$values": [
+                            {
+                              "Name": "角色唯一标识",
+                              "Value": {
+                                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                                "SerializeProperty": "=角色维护!角色唯一标识"
+                              }
+                            }
+                          ]
+                        },
+                        "commandHandlers": {
+                          "$type": "System.Collections.Generic.List`1[[Forguncy.UserControlPageCommandHandler, ServerDesignerCommon]], System.Private.CoreLib",
+                          "$values": [
+                            {
+                              "CommandName": "表格选择事件",
+                              "Commands": {
+                                "Commands": [
+                                  {
+                                    "$type": "Forguncy.Model.OperateCellTypeCommand, ServerDesignerCommon",
+                                    "TargetPageElement": {
+                                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                                      "SerializeProperty": "=角色维护!按钮组件"
+                                    },
+                                    "TargetType": "Forguncy.UserControlPageCellType, ServerDesignerCommon, Version=10.0.1.0, Culture=neutral, PublicKeyToken=967100671921c115",
+                                    "MethodName": "SetPropertyValue",
+                                    "ParameterValues": {
+                                      "userControlProperties": {
+                                        "$type": "System.Collections.Generic.List`1[[Forguncy.SetUserControlPropertyValue, ServerDesignerCommon]], System.Private.CoreLib",
+                                        "$values": [
+                                          {
+                                            "PropertyName": "表格选择项",
+                                            "PropertyValue": {
+                                              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                                              "SerializeProperty": "=IF(角色维护!表格选择项=0,0,1)"
+                                            }
+                                          }
+                                        ]
+                                      },
+                                      "propertyName": {
+                                        "$type": "System.Collections.Generic.List`1[[Forguncy.SetUserControlPropertyValue, ServerDesignerCommon]], System.Private.CoreLib",
+                                        "$values": [
+                                          {
+                                            "PropertyName": "表格选择项",
+                                            "PropertyValue": {
+                                              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                                              "SerializeProperty": "=IF(角色维护!表格选择项=0,0,1)"
+                                            }
+                                          }
+                                        ]
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "$type": "Forguncy.Model.SetCellPropertyCommand, ServerDesignerCommon",
+                                    "PropertyItemsList": [
+                                      {
+                                        "TargetCells": {
+                                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                                          "SerializeProperty": "=角色维护!BH6"
+                                        },
+                                        "Value": {
+                                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                                          "SerializeProperty": "=角色维护!表格选择项"
+                                        }
+                                      }
+                                    ]
+                                  }
+                                ],
+                                "ParamProperties": {
+                                  "表格选择项": "表格选择项"
+                                }
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    },
+                    {
+                      "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
+                      "ConditionAndCommandPairList": [
+                        {
+                          "Condition": {
+                            "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                            "param": {
+                              "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                              "cellLocations": [
+                                {
+                                  "SerializeProperty": "=角色维护!角色唯一标识"
+                                }
+                              ]
+                            },
+                            "value": "1~1"
+                          },
+                          "CommandList": [
+                            {
+                              "$type": "Forguncy.Model.OperateCellTypeCommand, ServerDesignerCommon",
+                              "TargetPageElement": {
+                                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                                "SerializeProperty": "=角色维护!标签页头"
+                              },
+                              "TargetType": "ElementUI.TabHeader, ElementUI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e50995ee76bfe560",
+                              "MethodName": "HideItems",
+                              "ParameterValues": {
+                                "items": "8"
+                              }
+                            }
+                          ],
+                          "ID": "6e5022ab-b8de-4415-bee4-db9318dffdca"
+                        },
+                        {
+                          "CommandList": [
+                            {
+                              "$type": "Forguncy.Model.OperateCellTypeCommand, ServerDesignerCommon",
+                              "TargetPageElement": {
+                                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                                "SerializeProperty": "=角色维护!标签页头"
+                              },
+                              "TargetType": "ElementUI.TabHeader, ElementUI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e50995ee76bfe560",
+                              "MethodName": "ShowItems",
+                              "ParameterValues": {
+                                "items": "8"
+                              }
+                            }
+                          ],
+                          "ID": "0beb9f59-7532-478d-afbd-2b16517c0cd7"
+                        }
+                      ]
+                    }
+                  ],
+                  "ID": "9f35ce17-d12b-4ed1-9f27-7a6b347ff407"
+                }
+              ]
+            }
+          ],
+          "ParamProperties": {
+            "value": "值",
+            "label": "显示文本",
+            "parentValue": "父节点值"
+          }
+        },
+        "dragCommand": {
+          "$type": "GrapeCity.Forguncy.Commands.CustomCommandObject, Forguncy.Commands",
+          "Commands": [
+            {
+              "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
+              "ParameterName": "拖拽节点信息",
+              "TableValue": {
+                "TableName": "角色文件夹关系视图",
+                "TableValueType": 1,
+                "BindingInfos": [
+                  {
+                    "BindingInfo": {
+                      "TableName": "角色文件夹关系视图",
+                      "ColumnName": "Id",
+                      "GUID": "8a6c873b-8f26-4227-a746-eec02dfbf8b3"
+                    },
+                    "ColumnName": "Id"
+                  },
+                  {
+                    "BindingInfo": {
+                      "TableName": "角色文件夹关系视图",
+                      "ColumnName": "是否角色",
+                      "GUID": "98f40609-d3bb-4c93-9b35-23850c82982e"
+                    },
+                    "ColumnName": "是否角色"
+                  }
+                ],
+                "SqlCondition": {
+                  "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                  "ColumnBindingInfo": {
+                    "TableName": "角色文件夹关系视图",
+                    "ColumnName": "角色唯一标识",
+                    "GUID": "8f71e3b9-d5b2-43e9-a441-5b37bd25745a"
+                  },
+                  "Value": {
+                    "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                    "SerializeProperty": "=角色维护!拖拽节点值"
+                  }
+                }
+              },
+              "ID": "a455247ea6954102bbebb2535fc177ef"
+            },
+            {
+              "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
+              "ParameterName": "目标节点信息",
+              "TableValue": {
+                "TableName": "角色文件夹关系视图",
+                "TableValueType": 1,
+                "BindingInfos": [
+                  {
+                    "BindingInfo": {
+                      "TableName": "角色文件夹关系视图",
+                      "ColumnName": "Id",
+                      "GUID": "8ead9d6b-1dac-4b1e-8f9b-da0692883339"
+                    },
+                    "ColumnName": "Id"
+                  },
+                  {
+                    "BindingInfo": {
+                      "TableName": "角色文件夹关系视图",
+                      "ColumnName": "是否角色",
+                      "GUID": "4c1fbc67-513c-4232-8aaf-f1a555a9d2d9"
+                    },
+                    "ColumnName": "是否角色"
+                  }
+                ],
+                "SqlCondition": {
+                  "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                  "ColumnBindingInfo": {
+                    "TableName": "角色文件夹关系视图",
+                    "ColumnName": "角色唯一标识",
+                    "GUID": "d8ba13a2-effe-49cf-84c2-7889e6f1a36d"
+                  },
+                  "Value": {
+                    "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                    "SerializeProperty": "=角色维护!目标节点值"
+                  }
+                }
+              },
+              "ID": "56c8853e3742475c82ce67837a4d88c7"
+            },
+            {
+              "$type": "Forguncy.Model.RequestServerCommand, ServerDesignerCommon",
+              "ServerCommandName": "移动角色_文件夹",
+              "Parameters": [
+                {
+                  "$type": "Forguncy.Model.RequestServerCommandObjectParam, ServerDesignerCommon",
+                  "ParamName": "移动节点ID",
+                  "Value": {
+                    "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                    "SerializeProperty": "=角色维护!拖拽节点信息.Id"
+                  }
+                },
+                {
+                  "$type": "Forguncy.Model.RequestServerCommandObjectParam, ServerDesignerCommon",
+                  "ParamName": "拖动节点是否为角色",
+                  "Value": {
+                    "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                    "SerializeProperty": "=角色维护!拖拽节点信息.是否角色"
+                  }
+                },
+                {
+                  "$type": "Forguncy.Model.RequestServerCommandObjectParam, ServerDesignerCommon",
+                  "ParamName": "移动位置类型",
+                  "Value": {
+                    "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                    "SerializeProperty": "=角色维护!拖拽类型"
+                  }
+                },
+                {
+                  "$type": "Forguncy.Model.RequestServerCommandObjectParam, ServerDesignerCommon",
+                  "ParamName": "目标节点ID",
+                  "Value": {
+                    "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                    "SerializeProperty": "=角色维护!目标节点信息.Id"
+                  }
+                },
+                {
+                  "$type": "Forguncy.Model.RequestServerCommandObjectParam, ServerDesignerCommon",
+                  "ParamName": "目标节点是否为角色",
+                  "Value": {
+                    "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                    "SerializeProperty": "=角色维护!目标节点信息.是否角色"
+                  }
+                }
+              ],
+              "ResultErrorCodeTo": {
+                "SerializeProperty": "返回码"
+              },
+              "ResultMessageTo": {
+                "SerializeProperty": "返回信息"
+              },
+              "RefreshAfterFinish": true,
+              "CheckDataValidation": true
+            },
+            {
+              "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
+              "ConditionAndCommandPairList": [
+                {
+                  "Condition": {
+                    "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                    "param": {
+                      "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                      "cellLocations": [
+                        {
+                          "SerializeProperty": "=角色维护!返回码"
+                        }
+                      ]
+                    },
+                    "value": "0",
+                    "compareType": 1
+                  },
+                  "CommandList": [
+                    {
+                      "$type": "ElementUI.Commands.ShowMessage, ElementUI",
+                      "Message": {
+                        "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                        "SerializeProperty": "=角色维护!返回信息"
+                      },
+                      "Type": "warning",
+                      "Duration": 3000,
+                      "Offset": null
+                    }
+                  ],
+                  "ID": "529e9d0b-f378-4154-b2e8-6e76602484ef"
+                }
+              ]
+            }
+          ],
+          "ParamProperties": {
+            "draggingNodeValue": "拖拽节点值",
+            "dropNodeValue": "目标节点值",
+            "dragType": "拖拽类型"
+          }
+        },
+        "isTreeNodeFromDb": true,
+        "configTreeNodeOptions": [
+          {
+            "$type": "ElementUI.TreeCellTypeNode, ElementUI",
+            "value": "1",
+            "label": "节点1",
+            "icon": {
+              "Name": "Navigation/165_home_3.svg",
+              "BuiltIn": true,
+              "Color": "Background 1 -25",
+              "UseCellTypeForeColor": true
+            },
+            "children": [
+              {
+                "value": "2",
+                "label": "节点1_1",
+                "children": [
+                  {
+                    "value": "3",
+                    "label": "节点1_1_1"
+                  },
+                  {
+                    "value": "4",
+                    "label": "节点1_1_2"
+                  }
+                ]
+              },
+              {
+                "value": "5",
+                "label": "节点1_2"
+              }
+            ]
+          },
+          {
+            "$type": "ElementUI.TreeCellTypeNode, ElementUI",
+            "value": "6",
+            "label": "节点2",
+            "icon": {
+              "Name": "Navigation/169_user_2.svg",
+              "BuiltIn": true,
+              "Color": "Background 1 -25",
+              "UseCellTypeForeColor": true
+            },
+            "children": [
+              {
+                "value": "7",
+                "label": "节点2_1",
+                "children": [
+                  {
+                    "value": "8",
+                    "label": "节点2_1_1"
+                  },
+                  {
+                    "value": "9",
+                    "label": "节点2_1_2"
+                  }
+                ]
+              },
+              {
+                "value": "10",
+                "label": "节点2_2"
+              }
+            ]
+          }
+        ],
+        "bindingDataSource": {
+          "$type": "ServerDesignerCommon.Model.BindingDataSourceModel, ServerDesignerCommon",
+          "TableName": "角色文件夹关系视图",
+          "BindingInfos": [
+            {
+              "BindingInfo": {
+                "TableName": "角色文件夹关系视图",
+                "ColumnName": "角色唯一标识",
+                "GUID": "78fa605b-0e69-4ff2-8ff6-51813bab4fe8"
+              },
+              "ColumnName": "value"
+            },
+            {
+              "BindingInfo": {
+                "TableName": "角色文件夹关系视图",
+                "ColumnName": "名称",
+                "GUID": "d35114b2-b7c2-4954-9468-7836c0505dbc"
+              },
+              "ColumnName": "label"
+            },
+            {
+              "BindingInfo": {
+                "TableName": "角色文件夹关系视图",
+                "ColumnName": "父角色唯一标识",
+                "GUID": "fc30e61c-6f37-49a3-83c5-eea70dc5d2dd"
+              },
+              "ColumnName": "parentValue"
+            },
+            {
+              "BindingInfo": {
+                "TableName": "角色文件夹关系视图",
+                "ColumnName": "图标ID",
+                "GUID": "20d07780-a71d-40a9-bd27-65fb008c9ee9",
+                "RelationBinding": {
+                  "RelatedTable": "树形控件图标表",
+                  "RelatedColumn": "ID",
+                  "DisplayColumn": "图片"
+                }
+              },
+              "ColumnName": "icon"
+            }
+          ],
+          "SqlCondition": {
+            "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
+            "SubConditions": [
+              {
+                "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
+                "CompareType": 6,
+                "ColumnBindingInfo": {
+                  "TableName": "角色文件夹关系视图",
+                  "ColumnName": "名称",
+                  "GUID": "ba6b5035-fe12-4193-8881-86691c6f8867"
+                },
+                "Value": "系统角色"
+              },
+              {
+                "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
+                "CompareType": 6,
+                "ColumnBindingInfo": {
+                  "TableName": "角色文件夹关系视图",
+                  "ColumnName": "名称",
+                  "GUID": "1ba4f09b-b622-4a08-b750-81a48a146cd4"
+                },
+                "Value": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=角色维护!E6"
+                }
+              }
+            ]
+          },
+          "NullFormulaValueQueryPolicy": 1,
+          "OrderBySqlCondition": {
+            "OrderByColumns": [
+              {
+                "ColumnBindingInfo": {
+                  "TableName": "角色文件夹关系视图",
+                  "ColumnName": "排序",
+                  "GUID": "48fc9c6b-7019-4a36-8646-34be0c98e93a"
+                },
+                "Order": 0
+              }
+            ]
+          },
+          "TreeSourceSetting": {
+            "IdColumn": "value",
+            "PidColumn": "parentValue",
+            "QueryResultMode": 1
+          },
+          "CustomColumns": []
+        },
+        "emptyText": "暂无数据",
+        "isDefaultExpandAll": true,
+        "isClickCanExpandNode": false,
+        "isHighlightCurrent": true,
+        "isDraggable": true
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "Formatter": 0
+      },
+      {
+        "FontFamily": 1,
+        "Formatter": 0
+      },
+      {
+        "BorderRight": null
+      },
+      {
+        "BorderRight": 0
+      },
+      {
+        "FontFamily": 1,
+        "FontSize": 14.67
+      },
+      {
+        "FontFamily": 1
+      },
+      {
+        "FontSize": 13.333333333333332
+      },
+      {
+        "FontFamily": 1,
+        "Formatter": 3
+      },
+      {
+        "Formatter": 3
+      },
+      {
+        "BorderBottom": 0
+      },
+      {
+        "BorderBottom": 0,
+        "BorderRight": null
+      },
+      {
+        "BorderBottom": 0,
+        "BorderRight": 0
+      },
+      {
+        "FontFamily": 1,
+        "BorderBottom": 0
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "[AUTO]General",
+        "Body",
+        "#FFE2E2E2",
+        "@"
+      ],
+      "Borders": [
+        {
+          "Color": 2
+        }
+      ]
+    },
+    "CellStyles": {
+      "0,0": 0,
+      "2,4": 1,
+      "4,16": 2,
+      "4,17": 3,
+      "4,19": 4,
+      "4,20": 5,
+      "4,21": 5,
+      "4,22": 5,
+      "4,23": 5,
+      "4,24": 5,
+      "4,25": 5,
+      "4,26": 5,
+      "4,27": 5,
+      "4,28": 5,
+      "4,29": 5,
+      "4,30": 5,
+      "4,31": 5,
+      "4,32": 5,
+      "4,33": 5,
+      "4,34": 5,
+      "4,35": 5,
+      "4,36": 5,
+      "4,37": 5,
+      "4,38": 5,
+      "4,39": 5,
+      "4,40": 5,
+      "4,41": 5,
+      "4,42": 5,
+      "5,2": 6,
+      "5,4": 7,
+      "5,17": 3,
+      "5,19": 5,
+      "5,20": 5,
+      "5,21": 5,
+      "5,22": 5,
+      "5,23": 5,
+      "5,24": 5,
+      "5,25": 5,
+      "5,26": 5,
+      "5,27": 5,
+      "5,28": 5,
+      "5,29": 5,
+      "5,30": 5,
+      "5,31": 5,
+      "5,32": 5,
+      "5,33": 5,
+      "5,34": 5,
+      "5,35": 5,
+      "5,36": 5,
+      "5,37": 5,
+      "5,38": 5,
+      "5,39": 5,
+      "5,40": 5,
+      "5,41": 5,
+      "5,42": 5,
+      "5,43": 8,
+      "5,53": 6,
+      "6,1": 9,
+      "6,2": 9,
+      "6,3": 9,
+      "6,4": 9,
+      "6,5": 9,
+      "6,6": 9,
+      "6,7": 9,
+      "6,8": 9,
+      "6,9": 9,
+      "6,10": 9,
+      "6,11": 9,
+      "6,12": 9,
+      "6,13": 9,
+      "6,14": 9,
+      "6,15": 9,
+      "6,16": 10,
+      "6,17": 11,
+      "6,18": 9,
+      "6,19": 12,
+      "6,20": 12,
+      "6,21": 12,
+      "6,22": 12,
+      "6,23": 12,
+      "6,24": 12,
+      "6,25": 12,
+      "6,26": 12,
+      "6,27": 12,
+      "6,28": 12,
+      "6,29": 12,
+      "6,30": 12,
+      "6,31": 12,
+      "6,32": 12,
+      "6,33": 12,
+      "6,34": 12,
+      "6,35": 12,
+      "6,36": 12,
+      "6,37": 12,
+      "6,38": 12,
+      "6,39": 12,
+      "6,40": 12,
+      "6,41": 12,
+      "6,42": 12,
+      "6,43": 9,
+      "6,44": 9,
+      "6,45": 9,
+      "6,46": 9,
+      "6,47": 9,
+      "6,48": 9,
+      "6,49": 9,
+      "6,50": 9,
+      "6,51": 9,
+      "6,52": 9,
+      "6,53": 9,
+      "6,54": 9,
+      "6,55": 9,
+      "6,56": 9,
+      "6,57": 9,
+      "7,16": 2,
+      "7,17": 3,
+      "7,19": 4,
+      "8,2": 4,
+      "8,17": 3,
+      "8,59": 8,
+      "9,17": 3,
+      "10,17": 3,
+      "11,17": 3,
+      "12,17": 3,
+      "13,17": 3,
+      "14,17": 3,
+      "15,17": 3,
+      "16,17": 3,
+      "17,17": 3,
+      "18,17": 3,
+      "19,17": 3,
+      "20,17": 3,
+      "21,17": 3,
+      "22,17": 3,
+      "23,17": 3
+    },
+    "SheetStyle": {
+      "FontFamily": 1
+    }
+  },
+  "Spans": [
+    "5,53,1,4",
+    "5,43,1,10",
+    "8,2,16,15",
+    "2,18,1,40",
+    "5,4,1,13",
+    "4,19,3,24",
+    "7,19,17,38"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "MasterPageName": "后台菜单导航-PC",
+    "PageLoadedCommandList": [
+      {
+        "$type": "Forguncy.Model.SetCellPropertyCommand, ServerDesignerCommon",
+        "PropertyItemsList": [
+          {
+            "TargetCells": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "=角色维护!角色唯一标识"
+            },
+            "Value": "1~0"
+          }
+        ]
+      },
+      {
+        "$type": "LoadingCommand.EndLoadingCommand, LoadingCommand"
+      }
+    ],
+    "PermissionData": {
+      "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionData, Forguncy.RbacPermission.Core",
+      "permissionResource": {
+        "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionResource, Forguncy.RbacPermission.Core"
+      },
+      "permissionBindings": [
+        {
+          "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionBinding, Forguncy.RbacPermission.Core",
+          "roleNames": [
+            "FGC_LoginUser"
+          ]
+        }
+      ]
+    },
+    "RowBreakLines": [],
+    "RepeatRangeSettings": []
+  },
+  "PrintInfo": {
+    "PaperSize": {},
+    "Margin": {}
+  },
+  "BackgroundPictures": [
+    {
+      "FitToBrowserWidth": true,
+      "FitToBrowserHeight": true,
+      "Name": "bc4f56a1-af1b-4636-b078-cd18f74a43d3.png",
+      "DisplayName": "背景图1",
+      "StyleInfo": {
+        "Fill": "#FFF0F2F5"
+      },
+      "IsAutomaticFill": false,
+      "Size": "1164,658"
+    },
+    {
+      "Name": "9fbe544f-2c26-40a7-9bc3-2107b7905165.png",
+      "DisplayName": "背景图2",
+      "StyleInfo": {
+        "Fill": "Background 1 0"
+      },
+      "IsAutomaticFill": false,
+      "Location": "16,16",
+      "Size": "1132,626"
+    },
+    {
+      "Name": "deb69923-9ed5-413c-9825-23bafb1c55b4.png",
+      "DisplayName": "背景图3",
+      "StyleInfo": {
+        "Fill": "#FFF9F9F9"
+      },
+      "IsAutomaticFill": false,
+      "Location": "16,16",
+      "Size": "1132,64"
+    }
+  ],
+  "CustomNames": [
+    {
+      "Name": "角色唯一标识",
+      "Formula": "角色维护!$C$9"
+    },
+    {
+      "Name": "按钮组件",
+      "Formula": "角色维护!$S$3"
+    },
+    {
+      "Name": "是否选中角色",
+      "Formula": "角色维护!$BH$3"
+    },
+    {
+      "Name": "标签页头",
+      "Formula": "角色维护!$T$5"
+    }
+  ]
+}//UBa+ylz0jgzGDGcDXcQXoSqVXs9yS4RY7Ok1x9R3/Ezyi0ou4HQQzIhRfNfIwWzY7nlMt20Ds1dQq4FiL1ejg35qcfa7Ucyo8S8hZJX4lkQWp46WsBueGzSCN3xjUSPgO3rk62dPACOEzcOAf7U1hCWzwtRXYywimmZqhxeuqIIl+eXXNcV5ko2aHjsUOSmiCQBbouWpX0wx1xMzwQ1DmkuywNBvzPJtZ6rhd6yPBhl65c/UiLozS7zH5YvJnQODMuownL+F6lWAqAD4Wc48ogt7QMC9Y5Wj2VPHKF8ZY68BZBQz7X+5rGG6NRb7fyO7YIWtSpDNoohB4VyYpXBXZWybpsbMnTYXknYVUdfrnuOP8Pi9dUizjHrznc4us2lh/CbD7IzKuFfWQEpF1IJSP7OcSOAQDXpEMqggUJVf5p5XDPRZ6vETmrRXIxQccV0oPev/kq5KZTB1xI0OUpmquW28EpQKID+dizwYZvxb9+sBSSEZhxg5lA+CRU3zMhQRAYVdqTSIm0jEGXNhQNUzT6qRTZEwFNSPM8nTMmf7K8Zs0Bp/T0DDRQZLWgAmm5r/1FrH31ahKxpO+EQXUs9OzuYTlzTh7p+rL5uYVNRFRPcvsMnE63XQmuRJBH7dYnP/y8tptp1WG3wwmVE+ePiWDavrclrVl71h0WawtXcLlmmMkQG1BsvuwqPGkpExGMbLldGLg5KHgInOugwIxwK7HSTJ774qFg9zNLf4elAmxAY9oBQZW8MjJNB6jXZP780MT/9qbDHyfcMnvTzrUejRTcZQgI2IOeSeM+KZR8ns2FhzBvNoa7xuYXe2HDCbcf2mRWZiASfk89ifeXFOeyhBDTzQsKhtQfNG5lQgMHr8Og+72dob+RC3XGeWUitVUcOYMab11W+LjiqEvTR2671fDg==|920

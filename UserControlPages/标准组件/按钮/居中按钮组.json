@@ -1,0 +1,125 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      }
+    },
+    "Count": 1,
+    "DefaultSize": 32.0
+  },
+  "Cols": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 64.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "1": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 64.0
+        }
+      },
+      "2": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "3": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 64.0
+        }
+      },
+      "4": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 64.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      }
+    },
+    "Count": 5,
+    "DefaultSize": 64.0
+  },
+  "AttachInfos": {
+    "0,1": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.CallUserControlPageCommand, ServerDesignerCommon",
+            "CommandName": "按钮1点击"
+          }
+        ],
+        "TemplateKey": "样式14"
+      },
+      "TemplateCellSource": "按钮1文本"
+    },
+    "0,3": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.CallUserControlPageCommand, ServerDesignerCommon",
+            "CommandName": "按钮2点击"
+          }
+        ],
+        "TemplateKey": "样式13"
+      },
+      "TemplateCellSource": "按钮2文本"
+    }
+  },
+  "StyleDatas": {
+    "Types": {
+      "Strs": [
+        "Body"
+      ]
+    },
+    "SheetStyle": {
+      "FontFamily": 0,
+      "BorderBottom": null,
+      "BorderTop": null,
+      "BorderLeft": null,
+      "BorderRight": null
+    }
+  },
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.UserControlPage, ServerDesignerCommon",
+    "PropertyDefinitions": [
+      {
+        "Name": "按钮1文本"
+      },
+      {
+        "Name": "按钮2文本"
+      }
+    ],
+    "CommandDefinitions": [
+      {
+        "Name": "按钮1点击"
+      },
+      {
+        "Name": "按钮2点击"
+      }
+    ],
+    "MethodDefinitions": [],
+    "PageLoadedCommandList": []
+  },
+  "PrintInfo": {
+    "PaperSize": {},
+    "Margin": {}
+  }
+}//plFxjUXK1WN1tggu3r5WwVmfhDNS829/yxlS6Kt9KBXEgyuP4vPPaB5tuP99NXCpgSkELe1TgHXgnw3oDZDdgAF9cXyLgXEye3PpNLkH/HcTN1XueVjoQ36ANJXfuOVc58Mf3uMz9vu+WbKuQxgz+7MjyVR6boyvnL313DnQ8yi4j2CZeiUy317GR2so94eIllbcffCp3LC9I69nM3vaey5gMMWkPgTN9ZUWnH3KHdQ/tFWoBM033yWrntL22TrgHjdo238+R5LMW/XuqG0uJqNWTNf9nRUhZ9pzhY27Ccsx1o5yOo0sJL5+9OYitejmfDzsKEZQnIbQHV7iTg4INNm+G/wKPpGGYD+CDhf8CK/y4M0soT5TsvTWK9jPqlra1VyvlqB8xROS3PvjCxj4wYMm/PtJSb0d5/GupBH003IXPb5cEWGwlUjYgedsaFldqLSyTDwrrvHnh0acodDlx8b5bmum2ZfJA21jJ625S+jkNTThBXu9OACqUuj3mNptQ5A10ad49+2p5nLYI4hUo+k3eETsbB/gPGyeN4kFExkdnbwzmtAFOByuAp8R9RQo3byEgFCx025zociXWAP0zKEEMa/Mg4hA3QibNcLxcHY4cw5bwueArKXDwGMNh8yLwF3BCQYEa5OJhApU5ZCnYYr72BO34f5SgjzjDRGQxwAlzNxp0EsenOp19Dv0NHSr7TvM2uHzrsnuVlYPdqhA5E89Baw2gZ2SJqeKYM/FIUzIvUm6nsH2GSl7xi3sNlzhRuIPjw5GkRVlZvR+DUny2HJaho9woZVkJcU/jKVcOloFBkkLP9RAJ7njf+hpwfs/Ht7ivminW9gX8dYjwZ1UukE/Vb7U4Fpp3IehUgXqs+vtGJnAUsCTLNdwgQUnwHKgbq93/S5WkIPE+ipyxb5gVg==|920

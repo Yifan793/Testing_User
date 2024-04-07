@@ -1,0 +1,189 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      }
+    },
+    "Count": 1,
+    "DefaultSize": 30.0
+  },
+  "Cols": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 100.0,
+          "Mode": 2,
+          "MinLength": {
+            "Value": 10.0,
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 100.0,
+            "Unit": 1
+          }
+        }
+      },
+      "1": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 25.0
+        }
+      },
+      "2": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 25.0
+        }
+      },
+      "3": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 40.0,
+          "Mode": 1
+        }
+      },
+      "4": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 100.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      }
+    },
+    "Count": 5,
+    "DefaultSize": 100.0
+  },
+  "Values": {
+    "0,3": "清空"
+  },
+  "AttachInfos": {
+    "0,0": {
+      "TemplateCellSource": "字段"
+    },
+    "0,1": {
+      "CellType": {
+        "$type": "Forguncy.UploadImageCellType, ServerDesignerCommon",
+        "UploadImageLimit": {
+          "AllowExtensions": ".art, .bmp, .cmx, .cod, .dib, .gif, .ico, .ief, .jfif, .jpe, .jpeg, .jpg, .pbm, .pgm, .png, .pnm, .pnz, .ppm, .ras, .rf, .rgb, .svg, .tif, .tiff, .wbmp, .xbm, .xpm, .xwd"
+        }
+      },
+      "TemplateCellSource": "Fgc-UC-TwoWayBinding-Value-Column"
+    },
+    "0,3": {
+      "CellType": {
+        "$type": "Forguncy.HyperlinkCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
+            "ConditionAndCommandPairList": [
+              {
+                "Condition": {
+                  "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                  "param": {
+                    "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                    "cellLocations": [
+                      {
+                        "SerializeProperty": "='图标-水平-字段等宽'!B1"
+                      }
+                    ]
+                  },
+                  "value": "%Null%"
+                },
+                "CommandList": [
+                  {
+                    "$type": "ElementUI.Commands.ShowMessage, ElementUI",
+                    "Message": "请先上传图片再进行清空",
+                    "Type": "error",
+                    "Duration": 3000,
+                    "Offset": null
+                  }
+                ],
+                "ID": "4d509c65-1227-47cb-8177-a0ff5b713066"
+              },
+              {
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.SetCellPropertyCommand, ServerDesignerCommon",
+                    "PropertyItemsList": [
+                      {
+                        "TargetCells": {
+                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                          "SerializeProperty": "='图标-水平-字段等宽'!B1"
+                        }
+                      }
+                    ]
+                  }
+                ],
+                "ID": "9cec53a5-534a-4d6e-a85f-22fce7e70c19"
+              }
+            ]
+          }
+        ],
+        "Text": "清空",
+        "ClickMode": 1
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "FontFamily": 0,
+        "Foreground": 1,
+        "Formatter": 2,
+        "HorizontalAlignment": 3,
+        "Underline": false
+      },
+      {
+        "HorizontalAlignment": 4
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Body",
+        "#FF0270C1",
+        "[AUTO]General",
+        "Center",
+        "Left"
+      ]
+    },
+    "CellStyles": {
+      "0,3": 0
+    },
+    "ColStyles": {
+      "1": 1,
+      "2": 1,
+      "3": 1,
+      "4": 1
+    },
+    "SheetStyle": {
+      "FontFamily": 0
+    }
+  },
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.UserControlPage, ServerDesignerCommon",
+    "PropertyDefinitions": [
+      {
+        "Name": "字段"
+      }
+    ],
+    "CommandDefinitions": [],
+    "MethodDefinitions": [],
+    "PageLoadedCommandList": []
+  },
+  "PrintInfo": {
+    "PaperSize": {},
+    "Margin": {}
+  }
+}//cvkSVfbshV/koRT7K79WaQI/fdyp3Eq520X+ua7BmgVGImHgHZzeUBe2LJaUtl/aywpA/gUh8pceoZBLIkQeQOSvvHMmAKn/seAZBC63CLIdS02K6/4+eqQXsSJ1B+2xf43AFafGvLMSKMfg6to4mGRgUNWz7J6IFhXAZyH8gP3NTbcD6rVLIMZnZ1eJrrSTJtIY6EvFFtTRKEIAzF745tuWjHtbSLI65V30K1bDifbyXfeVUVKbSw/yuOZD7Ii3VjR8X7w+AJm3FDY/2snGD3+oCaS/F5HVAKyUnZ5sEaRIO37nBXv5P2RagIeFX1vZUnQZX1zgsQcvVQ0LAWb2O1OcW4Ne5eg0/QdhW2/EnZNZXRU4k92yEl2qWWFN+B5te7zzyXRhzKb4eacXwERalBntPQKtZZ9mv6zcUbOwvA6u9mjke+o03p8h8EYvP9WSJzttcpIAzaPYa6NGVRxUvjveVEOj7H1esb+3DKCoSS5hfzhsBJ71wh5BhnvgRS2X5Lw0ja4wEbFMnbT5PhaH3LsG54OUylWXJLD51f5JPX7AGeuehzHxylndgBMwru3X6ImYAG6DRWQZePeK/YyA6GcDBut7dYp3sDkvT2wcMQUiTCAzCcYMeJuOWjkSKaMxiRPjHhu1Qn11RLeehOpYlRe8dE8sNitfKOfxFTarqyh0mpkmNXCFjw1jIkLowxUIpW11C/d9TfibK57+V8pnFYlfnA1aQ8qo8zSJyKkvW2RoGk786t8/122pL7q/3iksSokQrvvvGWaLUTjbUpoUiCXgIKtrq0FJ0WTKJ4LtHN06dD1zU1Xsb7UWxrtah0Uy4+48ldrj9A1XVroUVq4vvIFtep6YyvOPlBcr7iIJTw2f+3HIxaSQaf9/U8Zwm895pqxZdF7RPY1evl/xFrU8sQ==|920

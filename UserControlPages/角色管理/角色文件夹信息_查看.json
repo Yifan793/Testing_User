@@ -1,0 +1,687 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 60.0
+        }
+      },
+      "1": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "2": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "3": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "4": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "5": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0,
+          "IsHidden": true
+        }
+      }
+    },
+    "InLogicalVisibleIndexes": [
+      5
+    ],
+    "Count": 6,
+    "DefaultSize": 32.0
+  },
+  "Cols": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "1": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "2": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "3": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "4": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "5": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "6": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "7": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "8": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "9": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "10": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "11": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "12": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "13": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "14": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "15": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "16": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "17": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "18": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "19": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "20": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "21": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "22": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "23": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "24": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "25": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "26": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      }
+    },
+    "Count": 27
+  },
+  "Values": {
+    "1,2": "文件夹名称：",
+    "3,2": "上级文件夹名称："
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "FontFamily": 0
+      },
+      {
+        "FontFamily": 0,
+        "FontSize": 13.333333333333332,
+        "Formatter": 1
+      },
+      {
+        "FontFamily": 0,
+        "FontSize": 13.333333333333332
+      },
+      {
+        "FontFamily": 0,
+        "FontSize": 13.333333333333332,
+        "BorderBottom": 0
+      },
+      {
+        "FontFamily": 0,
+        "BorderBottom": 0
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Body",
+        "[AUTO]General",
+        "#FFE2E2E2"
+      ],
+      "Borders": [
+        {
+          "Color": 2
+        }
+      ]
+    },
+    "CellStyles": {
+      "0,0": 0,
+      "0,1": 0,
+      "0,2": 0,
+      "0,3": 0,
+      "0,4": 0,
+      "0,5": 0,
+      "0,6": 0,
+      "0,7": 0,
+      "0,8": 0,
+      "0,9": 0,
+      "0,10": 0,
+      "0,11": 0,
+      "0,12": 0,
+      "0,13": 0,
+      "0,14": 0,
+      "0,15": 0,
+      "0,16": 0,
+      "0,17": 0,
+      "0,18": 0,
+      "0,19": 0,
+      "0,20": 0,
+      "0,21": 0,
+      "0,22": 0,
+      "0,23": 0,
+      "0,24": 0,
+      "0,25": 0,
+      "0,26": 0,
+      "1,0": 0,
+      "1,1": 0,
+      "1,2": 1,
+      "1,3": 2,
+      "1,4": 2,
+      "1,5": 2,
+      "1,6": 2,
+      "1,7": 2,
+      "1,8": 2,
+      "1,9": 3,
+      "1,10": 4,
+      "1,11": 4,
+      "1,12": 4,
+      "1,13": 4,
+      "1,14": 4,
+      "1,15": 4,
+      "1,16": 4,
+      "1,17": 4,
+      "1,18": 4,
+      "1,19": 4,
+      "1,20": 4,
+      "1,21": 4,
+      "1,22": 4,
+      "1,23": 4,
+      "1,24": 4,
+      "1,25": 0,
+      "1,26": 0,
+      "2,0": 0,
+      "2,1": 0,
+      "2,2": 2,
+      "2,3": 2,
+      "2,4": 2,
+      "2,5": 2,
+      "2,6": 2,
+      "2,7": 2,
+      "2,8": 2,
+      "2,9": 2,
+      "2,10": 2,
+      "2,11": 2,
+      "2,12": 2,
+      "2,13": 2,
+      "2,14": 2,
+      "2,15": 2,
+      "2,16": 2,
+      "2,17": 2,
+      "2,18": 2,
+      "2,19": 2,
+      "2,20": 2,
+      "2,21": 2,
+      "2,22": 2,
+      "2,23": 2,
+      "2,24": 2,
+      "2,25": 0,
+      "2,26": 0,
+      "3,0": 0,
+      "3,1": 0,
+      "3,2": 1,
+      "3,3": 2,
+      "3,4": 2,
+      "3,5": 2,
+      "3,6": 2,
+      "3,7": 2,
+      "3,8": 2,
+      "3,9": 3,
+      "3,10": 4,
+      "3,11": 4,
+      "3,12": 4,
+      "3,13": 4,
+      "3,14": 4,
+      "3,15": 4,
+      "3,16": 4,
+      "3,17": 4,
+      "3,18": 4,
+      "3,19": 4,
+      "3,20": 4,
+      "3,21": 4,
+      "3,22": 4,
+      "3,23": 4,
+      "3,24": 4,
+      "3,25": 0,
+      "3,26": 0,
+      "4,0": 0,
+      "4,1": 0,
+      "4,2": 0,
+      "4,3": 0,
+      "4,4": 0,
+      "4,5": 0,
+      "4,6": 0,
+      "4,7": 0,
+      "4,8": 0,
+      "4,9": 0,
+      "4,10": 0,
+      "4,11": 0,
+      "4,12": 0,
+      "4,13": 0,
+      "4,14": 0,
+      "4,15": 0,
+      "4,16": 0,
+      "4,17": 0,
+      "4,18": 0,
+      "4,19": 0,
+      "4,20": 0,
+      "4,21": 0,
+      "4,22": 0,
+      "4,23": 0,
+      "4,24": 0,
+      "4,25": 0,
+      "4,26": 0,
+      "5,0": 0,
+      "5,1": 0,
+      "5,2": 0,
+      "5,3": 0,
+      "5,4": 0,
+      "5,5": 0,
+      "5,6": 0,
+      "5,7": 0,
+      "5,8": 0,
+      "5,9": 0,
+      "5,10": 0,
+      "5,11": 0,
+      "5,12": 0,
+      "5,13": 0,
+      "5,14": 0,
+      "5,15": 0,
+      "5,16": 0,
+      "5,17": 0,
+      "5,18": 0,
+      "5,19": 0,
+      "5,20": 0,
+      "5,21": 0,
+      "5,22": 0,
+      "5,23": 0,
+      "5,24": 0,
+      "5,25": 0,
+      "5,26": 0
+    },
+    "SheetStyle": {
+      "FontFamily": 0
+    }
+  },
+  "Spans": [
+    "1,9,1,16",
+    "3,9,1,16"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.UserControlPage, ServerDesignerCommon",
+    "PropertyDefinitions": [
+      {
+        "Name": "角色唯一标识"
+      }
+    ],
+    "CommandDefinitions": [],
+    "MethodDefinitions": [],
+    "PageLoadedCommandList": [
+      {
+        "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
+        "ParameterName": "角色文件夹信息",
+        "TableValue": {
+          "TableName": "角色文件夹关系视图",
+          "TableValueType": 1,
+          "BindingInfos": [
+            {
+              "BindingInfo": {
+                "TableName": "角色文件夹关系视图",
+                "ColumnName": "Id",
+                "GUID": "34bbcef3-b524-4028-99df-6ffa3228c4a4"
+              },
+              "ColumnName": "文件夹ID"
+            },
+            {
+              "BindingInfo": {
+                "TableName": "角色文件夹关系视图",
+                "ColumnName": "名称",
+                "GUID": "d2613353-d6c1-4a12-8e81-5aae5af807c9"
+              },
+              "ColumnName": "文件夹名称"
+            },
+            {
+              "BindingInfo": {
+                "TableName": "角色文件夹关系视图",
+                "ColumnName": "父节点Id",
+                "GUID": "7efd6150-dc7f-4d95-935c-343e7c06d7ae"
+              },
+              "ColumnName": "父节点Id"
+            }
+          ],
+          "SqlCondition": {
+            "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+            "ColumnBindingInfo": {
+              "TableName": "角色文件夹关系视图",
+              "ColumnName": "角色唯一标识",
+              "GUID": "1fc6e6cd-6053-451e-a135-82dc008d6778"
+            },
+            "Value": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "=角色文件夹信息_查看!角色唯一标识"
+            }
+          }
+        },
+        "ID": "0c7e8b0fb54e4d3cbc5154bf5fdf16f5"
+      },
+      {
+        "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
+        "ParameterName": "父文件夹信息",
+        "TableValue": {
+          "TableName": "角色文件夹关系视图",
+          "TableValueType": 1,
+          "BindingInfos": [
+            {
+              "BindingInfo": {
+                "TableName": "角色文件夹关系视图",
+                "ColumnName": "名称",
+                "GUID": "54cddb73-20fa-437b-bab1-3724dbe15948"
+              },
+              "ColumnName": "名称"
+            }
+          ],
+          "SqlCondition": {
+            "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
+            "SubConditions": [
+              {
+                "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                "ColumnBindingInfo": {
+                  "TableName": "角色文件夹关系视图",
+                  "ColumnName": "Id",
+                  "GUID": "04840b57-4bfe-4337-8c9a-7ffd6be89f4a"
+                },
+                "Value": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=角色文件夹信息_查看!角色文件夹信息.父节点Id"
+                }
+              },
+              {
+                "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                "ColumnBindingInfo": {
+                  "TableName": "角色文件夹关系视图",
+                  "ColumnName": "是否角色",
+                  "GUID": "2fd0732b-9e6b-42c2-bdc0-9e9236c8893c"
+                },
+                "Value": "0"
+              }
+            ]
+          },
+          "NullFormulaValueQueryPolicy": 0
+        },
+        "ID": "161beb9a47f8410690dd8c282b54fab3"
+      },
+      {
+        "$type": "Forguncy.Model.SetCellPropertyCommand, ServerDesignerCommon",
+        "PropertyItemsList": [
+          {
+            "TargetCells": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "=角色文件夹信息_查看!J2"
+            },
+            "Value": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "=角色文件夹信息_查看!角色文件夹信息.文件夹名称"
+            }
+          },
+          {
+            "TargetCells": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "=角色文件夹信息_查看!J4"
+            },
+            "Value": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "=角色文件夹信息_查看!父文件夹信息.名称"
+            }
+          }
+        ]
+      }
+    ],
+    "PropertyChangedHandlers": {
+      "Commands": [
+        {
+          "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
+          "ParameterName": "角色文件夹信息",
+          "TableValue": {
+            "TableName": "角色文件夹关系视图",
+            "TableValueType": 1,
+            "BindingInfos": [
+              {
+                "BindingInfo": {
+                  "TableName": "角色文件夹关系视图",
+                  "ColumnName": "Id",
+                  "GUID": "58fc1ed7-674b-4653-b894-a0c36725bfc4"
+                },
+                "ColumnName": "文件夹ID"
+              },
+              {
+                "BindingInfo": {
+                  "TableName": "角色文件夹关系视图",
+                  "ColumnName": "名称",
+                  "GUID": "00a0e0f2-f299-448b-ae8c-4185f9941d0b"
+                },
+                "ColumnName": "文件夹名称"
+              },
+              {
+                "BindingInfo": {
+                  "TableName": "角色文件夹关系视图",
+                  "ColumnName": "父节点Id",
+                  "GUID": "e9c9228b-3887-434d-8e7b-52b2076af13a"
+                },
+                "ColumnName": "父节点Id"
+              }
+            ],
+            "SqlCondition": {
+              "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+              "ColumnBindingInfo": {
+                "TableName": "角色文件夹关系视图",
+                "ColumnName": "角色唯一标识",
+                "GUID": "e9317358-8c25-4065-893d-03c9f437fc41"
+              },
+              "Value": {
+                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                "SerializeProperty": "=角色文件夹信息_查看!角色唯一标识"
+              }
+            }
+          },
+          "ID": "adaddeaa41754b919b3eddb94e45c83b"
+        },
+        {
+          "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
+          "ParameterName": "父文件夹信息",
+          "TableValue": {
+            "TableName": "角色文件夹关系视图",
+            "TableValueType": 1,
+            "BindingInfos": [
+              {
+                "BindingInfo": {
+                  "TableName": "角色文件夹关系视图",
+                  "ColumnName": "名称",
+                  "GUID": "af5ac89d-a1c3-493b-92d2-d742e3eb15ea"
+                },
+                "ColumnName": "名称"
+              }
+            ],
+            "SqlCondition": {
+              "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
+              "SubConditions": [
+                {
+                  "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                  "ColumnBindingInfo": {
+                    "TableName": "角色文件夹关系视图",
+                    "ColumnName": "Id",
+                    "GUID": "8c191dae-e8ac-4f1c-9b21-281149421497"
+                  },
+                  "Value": {
+                    "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                    "SerializeProperty": "=角色文件夹信息_查看!角色文件夹信息.父节点Id"
+                  }
+                },
+                {
+                  "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                  "ColumnBindingInfo": {
+                    "TableName": "角色文件夹关系视图",
+                    "ColumnName": "是否角色",
+                    "GUID": "8da8bc25-e9bc-4a46-bf05-59821ee916f3"
+                  },
+                  "Value": "0"
+                }
+              ]
+            },
+            "NullFormulaValueQueryPolicy": 0
+          },
+          "ID": "9a3856b6dc4d434d835b7e7128d51c16"
+        },
+        {
+          "$type": "Forguncy.Model.SetCellPropertyCommand, ServerDesignerCommon",
+          "PropertyItemsList": [
+            {
+              "TargetCells": {
+                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                "SerializeProperty": "=角色文件夹信息_查看!J2"
+              },
+              "Value": {
+                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                "SerializeProperty": "=角色文件夹信息_查看!角色文件夹信息.文件夹名称"
+              }
+            },
+            {
+              "TargetCells": {
+                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                "SerializeProperty": "=角色文件夹信息_查看!J4"
+              },
+              "Value": {
+                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                "SerializeProperty": "=角色文件夹信息_查看!父文件夹信息.名称"
+              }
+            }
+          ]
+        }
+      ],
+      "ParamProperties": {
+        "propertyName": "属性名",
+        "oldValue": "原值",
+        "newValue": "新值"
+      }
+    }
+  },
+  "PrintInfo": {
+    "PaperSize": {},
+    "Margin": {}
+  },
+  "BackgroundPictures": [
+    {
+      "Name": "BackgroundPicture0",
+      "DisplayName": "背景图2",
+      "StyleInfo": {
+        "Fill": "Background 1 0"
+      },
+      "IsAutomaticFill": false,
+      "Size": "220,176"
+    }
+  ]
+}//lbCt2IOBF23Sd+lF6WmVRbntCR4sKM7rz3+QbyWnx3lU0hQtwgPhwDquSwmz75/tsCnRO9LmdbR1EvxUqXeOpCmbK36t5egBOtegEW4WPOKIE8lzd4CMk3kloWwY+Ew9frhe57oFX6oeuFRaYiXj0WgoRW+cDMkuPF4q0o+Uu3zfwjNTLHAHVWPRpj+utx55l2rPiCzQK/Rm+MHhN+B3Li0A5IV1RWqzZscVqcTip4rsr2PGSJyNB/ZGIEHC7Wt5TsBgj2xjFE/OdrNrQuIgF5UhAdGz9dmtW9Pj7r9wn0uVOI8SPjU9ntNr0wglPArxuY2nWWytjlAtKQd9br0aBKMQHEYkmBgGaC9Q4P+z4MD+r9ZHAghpF8QqrrFjJAbqP2gaADjNLu2QpDNMvhrqFNFDbVKLTnQ3BtHF+pI3VhZIVvfSo8TLZ0UmFEhmxzvasSOgDFNnYn3ZifViAbbJUNMQOqh4SflR3zdw/OBb8YhGBrySko4oTYgST02/B9HiGgPyT1OMQIaWrR+W7wXxggA0rRZ4CBGpICmuYTe47FZ+yYu5L5fQPWxUcuj7THujnadsIOAnz3jsj698ZcjqBdcyNb25BxA+8V3aaM2VQPMSovT7m8dfv93+JbBp2mV9FofOM7+vvyPqvqNh9WB5/o/NT/RY0hh2/hHXf3V80+uVD4s/rPQz+J5w7Yo3n9KbgsokoHmQ1BzzkRqw0udIbhFpmOEXrwY0rQ7+Z3aXdQZYSoJGDGtMdWiiJ4pjaStgEEZzknmFuMYNPc50K9Esmec8roxgbJrW3S5Gtm/Fq81wqI6Zrt1pb0YlGsdls7RvrzM7j8llC0pfGr5nKey6qrnC6wChwfn5vsSxuxXFZhIVplzm9nU0G7hqjKN9/IqdG1qGySz6tCtgREGs/PgGSw==|920
