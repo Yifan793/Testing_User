@@ -423,17 +423,7 @@
   },
   {
     "ModuleName": "PCPage/员工维护",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\ShaySong",
-      "Email": "1146602243@qq.com"
-    },
-    "LockDateTime": "2024-04-07T17:16:50.9275588+08:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\后端引擎应用中心\\员工管理\\员工维护.json",
-      "Pages\\后端引擎应用中心\\员工管理\\员工维护.rd"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "PCPage/人员操作_编辑",
@@ -465,17 +455,7 @@
   },
   {
     "ModuleName": "PCPage/角色维护 (2)",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\ShaySong",
-      "Email": "1146602243@qq.com"
-    },
-    "LockDateTime": "2024-04-07T16:39:33.3139483+08:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\后端引擎应用中心\\角色管理\\角色维护 (2).json",
-      "Pages\\后端引擎应用中心\\角色管理\\角色维护 (2).rd"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "PCPage/角色操作_编辑",

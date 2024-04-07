@@ -201,21 +201,15 @@
       },
       "59": {
         "GridRowColumnDefinition": {
-          "DesignLengthInPixel": 65.0,
-          "IsHidden": true
+          "DesignLengthInPixel": 65.0
         }
       },
       "60": {
         "GridRowColumnDefinition": {
-          "DesignLengthInPixel": 65.0,
-          "IsHidden": true
+          "DesignLengthInPixel": 65.0
         }
       }
     },
-    "InLogicalVisibleIndexes": [
-      59,
-      60
-    ],
     "Count": 61
   },
   "Values": {
@@ -551,6 +545,17 @@
         "TemplateKey": "组织结构_搜索按钮"
       }
     },
+    "5,59": {
+      "CellType": {
+        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
+          }
+        ],
+        "TemplateKey": "_RS_NewLittleRoundCorner"
+      }
+    },
     "8,2": {
       "ListViewInfo": {
         "Name": "表格1",
@@ -585,13 +590,14 @@
           "ColumnBindingInfo": {
             "TableName": "用户组织关系视图",
             "ColumnName": "用户名",
-            "GUID": "0adac5ed-465b-4dce-97ef-ee1cc4f9c051"
+            "GUID": "18f85790-5344-42ed-88db-188147b4f6cb"
           },
           "Value": {
             "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-            "SerializeProperty": "=TEXTJOIN(\",\",1,员工维护!K10,员工维护!BH6)"
+            "SerializeProperty": "=员工维护!BH6"
           }
         },
+        "NullFormulaValueQueryPolicy": 0,
         "TopCondition": null,
         "ListViewStyleName": "表格自定义",
         "ShowColumnHeaderInDesigner": true,
@@ -673,6 +679,17 @@
           "RelatedColumn": "组织Id",
           "DisplayColumn": "组织名"
         }
+      }
+    },
+    "15,59": {
+      "CellType": {
+        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
+          }
+        ],
+        "TemplateKey": "_RS_NewLittleRoundCorner"
       }
     },
     "22,2": {
@@ -760,6 +777,9 @@
         "FontFamily": 1
       },
       {
+        "Formatter": 2
+      },
+      {
         "BorderBottom": 0
       },
       {
@@ -799,85 +819,87 @@
       "5,54": 6,
       "5,55": 6,
       "5,56": 6,
-      "6,1": 7,
-      "6,2": 7,
-      "6,3": 7,
-      "6,4": 7,
-      "6,5": 7,
-      "6,6": 7,
-      "6,7": 7,
-      "6,8": 7,
-      "6,9": 7,
-      "6,10": 7,
-      "6,11": 7,
-      "6,12": 7,
-      "6,13": 7,
-      "6,14": 7,
-      "6,15": 7,
-      "6,16": 7,
-      "6,17": 7,
-      "6,18": 7,
-      "6,19": 7,
-      "6,20": 7,
-      "6,21": 7,
-      "6,22": 7,
-      "6,23": 7,
-      "6,24": 7,
-      "6,25": 7,
-      "6,26": 7,
-      "6,27": 7,
-      "6,28": 7,
-      "6,29": 7,
-      "6,30": 7,
-      "6,31": 7,
-      "6,32": 7,
-      "6,33": 7,
-      "6,34": 7,
-      "6,35": 7,
-      "6,36": 7,
-      "6,37": 7,
-      "6,38": 7,
-      "6,39": 7,
-      "6,40": 7,
-      "6,41": 7,
-      "6,42": 7,
-      "6,43": 7,
-      "6,44": 7,
-      "6,45": 7,
-      "6,46": 7,
-      "6,47": 7,
-      "6,48": 7,
-      "6,49": 7,
-      "6,50": 7,
-      "6,51": 7,
-      "6,52": 7,
-      "6,53": 7,
-      "6,54": 7,
-      "6,55": 7,
-      "6,56": 7,
-      "6,57": 7,
-      "8,2": 8,
-      "8,3": 8,
-      "8,10": 8,
-      "8,17": 8,
-      "8,27": 8,
-      "8,31": 8,
-      "8,42": 8,
-      "8,47": 9,
-      "8,59": 8,
-      "8,60": 8,
-      "9,2": 8,
-      "9,3": 8,
-      "9,10": 8,
-      "9,17": 8,
-      "9,27": 8,
-      "9,31": 8,
-      "9,42": 8,
-      "9,47": 8,
-      "9,59": 8,
-      "9,60": 8,
-      "22,2": 10,
-      "23,2": 10
+      "5,59": 7,
+      "6,1": 8,
+      "6,2": 8,
+      "6,3": 8,
+      "6,4": 8,
+      "6,5": 8,
+      "6,6": 8,
+      "6,7": 8,
+      "6,8": 8,
+      "6,9": 8,
+      "6,10": 8,
+      "6,11": 8,
+      "6,12": 8,
+      "6,13": 8,
+      "6,14": 8,
+      "6,15": 8,
+      "6,16": 8,
+      "6,17": 8,
+      "6,18": 8,
+      "6,19": 8,
+      "6,20": 8,
+      "6,21": 8,
+      "6,22": 8,
+      "6,23": 8,
+      "6,24": 8,
+      "6,25": 8,
+      "6,26": 8,
+      "6,27": 8,
+      "6,28": 8,
+      "6,29": 8,
+      "6,30": 8,
+      "6,31": 8,
+      "6,32": 8,
+      "6,33": 8,
+      "6,34": 8,
+      "6,35": 8,
+      "6,36": 8,
+      "6,37": 8,
+      "6,38": 8,
+      "6,39": 8,
+      "6,40": 8,
+      "6,41": 8,
+      "6,42": 8,
+      "6,43": 8,
+      "6,44": 8,
+      "6,45": 8,
+      "6,46": 8,
+      "6,47": 8,
+      "6,48": 8,
+      "6,49": 8,
+      "6,50": 8,
+      "6,51": 8,
+      "6,52": 8,
+      "6,53": 8,
+      "6,54": 8,
+      "6,55": 8,
+      "6,56": 8,
+      "6,57": 8,
+      "8,2": 9,
+      "8,3": 9,
+      "8,10": 9,
+      "8,17": 9,
+      "8,27": 9,
+      "8,31": 9,
+      "8,42": 9,
+      "8,47": 10,
+      "8,59": 9,
+      "8,60": 9,
+      "9,2": 9,
+      "9,3": 9,
+      "9,10": 9,
+      "9,17": 9,
+      "9,27": 9,
+      "9,31": 9,
+      "9,42": 9,
+      "9,47": 9,
+      "9,59": 9,
+      "9,60": 9,
+      "15,59": 7,
+      "22,2": 11,
+      "23,2": 11
     },
     "SheetStyle": {
       "FontFamily": 1
@@ -887,7 +909,6 @@
     "2,18,1,40",
     "5,41,1,12",
     "5,53,1,4",
-    "5,59,1,2",
     "9,3,1,7",
     "9,10,1,7",
     "9,17,1,10",
@@ -905,7 +926,9 @@
     "8,27,1,4",
     "8,31,1,11",
     "8,42,1,5",
-    "8,47,1,10"
+    "8,47,1,10",
+    "5,59,1,2",
+    "15,59,1,2"
   ],
   "PageInfo": {
     "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
@@ -979,4 +1002,4 @@
       "Formula": "员工维护!$S$3"
     }
   ]
-}///7wJ+obxxAC0Lx6rK/2wob4mRTCMlSYo3ML9Jhwzg5hRxFnlGkjRnI34JyjRwAwybp/9bn7Z+uOzzBQ9Hgy/y39UPGahkdlNqF2LvzkfPtXLC1lddyvswWwv7KWino636bqckN7M6+1Z54LFymVpHAfVcLQMbLo+Hdv7957PrivBNYX0FAX+Npxhkbs/kDo2Gy4dUM+qRy155sUUVcvXbou0f31QrseALLDfxzkdOtOP0umiaDkDss+KQyHjNSAQOCmlSznHb0+dtwe4GUewGLGi2zVv2qXOT4KCz3Av2yTz2UfBjXrOFX0+Q3Toj0dvkDVh9zMtEzXhtreURQvxK4pLzRvNKA6/a4dtNTVituK+TFCzKoQKRybN2qAfB51hvxbDwk1rRWlPzq5ZapstYiHT3zOIPQv6H4Fc0ZNr26CrXEWtJyylL8gb4l7r8DFfPpXzVn/LMMuqUIYqZAFedCRwlPF+X1+faCg+eBtxN49r7ZqLUXkvFtt283WNcdtDJzI6b/Czop2ODS3LEOvMtDmwUUbiKYpmx0yOxRpW9bSAlAUZWvPidpDh95aiu3BwlYd5EWG2h2CqGRfcM+VFDOhZHW4cbYFI75FWZBRLuGEZ4xE/Aad3Nb0WlSqTvWGV7atker/ci0HSD5dH4PkNITbVq1pHwT8UHtHZvtajaxtnbNm6alJlTYNdNENl9CDPIGNrFDkvGfLKQT2v0BHrkkZRW+HIzVIvyMZr4RXhZas7oIgiv1GjWYc2w/gXMaBur5lDEXNLeHmRxpFLhULZWsFdkS/PBfrqWrKigca7xZExRHg+ObD5+9CAC5FtaRr2lK/DTxzBOJWjMYvtLPTDhjWXSJrOp9ff2ictsGjGQmH+J20YHibMb6PdOeSGOyozjwkrpU1yrcevK+KXl6dInA==|920
+}//MDjeMvi6T8acJ1ck4y/b31OTf/0Ne8YNZUdTgPXPETrpslgdkFLkRbnN/pyjoQV0bnxdbkZPKYttG51YeHoasoNr3x8xRQkgw0QAkgCbWteY40HvZXGCJHoi3WDa6RZdcu80e6lBqUh/OTMwdTsq4uzyq0y2avj38Lf/zqHol2lyzV6uy0NBxfA1n4F4wNqT42YhltmuL9zeaHtYL6To7lhLkILkEJ5yTTrvPZfJV6+VjaAgeAPDOPKV1/fjgjkgkgZmHvY572cBbZ1YpVnT23bmGxwBN6KBd+O7rSkFpeK6VcA0zKlkx626364WyKdwqb4FCI2XB69B0m9UehapFlMDXbMGju1yl28WvV6mvh0e9neOUGbQdC6x+EOyPugbcgdAhSoPk7kNzy8fCDkoOCabVk4fIGRDKaW8AuM874mvTJ0XdRt7l9K+L2B190/Ar7/jU/eziiRt74dyDsic1xNHFJ3IpIC6C676toMuej42GjyVUtONOZIBOCbOqEqoKr1SNS4HmystkfDmK6V0uKuUGrB/HugBiz30pNAW/ERrDgjwiwjV22ibxBdYJJNaIeZ/1tjbhSljKrDSvyxFIo9SrGO8slO32z5aSMb4rsfJBLc13sTTL8fj4M846hD8LCU+REZa896LyMOLPhCV8CQiQ2tUCL0YciUVoVlkGbNbS0P1MgkPjLuT4vdjH87GPpwfF797GI04es1JdHdyMlMqOdB7+pClNUsTMFNzvm4xQfC/SKv5dP2JR2ldaqWDAGfPDmy0qh/SNWlcAS8iecdqUnvRF3bp8j73P8YXM4MUpNHw6W+4WR7QiRfuUb0PXCPADGwis9M1Zt1iv5/z6JkTJwc/uhK6MY2wxrJlsDmRGGEHmuKjxmbKTGLWv23cJf4gnXbM3S4EO8zeuQa4Bg==|920
