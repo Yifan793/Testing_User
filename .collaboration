@@ -1,1 +1,1154 @@
-[{"ModuleName":"Tables/Dashboard","ModuleType":22},{"ModuleName":"Tables/Dashboard/分析页","ModuleType":22},{"ModuleName":"Table/产品信息","ModuleType":7,"ExclusiveType":0},{"ModuleName":"Table/产品大类","ModuleType":7,"ExclusiveType":0},{"ModuleName":"Table/产品类别","ModuleType":7,"ExclusiveType":0},{"ModuleName":"Table/店铺信息","ModuleType":7,"ExclusiveType":0},{"ModuleName":"Table/销售信息","ModuleType":7,"ExclusiveType":0},{"ModuleName":"Tables/Dashboard/工作台","ModuleType":22},{"ModuleName":"Table/动态表","ModuleType":7,"ExclusiveType":0},{"ModuleName":"Table/团队表","ModuleType":7,"ExclusiveType":0},{"ModuleName":"Table/导航菜单表","ModuleType":7,"ExclusiveType":0},{"ModuleName":"Table/快捷导航表","ModuleType":7,"ExclusiveType":0},{"ModuleName":"Table/行为字典表","ModuleType":7,"ExclusiveType":0},{"ModuleName":"Table/项目信息","ModuleType":7,"ExclusiveType":0},{"ModuleName":"Tables/用户视图","ModuleType":22},{"ModuleName":"TableView/用户信息视图","ModuleType":23,"ExclusiveType":0},{"ModuleName":"Tables/组织结构视图","ModuleType":22},{"ModuleName":"TableView/用户组织关系视图","ModuleType":23,"ExclusiveType":0},{"ModuleName":"TableView/组织信息视图","ModuleType":23,"ExclusiveType":0},{"ModuleName":"TableView/组织级别视图","ModuleType":23,"ExclusiveType":0},{"ModuleName":"Tables/统一菜单管理","ModuleType":22},{"ModuleName":"Table/前端菜单表","ModuleType":7,"ExclusiveType":0},{"ModuleName":"Table/后端菜单表","ModuleType":7,"ExclusiveType":0},{"ModuleName":"Table/链接类型字典表","ModuleType":7,"ExclusiveType":0},{"ModuleName":"Tables/角色视图","ModuleType":22},{"ModuleName":"TableView/用户角色关系视图","ModuleType":23,"ExclusiveType":0},{"ModuleName":"TableView/角色信息视图","ModuleType":23,"ExclusiveType":0},{"ModuleName":"TableView/角色拥有权限视图","ModuleType":23,"ExclusiveType":0},{"ModuleName":"TableView/角色文件夹关系视图","ModuleType":23,"ExclusiveType":0},{"ModuleName":"TableView/角色组织关系视图","ModuleType":23,"ExclusiveType":0},{"ModuleName":"Table/帮助手册表","ModuleType":7,"ExclusiveType":0},{"ModuleName":"Table/标签页头字典表","ModuleType":7,"ExclusiveType":0},{"ModuleName":"Table/树形控件图标表","ModuleType":7,"ExclusiveType":0},{"ModuleName":"Pages/内建手机页面","ModuleType":6},{"ModuleName":"MobilePage/FGC_401页面_手机版","ModuleType":2},{"ModuleName":"MobilePage/FGC_两步验证_扫码页面_手机版","ModuleType":2},{"ModuleName":"MobilePage/FGC_两步验证_验证页面_手机版","ModuleType":2},{"ModuleName":"MobilePage/FGC_修改密码_手机版","ModuleType":2},{"ModuleName":"MobilePage/FGC_修改用户信息_手机版","ModuleType":2},{"ModuleName":"MobilePage/FGC_忘记密码_手机版","ModuleType":2},{"ModuleName":"MobilePage/FGC_登录_手机版","ModuleType":2},{"ModuleName":"MobilePage/FGC_维护中_手机版","ModuleType":2},{"ModuleName":"MobilePage/FGC_邮件订阅_手机版","ModuleType":2},{"ModuleName":"MobilePage/FGC_重置密码_手机版","ModuleType":2},{"ModuleName":"MobilePage/FGC_重置密码发送邮件成功_手机版","ModuleType":2},{"ModuleName":"MobilePage/FGC_连接已断开_手机版","ModuleType":2},{"ModuleName":"Pages/内建页面","ModuleType":6},{"ModuleName":"PCPage/FGC_401页面","ModuleType":1},{"ModuleName":"PCPage/FGC_两步验证_扫码页面","ModuleType":1},{"ModuleName":"PCPage/FGC_两步验证_验证页面","ModuleType":1},{"ModuleName":"PCPage/FGC_修改密码","ModuleType":1},{"ModuleName":"PCPage/FGC_修改用户信息","ModuleType":1},{"ModuleName":"PCPage/FGC_忘记密码","ModuleType":1},{"ModuleName":"PCPage/FGC_登录","ModuleType":1},{"ModuleName":"PCPage/FGC_维护中","ModuleType":1},{"ModuleName":"PCPage/FGC_邮件订阅","ModuleType":1},{"ModuleName":"PCPage/FGC_重置密码","ModuleType":1},{"ModuleName":"PCPage/FGC_重置密码发送邮件成功","ModuleType":1},{"ModuleName":"PCPage/FGC_连接已断开","ModuleType":1},{"ModuleName":"Pages/前端用户中心","ModuleType":6},{"ModuleName":"Pages/前端用户中心/其他模块","ModuleType":6},{"ModuleName":"PCPage/人事管理","ModuleType":1},{"ModuleName":"PCPage/客服管理","ModuleType":1},{"ModuleName":"PCPage/采购管理","ModuleType":1},{"ModuleName":"Pages/前端用户中心/合同管理","ModuleType":6},{"ModuleName":"PCPage/合同首页","ModuleType":1},{"ModuleName":"PCPage/法务首页","ModuleType":1},{"ModuleName":"PCPage/财务首页","ModuleType":1},{"ModuleName":"Pages/前端用户中心/我的门户","ModuleType":6},{"ModuleName":"PCPage/个人门户","ModuleType":1},{"ModuleName":"PCPage/公司门户","ModuleType":1},{"ModuleName":"PCPage/报表门户","ModuleType":1},{"ModuleName":"PCPage/营销门户","ModuleType":1},{"ModuleName":"Pages/前端用户中心/数据中心","ModuleType":6},{"ModuleName":"PCPage/数据中心","ModuleType":1},{"ModuleName":"Pages/前端用户中心/费控管理","ModuleType":6},{"ModuleName":"PCPage/业务门户","ModuleType":1},{"ModuleName":"PCPage/费用门户","ModuleType":1},{"ModuleName":"PCPage/我的门户-弹出页","ModuleType":1},{"ModuleName":"Pages/后端引擎应用中心","ModuleType":6},{"ModuleName":"Pages/后端引擎应用中心/其他模块","ModuleType":6},{"ModuleName":"PCPage/应用中心","ModuleType":1},{"ModuleName":"PCPage/流程引擎","ModuleType":1},{"ModuleName":"Pages/后端引擎应用中心/门户引擎","ModuleType":6},{"ModuleName":"PCPage/前端添加菜单","ModuleType":1},{"ModuleName":"PCPage/前端菜单","ModuleType":1},{"ModuleName":"PCPage/后端添加菜单","ModuleType":1},{"ModuleName":"PCPage/后端菜单","ModuleType":1},{"ModuleName":"PCPage/门户主题","ModuleType":1},{"ModuleName":"PCPage/门户引擎","ModuleType":1},{"ModuleName":"PCPage/门户维护","ModuleType":1},{"ModuleName":"PCPage/门户页面","ModuleType":1},{"ModuleName":"Pages/后端引擎应用中心/组织管理","ModuleType":6},{"ModuleName":"PCPage/组织维护","ModuleType":1},{"ModuleName":"PCPage/总部信息_编辑","ModuleType":1},{"ModuleName":"PCPage/分部信息_编辑","ModuleType":1},{"ModuleName":"PCPage/部门信息_编辑","ModuleType":1},{"ModuleName":"PCPage/组织成员添加","ModuleType":1},{"ModuleName":"Pages/后端引擎应用中心/员工管理","ModuleType":6},{"ModuleName":"PCPage/员工维护","ModuleType":1},{"ModuleName":"PCPage/人员操作_编辑","ModuleType":1},{"ModuleName":"PCPage/批量操作_弹出页","ModuleType":1},{"ModuleName":"PCPage/批量加入角色","ModuleType":1},{"ModuleName":"PCPage/批量加入部门","ModuleType":1},{"ModuleName":"PCPage/重置密码_编辑","ModuleType":1},{"ModuleName":"Pages/后端引擎应用中心/角色管理","ModuleType":6},{"ModuleName":"PCPage/角色维护","ModuleType":1},{"ModuleName":"PCPage/角色维护 (2)","ModuleType":1},{"ModuleName":"PCPage/角色操作_编辑","ModuleType":1},{"ModuleName":"PCPage/角色文件夹操作_编辑","ModuleType":1},{"ModuleName":"PCPage/角色成员添加","ModuleType":1},{"ModuleName":"PCPage/绑定组织节点","ModuleType":1},{"ModuleName":"PCPage/绑定权限","ModuleType":1},{"ModuleName":"Pages/后端引擎应用中心/权限管理","ModuleType":6},{"ModuleName":"PCPage/权限维护","ModuleType":1},{"ModuleName":"PCPage/权限操作_编辑","ModuleType":1},{"ModuleName":"PCPage/权限文件夹操作_编辑","ModuleType":1},{"ModuleName":"PCPage/绑定角色","ModuleType":1},{"ModuleName":"Pages/后端引擎应用中心/图标管理","ModuleType":6},{"ModuleName":"PCPage/树形控件图标表_列表页面","ModuleType":1},{"ModuleName":"PCPage/树形控件图标表_详情页面","ModuleType":1},{"ModuleName":"PCPage/说明文档","ModuleType":1},{"ModuleName":"MasterPCPage/FGC_母版页","ModuleType":3},{"ModuleName":"MasterPCPage/前台菜单导航-PC","ModuleType":3},{"ModuleName":"MasterPCPage/后台菜单导航-PC","ModuleType":3},{"ModuleName":"UserControlPages/Dashboard","ModuleType":32},{"ModuleName":"UserControlPages/Dashboard/分析页","ModuleType":32},{"ModuleName":"UserControlPage/分析页_列表卡片","ModuleType":31},{"ModuleName":"UserControlPage/分析页_列表卡片页签","ModuleType":31},{"ModuleName":"UserControlPage/分析页_图表卡片页签","ModuleType":31},{"ModuleName":"UserControlPage/分析页_混合卡片","ModuleType":31},{"ModuleName":"UserControlPage/分析页_饼图卡片","ModuleType":31},{"ModuleName":"UserControlPage/列表卡片-表格","ModuleType":31},{"ModuleName":"UserControlPage/图表卡片页签-销售量柱形图","ModuleType":31},{"ModuleName":"UserControlPage/图表卡片页签-销售额柱形图","ModuleType":31},{"ModuleName":"UserControlPage/混合卡片-文本","ModuleType":31},{"ModuleName":"UserControlPage/混合卡片-柱形图","ModuleType":31},{"ModuleName":"UserControlPage/混合卡片-进度条","ModuleType":31},{"ModuleName":"UserControlPage/混合卡片-面积图","ModuleType":31},{"ModuleName":"UserControlPages/Dashboard/工作台","ModuleType":32},{"ModuleName":"UserControlPage/工作台-动态日志卡片","ModuleType":31},{"ModuleName":"UserControlPage/工作台-团队卡片","ModuleType":31},{"ModuleName":"UserControlPage/工作台-待办项目卡片","ModuleType":31},{"ModuleName":"UserControlPage/工作台-快捷导航卡片","ModuleType":31},{"ModuleName":"UserControlPage/工作台-快捷导航标签","ModuleType":31},{"ModuleName":"UserControlPage/工作台-数据分享展示","ModuleType":31},{"ModuleName":"UserControlPage/工作台-日历","ModuleType":31},{"ModuleName":"UserControlPage/工作台-欢迎语","ModuleType":31},{"ModuleName":"UserControlPage/待办项目-子项目卡片","ModuleType":31},{"ModuleName":"UserControlPage/欢迎语-连接文本","ModuleType":31},{"ModuleName":"UserControlPages/标准组件","ModuleType":32},{"ModuleName":"UserControlPages/标准组件/按钮","ModuleType":32},{"ModuleName":"UserControlPage/居中按钮组","ModuleType":31},{"ModuleName":"UserControlPage/居右按钮组","ModuleType":31},{"ModuleName":"UserControlPage/居左按钮组","ModuleType":31},{"ModuleName":"UserControlPage/按钮导航组","ModuleType":31},{"ModuleName":"UserControlPage/按钮操作组","ModuleType":31},{"ModuleName":"UserControlPages/标准组件/标题","ModuleType":32},{"ModuleName":"UserControlPage/一级标题","ModuleType":31},{"ModuleName":"UserControlPage/二级标题","ModuleType":31},{"ModuleName":"UserControlPage/图标-水平-字段等宽","ModuleType":31},{"ModuleName":"UserControlPage/图片-水平-字段等宽","ModuleType":31},{"ModuleName":"UserControlPage/数字-水平-字段等宽","ModuleType":31},{"ModuleName":"UserControlPage/文本-垂直-只读","ModuleType":31},{"ModuleName":"UserControlPage/文本-水平-字段等宽","ModuleType":31},{"ModuleName":"UserControlPage/选择器-水平-字段等宽","ModuleType":31},{"ModuleName":"UserControlPage/前端菜单维护-EL表格","ModuleType":31},{"ModuleName":"UserControlPage/前端菜单维护","ModuleType":31},{"ModuleName":"UserControlPage/后端菜单维护","ModuleType":31},{"ModuleName":"UserControlPage/级联选择器-前端菜单","ModuleType":31},{"ModuleName":"UserControlPage/级联选择器-后端菜单","ModuleType":31},{"ModuleName":"UserControlPages/按钮组","ModuleType":32},{"ModuleName":"UserControlPages/按钮组/组织结构","ModuleType":32},{"ModuleName":"UserControlPage/总部信息按钮组","ModuleType":31},{"ModuleName":"UserControlPage/部门信息按钮组","ModuleType":31},{"ModuleName":"UserControlPage/下级部门按钮组","ModuleType":31},{"ModuleName":"UserControlPage/组织结构-人力资源按钮组","ModuleType":31},{"ModuleName":"UserControlPage/人力资源按钮组","ModuleType":31},{"ModuleName":"UserControlPages/按钮组/角色管理","ModuleType":32},{"ModuleName":"UserControlPage/角色信息按钮组","ModuleType":31},{"ModuleName":"UserControlPage/角色文件夹按钮组","ModuleType":31},{"ModuleName":"UserControlPage/角色权限关系按钮组","ModuleType":31},{"ModuleName":"UserControlPages/按钮组/权限管理","ModuleType":32},{"ModuleName":"UserControlPage/权限信息按钮组","ModuleType":31},{"ModuleName":"UserControlPage/权限角色关系按钮组","ModuleType":31},{"ModuleName":"UserControlPages/组织结构","ModuleType":32},{"ModuleName":"UserControlPage/总部信息_查看","ModuleType":31},{"ModuleName":"UserControlPage/分部信息_查看","ModuleType":31},{"ModuleName":"UserControlPage/部门信息_查看","ModuleType":31},{"ModuleName":"UserControlPage/下级分部_查看","ModuleType":31},{"ModuleName":"UserControlPage/下级部门_查看","ModuleType":31},{"ModuleName":"UserControlPage/人力资源_查看","ModuleType":31},{"ModuleName":"UserControlPages/角色管理","ModuleType":32},{"ModuleName":"UserControlPage/角色文件夹信息_查看","ModuleType":31},{"ModuleName":"UserControlPage/角色成员信息_编辑","ModuleType":31},{"ModuleName":"UserControlPage/角色权限关系","ModuleType":31},{"ModuleName":"UserControlPages/权限管理","ModuleType":32},{"ModuleName":"UserControlPage/权限文件夹信息_查看","ModuleType":31},{"ModuleName":"UserControlPage/权限信息_编辑","ModuleType":31},{"ModuleName":"UserControlPage/权限角色关系","ModuleType":31},{"ModuleName":"ServerCommand/获取当前菜单分类最新顺序号","ModuleType":15},{"ModuleName":"ServerCommand/菜单移动","ModuleType":15},{"ModuleName":"ServerCommand/获取组织机构标签页头ID","ModuleType":15},{"ModuleName":"ServerCommands/部门管理","ModuleType":20},{"ModuleName":"ServerCommand/添加部门","ModuleType":15},{"ModuleName":"ServerCommand/编辑部门","ModuleType":15},{"ModuleName":"ServerCommand/移动部门","ModuleType":15},{"ModuleName":"ServerCommand/删除部门","ModuleType":15},{"ModuleName":"ServerCommand/添加组织成员","ModuleType":15},{"ModuleName":"ServerCommand/移除组织人员","ModuleType":15},{"ModuleName":"ServerCommands/人员管理","ModuleType":20},{"ModuleName":"ServerCommand/添加人员","ModuleType":15},{"ModuleName":"ServerCommand/删除人员","ModuleType":15},{"ModuleName":"ServerCommand/编辑人员","ModuleType":15},{"ModuleName":"ServerCommand/重置密码","ModuleType":15},{"ModuleName":"ServerCommand/批量加入角色","ModuleType":15},{"ModuleName":"ServerCommand/批量加入部门","ModuleType":15},{"ModuleName":"ServerCommands/角色管理","ModuleType":20},{"ModuleName":"ServerCommand/添加角色","ModuleType":15},{"ModuleName":"ServerCommand/编辑角色","ModuleType":15},{"ModuleName":"ServerCommand/删除角色_文件夹","ModuleType":15},{"ModuleName":"ServerCommand/添加文件夹","ModuleType":15},{"ModuleName":"ServerCommand/编辑文件夹","ModuleType":15},{"ModuleName":"ServerCommand/移动角色_文件夹","ModuleType":15},{"ModuleName":"ServerCommand/添加角色成员","ModuleType":15},{"ModuleName":"ServerCommand/移除角色成员","ModuleType":15},{"ModuleName":"ServerCommand/绑定组织结构","ModuleType":15},{"ModuleName":"ServerCommand/绑定权限","ModuleType":15},{"ModuleName":"ServerCommands/权限管理","ModuleType":20},{"ModuleName":"ServerCommand/绑定角色","ModuleType":15},{"ModuleName":"ApplicationSetting","ModuleType":8},{"ModuleName":"Theme","ModuleType":9},{"ModuleName":"image/内置图片","ModuleType":37},{"ModuleName":"Image/fgc_loading.gif","ModuleType":38},{"ModuleName":"Image/fgc_built_in_page_disconnected.png","ModuleType":38},{"ModuleName":"image/其他图片","ModuleType":37},{"ModuleName":"Image/Visionlogo_2021堆叠版_1.png","ModuleType":38},{"ModuleName":"Image/企业微信.svg","ModuleType":38},{"ModuleName":"Image/加载中.svg","ModuleType":38},{"ModuleName":"Image/圆形logo_64_.png","ModuleType":38},{"ModuleName":"Image/微信登录.svg","ModuleType":38},{"ModuleName":"Image/手机登录.svg","ModuleType":38},{"ModuleName":"Image/Visionlogo_2020版-通用版反白.png","ModuleType":38},{"ModuleName":"Image/数据监控.svg","ModuleType":38},{"ModuleName":"Image/暂无搜索结果.svg","ModuleType":38},{"ModuleName":"Image/暂无方向.svg","ModuleType":38},{"ModuleName":"Image/活字格_64.png","ModuleType":38},{"ModuleName":"Image/电脑.svg","ModuleType":38},{"ModuleName":"Image/空数据.svg","ModuleType":38},{"ModuleName":"Image/缺省页_暂无数据.svg","ModuleType":38},{"ModuleName":"Image/无权限.svg","ModuleType":38},{"ModuleName":"Image/Visionlogo_2020版-通用版.png","ModuleType":38},{"ModuleName":"Image/Visionlogo_2020版-简洁版反白.png","ModuleType":38},{"ModuleName":"Image/spjs_b_64.png","ModuleType":38},{"ModuleName":"Image/225默认头像.png","ModuleType":38},{"ModuleName":"Image/404.svg","ModuleType":38},{"ModuleName":"Image/ar_64.png","ModuleType":38},{"ModuleName":"Image/grapecity_128.png","ModuleType":38},{"ModuleName":"Image/grapecity_16.png","ModuleType":38},{"ModuleName":"Image/grapecity_32.png","ModuleType":38},{"ModuleName":"Image/grapecity_512.png","ModuleType":38},{"ModuleName":"Image/grapecity_64.png","ModuleType":38},{"ModuleName":"Image/grapecity_b_128.png","ModuleType":38},{"ModuleName":"Image/grapecity_b_16.png","ModuleType":38},{"ModuleName":"Image/grapecity_b_32.png","ModuleType":38},{"ModuleName":"Image/grapecity_b_64.png","ModuleType":38},{"ModuleName":"Image/grapecity_常用横版反白_128.png","ModuleType":38},{"ModuleName":"Image/grapecity_常用横版紫色128.png","ModuleType":38},{"ModuleName":"Image/PC.png","ModuleType":38},{"ModuleName":"Image/钉钉.svg","ModuleType":38},{"ModuleName":"Image/页面不见了.svg","ModuleType":38},{"ModuleName":"UserService","ModuleType":11},{"ModuleName":"CustomLibrary","ModuleType":12},{"ModuleName":"MapJsonFile","ModuleType":14},{"ModuleName":"DataContectionSet","ModuleType":25},{"ModuleName":"Upload","ModuleType":26},{"ModuleName":"PublishConfiguration","ModuleType":39},{"ModuleName":"Plugin","ModuleType":40},{"ModuleName":"PublishSetting","ModuleType":41}]
+[
+  {
+    "ModuleName": "Tables/Dashboard",
+    "ModuleType": 22
+  },
+  {
+    "ModuleName": "Tables/Dashboard/分析页",
+    "ModuleType": 22
+  },
+  {
+    "ModuleName": "Table/产品信息",
+    "ModuleType": 7,
+    "ExclusiveType": 0
+  },
+  {
+    "ModuleName": "Table/产品大类",
+    "ModuleType": 7,
+    "ExclusiveType": 0
+  },
+  {
+    "ModuleName": "Table/产品类别",
+    "ModuleType": 7,
+    "ExclusiveType": 0
+  },
+  {
+    "ModuleName": "Table/店铺信息",
+    "ModuleType": 7,
+    "ExclusiveType": 0
+  },
+  {
+    "ModuleName": "Table/销售信息",
+    "ModuleType": 7,
+    "ExclusiveType": 0
+  },
+  {
+    "ModuleName": "Tables/Dashboard/工作台",
+    "ModuleType": 22
+  },
+  {
+    "ModuleName": "Table/动态表",
+    "ModuleType": 7,
+    "ExclusiveType": 0
+  },
+  {
+    "ModuleName": "Table/团队表",
+    "ModuleType": 7,
+    "ExclusiveType": 0
+  },
+  {
+    "ModuleName": "Table/导航菜单表",
+    "ModuleType": 7,
+    "ExclusiveType": 0
+  },
+  {
+    "ModuleName": "Table/快捷导航表",
+    "ModuleType": 7,
+    "ExclusiveType": 0
+  },
+  {
+    "ModuleName": "Table/行为字典表",
+    "ModuleType": 7,
+    "ExclusiveType": 0
+  },
+  {
+    "ModuleName": "Table/项目信息",
+    "ModuleType": 7,
+    "ExclusiveType": 0
+  },
+  {
+    "ModuleName": "Tables/用户视图",
+    "ModuleType": 22
+  },
+  {
+    "ModuleName": "TableView/用户信息视图",
+    "ModuleType": 23,
+    "ExclusiveType": 0
+  },
+  {
+    "ModuleName": "Tables/组织结构视图",
+    "ModuleType": 22
+  },
+  {
+    "ModuleName": "TableView/用户组织关系视图",
+    "ModuleType": 23,
+    "ExclusiveType": 0
+  },
+  {
+    "ModuleName": "TableView/组织信息视图",
+    "ModuleType": 23,
+    "ExclusiveType": 0
+  },
+  {
+    "ModuleName": "TableView/组织级别视图",
+    "ModuleType": 23,
+    "ExclusiveType": 0
+  },
+  {
+    "ModuleName": "Tables/统一菜单管理",
+    "ModuleType": 22
+  },
+  {
+    "ModuleName": "Table/前端菜单表",
+    "ModuleType": 7,
+    "ExclusiveType": 0
+  },
+  {
+    "ModuleName": "Table/后端菜单表",
+    "ModuleType": 7,
+    "ExclusiveType": 0
+  },
+  {
+    "ModuleName": "Table/链接类型字典表",
+    "ModuleType": 7,
+    "ExclusiveType": 0
+  },
+  {
+    "ModuleName": "Tables/角色视图",
+    "ModuleType": 22
+  },
+  {
+    "ModuleName": "TableView/用户角色关系视图",
+    "ModuleType": 23,
+    "ExclusiveType": 0
+  },
+  {
+    "ModuleName": "TableView/角色信息视图",
+    "ModuleType": 23,
+    "ExclusiveType": 0
+  },
+  {
+    "ModuleName": "TableView/角色拥有权限视图",
+    "ModuleType": 23,
+    "ExclusiveType": 0
+  },
+  {
+    "ModuleName": "TableView/角色文件夹关系视图",
+    "ModuleType": 23,
+    "ExclusiveType": 0
+  },
+  {
+    "ModuleName": "TableView/角色组织关系视图",
+    "ModuleType": 23,
+    "ExclusiveType": 0
+  },
+  {
+    "ModuleName": "Table/帮助手册表",
+    "ModuleType": 7,
+    "ExclusiveType": 0
+  },
+  {
+    "ModuleName": "Table/标签页头字典表",
+    "ModuleType": 7,
+    "ExclusiveType": 0
+  },
+  {
+    "ModuleName": "Table/树形控件图标表",
+    "ModuleType": 7,
+    "ExclusiveType": 0
+  },
+  {
+    "ModuleName": "Pages/内建手机页面",
+    "ModuleType": 6
+  },
+  {
+    "ModuleName": "MobilePage/FGC_401页面_手机版",
+    "ModuleType": 2
+  },
+  {
+    "ModuleName": "MobilePage/FGC_两步验证_扫码页面_手机版",
+    "ModuleType": 2
+  },
+  {
+    "ModuleName": "MobilePage/FGC_两步验证_验证页面_手机版",
+    "ModuleType": 2
+  },
+  {
+    "ModuleName": "MobilePage/FGC_修改密码_手机版",
+    "ModuleType": 2
+  },
+  {
+    "ModuleName": "MobilePage/FGC_修改用户信息_手机版",
+    "ModuleType": 2
+  },
+  {
+    "ModuleName": "MobilePage/FGC_忘记密码_手机版",
+    "ModuleType": 2
+  },
+  {
+    "ModuleName": "MobilePage/FGC_登录_手机版",
+    "ModuleType": 2
+  },
+  {
+    "ModuleName": "MobilePage/FGC_维护中_手机版",
+    "ModuleType": 2
+  },
+  {
+    "ModuleName": "MobilePage/FGC_邮件订阅_手机版",
+    "ModuleType": 2
+  },
+  {
+    "ModuleName": "MobilePage/FGC_重置密码_手机版",
+    "ModuleType": 2
+  },
+  {
+    "ModuleName": "MobilePage/FGC_重置密码发送邮件成功_手机版",
+    "ModuleType": 2
+  },
+  {
+    "ModuleName": "MobilePage/FGC_连接已断开_手机版",
+    "ModuleType": 2
+  },
+  {
+    "ModuleName": "Pages/内建页面",
+    "ModuleType": 6
+  },
+  {
+    "ModuleName": "PCPage/FGC_401页面",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "PCPage/FGC_两步验证_扫码页面",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "PCPage/FGC_两步验证_验证页面",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "PCPage/FGC_修改密码",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "PCPage/FGC_修改用户信息",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "PCPage/FGC_忘记密码",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "PCPage/FGC_登录",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "PCPage/FGC_维护中",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "PCPage/FGC_邮件订阅",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "PCPage/FGC_重置密码",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "PCPage/FGC_重置密码发送邮件成功",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "PCPage/FGC_连接已断开",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "Pages/前端用户中心",
+    "ModuleType": 6
+  },
+  {
+    "ModuleName": "Pages/前端用户中心/其他模块",
+    "ModuleType": 6
+  },
+  {
+    "ModuleName": "PCPage/人事管理",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "PCPage/客服管理",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "PCPage/采购管理",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "Pages/前端用户中心/合同管理",
+    "ModuleType": 6
+  },
+  {
+    "ModuleName": "PCPage/合同首页",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "PCPage/法务首页",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "PCPage/财务首页",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "Pages/前端用户中心/我的门户",
+    "ModuleType": 6
+  },
+  {
+    "ModuleName": "PCPage/个人门户",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "PCPage/公司门户",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "PCPage/报表门户",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "PCPage/营销门户",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "Pages/前端用户中心/数据中心",
+    "ModuleType": 6
+  },
+  {
+    "ModuleName": "PCPage/数据中心",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "Pages/前端用户中心/费控管理",
+    "ModuleType": 6
+  },
+  {
+    "ModuleName": "PCPage/业务门户",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "PCPage/费用门户",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "PCPage/我的门户-弹出页",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "Pages/后端引擎应用中心",
+    "ModuleType": 6
+  },
+  {
+    "ModuleName": "Pages/后端引擎应用中心/其他模块",
+    "ModuleType": 6
+  },
+  {
+    "ModuleName": "PCPage/应用中心",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "PCPage/流程引擎",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "Pages/后端引擎应用中心/门户引擎",
+    "ModuleType": 6
+  },
+  {
+    "ModuleName": "PCPage/前端添加菜单",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "PCPage/前端菜单",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "PCPage/后端添加菜单",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "PCPage/后端菜单",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "PCPage/门户主题",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "PCPage/门户引擎",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "PCPage/门户维护",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "PCPage/门户页面",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "Pages/后端引擎应用中心/组织管理",
+    "ModuleType": 6
+  },
+  {
+    "ModuleName": "PCPage/组织维护",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "PCPage/总部信息_编辑",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "PCPage/分部信息_编辑",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "PCPage/部门信息_编辑",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "PCPage/组织成员添加",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "Pages/后端引擎应用中心/员工管理",
+    "ModuleType": 6
+  },
+  {
+    "ModuleName": "PCPage/员工维护",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "PCPage/人员操作_编辑",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "PCPage/批量操作_弹出页",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "PCPage/批量加入角色",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "PCPage/批量加入部门",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "PCPage/重置密码_编辑",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "Pages/后端引擎应用中心/角色管理",
+    "ModuleType": 6
+  },
+  {
+    "ModuleName": "PCPage/角色维护",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "PCPage/角色维护 (2)",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\ShaySong",
+      "Email": "1146602243@qq.com"
+    },
+    "LockDateTime": "2024-04-07T16:39:33.3139483+08:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\后端引擎应用中心\\角色管理\\角色维护 (2).json",
+      "Pages\\后端引擎应用中心\\角色管理\\角色维护 (2).rd"
+    ]
+  },
+  {
+    "ModuleName": "PCPage/角色操作_编辑",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "PCPage/角色文件夹操作_编辑",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "PCPage/角色成员添加",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "PCPage/绑定组织节点",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "PCPage/绑定权限",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "Pages/后端引擎应用中心/权限管理",
+    "ModuleType": 6
+  },
+  {
+    "ModuleName": "PCPage/权限维护",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "PCPage/权限操作_编辑",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "PCPage/权限文件夹操作_编辑",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "PCPage/绑定角色",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "Pages/后端引擎应用中心/图标管理",
+    "ModuleType": 6
+  },
+  {
+    "ModuleName": "PCPage/树形控件图标表_列表页面",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "PCPage/树形控件图标表_详情页面",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "PCPage/说明文档",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "MasterPCPage/FGC_母版页",
+    "ModuleType": 3
+  },
+  {
+    "ModuleName": "MasterPCPage/前台菜单导航-PC",
+    "ModuleType": 3
+  },
+  {
+    "ModuleName": "MasterPCPage/后台菜单导航-PC",
+    "ModuleType": 3
+  },
+  {
+    "ModuleName": "UserControlPages/Dashboard",
+    "ModuleType": 32
+  },
+  {
+    "ModuleName": "UserControlPages/Dashboard/分析页",
+    "ModuleType": 32
+  },
+  {
+    "ModuleName": "UserControlPage/分析页_列表卡片",
+    "ModuleType": 31
+  },
+  {
+    "ModuleName": "UserControlPage/分析页_列表卡片页签",
+    "ModuleType": 31
+  },
+  {
+    "ModuleName": "UserControlPage/分析页_图表卡片页签",
+    "ModuleType": 31
+  },
+  {
+    "ModuleName": "UserControlPage/分析页_混合卡片",
+    "ModuleType": 31
+  },
+  {
+    "ModuleName": "UserControlPage/分析页_饼图卡片",
+    "ModuleType": 31
+  },
+  {
+    "ModuleName": "UserControlPage/列表卡片-表格",
+    "ModuleType": 31
+  },
+  {
+    "ModuleName": "UserControlPage/图表卡片页签-销售量柱形图",
+    "ModuleType": 31
+  },
+  {
+    "ModuleName": "UserControlPage/图表卡片页签-销售额柱形图",
+    "ModuleType": 31
+  },
+  {
+    "ModuleName": "UserControlPage/混合卡片-文本",
+    "ModuleType": 31
+  },
+  {
+    "ModuleName": "UserControlPage/混合卡片-柱形图",
+    "ModuleType": 31
+  },
+  {
+    "ModuleName": "UserControlPage/混合卡片-进度条",
+    "ModuleType": 31
+  },
+  {
+    "ModuleName": "UserControlPage/混合卡片-面积图",
+    "ModuleType": 31
+  },
+  {
+    "ModuleName": "UserControlPages/Dashboard/工作台",
+    "ModuleType": 32
+  },
+  {
+    "ModuleName": "UserControlPage/工作台-动态日志卡片",
+    "ModuleType": 31
+  },
+  {
+    "ModuleName": "UserControlPage/工作台-团队卡片",
+    "ModuleType": 31
+  },
+  {
+    "ModuleName": "UserControlPage/工作台-待办项目卡片",
+    "ModuleType": 31
+  },
+  {
+    "ModuleName": "UserControlPage/工作台-快捷导航卡片",
+    "ModuleType": 31
+  },
+  {
+    "ModuleName": "UserControlPage/工作台-快捷导航标签",
+    "ModuleType": 31
+  },
+  {
+    "ModuleName": "UserControlPage/工作台-数据分享展示",
+    "ModuleType": 31
+  },
+  {
+    "ModuleName": "UserControlPage/工作台-日历",
+    "ModuleType": 31
+  },
+  {
+    "ModuleName": "UserControlPage/工作台-欢迎语",
+    "ModuleType": 31
+  },
+  {
+    "ModuleName": "UserControlPage/待办项目-子项目卡片",
+    "ModuleType": 31
+  },
+  {
+    "ModuleName": "UserControlPage/欢迎语-连接文本",
+    "ModuleType": 31
+  },
+  {
+    "ModuleName": "UserControlPages/标准组件",
+    "ModuleType": 32
+  },
+  {
+    "ModuleName": "UserControlPages/标准组件/按钮",
+    "ModuleType": 32
+  },
+  {
+    "ModuleName": "UserControlPage/居中按钮组",
+    "ModuleType": 31
+  },
+  {
+    "ModuleName": "UserControlPage/居右按钮组",
+    "ModuleType": 31
+  },
+  {
+    "ModuleName": "UserControlPage/居左按钮组",
+    "ModuleType": 31
+  },
+  {
+    "ModuleName": "UserControlPage/按钮导航组",
+    "ModuleType": 31
+  },
+  {
+    "ModuleName": "UserControlPage/按钮操作组",
+    "ModuleType": 31
+  },
+  {
+    "ModuleName": "UserControlPages/标准组件/标题",
+    "ModuleType": 32
+  },
+  {
+    "ModuleName": "UserControlPage/一级标题",
+    "ModuleType": 31
+  },
+  {
+    "ModuleName": "UserControlPage/二级标题",
+    "ModuleType": 31
+  },
+  {
+    "ModuleName": "UserControlPage/图标-水平-字段等宽",
+    "ModuleType": 31
+  },
+  {
+    "ModuleName": "UserControlPage/图片-水平-字段等宽",
+    "ModuleType": 31
+  },
+  {
+    "ModuleName": "UserControlPage/数字-水平-字段等宽",
+    "ModuleType": 31
+  },
+  {
+    "ModuleName": "UserControlPage/文本-垂直-只读",
+    "ModuleType": 31
+  },
+  {
+    "ModuleName": "UserControlPage/文本-水平-字段等宽",
+    "ModuleType": 31
+  },
+  {
+    "ModuleName": "UserControlPage/选择器-水平-字段等宽",
+    "ModuleType": 31
+  },
+  {
+    "ModuleName": "UserControlPage/前端菜单维护-EL表格",
+    "ModuleType": 31
+  },
+  {
+    "ModuleName": "UserControlPage/前端菜单维护",
+    "ModuleType": 31
+  },
+  {
+    "ModuleName": "UserControlPage/后端菜单维护",
+    "ModuleType": 31
+  },
+  {
+    "ModuleName": "UserControlPage/级联选择器-前端菜单",
+    "ModuleType": 31
+  },
+  {
+    "ModuleName": "UserControlPage/级联选择器-后端菜单",
+    "ModuleType": 31
+  },
+  {
+    "ModuleName": "UserControlPages/按钮组",
+    "ModuleType": 32
+  },
+  {
+    "ModuleName": "UserControlPages/按钮组/组织结构",
+    "ModuleType": 32
+  },
+  {
+    "ModuleName": "UserControlPage/总部信息按钮组",
+    "ModuleType": 31
+  },
+  {
+    "ModuleName": "UserControlPage/部门信息按钮组",
+    "ModuleType": 31
+  },
+  {
+    "ModuleName": "UserControlPage/下级部门按钮组",
+    "ModuleType": 31
+  },
+  {
+    "ModuleName": "UserControlPage/组织结构-人力资源按钮组",
+    "ModuleType": 31
+  },
+  {
+    "ModuleName": "UserControlPage/人力资源按钮组",
+    "ModuleType": 31
+  },
+  {
+    "ModuleName": "UserControlPages/按钮组/角色管理",
+    "ModuleType": 32
+  },
+  {
+    "ModuleName": "UserControlPage/角色信息按钮组",
+    "ModuleType": 31
+  },
+  {
+    "ModuleName": "UserControlPage/角色文件夹按钮组",
+    "ModuleType": 31
+  },
+  {
+    "ModuleName": "UserControlPage/角色权限关系按钮组",
+    "ModuleType": 31
+  },
+  {
+    "ModuleName": "UserControlPages/按钮组/权限管理",
+    "ModuleType": 32
+  },
+  {
+    "ModuleName": "UserControlPage/权限信息按钮组",
+    "ModuleType": 31
+  },
+  {
+    "ModuleName": "UserControlPage/权限角色关系按钮组",
+    "ModuleType": 31
+  },
+  {
+    "ModuleName": "UserControlPages/组织结构",
+    "ModuleType": 32
+  },
+  {
+    "ModuleName": "UserControlPage/总部信息_查看",
+    "ModuleType": 31
+  },
+  {
+    "ModuleName": "UserControlPage/分部信息_查看",
+    "ModuleType": 31
+  },
+  {
+    "ModuleName": "UserControlPage/部门信息_查看",
+    "ModuleType": 31
+  },
+  {
+    "ModuleName": "UserControlPage/下级分部_查看",
+    "ModuleType": 31
+  },
+  {
+    "ModuleName": "UserControlPage/下级部门_查看",
+    "ModuleType": 31
+  },
+  {
+    "ModuleName": "UserControlPage/人力资源_查看",
+    "ModuleType": 31
+  },
+  {
+    "ModuleName": "UserControlPages/角色管理",
+    "ModuleType": 32
+  },
+  {
+    "ModuleName": "UserControlPage/角色文件夹信息_查看",
+    "ModuleType": 31
+  },
+  {
+    "ModuleName": "UserControlPage/角色成员信息_编辑",
+    "ModuleType": 31
+  },
+  {
+    "ModuleName": "UserControlPage/角色权限关系",
+    "ModuleType": 31
+  },
+  {
+    "ModuleName": "UserControlPages/权限管理",
+    "ModuleType": 32
+  },
+  {
+    "ModuleName": "UserControlPage/权限文件夹信息_查看",
+    "ModuleType": 31
+  },
+  {
+    "ModuleName": "UserControlPage/权限信息_编辑",
+    "ModuleType": 31
+  },
+  {
+    "ModuleName": "UserControlPage/权限角色关系",
+    "ModuleType": 31
+  },
+  {
+    "ModuleName": "ServerCommand/获取当前菜单分类最新顺序号",
+    "ModuleType": 15
+  },
+  {
+    "ModuleName": "ServerCommand/菜单移动",
+    "ModuleType": 15
+  },
+  {
+    "ModuleName": "ServerCommand/获取组织机构标签页头ID",
+    "ModuleType": 15
+  },
+  {
+    "ModuleName": "ServerCommands/部门管理",
+    "ModuleType": 20
+  },
+  {
+    "ModuleName": "ServerCommand/添加部门",
+    "ModuleType": 15
+  },
+  {
+    "ModuleName": "ServerCommand/编辑部门",
+    "ModuleType": 15
+  },
+  {
+    "ModuleName": "ServerCommand/移动部门",
+    "ModuleType": 15
+  },
+  {
+    "ModuleName": "ServerCommand/删除部门",
+    "ModuleType": 15
+  },
+  {
+    "ModuleName": "ServerCommand/添加组织成员",
+    "ModuleType": 15
+  },
+  {
+    "ModuleName": "ServerCommand/移除组织人员",
+    "ModuleType": 15
+  },
+  {
+    "ModuleName": "ServerCommands/人员管理",
+    "ModuleType": 20
+  },
+  {
+    "ModuleName": "ServerCommand/添加人员",
+    "ModuleType": 15
+  },
+  {
+    "ModuleName": "ServerCommand/删除人员",
+    "ModuleType": 15
+  },
+  {
+    "ModuleName": "ServerCommand/编辑人员",
+    "ModuleType": 15
+  },
+  {
+    "ModuleName": "ServerCommand/重置密码",
+    "ModuleType": 15
+  },
+  {
+    "ModuleName": "ServerCommand/批量加入角色",
+    "ModuleType": 15
+  },
+  {
+    "ModuleName": "ServerCommand/批量加入部门",
+    "ModuleType": 15
+  },
+  {
+    "ModuleName": "ServerCommands/角色管理",
+    "ModuleType": 20
+  },
+  {
+    "ModuleName": "ServerCommand/添加角色",
+    "ModuleType": 15
+  },
+  {
+    "ModuleName": "ServerCommand/编辑角色",
+    "ModuleType": 15
+  },
+  {
+    "ModuleName": "ServerCommand/删除角色_文件夹",
+    "ModuleType": 15
+  },
+  {
+    "ModuleName": "ServerCommand/添加文件夹",
+    "ModuleType": 15
+  },
+  {
+    "ModuleName": "ServerCommand/编辑文件夹",
+    "ModuleType": 15
+  },
+  {
+    "ModuleName": "ServerCommand/移动角色_文件夹",
+    "ModuleType": 15
+  },
+  {
+    "ModuleName": "ServerCommand/添加角色成员",
+    "ModuleType": 15
+  },
+  {
+    "ModuleName": "ServerCommand/移除角色成员",
+    "ModuleType": 15
+  },
+  {
+    "ModuleName": "ServerCommand/绑定组织结构",
+    "ModuleType": 15
+  },
+  {
+    "ModuleName": "ServerCommand/绑定权限",
+    "ModuleType": 15
+  },
+  {
+    "ModuleName": "ServerCommands/权限管理",
+    "ModuleType": 20
+  },
+  {
+    "ModuleName": "ServerCommand/绑定角色",
+    "ModuleType": 15
+  },
+  {
+    "ModuleName": "ApplicationSetting",
+    "ModuleType": 8
+  },
+  {
+    "ModuleName": "Theme",
+    "ModuleType": 9
+  },
+  {
+    "ModuleName": "image/内置图片",
+    "ModuleType": 37
+  },
+  {
+    "ModuleName": "Image/fgc_loading.gif",
+    "ModuleType": 38
+  },
+  {
+    "ModuleName": "Image/fgc_built_in_page_disconnected.png",
+    "ModuleType": 38
+  },
+  {
+    "ModuleName": "image/其他图片",
+    "ModuleType": 37
+  },
+  {
+    "ModuleName": "Image/Visionlogo_2021堆叠版_1.png",
+    "ModuleType": 38
+  },
+  {
+    "ModuleName": "Image/企业微信.svg",
+    "ModuleType": 38
+  },
+  {
+    "ModuleName": "Image/加载中.svg",
+    "ModuleType": 38
+  },
+  {
+    "ModuleName": "Image/圆形logo_64_.png",
+    "ModuleType": 38
+  },
+  {
+    "ModuleName": "Image/微信登录.svg",
+    "ModuleType": 38
+  },
+  {
+    "ModuleName": "Image/手机登录.svg",
+    "ModuleType": 38
+  },
+  {
+    "ModuleName": "Image/Visionlogo_2020版-通用版反白.png",
+    "ModuleType": 38
+  },
+  {
+    "ModuleName": "Image/数据监控.svg",
+    "ModuleType": 38
+  },
+  {
+    "ModuleName": "Image/暂无搜索结果.svg",
+    "ModuleType": 38
+  },
+  {
+    "ModuleName": "Image/暂无方向.svg",
+    "ModuleType": 38
+  },
+  {
+    "ModuleName": "Image/活字格_64.png",
+    "ModuleType": 38
+  },
+  {
+    "ModuleName": "Image/电脑.svg",
+    "ModuleType": 38
+  },
+  {
+    "ModuleName": "Image/空数据.svg",
+    "ModuleType": 38
+  },
+  {
+    "ModuleName": "Image/缺省页_暂无数据.svg",
+    "ModuleType": 38
+  },
+  {
+    "ModuleName": "Image/无权限.svg",
+    "ModuleType": 38
+  },
+  {
+    "ModuleName": "Image/Visionlogo_2020版-通用版.png",
+    "ModuleType": 38
+  },
+  {
+    "ModuleName": "Image/Visionlogo_2020版-简洁版反白.png",
+    "ModuleType": 38
+  },
+  {
+    "ModuleName": "Image/spjs_b_64.png",
+    "ModuleType": 38
+  },
+  {
+    "ModuleName": "Image/225默认头像.png",
+    "ModuleType": 38
+  },
+  {
+    "ModuleName": "Image/404.svg",
+    "ModuleType": 38
+  },
+  {
+    "ModuleName": "Image/ar_64.png",
+    "ModuleType": 38
+  },
+  {
+    "ModuleName": "Image/grapecity_128.png",
+    "ModuleType": 38
+  },
+  {
+    "ModuleName": "Image/grapecity_16.png",
+    "ModuleType": 38
+  },
+  {
+    "ModuleName": "Image/grapecity_32.png",
+    "ModuleType": 38
+  },
+  {
+    "ModuleName": "Image/grapecity_512.png",
+    "ModuleType": 38
+  },
+  {
+    "ModuleName": "Image/grapecity_64.png",
+    "ModuleType": 38
+  },
+  {
+    "ModuleName": "Image/grapecity_b_128.png",
+    "ModuleType": 38
+  },
+  {
+    "ModuleName": "Image/grapecity_b_16.png",
+    "ModuleType": 38
+  },
+  {
+    "ModuleName": "Image/grapecity_b_32.png",
+    "ModuleType": 38
+  },
+  {
+    "ModuleName": "Image/grapecity_b_64.png",
+    "ModuleType": 38
+  },
+  {
+    "ModuleName": "Image/grapecity_常用横版反白_128.png",
+    "ModuleType": 38
+  },
+  {
+    "ModuleName": "Image/grapecity_常用横版紫色128.png",
+    "ModuleType": 38
+  },
+  {
+    "ModuleName": "Image/PC.png",
+    "ModuleType": 38
+  },
+  {
+    "ModuleName": "Image/钉钉.svg",
+    "ModuleType": 38
+  },
+  {
+    "ModuleName": "Image/页面不见了.svg",
+    "ModuleType": 38
+  },
+  {
+    "ModuleName": "UserService",
+    "ModuleType": 11
+  },
+  {
+    "ModuleName": "CustomLibrary",
+    "ModuleType": 12
+  },
+  {
+    "ModuleName": "MapJsonFile",
+    "ModuleType": 14
+  },
+  {
+    "ModuleName": "DataContectionSet",
+    "ModuleType": 25
+  },
+  {
+    "ModuleName": "Upload",
+    "ModuleType": 26
+  },
+  {
+    "ModuleName": "PublishConfiguration",
+    "ModuleType": 39
+  },
+  {
+    "ModuleName": "Plugin",
+    "ModuleType": 40
+  },
+  {
+    "ModuleName": "PublishSetting",
+    "ModuleType": 41
+  }
+]
