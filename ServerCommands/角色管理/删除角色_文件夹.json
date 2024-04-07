@@ -37,6 +37,7 @@
         "TableValueType": 1,
         "BindingInfos": [
           {
+            "GUID": "8c59c7ae-7941-4c51-a6bc-4827e254ed0d",
             "BindingInfo": {
               "TableName": "角色文件夹关系视图",
               "ColumnName": "Id",
@@ -45,6 +46,7 @@
             "ColumnName": "Id"
           },
           {
+            "GUID": "b283bf3b-0812-4f45-b906-dd8e38ab66af",
             "BindingInfo": {
               "TableName": "角色文件夹关系视图",
               "ColumnName": "是否角色",
@@ -100,7 +102,7 @@
               "Message": "文件夹删除成功"
             }
           ],
-          "ID": "6ec2a089-b5c9-40e4-81f3-82f82a97dabb"
+          "ID": "b3637016-9ff5-42c5-8a11-ef594f76667b"
         },
         {
           "CommandList": [
@@ -120,7 +122,7 @@
               "Message": "删除成功"
             }
           ],
-          "ID": "9cdc07b9-3e45-4807-ad71-88961170e3e1"
+          "ID": "6cd95b7c-3022-4435-b4e9-5af6d72de539"
         }
       ]
     }

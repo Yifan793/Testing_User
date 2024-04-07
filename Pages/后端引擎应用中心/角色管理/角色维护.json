@@ -298,6 +298,7 @@
                     "TableValueType": 0,
                     "BindingInfos": [
                       {
+                        "GUID": "fb9e69f1-af20-4ad4-8800-0d35414f59a1",
                         "BindingInfo": {
                           "TableName": "角色文件夹关系视图",
                           "ColumnName": "是否角色",
@@ -349,7 +350,7 @@
                           "AdvancedSettings": {}
                         }
                       ],
-                      "ID": "47e6abd1-52a1-4da6-a9e3-ed08412ccb6e"
+                      "ID": "cf069d8b-e34b-410b-94f3-1ad421e280ba"
                     },
                     {
                       "CommandList": [
@@ -364,7 +365,7 @@
                           "AdvancedSettings": {}
                         }
                       ],
-                      "ID": "c26ace47-49a4-4bbf-b666-a2a57a6d4a36"
+                      "ID": "70fab35d-4388-4dd9-8017-2b3cea263516"
                     }
                   ]
                 },
@@ -435,7 +436,7 @@
                                   "Offset": null
                                 }
                               ],
-                              "ID": "b35e89c3-d668-4120-b7ac-1b05b3491d7c"
+                              "ID": "cce8c65d-5d30-4691-a3af-0287201f5ab3"
                             },
                             {
                               "CommandList": [
@@ -450,12 +451,12 @@
                                   "Offset": null
                                 }
                               ],
-                              "ID": "bbb47310-8e6c-462b-9bdb-08213eac5fad"
+                              "ID": "aed5b0e3-0d8c-4091-8eab-12dace8c6804"
                             }
                           ]
                         }
                       ],
-                      "ID": "4ba2cb76-34b4-407a-9e2c-293c4727fb22"
+                      "ID": "16523b98-2f1c-4a35-90a8-db9d967912e9"
                     }
                   ]
                 }
@@ -476,6 +477,7 @@
                     "TableValueType": 0,
                     "BindingInfos": [
                       {
+                        "GUID": "660d107e-9cb6-4d44-b465-96398b4b53a6",
                         "BindingInfo": {
                           "TableName": "角色文件夹关系视图",
                           "ColumnName": "是否角色",
@@ -538,7 +540,7 @@
                           ]
                         }
                       ],
-                      "ID": "b5488ccd-36c1-4449-af3d-5dca3fb7639a"
+                      "ID": "e0a65035-6bba-4769-9ec5-162779a9283f"
                     },
                     {
                       "CommandList": [
@@ -564,7 +566,7 @@
                           ]
                         }
                       ],
-                      "ID": "eda19e43-1262-4f95-b15b-79c8d4b25714"
+                      "ID": "7bc3e213-8891-4444-b007-af520ab6d620"
                     }
                   ]
                 }
@@ -608,6 +610,7 @@
                     "TableValueType": 0,
                     "BindingInfos": [
                       {
+                        "GUID": "a0c78720-be8d-4dd9-8f08-ba8a30e3b899",
                         "BindingInfo": {
                           "TableName": "角色文件夹关系视图",
                           "ColumnName": "Id",
@@ -713,7 +716,7 @@
                                   "Offset": null
                                 }
                               ],
-                              "ID": "0656a5dc-5461-4f99-b332-b2be019384d3"
+                              "ID": "ef524f07-e739-418e-a664-074670ce61fa"
                             },
                             {
                               "CommandList": [
@@ -728,12 +731,12 @@
                                   "Offset": null
                                 }
                               ],
-                              "ID": "592c4aad-cc32-4bb5-ab6a-2ca4de213192"
+                              "ID": "c95ce72e-9aab-4d81-af38-98d96cc8a1f9"
                             }
                           ]
                         }
                       ],
-                      "ID": "6447245c-f81b-4858-94f2-c94c03e5d89b"
+                      "ID": "75c6e827-b148-4b4a-90dd-e80934574bff"
                     }
                   ]
                 }
@@ -822,6 +825,7 @@
                         "TableValueType": 0,
                         "BindingInfos": [
                           {
+                            "GUID": "020ffb68-307d-45f8-9769-345ba0552339",
                             "BindingInfo": {
                               "TableName": "角色文件夹关系视图",
                               "ColumnName": "是否角色",
@@ -880,7 +884,7 @@
                                 "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
                                 "SerializeProperty": "=角色维护!T8"
                               },
-                              "TargetType": "Forguncy.UserControlPageCellType, ServerDesignerCommon, Version=10.0.1.0, Culture=neutral, PublicKeyToken=967100671921c115",
+                              "TargetType": "Forguncy.UserControlPageCellType, ServerDesignerCommon, Version=10.0.2.0, Culture=neutral, PublicKeyToken=967100671921c115",
                               "MethodName": "SetUserControlPage",
                               "ParameterValues": {
                                 "userControlPageName": "角色文件夹信息_查看",
@@ -903,7 +907,7 @@
                               }
                             }
                           ],
-                          "ID": "6b72e884-25da-4fab-8ddd-80462eb96d7e"
+                          "ID": "a19d70ca-0f73-4dc5-a316-da01ef0fff2b"
                         },
                         {
                           "CommandList": [
@@ -925,7 +929,7 @@
                                 "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
                                 "SerializeProperty": "=角色维护!T8"
                               },
-                              "TargetType": "Forguncy.UserControlPageCellType, ServerDesignerCommon, Version=10.0.1.0, Culture=neutral, PublicKeyToken=967100671921c115",
+                              "TargetType": "Forguncy.UserControlPageCellType, ServerDesignerCommon, Version=10.0.2.0, Culture=neutral, PublicKeyToken=967100671921c115",
                               "MethodName": "SetUserControlPage",
                               "ParameterValues": {
                                 "userControlPageName": "角色成员信息_编辑",
@@ -954,7 +958,7 @@
                                               "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
                                               "SerializeProperty": "=角色维护!按钮组件"
                                             },
-                                            "TargetType": "Forguncy.UserControlPageCellType, ServerDesignerCommon, Version=10.0.1.0, Culture=neutral, PublicKeyToken=967100671921c115",
+                                            "TargetType": "Forguncy.UserControlPageCellType, ServerDesignerCommon, Version=10.0.2.0, Culture=neutral, PublicKeyToken=967100671921c115",
                                             "MethodName": "SetPropertyValue",
                                             "ParameterValues": {
                                               "userControlProperties": {
@@ -1009,12 +1013,12 @@
                               }
                             }
                           ],
-                          "ID": "923abf78-c32c-4496-81da-f8c4682f2de2"
+                          "ID": "cef03df3-d8fd-458d-ace3-209457d45000"
                         }
                       ]
                     }
                   ],
-                  "ID": "8ef4f372-40a5-4e16-abd3-880c1cacbc08"
+                  "ID": "b0d1b4c1-46a4-41ff-a65b-b6231bbef9b4"
                 },
                 {
                   "Condition": {
@@ -1036,7 +1040,7 @@
                         "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
                         "SerializeProperty": "=角色维护!T8"
                       },
-                      "TargetType": "Forguncy.UserControlPageCellType, ServerDesignerCommon, Version=10.0.1.0, Culture=neutral, PublicKeyToken=967100671921c115",
+                      "TargetType": "Forguncy.UserControlPageCellType, ServerDesignerCommon, Version=10.0.2.0, Culture=neutral, PublicKeyToken=967100671921c115",
                       "MethodName": "SetUserControlPage",
                       "ParameterValues": {
                         "userControlPageName": "角色权限关系",
@@ -1059,7 +1063,7 @@
                       }
                     }
                   ],
-                  "ID": "c3d4ebc7-cbdf-444c-a678-f1dd15ee4bae"
+                  "ID": "51501070-2fc4-4d2f-a9bd-aebfeb073113"
                 }
               ]
             }
@@ -1087,6 +1091,7 @@
           "TableName": "标签页头字典表",
           "BindingInfos": [
             {
+              "GUID": "bca4ca32-43bb-4f17-bdf6-bf5fe1cfa6f0",
               "BindingInfo": {
                 "TableName": "标签页头字典表",
                 "ColumnName": "ID",
@@ -1095,6 +1100,7 @@
               "ColumnName": "Value"
             },
             {
+              "GUID": "690b0007-dbc3-4d2f-a416-bdcdab7e6368",
               "BindingInfo": {
                 "TableName": "标签页头字典表",
                 "ColumnName": "名称",
@@ -1185,6 +1191,7 @@
                 "TableValueType": 0,
                 "BindingInfos": [
                   {
+                    "GUID": "93649e98-62cd-4758-803f-16c6f8cbdc1d",
                     "BindingInfo": {
                       "TableName": "角色文件夹关系视图",
                       "ColumnName": "是否角色",
@@ -1250,7 +1257,7 @@
                         "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
                         "SerializeProperty": "=角色维护!T8"
                       },
-                      "TargetType": "Forguncy.UserControlPageCellType, ServerDesignerCommon, Version=10.0.1.0, Culture=neutral, PublicKeyToken=967100671921c115",
+                      "TargetType": "Forguncy.UserControlPageCellType, ServerDesignerCommon, Version=10.0.2.0, Culture=neutral, PublicKeyToken=967100671921c115",
                       "MethodName": "SetUserControlPage",
                       "ParameterValues": {
                         "userControlPageName": "角色文件夹信息_查看",
@@ -1285,7 +1292,7 @@
                       }
                     }
                   ],
-                  "ID": "d158828e-4a75-4bb7-91b5-4b601ce19e17"
+                  "ID": "bab55bb2-c68e-4f6c-92d8-00dccf16707f"
                 },
                 {
                   "CommandList": [
@@ -1314,7 +1321,7 @@
                         "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
                         "SerializeProperty": "=角色维护!T8"
                       },
-                      "TargetType": "Forguncy.UserControlPageCellType, ServerDesignerCommon, Version=10.0.1.0, Culture=neutral, PublicKeyToken=967100671921c115",
+                      "TargetType": "Forguncy.UserControlPageCellType, ServerDesignerCommon, Version=10.0.2.0, Culture=neutral, PublicKeyToken=967100671921c115",
                       "MethodName": "SetUserControlPage",
                       "ParameterValues": {
                         "userControlPageName": "角色成员信息_编辑",
@@ -1343,7 +1350,7 @@
                                       "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
                                       "SerializeProperty": "=角色维护!按钮组件"
                                     },
-                                    "TargetType": "Forguncy.UserControlPageCellType, ServerDesignerCommon, Version=10.0.1.0, Culture=neutral, PublicKeyToken=967100671921c115",
+                                    "TargetType": "Forguncy.UserControlPageCellType, ServerDesignerCommon, Version=10.0.2.0, Culture=neutral, PublicKeyToken=967100671921c115",
                                     "MethodName": "SetPropertyValue",
                                     "ParameterValues": {
                                       "userControlProperties": {
@@ -1427,7 +1434,7 @@
                               }
                             }
                           ],
-                          "ID": "6e5022ab-b8de-4415-bee4-db9318dffdca"
+                          "ID": "f3673c75-194b-4cae-ba4c-ea6d4a7ac28a"
                         },
                         {
                           "CommandList": [
@@ -1444,12 +1451,12 @@
                               }
                             }
                           ],
-                          "ID": "0beb9f59-7532-478d-afbd-2b16517c0cd7"
+                          "ID": "bb05cb3e-a567-46d7-842b-d41b3aef606e"
                         }
                       ]
                     }
                   ],
-                  "ID": "9f35ce17-d12b-4ed1-9f27-7a6b347ff407"
+                  "ID": "0605f3ac-608c-4863-9a36-ccb3de8a957b"
                 }
               ]
             }
@@ -1471,6 +1478,7 @@
                 "TableValueType": 1,
                 "BindingInfos": [
                   {
+                    "GUID": "bbd7c241-3dde-44b4-9884-2679e0b75fb9",
                     "BindingInfo": {
                       "TableName": "角色文件夹关系视图",
                       "ColumnName": "Id",
@@ -1479,6 +1487,7 @@
                     "ColumnName": "Id"
                   },
                   {
+                    "GUID": "22e62b2e-29c5-46fd-96eb-0c330dbddd34",
                     "BindingInfo": {
                       "TableName": "角色文件夹关系视图",
                       "ColumnName": "是否角色",
@@ -1510,6 +1519,7 @@
                 "TableValueType": 1,
                 "BindingInfos": [
                   {
+                    "GUID": "deb4f12e-ee32-4cf7-8237-b3b0816b6720",
                     "BindingInfo": {
                       "TableName": "角色文件夹关系视图",
                       "ColumnName": "Id",
@@ -1518,6 +1528,7 @@
                     "ColumnName": "Id"
                   },
                   {
+                    "GUID": "a3db3870-ec4d-4c58-b9a8-85612016aa85",
                     "BindingInfo": {
                       "TableName": "角色文件夹关系视图",
                       "ColumnName": "是否角色",
@@ -1624,7 +1635,7 @@
                       "Offset": null
                     }
                   ],
-                  "ID": "529e9d0b-f378-4154-b2e8-6e76602484ef"
+                  "ID": "1d850300-163c-44bb-86ea-fd93108bbcc7"
                 }
               ]
             }
@@ -1705,6 +1716,7 @@
           "TableName": "角色文件夹关系视图",
           "BindingInfos": [
             {
+              "GUID": "035dee8d-4c58-47d9-8ad7-342e38a4537d",
               "BindingInfo": {
                 "TableName": "角色文件夹关系视图",
                 "ColumnName": "角色唯一标识",
@@ -1713,6 +1725,7 @@
               "ColumnName": "value"
             },
             {
+              "GUID": "b1eb9144-f6b3-473d-bb27-836644487d6c",
               "BindingInfo": {
                 "TableName": "角色文件夹关系视图",
                 "ColumnName": "名称",
@@ -1721,6 +1734,7 @@
               "ColumnName": "label"
             },
             {
+              "GUID": "2f96d8cd-b329-443e-9671-1f7eb96d335c",
               "BindingInfo": {
                 "TableName": "角色文件夹关系视图",
                 "ColumnName": "父角色唯一标识",
@@ -1729,6 +1743,7 @@
               "ColumnName": "parentValue"
             },
             {
+              "GUID": "97b28569-2403-4b36-a5d3-678624641b84",
               "BindingInfo": {
                 "TableName": "角色文件夹关系视图",
                 "ColumnName": "图标ID",
@@ -2101,4 +2116,4 @@
       "Formula": "角色维护!$T$5"
     }
   ]
-}//UBa+ylz0jgzGDGcDXcQXoSqVXs9yS4RY7Ok1x9R3/Ezyi0ou4HQQzIhRfNfIwWzY7nlMt20Ds1dQq4FiL1ejg35qcfa7Ucyo8S8hZJX4lkQWp46WsBueGzSCN3xjUSPgO3rk62dPACOEzcOAf7U1hCWzwtRXYywimmZqhxeuqIIl+eXXNcV5ko2aHjsUOSmiCQBbouWpX0wx1xMzwQ1DmkuywNBvzPJtZ6rhd6yPBhl65c/UiLozS7zH5YvJnQODMuownL+F6lWAqAD4Wc48ogt7QMC9Y5Wj2VPHKF8ZY68BZBQz7X+5rGG6NRb7fyO7YIWtSpDNoohB4VyYpXBXZWybpsbMnTYXknYVUdfrnuOP8Pi9dUizjHrznc4us2lh/CbD7IzKuFfWQEpF1IJSP7OcSOAQDXpEMqggUJVf5p5XDPRZ6vETmrRXIxQccV0oPev/kq5KZTB1xI0OUpmquW28EpQKID+dizwYZvxb9+sBSSEZhxg5lA+CRU3zMhQRAYVdqTSIm0jEGXNhQNUzT6qRTZEwFNSPM8nTMmf7K8Zs0Bp/T0DDRQZLWgAmm5r/1FrH31ahKxpO+EQXUs9OzuYTlzTh7p+rL5uYVNRFRPcvsMnE63XQmuRJBH7dYnP/y8tptp1WG3wwmVE+ePiWDavrclrVl71h0WawtXcLlmmMkQG1BsvuwqPGkpExGMbLldGLg5KHgInOugwIxwK7HSTJ774qFg9zNLf4elAmxAY9oBQZW8MjJNB6jXZP780MT/9qbDHyfcMnvTzrUejRTcZQgI2IOeSeM+KZR8ns2FhzBvNoa7xuYXe2HDCbcf2mRWZiASfk89ifeXFOeyhBDTzQsKhtQfNG5lQgMHr8Og+72dob+RC3XGeWUitVUcOYMab11W+LjiqEvTR2671fDg==|920
+}//tylu/bhF9AgwsXWQhNyJaZpswGRBYJDHCAM4utYrj+6ibiakzUFDtdnnKHi3ItdsulNdz3feCQFrqfPe5b2O43l2hxrw/S7Eh6EWDyBnL5/1aOFA1mufs7U1qONCf5TW1upou0z7dBUUbV3Qnyhmje4y26UwUKEz3QuvR37bK5JGNvzA/W2VvitLGABGVkf8xXWymqwY/8EEtJBi5MiYHwSRmdelbwCuQ21NUpN2VBbLZ1Avm2bNx1sqeQ7MNeVMfJjBA/WdmpdhvFs1uuM+qRhOhyLxL8PuYfU7dYBvWO1lNP/SLUGC06rNczumVLRCWgHb5IYS+aG1epUhYfAdkGrb+CtrmdTKCHAVAW3BTmFT7OYzxHlFR6+5VpheJCRVU18kjRjLjMLPdJUkhwKYHPd3YlrHMHCL40MMoM0DDHwcDrtNQ2y1R/REwGDYbSh8zMuBc6Fu13r3yvDExYIvNYpf4FbqVTjUHH3ci1ZYmufGiH/pElOvpwlP4ssvDieqRwS5r46q8EVC0cr5aaQSgg6o4443dnpqWx43c8bWaM8eN94RKO20IRIQ+FJ8HENtL6nzxw28Wm6FCp5XckPE5JqBdVu9MWcYg+85ibXth6iw/KdpwnYBUlee3x22AuiThM3GKYRayXytCF5YxeuNKhyIBxVvb4n0ago8C7v9HdESnB5gy5imbyO1zAh+Yp9iTFz85dyut3JHHaDg70962s82cRznmBZkKvbwO6gupUMp8OoVCOoZIh/IzHU8l1dBRRFzBMMiL0eijnm08Eg0ZiQx/EGDiys0Eb9bgujt5oM/m1igu50u1WRCq4FlApbyu6IcaNLqGBBhfkt0hyaD7iHAwmOdP1XRH/TRVdYDqIHvgOj+4peBWMXA+YGZNQP+vAz+Wq0JWaG9NnLBYXxJWQ==|920

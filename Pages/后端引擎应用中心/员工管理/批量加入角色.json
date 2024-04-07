@@ -456,6 +456,7 @@
           "TableName": "角色文件夹关系视图",
           "BindingInfos": [
             {
+              "GUID": "d5d5909a-f5bf-458d-aa3c-f4217c6db8e4",
               "BindingInfo": {
                 "TableName": "角色文件夹关系视图",
                 "ColumnName": "角色唯一标识",
@@ -464,6 +465,7 @@
               "ColumnName": "value"
             },
             {
+              "GUID": "4285b327-76d8-426d-bff3-30275329ced5",
               "BindingInfo": {
                 "TableName": "角色文件夹关系视图",
                 "ColumnName": "名称",
@@ -472,6 +474,7 @@
               "ColumnName": "label"
             },
             {
+              "GUID": "88daa80c-663c-48d6-8f95-5db6910044c7",
               "BindingInfo": {
                 "TableName": "角色文件夹关系视图",
                 "ColumnName": "父角色唯一标识",
@@ -565,7 +568,7 @@
                     "ReloadData": true
                   }
                 ],
-                "ID": "16baa892-8581-4897-ab0b-da7f05ada411"
+                "ID": "8ac1a858-6397-4a65-a1a8-cf035c47f810"
               },
               {
                 "CommandList": [
@@ -580,7 +583,7 @@
                     "Offset": null
                   }
                 ],
-                "ID": "a151b43f-0407-48c3-b783-d900f3d92b09"
+                "ID": "8592b70f-ce91-493b-968e-d79ec54f6b0d"
               }
             ]
           }
@@ -830,4 +833,4 @@
       "Formula": "批量加入角色!$AC$2"
     }
   ]
-}//xGWVoClKwVP5EUCI5Ehjzo9KSOlCDt8NPgsxtHo172Z9rsKuSEnrYA6lHF9GN1YSEaWRM98tWhc/dtfP9RM3RoQ3rKPU28TwTexmmVNKJMLKOS4CMwtKp20jVlOugUCuz9EYvN5pMSjwun04Y8MTTputG26kmz1LGgmgq8VGMbUPzTK+DHiFTNew2KAo/dXz7myUYSahW7fUbLCLTeSanvduQzEXBJNOjzkOEejOU7NnFPIsynp7QAGl/GmUlwULJGrM9pEVqx0BdY+agF8KJJ3K3uPyPfUf6gl6ElPYKENT4DdKd4wHJFB+4Lq4GEYcK8rflufZjK4TVnkXZ0gNGrz/CbXcLdv0hVqBymDRU92ttwM9Wdgc6dkOoXGWgBgyTdyQC5r6C4Fd5f3SHhnBCuMG0JNanK9d8srZyrkFjPdCkZ6fLZB3s2dNwF7QO+fw9q+HMHts4aVi0pnnw4WnzOaxd3rRR/L3s9uDhjHUzYzL6LTgw5y03g4nbaCanTBR6QexqNRdnNAHTE/OpNy61NZaNg9cWlA4V+OBCT2M4jTfu+TTTPhaSvYaUxYxtpAZp9SyANnNPWAFR/HlNi6rDL50vQ8xCraYHu8HBI7cyCKtSsQ+WjlIh1wwD0VceoTU4yC+JRN1zIx4dvtDDGkPctCyDQTpQSdv/h7ia2StKNy2LbTlm+Z7AVD+kgHn7Xi4QW2ihF3h8Dy4/ZLwrbDDswh1fJyLXUK/bJaN1+8SNEeOovMdVA6DY6D/hCQhXClqq4Z8DjOFw5OH14KcHEJccfqYzbprrO6GoQKftCwhhc8XFuJH9A7YTemsIdY2gRGCX1h6iNuxs4RI5vEfgxrdApbSmMtkGzGedgSfIxWhEfxdtR1fdZzZEXLUzdcFF8cM+TSHW0RjXp4jPVIOX/swoA==|920
+}//0gaCwXqUQTBbD1VwVsYGsFuzcqbKe0MiJCEnVf5/TKpPbMkfHJlY8+JJc3OAmXBtCMj08GO3yBMgbil9wlPZjvK4XTRMNxL9Da6+Ej5yBUUfyGQd9brhePkDBIIBNVtf0Gm3euw9Eaqhfj7GQeQgkYv9bkxc+m791Y0Ym5ZhDQ8WG9m4yIbu+mdzbvZL3oajQcCSC7hkjnNaurSnNqqyuOiyL+n68OESQkCpA2i2bVN6r021mx9t9vwJ7Eew0B1xyRjZTlSMHwkRiYGcwE1zR5dDWEAKpzUxxjOtgDnAmyq/AizZ1BtnecFfe+ER0fclrlfMK7EkVImfnvDOYXr/kqk3DgOcPbKIQNVc54m6vgqhSGSrpbbP7FTEBM2RBSPJoCTkrhfrPY5DTGVrSm/7htcKvik3iD29NQ1WVroMnyKy7IRPCxgC8HZnvNxk+mR6BRz1RpQuQugxjV7OPB494MQVxK8kdI6DXKq+edXPOlDPx7acxvWVxb6JjzxzgJSgXbhK0PfcjU+DXEdP5n3QjRN1hgsjgxVdC22Xm3LVkigEepas20r6w+u3YY4aNswqoQwd+Uj3MS48Idcm3MZJ4d6SWPogSpEeMZ5RKwqzgeACZtRXfGTOFzvjDSb0D3tQfbyTh3RhdoVo4bNsBepXd/zq2tflYO5/Ig7mhf2L+L1yk40+i3vAlreW/kqSBdZ/5ZADQzOY5E2tsyKG1WMS+hn7dRvwCGNnjJsL7WH8Levvz0+YtnSCJ+Q8lOz3ZTpeB/F8vYz7aR56sq7tOP0YCXcn1T0qjwQ8NH4bg/IAPJkKLxB1WAVQzoQVnpLkYGnB4ITe9oiGnMtDemGr0DHB00a930JT89Z3jcMxJ87B4yt+XLgGabpkQiHHwaViMpPbUAdxLTtO9SoYRs6tuO2d0Q==|920

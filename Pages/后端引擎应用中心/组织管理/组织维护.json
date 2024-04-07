@@ -238,7 +238,7 @@
                 "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
                 "SerializeProperty": "=组织维护!BH11"
               },
-              "TargetType": "Forguncy.ButtonCellType, ServerDesignerCommon, Version=10.0.1.0, Culture=neutral, PublicKeyToken=967100671921c115",
+              "TargetType": "Forguncy.ButtonCellType, ServerDesignerCommon, Version=10.0.2.0, Culture=neutral, PublicKeyToken=967100671921c115",
               "MethodName": "ExecuteCommand"
             }
           ],
@@ -272,6 +272,7 @@
           "TableName": "标签页头字典表",
           "BindingInfos": [
             {
+              "GUID": "c7cf7cf3-2943-49c2-aea7-44810f081a8b",
               "BindingInfo": {
                 "TableName": "标签页头字典表",
                 "ColumnName": "ID",
@@ -280,6 +281,7 @@
               "ColumnName": "Value"
             },
             {
+              "GUID": "c9c4ffcd-59c0-4f81-a8ef-e8aebe8f0ffc",
               "BindingInfo": {
                 "TableName": "标签页头字典表",
                 "ColumnName": "名称",
@@ -376,7 +378,7 @@
                     "ID": "bd6e22a7d9a44c83816a1ebcd65de051"
                   }
                 ],
-                "ID": "5f3eb4d5-4db3-436a-8c6d-67b7975ebeb8"
+                "ID": "d945a816-1510-46e6-a21d-381ac2450889"
               },
               {
                 "Condition": {
@@ -441,7 +443,7 @@
                     "ID": "b25c4c39cb4b4242a1706844554987f4"
                   }
                 ],
-                "ID": "459a5189-9fec-4cb1-8661-7caba111ed12"
+                "ID": "39ffe8d0-eaf4-4046-81a7-67f094a071bb"
               }
             ]
           }
@@ -508,7 +510,7 @@
                 "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
                 "SerializeProperty": "=组织维护!BH11"
               },
-              "TargetType": "Forguncy.ButtonCellType, ServerDesignerCommon, Version=10.0.1.0, Culture=neutral, PublicKeyToken=967100671921c115",
+              "TargetType": "Forguncy.ButtonCellType, ServerDesignerCommon, Version=10.0.2.0, Culture=neutral, PublicKeyToken=967100671921c115",
               "MethodName": "ExecuteCommand"
             }
           ],
@@ -588,7 +590,7 @@
                       "Offset": null
                     }
                   ],
-                  "ID": "bab86ef1-68f9-4cff-9c13-d1c8f5c05224"
+                  "ID": "548a4273-c773-4f23-a759-98f1c8ba6586"
                 }
               ]
             }
@@ -669,6 +671,7 @@
           "TableName": "组织信息视图",
           "BindingInfos": [
             {
+              "GUID": "f2462cb9-7f74-47ec-b4dc-0466f3f6d9ee",
               "BindingInfo": {
                 "TableName": "组织信息视图",
                 "ColumnName": "组织Id",
@@ -677,6 +680,7 @@
               "ColumnName": "value"
             },
             {
+              "GUID": "b3e99520-0005-4759-8470-f875a2e8ebbd",
               "BindingInfo": {
                 "TableName": "组织信息视图",
                 "ColumnName": "组织名",
@@ -685,6 +689,7 @@
               "ColumnName": "label"
             },
             {
+              "GUID": "5abd7e7d-1511-403a-926f-6161ef83608f",
               "BindingInfo": {
                 "TableName": "组织信息视图",
                 "ColumnName": "父节点Id",
@@ -768,7 +773,7 @@
                       "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
                       "SerializeProperty": "=组织维护!按钮组件"
                     },
-                    "TargetType": "Forguncy.UserControlPageCellType, ServerDesignerCommon, Version=10.0.1.0, Culture=neutral, PublicKeyToken=967100671921c115",
+                    "TargetType": "Forguncy.UserControlPageCellType, ServerDesignerCommon, Version=10.0.2.0, Culture=neutral, PublicKeyToken=967100671921c115",
                     "MethodName": "SetUserControlPage",
                     "ParameterValues": {
                       "userControlPageName": "总部信息按钮组",
@@ -815,6 +820,7 @@
                                     "TableValueType": 0,
                                     "BindingInfos": [
                                       {
+                                        "GUID": "e53dac8a-5b61-4c64-a0b9-e11f5defb647",
                                         "BindingInfo": {
                                           "TableName": "组织信息视图",
                                           "ColumnName": "组织级别Id",
@@ -899,7 +905,7 @@
                       "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
                       "SerializeProperty": "=组织维护!子页面组件"
                     },
-                    "TargetType": "Forguncy.UserControlPageCellType, ServerDesignerCommon, Version=10.0.1.0, Culture=neutral, PublicKeyToken=967100671921c115",
+                    "TargetType": "Forguncy.UserControlPageCellType, ServerDesignerCommon, Version=10.0.2.0, Culture=neutral, PublicKeyToken=967100671921c115",
                     "MethodName": "SetUserControlPage",
                     "ParameterValues": {
                       "userControlPageName": "总部信息_查看",
@@ -922,7 +928,7 @@
                     }
                   }
                 ],
-                "ID": "8a4b65b7-04d3-43b8-a8a2-f223940889ff"
+                "ID": "96022e53-4255-46ff-8c7a-35da01e97a60"
               },
               {
                 "Condition": {
@@ -958,7 +964,7 @@
                       "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
                       "SerializeProperty": "=组织维护!按钮组件"
                     },
-                    "TargetType": "Forguncy.UserControlPageCellType, ServerDesignerCommon, Version=10.0.1.0, Culture=neutral, PublicKeyToken=967100671921c115",
+                    "TargetType": "Forguncy.UserControlPageCellType, ServerDesignerCommon, Version=10.0.2.0, Culture=neutral, PublicKeyToken=967100671921c115",
                     "MethodName": "SetUserControlPage",
                     "ParameterValues": {
                       "userControlPageName": "部门信息按钮组",
@@ -1006,7 +1012,7 @@
                                           ]
                                         }
                                       ],
-                                      "ID": "863de720-b2fb-44b3-a588-80c592fc2bdd"
+                                      "ID": "18ac905d-3f3f-448d-a7f7-31bb50d385e1"
                                     },
                                     {
                                       "CommandList": [
@@ -1026,7 +1032,7 @@
                                           ]
                                         }
                                       ],
-                                      "ID": "6e519321-3fb2-4506-af80-5840c9e79373"
+                                      "ID": "f37a0db6-c490-480d-9961-4c8070398c72"
                                     }
                                   ]
                                 }
@@ -1046,6 +1052,7 @@
                                     "TableValueType": 1,
                                     "BindingInfos": [
                                       {
+                                        "GUID": "28ce8cf7-3ac9-4041-8770-d4d878b9e471",
                                         "BindingInfo": {
                                           "TableName": "组织信息视图",
                                           "ColumnName": "父节点Id",
@@ -1054,6 +1061,7 @@
                                         "ColumnName": "父节点Id"
                                       },
                                       {
+                                        "GUID": "edf02fa7-02e1-4806-a042-236ef9dd1ee8",
                                         "BindingInfo": {
                                           "TableName": "组织信息视图",
                                           "ColumnName": "组织级别Id",
@@ -1119,7 +1127,7 @@
                                           ]
                                         }
                                       ],
-                                      "ID": "6dbc6334-12df-4985-97b4-6d71b418489d"
+                                      "ID": "79668470-ef57-4303-8b1f-19f227c2c6c7"
                                     },
                                     {
                                       "CommandList": [
@@ -1148,7 +1156,7 @@
                                           ]
                                         }
                                       ],
-                                      "ID": "b2cd0fbc-e9e7-4494-9755-0947dae5b4fb"
+                                      "ID": "9ee2cda5-b12c-4898-a8d1-8f46e44866df"
                                     }
                                   ]
                                 }
@@ -1169,6 +1177,7 @@
                                     "TableValueType": 0,
                                     "BindingInfos": [
                                       {
+                                        "GUID": "0d92e4c2-4417-44f3-97f5-fa858547669a",
                                         "BindingInfo": {
                                           "TableName": "组织信息视图",
                                           "ColumnName": "组织级别Id",
@@ -1234,7 +1243,7 @@
                                           ]
                                         }
                                       ],
-                                      "ID": "aab909b6-2a15-4687-a9b8-8be0dd6490d8"
+                                      "ID": "1683b9b5-335f-4bbb-a1f0-2b965a28877e"
                                     },
                                     {
                                       "CommandList": [
@@ -1263,7 +1272,7 @@
                                           ]
                                         }
                                       ],
-                                      "ID": "8f7ced93-cb7d-4fbe-afb9-e162e90cbcdd"
+                                      "ID": "ddf8a029-c925-426f-8ee8-4ab66aade186"
                                     }
                                   ]
                                 }
@@ -1321,7 +1330,7 @@
                               "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
                               "SerializeProperty": "=组织维护!子页面组件"
                             },
-                            "TargetType": "Forguncy.UserControlPageCellType, ServerDesignerCommon, Version=10.0.1.0, Culture=neutral, PublicKeyToken=967100671921c115",
+                            "TargetType": "Forguncy.UserControlPageCellType, ServerDesignerCommon, Version=10.0.2.0, Culture=neutral, PublicKeyToken=967100671921c115",
                             "MethodName": "SetUserControlPage",
                             "ParameterValues": {
                               "userControlPageName": "分部信息_查看",
@@ -1344,7 +1353,7 @@
                             }
                           }
                         ],
-                        "ID": "d40d6f4b-f8c0-4021-b5de-4bc71dc8fce7"
+                        "ID": "5a3843f4-38c1-407f-9469-14429715d5ba"
                       },
                       {
                         "Condition": {
@@ -1366,7 +1375,7 @@
                               "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
                               "SerializeProperty": "=组织维护!子页面组件"
                             },
-                            "TargetType": "Forguncy.UserControlPageCellType, ServerDesignerCommon, Version=10.0.1.0, Culture=neutral, PublicKeyToken=967100671921c115",
+                            "TargetType": "Forguncy.UserControlPageCellType, ServerDesignerCommon, Version=10.0.2.0, Culture=neutral, PublicKeyToken=967100671921c115",
                             "MethodName": "SetUserControlPage",
                             "ParameterValues": {
                               "userControlPageName": "部门信息_查看",
@@ -1389,12 +1398,12 @@
                             }
                           }
                         ],
-                        "ID": "98083340-b5c0-415d-85e0-b9a00d4f63ba"
+                        "ID": "530d0d1e-690d-4e6f-86ee-af50e9e1cd1a"
                       }
                     ]
                   }
                 ],
-                "ID": "00b70ff0-fa7c-4a90-b2a2-422907d23a59"
+                "ID": "fd7630f5-53b2-45ca-835c-2c89e4523ca7"
               },
               {
                 "Condition": {
@@ -1430,7 +1439,7 @@
                       "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
                       "SerializeProperty": "=组织维护!按钮组件"
                     },
-                    "TargetType": "Forguncy.UserControlPageCellType, ServerDesignerCommon, Version=10.0.1.0, Culture=neutral, PublicKeyToken=967100671921c115",
+                    "TargetType": "Forguncy.UserControlPageCellType, ServerDesignerCommon, Version=10.0.2.0, Culture=neutral, PublicKeyToken=967100671921c115",
                     "MethodName": "SetUserControlPage",
                     "ParameterValues": {
                       "userControlPageName": "下级部门按钮组",
@@ -1478,7 +1487,7 @@
                                           ]
                                         }
                                       ],
-                                      "ID": "b16d0a6b-5aaf-4e3a-ac77-273d42f1468c"
+                                      "ID": "29d9e5e6-2e00-4edb-ba2a-379b86dd3369"
                                     },
                                     {
                                       "CommandList": [
@@ -1498,7 +1507,7 @@
                                           ]
                                         }
                                       ],
-                                      "ID": "768f7ea3-212a-4c82-9373-52cf6920bee6"
+                                      "ID": "9eeafa0d-3dcf-42db-a202-378e6530f49b"
                                     }
                                   ]
                                 }
@@ -1533,7 +1542,7 @@
                               "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
                               "SerializeProperty": "=组织维护!子页面组件"
                             },
-                            "TargetType": "Forguncy.UserControlPageCellType, ServerDesignerCommon, Version=10.0.1.0, Culture=neutral, PublicKeyToken=967100671921c115",
+                            "TargetType": "Forguncy.UserControlPageCellType, ServerDesignerCommon, Version=10.0.2.0, Culture=neutral, PublicKeyToken=967100671921c115",
                             "MethodName": "SetUserControlPage",
                             "ParameterValues": {
                               "userControlPageName": "下级分部_查看",
@@ -1562,7 +1571,7 @@
                                             "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
                                             "SerializeProperty": "=组织维护!按钮组件"
                                           },
-                                          "TargetType": "Forguncy.UserControlPageCellType, ServerDesignerCommon, Version=10.0.1.0, Culture=neutral, PublicKeyToken=967100671921c115",
+                                          "TargetType": "Forguncy.UserControlPageCellType, ServerDesignerCommon, Version=10.0.2.0, Culture=neutral, PublicKeyToken=967100671921c115",
                                           "MethodName": "SetPropertyValue",
                                           "ParameterValues": {
                                             "userControlProperties": {
@@ -1625,7 +1634,7 @@
                                             "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
                                             "SerializeProperty": "=组织维护!BH11"
                                           },
-                                          "TargetType": "Forguncy.ButtonCellType, ServerDesignerCommon, Version=10.0.1.0, Culture=neutral, PublicKeyToken=967100671921c115",
+                                          "TargetType": "Forguncy.ButtonCellType, ServerDesignerCommon, Version=10.0.2.0, Culture=neutral, PublicKeyToken=967100671921c115",
                                           "MethodName": "ExecuteCommand"
                                         }
                                       ],
@@ -1639,7 +1648,7 @@
                             }
                           }
                         ],
-                        "ID": "59eaaf2f-77ac-4e35-b776-486860d01e4d"
+                        "ID": "f246a97a-2576-41d4-ba27-34f92ca5d683"
                       },
                       {
                         "Condition": {
@@ -1661,7 +1670,7 @@
                               "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
                               "SerializeProperty": "=组织维护!子页面组件"
                             },
-                            "TargetType": "Forguncy.UserControlPageCellType, ServerDesignerCommon, Version=10.0.1.0, Culture=neutral, PublicKeyToken=967100671921c115",
+                            "TargetType": "Forguncy.UserControlPageCellType, ServerDesignerCommon, Version=10.0.2.0, Culture=neutral, PublicKeyToken=967100671921c115",
                             "MethodName": "SetUserControlPage",
                             "ParameterValues": {
                               "userControlPageName": "下级部门_查看",
@@ -1690,7 +1699,7 @@
                                             "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
                                             "SerializeProperty": "=组织维护!按钮组件"
                                           },
-                                          "TargetType": "Forguncy.UserControlPageCellType, ServerDesignerCommon, Version=10.0.1.0, Culture=neutral, PublicKeyToken=967100671921c115",
+                                          "TargetType": "Forguncy.UserControlPageCellType, ServerDesignerCommon, Version=10.0.2.0, Culture=neutral, PublicKeyToken=967100671921c115",
                                           "MethodName": "SetPropertyValue",
                                           "ParameterValues": {
                                             "userControlProperties": {
@@ -1753,7 +1762,7 @@
                                             "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
                                             "SerializeProperty": "=组织维护!BH11"
                                           },
-                                          "TargetType": "Forguncy.ButtonCellType, ServerDesignerCommon, Version=10.0.1.0, Culture=neutral, PublicKeyToken=967100671921c115",
+                                          "TargetType": "Forguncy.ButtonCellType, ServerDesignerCommon, Version=10.0.2.0, Culture=neutral, PublicKeyToken=967100671921c115",
                                           "MethodName": "ExecuteCommand"
                                         }
                                       ],
@@ -1767,12 +1776,12 @@
                             }
                           }
                         ],
-                        "ID": "36cc1a0f-744a-458c-8966-6e820f2fb959"
+                        "ID": "d6e827b9-0ff4-4e52-b83a-a18d3fb04046"
                       }
                     ]
                   }
                 ],
-                "ID": "3178a2da-fe3c-4416-b522-d4f5d9688bcf"
+                "ID": "a363fd0e-66cb-48e9-8d83-ff5a50867d03"
               },
               {
                 "Condition": {
@@ -1807,7 +1816,7 @@
                       "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
                       "SerializeProperty": "=组织维护!按钮组件"
                     },
-                    "TargetType": "Forguncy.UserControlPageCellType, ServerDesignerCommon, Version=10.0.1.0, Culture=neutral, PublicKeyToken=967100671921c115",
+                    "TargetType": "Forguncy.UserControlPageCellType, ServerDesignerCommon, Version=10.0.2.0, Culture=neutral, PublicKeyToken=967100671921c115",
                     "MethodName": "SetUserControlPage",
                     "ParameterValues": {
                       "userControlPageName": "组织结构-人力资源按钮组",
@@ -1836,7 +1845,7 @@
                                     "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
                                     "SerializeProperty": "=组织维护!显示列定制"
                                   },
-                                  "TargetType": "Forguncy.ButtonCellType, ServerDesignerCommon, Version=10.0.1.0, Culture=neutral, PublicKeyToken=967100671921c115",
+                                  "TargetType": "Forguncy.ButtonCellType, ServerDesignerCommon, Version=10.0.2.0, Culture=neutral, PublicKeyToken=967100671921c115",
                                   "MethodName": "ExecuteCommand"
                                 }
                               ],
@@ -1853,7 +1862,7 @@
                       "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
                       "SerializeProperty": "=组织维护!子页面组件"
                     },
-                    "TargetType": "Forguncy.UserControlPageCellType, ServerDesignerCommon, Version=10.0.1.0, Culture=neutral, PublicKeyToken=967100671921c115",
+                    "TargetType": "Forguncy.UserControlPageCellType, ServerDesignerCommon, Version=10.0.2.0, Culture=neutral, PublicKeyToken=967100671921c115",
                     "MethodName": "SetUserControlPage",
                     "ParameterValues": {
                       "userControlPageName": "人力资源_查看",
@@ -1882,7 +1891,7 @@
                                     "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
                                     "SerializeProperty": "=组织维护!按钮组件"
                                   },
-                                  "TargetType": "Forguncy.UserControlPageCellType, ServerDesignerCommon, Version=10.0.1.0, Culture=neutral, PublicKeyToken=967100671921c115",
+                                  "TargetType": "Forguncy.UserControlPageCellType, ServerDesignerCommon, Version=10.0.2.0, Culture=neutral, PublicKeyToken=967100671921c115",
                                   "MethodName": "SetPropertyValue",
                                   "ParameterValues": {
                                     "userControlProperties": {
@@ -1910,7 +1919,7 @@
                     }
                   }
                 ],
-                "ID": "99a14e66-fc48-4405-8627-4973f795d4b5"
+                "ID": "31e2fd80-ae17-4a3f-8b25-f68b33332bd1"
               }
             ]
           }
@@ -2185,4 +2194,4 @@
       "Formula": "组织维护!$BB$6"
     }
   ]
-}//3SyMftu7eSiKwlxVdimghlN1Lp1yp9D2uwQITP84u+gKQZwGru1D+Y2klFl4MAuydlIEZCJxj55vh8WOr4hegQVqXDuHY133OzEZuIaEVIMuCjZLktxOfbuBt1V/4OdQWbzUpki+Eos059Kap3tH4AYE6rfDCUkMlCPm1WozvsR+pa1oLdDHLsYyHp4O+0xpL4cTY6mQsH7i1FtgM+Mt83vwb1Rx3W4eviTH4A7MzHuTiXyhyAO4ckAeW1T/tK869bMKvYMycVoiDRGhaSPTh+W7dV44i1keM7GcYTrJxiG+rVD7IwOyFLoVJtmIt/c693RUfXnI/ZYRvblWLYrZWAVIRmxuACIK0JvdaA3XhdO9FbPACEsjl15Qb1gW+NiRzxPuF3FB7Ps/7nMUU3PtdwGg9KOUjEOyyC5Iyi7ZQZPHYbnFE7Xh3jXRCL5TFloNLC9NoxTdw1JO8JTNsz9mhWJVdn7l0yzC4+TzAt+ooD41aLqKo1Kt8+DUZbpF13SF7X/bsNGdfmHo30IgLRH/Pg9nmerWIvbE8yhXEhf+DKwA3meuAQKM1DJAWtnTdIqNcHcO3EZdJVPjZQs59gQmmuVCW6Do+z6s5Ct+QQlLnvpfTqoMZgowx7EPD3KVQmkCJnd2CsKmA8WcjmGsZFpN1nSQ1pocIJj0R82IKZn4NYCNA3qCwsCrZxPiRcLtBfhoo+i7gldxKwSqPratrQtZVf/Uyr41eSnM44eWWNneqYVrmpCfv/GYeTPMvxPAJdry2G1t5SR/CSEZvcE8W6fjfKhNZNzB0NGhcp/LVxWwJ2o+0NWerMpLHkC7/DFXoEdRihfTT17VrnkReiZT5GOAcfOEc+/7tzL7q1zVO9VTnt63XERPTdfrtOjlb/BQdml5OKErLyhVRbC2d3JpBnfOWw==|920
+}//80Kqjfk1eMqH/jICFar+UBoqZSL91kUmNM8N6A/Qbc+SDNsIoaNeH7jaKgMLaD6cwqLIFTk1IPLTCZlLs5d5HIv5Wmtaxp5eE6brjcffXMcmb0+/pLNpb/v7zacNyRxPCZN09asHfwE2GvupZ0BYKo9B4SCpu5NXY6aQja4j02In9Ad19Yj87ywaDQFundpQT6VPF6p+kXcNlltDPMorvZX04LTTRaNFR4t7QyNdBLOxpMeFnCu/4AVqkhvB6f9zTQMl1qHAlXfiHrXCQRkB2ejJf0JNtNxqeL19/OFcbZi7kFfvVuz7AjRZDzuN4bsgd8AswSOyDFI0ivGe/xYZU9s7lzwzmRlKMGCIsTRS9Yq+OeR4elXIo3E+HecvwvV4TH69zj59016qXmuQ/zvTbF30YEl80rUCHKove/NnA9bYisF5dY+6qslY5dHnU8qxb9jtsFI37fwyD/gFUoaDzLr7drvzN+2KvVr7MzJ6hmllyv7uG+i6iJWes658GlJD/rurFsK40gTKg/pXlI0exdgHLgqFiZWjEGaahurAHjQExMdzRWYo68cZ+DSMDt5Dsih7GAgO2UukFiSP/G+t/ac6iTX0Gkhbz5EB8fj7OGR8zoyX1c8jUwfHfwMqtq8Adktoz4QD9fLCoE8m43th2aolzuTAUpR+NNzXDAlGONFhON+zuTNAUtqMuAtEd9iJAZWwMQe0QJH44uWOYEL0CoB7Wn9EqJTIzPbqwzJASUBQ9tvvt4L1J4ZKtCbinnrzNcODTHyGf3/ojvFgLSGCDkhpWgZcMpc/9z+wsG8ATKQgK1b+cmMuiaj7OAiinDC6906uU++qvK6AhBAZx+vQIKw5VaLgCjeYJ4J/N/Sy/suFMLGSmiC9boX3XSd6JHObDLnC35AZ2PTVswMO7sdvmA==|920

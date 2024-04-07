@@ -558,6 +558,7 @@
           "TableName": "组织信息视图",
           "BindingInfos": [
             {
+              "GUID": "8b4777d0-b5ea-42dc-a429-678aa08cad15",
               "BindingInfo": {
                 "TableName": "组织信息视图",
                 "ColumnName": "组织Id",
@@ -566,6 +567,7 @@
               "ColumnName": "value"
             },
             {
+              "GUID": "3dbb9599-2a4d-4746-aee3-81c26d7d8fc2",
               "BindingInfo": {
                 "TableName": "组织信息视图",
                 "ColumnName": "组织名",
@@ -574,6 +576,7 @@
               "ColumnName": "label"
             },
             {
+              "GUID": "288f80ef-dee7-45d3-b3fb-ea09cd9405ab",
               "BindingInfo": {
                 "TableName": "组织信息视图",
                 "ColumnName": "父节点Id",
@@ -637,6 +640,7 @@
           "TableName": "组织级别视图",
           "BindingInfos": [
             {
+              "GUID": "a53a7cd2-43c1-4318-bf19-cfdbb384ab76",
               "BindingInfo": {
                 "TableName": "组织级别视图",
                 "ColumnName": "组织级别Id",
@@ -645,6 +649,7 @@
               "ColumnName": "value"
             },
             {
+              "GUID": "833f0eba-028e-4eee-8a7f-8ce42954078b",
               "BindingInfo": {
                 "TableName": "组织级别视图",
                 "ColumnName": "组织级别名称",
@@ -756,7 +761,7 @@
                     "CheckDataValidation": true
                   }
                 ],
-                "ID": "fbd2c007-4d31-42c0-ab72-1c03890033a9"
+                "ID": "420c39d0-6f89-4c0a-9b07-ab659d8dd16b"
               },
               {
                 "CommandList": [
@@ -807,7 +812,7 @@
                     "CheckDataValidation": true
                   }
                 ],
-                "ID": "772e1d8e-2fb1-4847-9a4d-008c2e3bfed0"
+                "ID": "0af19ba8-3c14-40e5-8b7b-adf805ee0b8a"
               }
             ]
           },
@@ -840,7 +845,7 @@
                     "ReloadData": true
                   }
                 ],
-                "ID": "2378f1d2-4a7e-4aa9-ba52-08a0ead90c30"
+                "ID": "cb960986-fa01-4cbd-9ba4-4deaffd3b118"
               },
               {
                 "CommandList": [
@@ -855,7 +860,7 @@
                     "Offset": null
                   }
                 ],
-                "ID": "bf7823a3-312d-4c99-ae93-c9ff3010d6ad"
+                "ID": "aa330707-72be-4ebb-b986-ebc2e667cf23"
               }
             ]
           }
@@ -1320,7 +1325,7 @@
                 ]
               }
             ],
-            "ID": "a06bfa00-dcbc-4fcc-9e84-126216a8a656"
+            "ID": "9cc31a2d-93d4-4dd5-85ca-fc5236751fb3"
           },
           {
             "CommandList": [
@@ -1332,6 +1337,7 @@
                   "TableValueType": 1,
                   "BindingInfos": [
                     {
+                      "GUID": "516c864d-6f09-4fe8-8815-965fae4b6e9e",
                       "BindingInfo": {
                         "TableName": "组织信息视图",
                         "ColumnName": "组织Id",
@@ -1340,6 +1346,7 @@
                       "ColumnName": "组织Id"
                     },
                     {
+                      "GUID": "01368d9c-4153-47d9-aa64-40a7238d89f8",
                       "BindingInfo": {
                         "TableName": "组织信息视图",
                         "ColumnName": "组织名",
@@ -1348,6 +1355,7 @@
                       "ColumnName": "组织名"
                     },
                     {
+                      "GUID": "93a6c343-f41c-45a7-8726-e2445c674961",
                       "BindingInfo": {
                         "TableName": "组织信息视图",
                         "ColumnName": "父节点Id",
@@ -1356,6 +1364,7 @@
                       "ColumnName": "父节点Id"
                     },
                     {
+                      "GUID": "4f0cfd08-8523-4143-9f89-76a80fdcc28f",
                       "BindingInfo": {
                         "TableName": "组织信息视图",
                         "ColumnName": "组织级别Id",
@@ -1364,6 +1373,7 @@
                       "ColumnName": "组织级别Id"
                     },
                     {
+                      "GUID": "b9339ce5-41e3-4bb3-9ce5-276cac88935e",
                       "BindingInfo": {
                         "TableName": "组织信息视图",
                         "ColumnName": "排序",
@@ -1443,7 +1453,7 @@
                 ]
               }
             ],
-            "ID": "8681122c-c09c-4298-a41d-7cb934e537fb"
+            "ID": "0ded350d-c99a-44a6-899a-c8c670e666df"
           }
         ]
       }
@@ -1490,4 +1500,4 @@
       "Formula": "部门信息_编辑!$Z$4"
     }
   ]
-}//xLFpkQMyV21tHGOUlYGIgb1L5XQpYQrv/7B7qlcfOL9kvzzw00ZBFUL7EbSqKIRC5J/sqTt+tLszCq3J607/HIK+kNruhUQObo7NfKm9UJ0SDLrpLKp1YtFcT11CIdrb3oO0llCPP1LxSfjdi/O9l8exwrJbWtCXNnxKD47UwNYdISQlXbhYZ3WSKdhGHndo8ankNTnEbCeP0OSGX//nfYnHLoNn7jR3ojHHAUEi6R1jzVkSt19XB4thvVlfy4yJbI8QVNx/YsCbKq0WF0j2Kroafvujl7nglCtEWD2IK+lX2IJGXUQJOlZ3yLrtEFunJGF5bMLWe4cdFGbF8rvYw+o2E6apS6xumxK09UhtMVaWWj5pZYvXzAXwWZFC+NkJ3vL/xqXYS96P6SgCycAwmnlynks0qFjBi54z3oRXZ+BuXq1is/UCQlAV6PuvKpdmetP7Rr2vTAkV5j7I+9K8RiI05v5u3paxHjUWGhxCvK4IPQvSSyUjx+UierM/4XIx3UImW/RbeshtOMSV0oiWqE+PvAQQC7pwplQOISqyTs40d3KQfsr62soDo5U1H119FaEW4dIrwWqGbLtajAsCxzik9vYpXwhnbqlGOxC4r6gMOtBl1GRYL5kvPSzmcsyQ1aR9vNhKWOSTAiFynnFwQ4CSVDcWasSDQU8v0xnO88vSHORNSDHg9KCnR5dxnfxS4oapVDxUTERpqQSIIEcPjZwNMfj4H8NenBbPCx1K+YdE3Yrlg2Pnu0gf1DM/JMz9oDKxsd1lNvZYDeWyMlAH+uhsfwBOxZzt2FS5NFcPjcrxJWOXYj9rVNyBVM+fyvkh5hktE9KAx9uKPaE8L7HUzeh4NlNw7JhbmlFh6tY0AXP73jTJzCmfBwXEuj0OcsHLIfsUfuKjJA8wl8rzvHGshg==|920
+}//oD+h1R7CrwuEyj5yHJqxJ9w42pe9MqwZWSYQXcAe71NWrVSNqi+C85R4refxmlMllT/XUy0wPB4NYI4NVB25xxaKlnEms/PzV0L/pYt0b99hFkMZQs78CrBM7+bshAWQs73Cc9TE9uW07rQAyKuh2QA88p1KbEMc/7cI2SrFGG6ddH1wx+ZLiVJWS54bbUcUaDBwWz+eCd2LaRMbj5KkyvCNIJIY9wC8urzne4iXx6SFRqRr155SZSbaPI3JpFdeRccXPxILGMwlwUxbkjmo8A7W/7xk7fIY0sjHMcZPFHTcAbc8Y6lzKEitsni0R84nHz3m1jmJCUWy/v+F9InI//vTF/H5aAfL0AjdS2fVONo+YXtufLirr9JepAqfQ/eDyfDkQ+JauXySVA+WTes0e8PIffhls4tHb+JaG0mscANr9Jytv946Yxgnl2Qv6PZ8c5Pm+wD6LwC34e6LEP9RnZMGwL3loJZnmLj8VUCeesCipdOyssQiCtc8RAYVIGWouoKpn+tbt9IR4lPqGpWkppNPATrVMthpqN//+hxtv79g6Jy6fxUsbC4DYRUQzHctg+Lwf3ksyILRi93AlzkmHl4Uf00f/NqzkJRmZ1Wbi1sJdBYZNog68JsGRV7c2gHzdiZjlkO0Xjpz97NFcoGdRjkcCmdIgRaLPjrAC593AyjAzXU2DswGhDpEz4qTtGERODkRoyLLG8if0GiD8JQnENc0PEiLjecYvLkcA+ULovD1sV6tzZTPHVPBD18NrFIu49BLLM/qVcFZXCvG6PU8ZvPCD9VzigMgWCC4MAW7fmYDIEwVWtnr3WNcVEAub8j94Ml/CQsRKlTptKvTUotl6zYQOd2A8Y9mPKGCk6/MoT1etGFhbGjbWMoQYRCam6hD2A3XrfBmkmT4Lpad+uifbw==|920

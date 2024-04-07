@@ -510,7 +510,7 @@
                       "Offset": null
                     }
                   ],
-                  "ID": "74758290-441c-4a09-82a7-4f44f636a915"
+                  "ID": "0d773fff-bb64-47a1-af8c-18d9d6d870d2"
                 },
                 {
                   "CommandList": [
@@ -527,6 +527,7 @@
                         "TableValueType": 0,
                         "BindingInfos": [
                           {
+                            "GUID": "270c4141-33d6-48e2-b90a-d8b4f9c61c8c",
                             "BindingInfo": {
                               "TableName": "后端菜单表",
                               "ColumnName": "链接地址",
@@ -567,7 +568,7 @@
                       ]
                     }
                   ],
-                  "ID": "fa59c48c-af94-47be-8427-27ccbb4a9a77"
+                  "ID": "459fbc36-d266-4626-84af-f5dd827c6cb6"
                 }
               ]
             }
@@ -1053,6 +1054,7 @@
           "TableName": "后端菜单表",
           "BindingInfos": [
             {
+              "GUID": "6e85da3d-0770-4d95-817a-daaf855269ee",
               "BindingInfo": {
                 "TableName": "后端菜单表",
                 "ColumnName": "菜单值",
@@ -1061,6 +1063,7 @@
               "ColumnName": "value"
             },
             {
+              "GUID": "084340dc-f754-40b9-b8fa-2669e535409e",
               "BindingInfo": {
                 "TableName": "后端菜单表",
                 "ColumnName": "显示文本",
@@ -1069,6 +1072,7 @@
               "ColumnName": "label"
             },
             {
+              "GUID": "5031edce-b145-4f8e-83ca-ac5065c40f64",
               "BindingInfo": {
                 "TableName": "后端菜单表",
                 "ColumnName": "上级菜单值",
@@ -1077,6 +1081,7 @@
               "ColumnName": "parentValue"
             },
             {
+              "GUID": "a2d03756-dd65-4d91-ab2d-4956ec229790",
               "BindingInfo": {
                 "TableName": "后端菜单表",
                 "ColumnName": "图标",
@@ -1229,7 +1234,7 @@
                       "Offset": null
                     }
                   ],
-                  "ID": "1e634088-0c8e-4475-b462-3c28cae5c52d"
+                  "ID": "992a135f-79ec-4852-9361-3cd785b22e65"
                 },
                 {
                   "CommandList": [
@@ -1246,6 +1251,7 @@
                         "TableValueType": 0,
                         "BindingInfos": [
                           {
+                            "GUID": "40f760d8-9df5-470e-873f-26a0c2b17210",
                             "BindingInfo": {
                               "TableName": "后端菜单表",
                               "ColumnName": "链接地址",
@@ -1286,7 +1292,7 @@
                       ]
                     }
                   ],
-                  "ID": "8189dde2-2870-4ede-9965-3989eb6a3197"
+                  "ID": "180a97d9-e23d-4275-ad50-ec33a49039ed"
                 }
               ]
             }
@@ -1772,6 +1778,7 @@
           "TableName": "后端菜单表",
           "BindingInfos": [
             {
+              "GUID": "f832c281-f80f-4357-8f15-66af4323f2eb",
               "BindingInfo": {
                 "TableName": "后端菜单表",
                 "ColumnName": "菜单值",
@@ -1780,6 +1787,7 @@
               "ColumnName": "value"
             },
             {
+              "GUID": "d6340551-b0be-4765-b8a0-9278a9c602e2",
               "BindingInfo": {
                 "TableName": "后端菜单表",
                 "ColumnName": "显示文本",
@@ -1788,6 +1796,7 @@
               "ColumnName": "label"
             },
             {
+              "GUID": "b48a538d-4e11-4e9e-bc1f-baecb68e49ac",
               "BindingInfo": {
                 "TableName": "后端菜单表",
                 "ColumnName": "上级菜单值",
@@ -1796,6 +1805,7 @@
               "ColumnName": "parentValue"
             },
             {
+              "GUID": "e53562a8-6a36-43ae-9c41-db80600df375",
               "BindingInfo": {
                 "TableName": "后端菜单表",
                 "ColumnName": "图标",
@@ -2090,4 +2100,4 @@
       "Formula": "'后台菜单导航-PC'!$L$1"
     }
   ]
-}//DZXSQb56fws7f0qKTz8+XPReYggk5S02vdDq7EPxCacNY5kG2i5s/LFTDgE1jCb8kaAE7ftijqmosE4Z1/1CZX+8dqKUAGqFx97yOSyM2tB6+jpkEUkfGfZRHIu7jCyprk4kssBhzeyvVPliG7q2tGPKniy9dberNkcC0C7QvHqBGLvbLFOjnG9HRFlNMwfKqje3/lfXobaXpPffdC1Rufz74gpXQqOOlItKwTp3Z8gi+htgCzKaok40RtPmJi4wcyLJp7jRLrSXzCXnREZ9FBefKaYGg9KPgTg6A37b0eOO1YJLnP+/CI4CXOIJsfdRMSKYOHHyMDgvLkjhb7Ll+4ZAIgrmVV7xcIeX8kwG7SPeUraYeyYXH69xO5IYwWKoeTXERVUNwd5Y9HX7Y453l7vLOG85FrCOB7h4ECJF3yOhORF5WHBJTq5tTO/A2AQitdsV0eD8gwHxd3SbB6/NG0DE5njWoxdn2dmV8pBDXvNP4wxt4SMJ8jyBi1ZNQXlWDRRZgRfMRAZiOY9B8pwBSzwH9uxLk7VDrKvaJgrHBe6W7Mw1j2DwlaqWCAS7ftWohDbB/wm0ZwgHjhMIK2gAL2Mg/4TXLLUiTp51eAjOr6uUEeCaAu6RwphSawpWooB45gyps8i5Tf0X9iW+tR+DMWTHIF2X2nW4EBgA8SdJJFRN+Mk5ZQLDIsHQNuBybFuGD2t1WvZFTP5vVfp4vtc08BzhPMvo4yPVmmjZ19uqX2cu+HEad/8uL6EUd0MYDeFYy+W6SXTYhHchXKSTaoTxTgcGWLuO8awTaGgapkkOZCtoZ41V+dj+Aq3yuKc4MNHSjl9nljbhLW09oWyrpJRom3HYiaGbRfdIxt6ZC6HV2/CW/L6iS15Fozq5H5sfj+CquO+lWgsKRecg2jo3jP+2GQ==|920
+}//ZrD+h9kKMJeUVPajZNWbW/qJzf2a00Ovs6C8YipPwEySzXgYepRoJpROibMI6J3R/VinvC1zyCdSWBSlfAz+gHs5yUur7jjbLwK+LESEYURJYwjZbA3LKtsU1zMh6p6wuozzhCgyfEI7aoD4QgJOK1oC/wvDuGm2pr1BQ4PWx5PxXJvSCaUIPrJeUMDxP9kR+GxfIieFvNZ3VW5YseTJRoZNIziDF+PjiABa8x2KhkMFzgAf726QxP0HntXuAlvwXb5aQ2r1iCHoN28DxFePloccPs4r81+M0jhBz27xPEP2t75gstxZIvIVNXo8drNR9CrhbzYjxLpEDe/wexjjva94VsOJOMq0shLe2jSRC4PBFEtgAKVccoILJY/pOMUJdIJULjQQIOLUZ6TQenCAeAiXKDwLYBusmrrxQws8ciC+i+mlIvYlstttuiiUtOOxyd7GnFDTsQr7zex51IGBmG96/xBlIeJD667O5I4mkRCGWw1H8PL/NOYIAee0eBbUq6/82qPMYvKieAlUMx48wZubUvWiydAfEP8sSsqWruA5pp2mPqA07xPnAHDVF3sJMG+U6zqJxN3wNS/E+TLv+T9SvkbuA4gfAxD51s/+jlzw9bEJYGt7eL05GluK2muqnnTGQHJ7HWnwuIHuEZaYVULgm4WdaHkt6NMjKsry63NZYjv+ZpjXt1veotiAOpxKll5MjGDWLZM6kBtKewdFRzasR0HJusdewizDkiBdSGpDmfqiESGzG0zZJMkr4xnFb2wEk3cUrZyDS76jspL/934DFSC4pS8Tv1LsDGDDbUhpsdFyUXrV6QYbZkb8at/EvClu/Z4/s4lE4uw3F26tlJ2mrSTuEp7tIYEb8i6XS4Is8/uX0M5fbLAeHOG9+CA84TdbjY5PQOwiD0CoiCSq+Q==|920

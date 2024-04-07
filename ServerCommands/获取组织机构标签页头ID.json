@@ -48,6 +48,7 @@
         "TableValueType": 0,
         "BindingInfos": [
           {
+            "GUID": "8d77bde8-da54-4032-896f-6e8eb6514c09",
             "BindingInfo": {
               "TableName": "组织信息视图",
               "ColumnName": "组织级别Id",
@@ -97,6 +98,7 @@
                 "TableValueType": 0,
                 "BindingInfos": [
                   {
+                    "GUID": "d0c34072-6d7a-46df-9f30-0252e79247ee",
                     "BindingInfo": {
                       "TableName": "标签页头字典表",
                       "ColumnName": "ID",
@@ -174,12 +176,12 @@
                       "ID": "4a0a324b520543d5879bc680eaafaef4"
                     }
                   ],
-                  "ID": "8f67c72f-3215-4283-94e4-568c279b2ff6"
+                  "ID": "f99ccade-82af-4edc-a33d-c8c77f48ee79"
                 }
               ]
             }
           ],
-          "ID": "8e6bef14-d3cb-4167-bc1f-8ca4519c27a1"
+          "ID": "33ef533e-7f6a-4135-a2bf-2e8048b13c01"
         },
         {
           "Condition": {
@@ -203,6 +205,7 @@
                 "TableValueType": 0,
                 "BindingInfos": [
                   {
+                    "GUID": "76ed8763-520b-4266-8197-6eb3975d4c14",
                     "BindingInfo": {
                       "TableName": "标签页头字典表",
                       "ColumnName": "ID",
@@ -280,12 +283,12 @@
                       "ID": "1c5243c4f0524636bffbf54320bf7c90"
                     }
                   ],
-                  "ID": "520a7ed1-6329-4b70-b95f-a372f72fc3bc"
+                  "ID": "c12688ce-8664-44fa-a45c-52c61b04133d"
                 }
               ]
             }
           ],
-          "ID": "c99be7bb-ae71-42e5-8fe9-19b7aa4ec40a"
+          "ID": "39ce0631-1f30-46d7-aa9b-2c2aad92a7ed"
         },
         {
           "CommandList": [
@@ -298,6 +301,7 @@
                 "TableValueType": 0,
                 "BindingInfos": [
                   {
+                    "GUID": "334a05f0-c3a1-4272-9f3c-814ef42c688d",
                     "BindingInfo": {
                       "TableName": "标签页头字典表",
                       "ColumnName": "ID",
@@ -328,7 +332,7 @@
               "ID": "e0ace66a90b341379dac4159dab1745b"
             }
           ],
-          "ID": "af339e77-454b-4775-b638-4e43f2cbda3b"
+          "ID": "5729c4b8-e8d8-405e-9799-fa47ad70f248"
         }
       ]
     },
@@ -380,7 +384,7 @@
               "ID": "19ce9d59d39245ffb7575292198f0d87"
             }
           ],
-          "ID": "26b4d41a-a20a-4726-89e0-2f822735f8a7"
+          "ID": "3e397031-17f2-4eb9-945f-d2cbbc7589b2"
         }
       ]
     },

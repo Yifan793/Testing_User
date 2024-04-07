@@ -458,6 +458,7 @@
           "TableName": "角色组织关系视图",
           "BindingInfos": [
             {
+              "GUID": "1f73975a-c14a-4627-b1e7-3c8b3dca6605",
               "BindingInfo": {
                 "TableName": "角色组织关系视图",
                 "ColumnName": "组织Id",
@@ -471,6 +472,7 @@
               "ColumnName": "组织名"
             },
             {
+              "GUID": "36f91da3-4923-48ca-9bbd-ecdef79623cd",
               "BindingInfo": {
                 "TableName": "角色组织关系视图",
                 "ColumnName": "是否对下级生效",
@@ -1217,6 +1219,7 @@
           "TableValueType": 1,
           "BindingInfos": [
             {
+              "GUID": "81018c09-3a18-4992-a436-6aa1ed99bb24",
               "BindingInfo": {
                 "TableName": "角色文件夹关系视图",
                 "ColumnName": "Id",
@@ -1225,6 +1228,7 @@
               "ColumnName": "Id"
             },
             {
+              "GUID": "5316d8c6-b90b-4843-bc25-b94ed85de6ab",
               "BindingInfo": {
                 "TableName": "角色文件夹关系视图",
                 "ColumnName": "Id",
@@ -1238,6 +1242,7 @@
               "ColumnName": "角色名"
             },
             {
+              "GUID": "08d63632-e6cd-4da6-8f7f-7314b65981f7",
               "BindingInfo": {
                 "TableName": "角色文件夹关系视图",
                 "ColumnName": "Id",
@@ -1312,6 +1317,7 @@
             "TableValueType": 1,
             "BindingInfos": [
               {
+                "GUID": "4731eda5-05c9-422d-96eb-86c7314a88f7",
                 "BindingInfo": {
                   "TableName": "角色文件夹关系视图",
                   "ColumnName": "Id",
@@ -1320,6 +1326,7 @@
                 "ColumnName": "Id"
               },
               {
+                "GUID": "872878a6-81c1-48d6-8bf1-319574b14268",
                 "BindingInfo": {
                   "TableName": "角色文件夹关系视图",
                   "ColumnName": "Id",
@@ -1333,6 +1340,7 @@
                 "ColumnName": "角色名"
               },
               {
+                "GUID": "f950c42a-0c20-4e18-89af-f4f28f046b67",
                 "BindingInfo": {
                   "TableName": "角色文件夹关系视图",
                   "ColumnName": "Id",
@@ -1409,4 +1417,4 @@
     "PaperSize": {},
     "Margin": {}
   }
-}//Yox37sY45+JYPgCNh9U4Fl0D4MOmMV0KfNqt2exyT2ejXMYfGTI+29hK9G0lShTntcuPkmDL44ENz5oCY09zUkzie2hj9nA2QS5pWE4FlUYuEA82MpceM45K8Xl8eVIQDMqutCX1IvXx3iuwbxNk63GRfAnUexncFjfs1wtl4QON8CoLdBQNWrt0HvRR/onZPfUJfrqrc82sRqinNk9s5bQhW8D47Xau0/7/k5iMcQpbxTjMJSLffWoaeDsHmnnLJjG9JOak23AU9jCjufwrb4QEAyi9lu0BeMw4O2pe8LQQaqQlwDrp/hTkMfdwqBHcfQnwACTuBRxbnzEdY8eBiLWVxgFPKXRisG1DnZTNL2e+51bUY+kU5VZmOShVyFQ8AyNPowAEOv9p2Tm71FXoGNhSs6ik07kUc7M6iqGVNoCAGM0ZScFFRvY+dq+HQXoIwGMDs904WpW11pAKl0lqPajSO8ZUFaTuFzMOx26ZpsZTl3HI7qlQg+qDWhgQV36gMmcff7GOL0+99TzWFgIWjqOT3xXuTaw6Z2ME+lB/ZDwBeUvuo8UVS44WdT/+da/D2qP9bSWvJiL6a9FtB280AhTVHyNANbGAlbjR+WPGX8jXFaf16OpGw0oBwbgopRE5B1LcclkUm8z5r/OpuYMkPuG/TKK2PdPaDzLtZt9+lcLbhVCw3pBEO5mpqy50REBzcUoRoYDfwMy/45Sd2b+RTylJjk9oiGN05lIjhl+Bix0L4XLU5hXo/uNlvwzNoaUJSI5Yt/HDw5NT58T6y+nRKRVL+ZA036Pwi77C1YbTcmMT0pyTWtsu6r+b9I7uPmXoVB67z3KfvfZZbZj3Kx/RcUjt6xQo0aeFHch1nRBIBdF0UFgQxhUs77NgDNbLIzX6rl1kjRpEGp4uYnoF8ZrHLw==|920
+}//XqHsvs3+IflL1guk8lsPTMkeifybxkvPq1ofJwnslffmJkp3AtJ91gb7CCB+3QCUdj+Y/JdoA9xkHJyE1HjGtutJCI5tNS2XI7Lncw4XPmiHdvwKUqvZzw6gh7uhXIfk7zmEOaHWgwwMZ9CjvOQnsNrg8T7R81TxtC/HtuukNXTzeXenaRY5K1Q04zK+a4GeRt72x9FZWMG/y4xPo1xvcx4KQwBxRBu/VxoodZg6/ncdFOIqx4SohzNRlTW5PJAIJ+5yxMFo+Ye4NwWDoo3EowX//o3ufuICz9DQ+/XoZ+Yfo4RBbIFcl1gGaFXeG9Xw8G3ILTW37bUsHZRipKqE63n4Nazo9x8t3+sEHV4DY6PvlpSsvEaKb+EbyItkUrGG6rhDN8odoUC0/4n9Gr2YtVznDljWw/QeBskr4IsUXVGTlfxDZ7ALZIr9mG7ytLL5Z3BvwfHRxn0O6wQk2LsFXVt7vC2lLJxQSFczNCwMmCPYHWhgud900kW73KlIHIUTmUxl/8u6BoStUkos3jQnN0x/YXw7/EYrFq4dCntVBnaJpgOgJ0DJ55FO3Wh/28Z2viK7E8rZ4qU0kBf1voQMhKExrzgFfrE0VcXlx+r+pA6yRecqEXYzxOPCqnugydnxAQPwwF1h6UVOxkjSCKRGIHBojThU0hJsq3bHhhijetLretILPyX6aibL4hWCnghZijQwcNHD9AMk4wRBeZaaWLfAhxUXNzx851NuDkDUeNxAdU1IGGNvaV5kvVBAGraAqg16SsEQIKHFYx1PbB2sq6Co7Lu+9qmQs+QoK8oCIYmaij6KIW3HxtBnfh1eNZyFd9xkqLns6HW+Oet6CJKNjVplau8DcN5hJ9vWm+eY6tCDMir9yYjK3nkPEvNmdJFlnMBZLKAz+RJGgcOowSYDZA==|920

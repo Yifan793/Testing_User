@@ -430,6 +430,7 @@
           "TableValueType": 1,
           "BindingInfos": [
             {
+              "GUID": "ee73eeaa-4431-4af1-abfd-f51847a5c9c7",
               "BindingInfo": {
                 "TableName": "角色文件夹关系视图",
                 "ColumnName": "Id",
@@ -438,6 +439,7 @@
               "ColumnName": "文件夹ID"
             },
             {
+              "GUID": "f7082f5f-2fcc-405f-b946-29a5581c50cb",
               "BindingInfo": {
                 "TableName": "角色文件夹关系视图",
                 "ColumnName": "名称",
@@ -446,6 +448,7 @@
               "ColumnName": "文件夹名称"
             },
             {
+              "GUID": "3a35fa73-d859-48c9-b6c7-21bddf7243ad",
               "BindingInfo": {
                 "TableName": "角色文件夹关系视图",
                 "ColumnName": "父节点Id",
@@ -477,6 +480,7 @@
           "TableValueType": 1,
           "BindingInfos": [
             {
+              "GUID": "d7734f90-6ba7-4380-a139-d8a7b2468007",
               "BindingInfo": {
                 "TableName": "角色文件夹关系视图",
                 "ColumnName": "名称",
@@ -551,6 +555,7 @@
             "TableValueType": 1,
             "BindingInfos": [
               {
+                "GUID": "891cc40a-2d5d-45dc-a2c8-58ca72cc7a31",
                 "BindingInfo": {
                   "TableName": "角色文件夹关系视图",
                   "ColumnName": "Id",
@@ -559,6 +564,7 @@
                 "ColumnName": "文件夹ID"
               },
               {
+                "GUID": "4658bd99-c0fc-4f0c-ba9d-49dcdf9a3876",
                 "BindingInfo": {
                   "TableName": "角色文件夹关系视图",
                   "ColumnName": "名称",
@@ -567,6 +573,7 @@
                 "ColumnName": "文件夹名称"
               },
               {
+                "GUID": "6b3d9066-e68e-480f-bf05-47d62e5c1ac8",
                 "BindingInfo": {
                   "TableName": "角色文件夹关系视图",
                   "ColumnName": "父节点Id",
@@ -598,6 +605,7 @@
             "TableValueType": 1,
             "BindingInfos": [
               {
+                "GUID": "67067211-d596-4271-aa26-19a13e35bed7",
                 "BindingInfo": {
                   "TableName": "角色文件夹关系视图",
                   "ColumnName": "名称",
@@ -684,4 +692,4 @@
       "Size": "220,176"
     }
   ]
-}//5Tix7fLRHq8QP0WhfdISR4gxvsZykK3ga73NouVT5tQfcLaFBxt7v/SC1O/WhO+0O9iakTpKWRdsP9uHF8TfdIY/yUU1f73mkxObuUopn9qcqO/RWA21dqp7I0tVg2S61xSa11Sd2MMr7OZq0PqGu7kwIs9PEFjSxqg8vsK4jAXcqr8ytnziBrLuGlrFnSv9HXXKPmb82Q2clTqEJFYGdYp52PHqvkG3qja3b0N1nwUQQuvWQpmw71KPOfv/eR/zFTYuGS+DlT0pNz7IHJHRhZ1aDJYWVJUMbXBUM5HEt+edAnbV7eJu+N+puyzqWcDWwNlzjMuIHbvWJmiwsxJHCwBPnfYPgyeI1j6fvy8qFIM0yUHb/FboYb7kATKc9Y/qJDNI9x6xHGoTjlg3TCPjJTq/YJr0bMMwI57652DjSrqSVcaTQ9YElKlpRWXOImnlWhZqSO+R9hjWHHdych6nHANVAhNcWo/KuFqw2hib7tYOxeAP3mVRgKF34IucsFT5mPje1EBXz+HnCK6klLXpwVakge6MXGgE4W/HQ7yYnZlJT4upe8+Oc2pKsQx8p3lx2cy+kemTO4MLwVr/x35LbsmdulCAWwyxA0S8+CnN3R3PR5voA9+b8ZR3ITaBL+N3ch0EZCWwAgQZmbe2tvBc+b9RuncZB8tI83wL+V7TL1RpSaEfE2DKAp3vz0ilE/xJrDxqsDn6O7K3BAVx8PyTv4GbSiFW1axOgjA9C+eyVj9eZM8cyUr8xdxYS5/2JEdAYy9nLuRy3DEKZXZfvCPa3t1jquaQdyT+S3hmGY36pf8d6SPaVDHI92CMeHHnw+OCOlPmEWup9Z7x2peZynvKO683OLhEsFamyQuLM0daLhXo6Sux9bRY5pP0LLusjLzurg2GdfOOF6jQUpB84xqRdA==|920
+}//JRb2tXUDi6u3QcjWOU51ZfOcF3TyBC/I2J2rGKjstkoYzAnHqoUUOPIy7X/a9vvBuXl2FjGQVQvhguGzyKnfzwyzTswqzCNoP1QhlWAVusR1uNuifTutA1bUP9qbCOSliJitnQC5+afvX0AeMqLCpn5BfE9tr50clD+7agda5xDnni4reffreExxanJQBrA5My42bTZdYNrp+z6FLggv41ycU3pOLytaYNzqEecvKPh/rWFvuSjDtZV74iIeFSyO1eZSSD4v29iQIraAV+lYCLQbb2401qa+NMod3vcGfAyl5dw//Qc+Tx0g2fdi3ULLhUG+mMz1PmYIifSMhmR8A0i1h6pGQI2NE0D4/2o1h7xX3QHGe+ZnXat3no93W0gk/pT//yXy1ttaTVmSpFbT11l1jbwWZereHppXCkXjOY25YDX6qk2pL3ny8qcm8KHuLiRCbuYLEBGgRaoo9HOd19zMJ8840bAZNIreulsRaXhJSRyZNWVDm8ey94iXmKBqiyiewbWftyIFcdmhWBiE4yljQz1FYjYi/0fOt89H+erAA+/sRJ9Hb0T6/qGqUd5UDwgUgRlL4GaRtcE7ktIurGv/MHVES6IzS9jViDOWADK9LXKdFEdjPm2Mi1K0Zhsb7nikAjLhYpb3+PBgzjoZNYph3V+38doibvvnesyMRKXSIF39ccUph2HJ1wIxw8rK5LnzPEsEElMKrVS9M53O226OFaDs30HPyJPycbrN9vLOL5yDIydmSPI1AmvXNUDzFnAa8Koy4Ko+Ox8qLLSy7vMvFqKKZy5hk8RwC0/goUlEz068OORHCeFsgGZHJwcCTpc+W2ufrpXaaCh+1E8WmzN1iayjGJcwXXyrCMLEgZDi7EI8/LLKB3QebLolHJynbSsJdyyMWBY87YOhl9VkdQ==|920

@@ -496,6 +496,7 @@
           "TableName": "角色文件夹关系视图",
           "BindingInfos": [
             {
+              "GUID": "80396d37-527c-48c2-8a8f-e48401e762e2",
               "BindingInfo": {
                 "TableName": "角色文件夹关系视图",
                 "ColumnName": "角色唯一标识",
@@ -504,6 +505,7 @@
               "ColumnName": "value"
             },
             {
+              "GUID": "02efc608-4af6-4081-86cb-3c21ae4a5923",
               "BindingInfo": {
                 "TableName": "角色文件夹关系视图",
                 "ColumnName": "名称",
@@ -512,6 +514,7 @@
               "ColumnName": "label"
             },
             {
+              "GUID": "ba42b344-444f-4d4d-9766-9a53e2aca212",
               "BindingInfo": {
                 "TableName": "角色文件夹关系视图",
                 "ColumnName": "父角色唯一标识",
@@ -580,7 +583,7 @@
                     "ID": "6938d5d783a34d878f37eecd965bab93"
                   }
                 ],
-                "ID": "3c419a05-118e-42db-a4de-664cfd459f1a"
+                "ID": "39250292-1a94-48f7-855f-dbba78986180"
               },
               {
                 "CommandList": [
@@ -593,6 +596,7 @@
                       "TableValueType": 0,
                       "BindingInfos": [
                         {
+                          "GUID": "57d580df-f95d-4f5d-bcac-9e43cc5302bb",
                           "BindingInfo": {
                             "TableName": "角色文件夹关系视图",
                             "ColumnName": "Id",
@@ -617,7 +621,7 @@
                     "ID": "cde5fefec51b4c929180a4594e4ef73d"
                   }
                 ],
-                "ID": "eab37038-af63-4c35-b280-6061a975f7cd"
+                "ID": "a4919327-d89a-48c3-b4b3-f35700940a1d"
               }
             ]
           },
@@ -669,7 +673,7 @@
                     "CheckDataValidation": true
                   }
                 ],
-                "ID": "67a48b84-6213-4936-9048-0b1f00917a5f"
+                "ID": "daf92df4-5eeb-4a30-a411-5f542ac53adf"
               },
               {
                 "CommandList": [
@@ -712,7 +716,7 @@
                     "CheckDataValidation": true
                   }
                 ],
-                "ID": "ff1d2e2e-a33a-44f4-b1f2-8d02adeac055"
+                "ID": "c7aaad3b-d31c-41f3-8107-361a0550b3bc"
               }
             ]
           },
@@ -745,7 +749,7 @@
                     "ReloadData": true
                   }
                 ],
-                "ID": "f70c5471-1950-40d6-a00c-b720dec2edb4"
+                "ID": "a630874b-c6b1-4f7b-b920-3c669dbf7601"
               },
               {
                 "CommandList": [
@@ -760,7 +764,7 @@
                     "Offset": null
                   }
                 ],
-                "ID": "57f51904-4ef4-41c9-a692-4b2119358e42"
+                "ID": "029845e8-6d95-4d14-9f44-835161cccd15"
               }
             ]
           }
@@ -1011,6 +1015,7 @@
           "TableValueType": 1,
           "BindingInfos": [
             {
+              "GUID": "8500a1a2-90f8-419a-bc5d-8a7f2a172ede",
               "BindingInfo": {
                 "TableName": "角色文件夹关系视图",
                 "ColumnName": "Id",
@@ -1019,6 +1024,7 @@
               "ColumnName": "Id"
             },
             {
+              "GUID": "b0ce3115-b9c1-4abd-a35b-e7990aa7d2aa",
               "BindingInfo": {
                 "TableName": "角色文件夹关系视图",
                 "ColumnName": "名称",
@@ -1027,6 +1033,7 @@
               "ColumnName": "名称"
             },
             {
+              "GUID": "4ee8a218-d7e6-4812-bc37-4a21c9aa8b08",
               "BindingInfo": {
                 "TableName": "角色文件夹关系视图",
                 "ColumnName": "是否角色",
@@ -1035,6 +1042,7 @@
               "ColumnName": "是否角色"
             },
             {
+              "GUID": "a84856c9-aaa6-44d9-9146-5914b4317d43",
               "BindingInfo": {
                 "TableName": "角色文件夹关系视图",
                 "ColumnName": "父节点Id",
@@ -1043,6 +1051,7 @@
               "ColumnName": "父节点Id"
             },
             {
+              "GUID": "c9c92f7d-47df-409e-9684-cec7bf3bc848",
               "BindingInfo": {
                 "TableName": "角色文件夹关系视图",
                 "ColumnName": "角色唯一标识",
@@ -1051,6 +1060,7 @@
               "ColumnName": "角色唯一标识"
             },
             {
+              "GUID": "3c5914b8-4882-44f1-aef0-29a6196580c0",
               "BindingInfo": {
                 "TableName": "角色文件夹关系视图",
                 "ColumnName": "父角色唯一标识",
@@ -1107,7 +1117,7 @@
                 ]
               }
             ],
-            "ID": "3c47cd72-3d2a-444c-9cb6-93a065ae5b4b"
+            "ID": "d6be2055-2aa3-42bb-a491-c59266b698c5"
           },
           {
             "CommandList": [
@@ -1127,7 +1137,7 @@
                 ]
               }
             ],
-            "ID": "c5496ebf-00bd-469a-a8fc-9a2c58a7d54a"
+            "ID": "ca6d991c-5b5d-4155-9603-5405c527932d"
           }
         ]
       },
@@ -1197,7 +1207,7 @@
                         ]
                       }
                     ],
-                    "ID": "d8ccced4-bb9e-41c6-a969-e71721817736"
+                    "ID": "963a7f1a-2a61-4de6-8a48-85d8cdf6ad9a"
                   },
                   {
                     "CommandList": [
@@ -1237,12 +1247,12 @@
                         ]
                       }
                     ],
-                    "ID": "7cfbe133-bab0-4a23-8455-ec6c198f1455"
+                    "ID": "ad5b57f5-4ef4-4b0c-96b5-db21a4e69d11"
                   }
                 ]
               }
             ],
-            "ID": "1d2ed4a3-93dd-4b56-891d-99a148486b57"
+            "ID": "5baf3ee0-2802-42fc-a429-b41b6d6b5fd6"
           }
         ]
       }
@@ -1294,4 +1304,4 @@
       "Formula": "角色文件夹操作_编辑!$Z$5"
     }
   ]
-}//Y84Iw6ZAFqVK30kMGdIzwJHNul2GMaBGgYroD68bhwrhOA3PO+ZakMJkEAQbKWv97pA2JWtcvdNK+gbo3R+M2Y3u0rQbd+WsP26fBKpRTsbv2m0czJJq2ZLltEs2oIItGe8qyI/zmmNtM313AV6sVnBtCpzVojZc7pGJGO7i0/cGMMUh4i7WyuA8sHZacub3OMnCKgzvoulvBi94ezVX2hxHe6Rvz8iLuc9xFzfQpwHPuX+IhRRnPni3pCDXQnsqAjBobZvryYIQwQhAyvdODhktR7cefmigKPb0RPESQQUTD8fIYVnn/p7ujVwVs9ivMfUPfQ6DJFTWuRvA2L6AkoHo50XjQB0FuQ7oEvnwsC6b8yKh0NhQLz9fnSh9JIX+RK2L6cFqDSiXWX96bqae89lPzT/Mwp/MARu7T8h0Th18iWPBh+oKDeqAv4Xv16WA8LVuuKeAOLrxDHb9amrBn+LgZnm6zVpO+iQK1mHD6DTeFTJVCNllEuQaQFTVvQ8Oi844t3+aZJKucN7AagJYtwF8v8aM3jjcsUJDOq3xKkQNN+UbDONrNSWLLw8PX9g1N9gBB031XpCaj/Te3lWEKpoNaR2siuxZsqqFZzINW25P5JwhdEg8D8m+kY0bLildLJ2waGKSZlNCdauu7Sy/jagJtbL+pvDTT/s4WTLg2gHFeQlUkZYVy7B706yE3BGP2ddR1XQagzUJKWqMt3O++t5IEqu0iQpiP9BsazlSQKAzMVpLl5d2Yj0S30lV3+mFS9RxwgLXYT0N830f60ZITr0Q+LvKOLO2aMz2rUgi/nB+kG7obdsFlWWm4zKyZnJjaalijDOBbgJCcGkX44KpMknOtUn3x8LCMbwIgREK7F0nSrVQjQsZ5c/VM3c0e9xvKcS+QxD4qBs8cJRDSi1rXw==|920
+}//HbXvIlfACp5B7zv01p6YBKkInXn+kEImsuIYjEZm237tdp2yjVBkar7Yg71HshVAnLRqLcW2omV6og9jvpZRNmSUO7SL0ErV85s600/VrHHewIZGAPNr+HM+X07YrtRHiMG2b3RKKe0vtSK3l7/LZ5QVhOHaHxx8Tv8H0Qhtd5Dlcd+n4M5Q/IwxAoW+fr+wSrsIHcHW2xUWQpjEjt5TtJ1EwpD00Y/kKuB0KJUdiciDU5oZG9OqppUnNPlwLd5+D9qBsYa189FIxIsRvudhgley3nQ2nC+XeHgfVZ9p+/BI0YdTE2me4w4oorr06IlX/V32zLN66mD9U0NzHUa2qd8cYiXcHN+GR4L4Lj84QqxUnqHYFl0xknqattUhTsJ+ixWMIP4uZM6xeoXZEJNl8doKVXh/XZDf6sEpqoi9gQ8eQD2q3KcI9U7Qz62LGChzyuEMHOJa8tMl6lBChqy7zkdKzQPnm2tN3yOzs1AeQUuXNmCYPsbpQCctwz3ki9EV2JIxP5th6Hdr7jMlNhhy+mDMyQG8y7lb9io5JWnTXvy4mL1WBQ9nR5dy6iUQabwtohXapdYRYH8yl6pmH4lMrKjPs0LxM1wHEDPE/qnrojMjfwctgUoBRb7UiqhkrHIoZR0Bm25j++DLjJ0bAqJYPaKgBnuHetiqnJ2LWVs5u+wzDj22PzV/3Trn8qG6Io7KNUwjN+janaKafqVjJxeZEUu4IK/ETa4KL5knNTXwPY9GMasKJDJGm8UPJzF7OjbEbBVa1cpeHmNb/4l6ySLIpgSu+oZz+jQ7CKB7zlhPbq8y7+k2/BElinFa6Z9ZWf8tlqWC3QklRM99pKXqMvjA3mj0PHoH5iIofF8EgMHlMzzBGeiWgblZHnILp9ZFMo1bVZQxrPzZXkjzfL+gtBiDjQ==|920

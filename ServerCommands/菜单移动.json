@@ -64,6 +64,7 @@
                     "TableValueType": 1,
                     "BindingInfos": [
                       {
+                        "GUID": "dc2b011e-5538-4e26-90af-c7c87d667fc8",
                         "BindingInfo": {
                           "TableName": "前端菜单表",
                           "ColumnName": "顺序号",
@@ -72,6 +73,7 @@
                         "ColumnName": "顺序号"
                       },
                       {
+                        "GUID": "5f38d9c2-ac7c-40e9-b440-9ed2aed2dbc9",
                         "BindingInfo": {
                           "TableName": "前端菜单表",
                           "ColumnName": "上级菜单值",
@@ -172,7 +174,7 @@
                                   "Message": "已经是当前节点的菜单首项了"
                                 }
                               ],
-                              "ID": "3a9ae107-50bf-4327-ab35-c885f0a9119f"
+                              "ID": "c4b75022-6dc3-463c-a4f4-ca34300702b4"
                             },
                             {
                               "CommandList": [
@@ -184,6 +186,7 @@
                                     "TableValueType": 1,
                                     "BindingInfos": [
                                       {
+                                        "GUID": "19761f14-f8b0-4ce1-b64e-f4f6cfc8065c",
                                         "BindingInfo": {
                                           "TableName": "前端菜单表",
                                           "ColumnName": "ID",
@@ -192,6 +195,7 @@
                                         "ColumnName": "ID"
                                       },
                                       {
+                                        "GUID": "5cf5d55b-9a70-4e16-8711-d177201187f1",
                                         "BindingInfo": {
                                           "TableName": "前端菜单表",
                                           "ColumnName": "顺序号",
@@ -318,12 +322,12 @@
                                   ]
                                 }
                               ],
-                              "ID": "c2e163e7-f72b-4f8a-88e3-bc0756004a38"
+                              "ID": "392fb8c8-eeb1-4156-9d78-ac05eacbdd17"
                             }
                           ]
                         }
                       ],
-                      "ID": "4e425f8d-2012-4684-a264-b255399b9d1c"
+                      "ID": "1a48dc7b-1f86-45b9-9714-72cc76c58f34"
                     },
                     {
                       "Condition": {
@@ -399,7 +403,7 @@
                                   "Message": "已经是当前节点的菜单末项了"
                                 }
                               ],
-                              "ID": "c52f0c4c-8271-4639-9ae5-21dfed93ea62"
+                              "ID": "8b1f0a7c-9dff-4e0b-a8da-f7f27161951c"
                             },
                             {
                               "CommandList": [
@@ -411,6 +415,7 @@
                                     "TableValueType": 1,
                                     "BindingInfos": [
                                       {
+                                        "GUID": "8f771537-dc02-483d-b7b4-a0646833828a",
                                         "BindingInfo": {
                                           "TableName": "前端菜单表",
                                           "ColumnName": "ID",
@@ -419,6 +424,7 @@
                                         "ColumnName": "ID"
                                       },
                                       {
+                                        "GUID": "63f49671-7739-4688-88bd-fb53f0b24019",
                                         "BindingInfo": {
                                           "TableName": "前端菜单表",
                                           "ColumnName": "顺序号",
@@ -545,17 +551,17 @@
                                   ]
                                 }
                               ],
-                              "ID": "65d7e43f-caef-430c-a550-e7bfd7782828"
+                              "ID": "a6a305cc-641b-4fef-b90e-5598ce7ceaf8"
                             }
                           ]
                         }
                       ],
-                      "ID": "a71d7270-28c7-404e-9eb9-51ad026c6dda"
+                      "ID": "2ec45566-e5b5-40e9-8644-10ac7ec80dad"
                     }
                   ]
                 }
               ],
-              "ID": "5bfd367e-bd1e-4410-8464-896713da2778"
+              "ID": "a60307f8-1bf2-4064-b94a-0a4274a6bb26"
             },
             {
               "Condition": {
@@ -578,6 +584,7 @@
                     "TableValueType": 1,
                     "BindingInfos": [
                       {
+                        "GUID": "3da1a5e5-4134-4a04-86b3-4817caab756b",
                         "BindingInfo": {
                           "TableName": "后端菜单表",
                           "ColumnName": "顺序号",
@@ -586,6 +593,7 @@
                         "ColumnName": "顺序号"
                       },
                       {
+                        "GUID": "c22e7f78-21fd-4f92-8d22-962e718c91d2",
                         "BindingInfo": {
                           "TableName": "后端菜单表",
                           "ColumnName": "上级菜单值",
@@ -686,7 +694,7 @@
                                   "Message": "已经是当前节点的菜单首项了"
                                 }
                               ],
-                              "ID": "0ffd16a8-2bc0-4c43-812d-6111871f8f0f"
+                              "ID": "dd36b107-b2d5-471e-a14b-e72505495e56"
                             },
                             {
                               "CommandList": [
@@ -698,6 +706,7 @@
                                     "TableValueType": 1,
                                     "BindingInfos": [
                                       {
+                                        "GUID": "2997fb27-fade-453d-825e-6259b8f8ac6f",
                                         "BindingInfo": {
                                           "TableName": "后端菜单表",
                                           "ColumnName": "ID",
@@ -706,6 +715,7 @@
                                         "ColumnName": "ID"
                                       },
                                       {
+                                        "GUID": "511507c5-529d-46ba-8096-253e0a7b782e",
                                         "BindingInfo": {
                                           "TableName": "后端菜单表",
                                           "ColumnName": "顺序号",
@@ -832,12 +842,12 @@
                                   ]
                                 }
                               ],
-                              "ID": "61668f86-2627-4929-b072-98a1e598fd2f"
+                              "ID": "ce9a85d3-4be0-464e-8c3e-ab4ae97b4c4d"
                             }
                           ]
                         }
                       ],
-                      "ID": "524e9c5c-6427-4389-95ba-270272894c7a"
+                      "ID": "8e956c5b-d05a-4cda-8e75-6229a7e7c69f"
                     },
                     {
                       "Condition": {
@@ -913,7 +923,7 @@
                                   "Message": "已经是当前节点的菜单末项了"
                                 }
                               ],
-                              "ID": "d85203f9-a565-495a-aebc-6a1b9d299cd2"
+                              "ID": "af126553-082c-4d26-82d2-85f762a57aab"
                             },
                             {
                               "CommandList": [
@@ -925,6 +935,7 @@
                                     "TableValueType": 1,
                                     "BindingInfos": [
                                       {
+                                        "GUID": "d5369068-35b9-4441-ac3b-ff169176ad59",
                                         "BindingInfo": {
                                           "TableName": "后端菜单表",
                                           "ColumnName": "ID",
@@ -933,6 +944,7 @@
                                         "ColumnName": "ID"
                                       },
                                       {
+                                        "GUID": "39e6fe04-458f-4eb4-b314-a7d41814ccbb",
                                         "BindingInfo": {
                                           "TableName": "后端菜单表",
                                           "ColumnName": "顺序号",
@@ -1059,17 +1071,17 @@
                                   ]
                                 }
                               ],
-                              "ID": "37f6753a-c6b5-408d-b445-9dc705e2e162"
+                              "ID": "3267f52a-9609-49d9-9452-6e452a9a6c4f"
                             }
                           ]
                         }
                       ],
-                      "ID": "f718912c-b349-416f-a2cf-dc606cc2e675"
+                      "ID": "6a6f5e79-c954-4686-98b8-53894edb5fce"
                     }
                   ]
                 }
               ],
-              "ID": "a61d1160-98d6-4ad0-a329-84dc2c1e4bbe"
+              "ID": "21ce9798-c607-4a40-809c-06357b067b8d"
             }
           ]
         }

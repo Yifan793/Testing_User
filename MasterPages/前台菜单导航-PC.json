@@ -513,7 +513,7 @@
                     ]
                   }
                 ],
-                "ID": "6b343734-7b57-4c28-9893-4e25edd95345"
+                "ID": "ef0e837e-3c12-4528-bd19-46b1ae2e0659"
               },
               {
                 "CommandList": [
@@ -542,7 +542,7 @@
                     ]
                   }
                 ],
-                "ID": "fa5d5477-0fa3-4157-98fc-5c2b10cbc4ac"
+                "ID": "3b7065a4-e321-4bae-ad47-d65219a24218"
               }
             ]
           }
@@ -698,7 +698,7 @@
                       "Offset": null
                     }
                   ],
-                  "ID": "2e3e17b4-ff6d-4c94-be1e-ceeb467a67e7"
+                  "ID": "f02559af-9384-41f0-8387-cd045f842f83"
                 },
                 {
                   "CommandList": [
@@ -715,6 +715,7 @@
                         "TableValueType": 0,
                         "BindingInfos": [
                           {
+                            "GUID": "0b81ca09-cb09-49a6-84f0-6c05096eb16f",
                             "BindingInfo": {
                               "TableName": "前端菜单表",
                               "ColumnName": "链接地址",
@@ -755,7 +756,7 @@
                       ]
                     }
                   ],
-                  "ID": "6b9b86f2-5138-4432-aa6e-6ae8b56f43df"
+                  "ID": "6ef36799-f474-45a5-be93-d0e4ccd36801"
                 }
               ]
             }
@@ -1233,6 +1234,7 @@
           "TableName": "前端菜单表",
           "BindingInfos": [
             {
+              "GUID": "e43a8842-fadc-4fab-94b7-872fe0616491",
               "BindingInfo": {
                 "TableName": "前端菜单表",
                 "ColumnName": "菜单值",
@@ -1241,6 +1243,7 @@
               "ColumnName": "value"
             },
             {
+              "GUID": "50a57a9b-5e2f-4c1b-b5f4-4bd5554b152c",
               "BindingInfo": {
                 "TableName": "前端菜单表",
                 "ColumnName": "显示文本",
@@ -1249,6 +1252,7 @@
               "ColumnName": "label"
             },
             {
+              "GUID": "65f68c39-cdf7-4517-9441-6dc58ee7c75c",
               "BindingInfo": {
                 "TableName": "前端菜单表",
                 "ColumnName": "上级菜单值",
@@ -1257,6 +1261,7 @@
               "ColumnName": "parentValue"
             },
             {
+              "GUID": "af2639b9-e024-4b78-bcfd-7a6a2010e827",
               "BindingInfo": {
                 "TableName": "前端菜单表",
                 "ColumnName": "图标",
@@ -1618,7 +1623,7 @@
                 ]
               }
             ],
-            "ID": "a36709f8-8613-4493-8d1a-4e1fbf2e3f30"
+            "ID": "74b53218-57ab-4e23-a747-6291b35b3dfd"
           }
         ]
       }
@@ -1686,4 +1691,4 @@
       "Formula": "'前台菜单导航-PC'!$BI$4"
     }
   ]
-}//rKbMmO5Q2n+qxdtogfSAN/yl0dGurxLiC04o4ccURxeS7lfckXCrkgi2gKeKF9ZWxfL+HlmFmflyxV4+JZotiySeBryxrwsMs6tAkIUFl6VOa0TkaafpHtpF+iLEzrP1+ZnMa8wCD6lp1muUkMTCK55JB9Ep4zASGbz/rQqBGESay+4laljC3bQCaolxQBibawkVdACaywSqRNrdPnO41MmrMBmrNcCm2xbSfpZzu/+Rz4/Oip2dBkf5P9m1zeOw/bwAiLOSybr46tBRtnlNMUiiKsl4EFYGWnySskbACD+FusRAB1kZv6TIdnZ7Wonyvc1/mYrHMZs8EUYgb0bw+baCPYJDQaGycHfBfZLd+bjGrymiwzWVEQlEYTf8JmnUISO+w5cYD8OtBMFEu/rYZ2ZjNUf8pf6k8bUNQIl6cA5k/jWhT2Wt/x7SnDWVvJh9480gYqJ2hEwUNOtSh4/7a456WjHRa9eGCNz3FimrAnO8K9dOSLpZ0VXQEbTXHsKvOMBzyqxIBo+ZiSwPDfuYsUFLwXJH1hE8oqRDI+LK2oiE0cwM9okoYtd0gvROMU1jLVkOW+Q+NDKgsgIAzBGxYa+w3fTkeD12Zk3cHHpY0Zx21yg8xyoJHbU8w8hWWitbFuoD67/fh38i/Q6QCVbXFpVskbRRkAEfQmdV6RF+cgg/fhOzIBqjQB3Qch+xNsr4GvSbfJZ00mpA0wU3yohCOUWfCLgOpddz791ep7SXwb5OXFTRjbM4T/ckHiwtcUzNQZfmDVOokr+P7ZBaEVEQXxrFDAKnPQDAlChLhDBUVQsaIU/3biaN9nWctEyl30Dplyr8HU5+NySCYd309e45wdRRItjrQ5ZqIRF6D+K7oQMHDG1tuRFik0bDGPMY5WBJ47PW6O2puj1ynM4TCX09sQ==|920
+}//9uzUo/lOvbgK96ZMdG71X+B/CB+45GYvbiCykVf/VHEHuZrxf+UckrKsivFJFnMD66/d7lSxRnMjpwWrqFgCxS3KJTk3AW45fnAX9sJPz+3rrbkt8Ub2NUegUvLil2RkjIvTFwLLv10c/u++WQ/456UszLCCiooiiLu/dpUgVR0vtXCD9G+scYwq3hTbCp9o0+PHeJ8PEOTeVPC4c+agPtNwbueX0roY92Rb8AjZrWxzXzI7LLVwWH2NMJrBP2FywFUXJvNkjcZSSDfABBecEThNkdzqewJBZA0LlzQcvu1vYXqkR4M2hsewDMPvQ5HsKRTn+dYnDsnIY6WwzzGqMGSzv+9rt2fRZNEeGU1ROjQybxMEMCQ+99TwLB64uVO4tvsTMxrFWQd94GU4rv7iaWVufvu5moypIhUbU1tyzEKr2EfAILsnFysEUah8gKeJ3aFRLzYPv/g1lUvUy9OAuj65CMdYLbj5+UC/XkRgmnqJXhfHrCQVEH5EwWsNotdVER0eZrqlXf2ZKS7jg6VV729FwsmVYgwT8u5ejq+Tx0kUvUN3pScX8WWlQo1LAtZxFTfznszOQnhiAarpmYj2gYd6QNbct79kZk9J/1SJ7ZlwjLogQ7n8pWslSyQL/xYPuNW6pnGehGbIqk8gj/YrpkkTEw/lMfH171lJ415O6p7SZ2k0jxD74Fz7Y0M0jJibU+tvj7OtyQV4c/Ht5GfIS4fBiw5ArB6q8MobpEUOcNtSHcRs3V2xdvOaAp5jwXkREe46CaDXTetyJtEDM9yWLRNiLbQ+W4fOPHNyS7OuiLZqrndn8aDshH/BoDFaeimYNCZsN4lAgFuFj0bHCBZqZS+QJMTC+bsLBA1qlhtrMQpdTDY5Z94SsjZOoCpJlg8IIiRyT5ewb/qpOYA3MxNqHQ==|920

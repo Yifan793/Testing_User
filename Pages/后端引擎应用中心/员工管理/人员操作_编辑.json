@@ -680,6 +680,7 @@
           "TableName": "组织信息视图",
           "BindingInfos": [
             {
+              "GUID": "128619bc-3187-4986-bf5c-22305642fbf4",
               "BindingInfo": {
                 "TableName": "组织信息视图",
                 "ColumnName": "组织Id",
@@ -688,6 +689,7 @@
               "ColumnName": "value"
             },
             {
+              "GUID": "6803c5da-549d-466b-b8b1-bd4bd6d93f18",
               "BindingInfo": {
                 "TableName": "组织信息视图",
                 "ColumnName": "组织名",
@@ -696,6 +698,7 @@
               "ColumnName": "label"
             },
             {
+              "GUID": "80c48d8b-a6eb-4472-a59f-6a7187febb24",
               "BindingInfo": {
                 "TableName": "组织信息视图",
                 "ColumnName": "父节点Id",
@@ -870,7 +873,7 @@
                     "CheckDataValidation": true
                   }
                 ],
-                "ID": "7f7d1a3c-de4a-4bf7-b755-74cb47391fba"
+                "ID": "f5cc9109-d6b9-46e5-a840-84b9105784ea"
               },
               {
                 "CommandList": [
@@ -937,7 +940,7 @@
                     "CheckDataValidation": true
                   }
                 ],
-                "ID": "ab4dbc77-1367-4597-b370-abcf09366d13"
+                "ID": "a56c683c-7e95-4735-a228-c4b8d6fdfd7e"
               }
             ]
           },
@@ -970,7 +973,7 @@
                     "ReloadData": true
                   }
                 ],
-                "ID": "683a096f-e58c-4b2a-b321-d242d06c6243"
+                "ID": "51ddc2af-c598-466d-b6f8-652c0fb0348c"
               },
               {
                 "CommandList": [
@@ -985,7 +988,7 @@
                     "Offset": null
                   }
                 ],
-                "ID": "9f1e66de-47ee-4ed8-948d-8b66c49557ea"
+                "ID": "b952f1c4-0f34-4c94-9257-8ae0b4e64d8e"
               }
             ]
           }
@@ -1461,7 +1464,7 @@
                 ]
               }
             ],
-            "ID": "5cc51138-0720-4c5d-baf7-2bc68090b0ef"
+            "ID": "57075e7f-4892-464f-80ba-500669bae7e5"
           },
           {
             "CommandList": [
@@ -1484,6 +1487,7 @@
                   "TableName": "用户组织关系视图",
                   "BindingInfos": [
                     {
+                      "GUID": "279e30f5-2afd-4647-8db7-6779d40f9efc",
                       "BindingInfo": {
                         "TableName": "用户组织关系视图",
                         "ColumnName": "组织Id",
@@ -1534,7 +1538,7 @@
                 ]
               }
             ],
-            "ID": "6e96b304-3d3e-4d58-9f92-32f845394471"
+            "ID": "ecfba1f3-eedd-4264-bff3-a3ce61e5dbe7"
           }
         ]
       }
@@ -1571,4 +1575,4 @@
       "Size": "212,424"
     }
   ]
-}//jlsGSeTeeFCKgdAiepSAf5+niEbW5ZeNh01fqapuNhfBtH5NylasviFBDKcMQzRflOWojM8relwMJQK1L/3LvYUzjqOg+GQ+igKp06fAUhLjP7hwTsh6Eqa1AzebMbh3t3WtYW7691PRfGr/519ZNganr+zPZdAkJRpezRDtkltrP81WXy3ODhqnJ1KkuWVdeRnu1w8tMHgT7km1sG5cOvGbKUoP0emknKxgTobPS34d33K0194CndmrEfOY0YNOfU3YzYCkFBs214n2TI1jOQOWyHPWGtjWwgF+gbiesAZ7m+ieav/hvwfw5L47md5mFL20ccY9kF7VQVLufzp+bQkBpFsynLwbp7XMd7tz3tG/z5uUTE/j31YAfszR5v83oj4NhdoaPM1XYKHG+p8tTBTgqvA0sPj4e9wA67bXgE+np4dP9+xQAK+31vK1XBuHJxsT9CFknHHLPi3eeCOxdWhe6lnASHxVb2ZY2pEFXBKgrZJ9xeKarHneQ2Wzw4ILewtpaDsjRxLQt8XjmKgEuN5L/JkEPsygkOxihj+0zaBdXcwR6WJtncEYy2ctd5lGbYmUxsXrq8TtSXXmPtIJDBnfHPJbOOL3M3WrmDlK6BuPmpG4c90T54tH2SInJyNWVJk0+sdevYs/0ZYl9iFRYRSuqjJ2IBGxpuSjZZJXzvKLW6l41qsLwHePrWAergZYa0UHvYFX3pSD6Xko6EbtFVfmnzLzwWk5ZrMh9/B4UjCpN8E0rnBJ5fAP7Sujc5XO/NINUW5Ge6OJtNpxihqcaF3CFwXTv+dbBLdwYPcBdDAKuOwIbTEwHGrLw/xh4wU/pwUk8b27ZXHWLEbPXnWGNv+RYGwpl0Oke3MWzRn9wCdsb8fg8Z2+NfXhaEkQnymgWh+ZZ+5R2OfM+W8AysGqGg==|920
+}//byDzX6VW2fhV8O5ff47b5+eFGKeEDsB7ysi0Kp24aM8dhaLK2PZPWeYTJSclJy2NuhytCYGlvxOfiKKdPTjbJI5t0ufaGuFdZulhGKM4UUYJ28xZobwWjRVSZ58h4NN1o0NVSQrzitlUkT4rSsksze5n1IDbWFQADKmayxW7FE6vnC8+kUMUeBnLSE72Sb63cUk74u+nhqYaiOx/Y3HvsTf9+DspJAlHBGbJBYR3Cp4BcHZySzkHX7/HnwfUNzSVSMNyhOHaMoPjssyYwbjN6QqBwdyPwblrit9Ki65qaWzsiaXBwHMjXrA6H62cg0yUc+51edNYX1QwSQs7SnzRY+qqgwqExe2HpHArszVZmjDVKKV67lIyCqTVJdH9ANNT7VVyq8xvRhg8LY/HtCXgRMH7vRo4fO3JEpUDtSUjbh2CquHwaqUhYzMljWVm539Y9nTq/LeIXfOnEkg8lLmSKAZdkBS1OkEsrG4SZoUFXAPJ4ky9tCyL123aj4J3763NUWqXxSCXx/xJY5R7h2GGL6ff5VaECdhKKABpreiqkm/qRmrmZ09v3Axi7JfBkAkU4RONFde5pOvq7tvUEgxIJ+GyZfMgyqXYyE0r4cveA1p63tZMpTSl2p2NW4vifrtT7KGKyoGqwqxXK4q5w0E8wA+h50dznJb9ZJ6JojGQCWmvvZ6IBpubppulyQQ2I0GBow3Uo8lGtyfUPzWTdBl3zqDhGuVt+WEThAB0CJ24Z/pRPFdmTSutTIxNsiMNRSo+z9qndLkz41XdoQ47Rl0xJ22d43L7QQtKoYkgwb9BVIQL9WzUJM6s1IUPsSUNagNFuvfiSO2sgI5pCmRif0WYIjCzZ1g8Sn2igkZELhlJCGSnMDMztonCZCSu5c91zLvTwKJirynhEl4B3CZXhvyQeQ==|920

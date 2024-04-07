@@ -207,7 +207,7 @@
                   "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
                   "SerializeProperty": "=分析页_混合卡片!A4"
                 },
-                "TargetType": "Forguncy.UserControlPageCellType, ServerDesignerCommon, Version=10.0.1.0, Culture=neutral, PublicKeyToken=967100671921c115",
+                "TargetType": "Forguncy.UserControlPageCellType, ServerDesignerCommon, Version=10.0.2.0, Culture=neutral, PublicKeyToken=967100671921c115",
                 "MethodName": "SetUserControlPage",
                 "ParameterValues": {
                   "userControlPageName": "混合卡片-文本",
@@ -222,7 +222,7 @@
                 }
               }
             ],
-            "ID": "efb16af0-7c59-4545-90ce-0b7dd0244bcb"
+            "ID": "4a625182-6ab0-45cc-aa32-da98b318ee10"
           },
           {
             "Condition": {
@@ -244,7 +244,7 @@
                   "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
                   "SerializeProperty": "=分析页_混合卡片!A4"
                 },
-                "TargetType": "Forguncy.UserControlPageCellType, ServerDesignerCommon, Version=10.0.1.0, Culture=neutral, PublicKeyToken=967100671921c115",
+                "TargetType": "Forguncy.UserControlPageCellType, ServerDesignerCommon, Version=10.0.2.0, Culture=neutral, PublicKeyToken=967100671921c115",
                 "MethodName": "SetUserControlPage",
                 "ParameterValues": {
                   "userControlPageName": "混合卡片-面积图",
@@ -259,7 +259,7 @@
                 }
               }
             ],
-            "ID": "885c70cb-accc-4060-824b-9b536e5ba672"
+            "ID": "da83901c-f778-4b6a-850e-0b04cf77bf31"
           },
           {
             "Condition": {
@@ -281,7 +281,7 @@
                   "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
                   "SerializeProperty": "=分析页_混合卡片!A4"
                 },
-                "TargetType": "Forguncy.UserControlPageCellType, ServerDesignerCommon, Version=10.0.1.0, Culture=neutral, PublicKeyToken=967100671921c115",
+                "TargetType": "Forguncy.UserControlPageCellType, ServerDesignerCommon, Version=10.0.2.0, Culture=neutral, PublicKeyToken=967100671921c115",
                 "MethodName": "SetUserControlPage",
                 "ParameterValues": {
                   "userControlPageName": "混合卡片-柱形图",
@@ -296,7 +296,7 @@
                 }
               }
             ],
-            "ID": "654fae0b-7a33-4d65-a0ca-9ade45d5a8f9"
+            "ID": "a9af7b70-68ed-4efc-a19b-a7ffa7d953e3"
           },
           {
             "Condition": {
@@ -318,7 +318,7 @@
                   "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
                   "SerializeProperty": "=分析页_混合卡片!A4"
                 },
-                "TargetType": "Forguncy.UserControlPageCellType, ServerDesignerCommon, Version=10.0.1.0, Culture=neutral, PublicKeyToken=967100671921c115",
+                "TargetType": "Forguncy.UserControlPageCellType, ServerDesignerCommon, Version=10.0.2.0, Culture=neutral, PublicKeyToken=967100671921c115",
                 "MethodName": "SetUserControlPage",
                 "ParameterValues": {
                   "userControlPageName": "混合卡片-进度条",
@@ -333,7 +333,7 @@
                 }
               }
             ],
-            "ID": "d956fccb-32a8-41cd-b2dd-983928fba651"
+            "ID": "2ba2c4e6-1fb5-458e-bb7f-4e6f713f9e6a"
           }
         ]
       }
@@ -343,4 +343,4 @@
     "PaperSize": {},
     "Margin": {}
   }
-}//scyE+AFxnbYpGTrkkflpGVbecKBZmuK5f1K3O1IxJlcvYHUOp1BOsYeisJKqt0XofiEuQL61vwZ4BaLoo+ABdbQ8tCUVndyezGtDFAaLtgYsZLyeWImr66eS2YPkWyWAXms12mSxftw4xaWBrfgQwuRotOBf4M+NMXw+h1mDsvGj8aHSw0iWBI4z+0Al7g8r4FE0DiKJ6GoPdk7U8rmiIOZPnwumdDf6I6R4TZ4mmEEZy7jvmBY1xInF8WBfW5ZbX0yITviLOG0zRVpZ3+bxNsqjRyVIQBF7a7Y6JiZPti+LTPl0tiRB5x/JKTYBSl/fxyERjUkTOtT1naEW9OLEvgLgskl+m8pXybpp3EmUM63eZADcru4q3dLWmBjsU/Y392Cl59OjJBYjGCsStmjLuVfdPBtIjLGMwBh0Ss9zT9RcRPkwII1OGUjiegi5Y8m8wroxf2tWnZAchJIxZyJLDzhG1QSCWMRrUz72XmVdHkGMYLv1K60AcnePnbx96JvNQE/UnbW0wpbXxS3iOeJLZ0Js4nol9DOWiS/FQ8BzxJx3+aItrtu+HWFUqnWno/6zHUp1l03jkFbhPV1Hgp6WFIIETHtocmC7FtpKDnwVPguHI3PvuzWRyG7EDb7viLRJRti/8WQsf4gYhP3i0zOyEtG35xyqACbQ49CsCbT7qY23h1gWtQ5SymerQ7y9xsSKbTDTbK2w2yaeAUrLW0iMhH2MgIkjkYlTXkjBKpAb4V4wtNX65FbxbQt83rerSayxUHZZywcGtnrZWnuLn+az9rY3Wd01aVH1BP2jJoux7xtWHwjp46R6sBytugFRNicGNqkxnK6CkOuDp4FQlNDVnvcWDDBjtSprj8KsKuz3F6CFDs7NevqFAY3lsNxBvHq2aOaOR/wzylWO/xUdscl8WA==|920
+}//xJaDNmPecjbWP7iKQE4Q8XNRvDAv7mYtCeol7os3wU7WUEj52DaRrrhD14x+RgwYn+81eC7KjCgkGfQ4K0/d+C8KcuP1SdtiJqpFQB8yeFpS/mynY9mb/KgNAON3ejGcLPekwmtJf9GfqkmyKtJBmRLhC0fhh+gHZJ4KW+H2XAoP/qJCZNXumF3i7F9IyXTrHgZzp/tv3Uv6PriQu1Od+IWxiyCUyErcWcinA+X0P6T6zv/WQMy+/BOXOns6zLtCzjGn9eCrufCI/tPsjusOf+UxfQM8xWjAdI928TCffjddcvuaZj3nJ67qAy++7+Lm1Bd0Wg58IeKY3aNItQ2N6jGaVyUBAIG/Iyf9CEepJWCS2I/WzxRocTt5joL3duL5im5xba3xum+jhWUZxcecivq2vRG9bWjWJpJ+zNlqhmEnBC76V6bmZgonvOCKXPc6p9ODhLUBY15YomBN8v18/bie2kM5gGSmLTpS4RPG8swyt55acpVYu0kg3cfN2MwY4Z7iRrtNM2t4s5GhttnQK98hYG369eQH4Hx0hnPSr5O+QLxCSfmgJ6vvU1laTiXzaYDPjGBChvQ+Zc2uBrD+UAcD68mnDoMUjRTmX/a4vTiAdm8alrY1pxAB4Aa/3NJUmN7NyzDs7cLaCakGFeidBGni+7uWganQ672CW8MwPwoK0eQ7s/c1153KhF3CyKkWdCbhH3WXoXdohaYQ1sYpvYY0jsDwJFPtDQo6ilvDBUBShXgHorxw5AmHFHJsbxNUCtw0LhWDGGoZ6zHyob9PdoeJumCLl+/7jGka1M8pg/liZpGSHOXJI3qcrKLzQU3jFcJItnPEzNAep2LXsTbVPX8hPLSnb+uRJFXMB7p81lZYcuPYYYk1vM5A2FKq4Irhr95WMSpDZPZTU14xQyliIA==|920

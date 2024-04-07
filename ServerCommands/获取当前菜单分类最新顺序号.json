@@ -71,7 +71,7 @@
               "Message": "100"
             }
           ],
-          "ID": "53186648-7206-4736-b14c-ecd999d3c210"
+          "ID": "cb2f2fbd-e730-4f53-a2a2-0eaf2372571e"
         },
         {
           "CommandList": [
@@ -84,6 +84,7 @@
                 "TableValueType": 0,
                 "BindingInfos": [
                   {
+                    "GUID": "76fa20b9-6eab-4d1f-951c-eb3e9a610e33",
                     "BindingInfo": {
                       "TableName": "前端菜单表",
                       "ColumnName": "顺序号",
@@ -128,7 +129,7 @@
               }
             }
           ],
-          "ID": "53305a19-4a81-488b-8463-c2459c6371fc"
+          "ID": "44668dfd-df66-4909-930f-ed86fa0eb85d"
         }
       ]
     }

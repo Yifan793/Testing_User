@@ -43,6 +43,7 @@
             "TableName": "角色文件夹关系视图",
             "BindingInfos": [
               {
+                "GUID": "41bf52a3-94b7-484d-b587-180c2c3c6e0d",
                 "BindingInfo": {
                   "TableName": "角色文件夹关系视图",
                   "ColumnName": "Id",

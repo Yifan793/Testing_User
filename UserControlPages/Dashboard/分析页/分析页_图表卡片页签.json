@@ -164,7 +164,7 @@
                     "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
                     "SerializeProperty": "=分析页_图表卡片页签!A2"
                   },
-                  "TargetType": "Forguncy.UserControlPageCellType, ServerDesignerCommon, Version=10.0.1.0, Culture=neutral, PublicKeyToken=967100671921c115",
+                  "TargetType": "Forguncy.UserControlPageCellType, ServerDesignerCommon, Version=10.0.2.0, Culture=neutral, PublicKeyToken=967100671921c115",
                   "MethodName": "SetUserControlPage",
                   "ParameterValues": {
                     "userControlPageName": "图表卡片页签-销售额柱形图",
@@ -179,7 +179,7 @@
                   }
                 }
               ],
-              "ID": "aace1bbc-0b8a-4f75-a22c-5b217212cb06"
+              "ID": "f2c868d8-7035-4b64-ac2c-8983bfd67f9b"
             },
             {
               "Condition": {
@@ -201,7 +201,7 @@
                     "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
                     "SerializeProperty": "=分析页_图表卡片页签!A2"
                   },
-                  "TargetType": "Forguncy.UserControlPageCellType, ServerDesignerCommon, Version=10.0.1.0, Culture=neutral, PublicKeyToken=967100671921c115",
+                  "TargetType": "Forguncy.UserControlPageCellType, ServerDesignerCommon, Version=10.0.2.0, Culture=neutral, PublicKeyToken=967100671921c115",
                   "MethodName": "SetUserControlPage",
                   "ParameterValues": {
                     "userControlPageName": "图表卡片页签-销售量柱形图",
@@ -216,7 +216,7 @@
                   }
                 }
               ],
-              "ID": "995a5bff-4b8e-4117-bba7-d4853aa247a0"
+              "ID": "977b457b-8547-425e-b2f2-3d4d9a306e5a"
             }
           ]
         }
@@ -233,4 +233,4 @@
     "PaperSize": {},
     "Margin": {}
   }
-}//KqrdJ3NyN5vVkCcfTAv5r09UydPSmT2GP17rJog/RPF/bjF1+7mIhZmvmA1mfO4sBpSK6WOJAMh3yTym4/skvEBekmE8REqt0WaZpWoNmnmjva/aO4aZX+9ZLBvMZ1KAhKyT9/lC0LYOdcrLQgJnp5ocIUnA3COMRTvjhDMy0XeJ1dWJlTlG3d4w1SIXNTt67evw5NaH7YR3WLC6o4X5yCG4w0ka/amn7M+MXHYiim8kZbc6EGrDK8LElakJnezlK1w1heM4Rnt6lK+C9E2diWj4b72sBBJoNEYi6Pxed1ULY8CrExKX/54AMe3RCewpuswU7FlfBI7Mg1wMRfQbRoy7oB3j6s6fNkOqVXg0K8kULkIjgl6p30nxKO1lVIT9R2xUdvjxpmY9Ge+fRVDA9QslwR+Esi5kj5vw6NTV8fHuE/M9o5vsfK6+EG2h6wFyZncU2lLJgY7woxvozggLv2gfGqmeXkAS3KGfs23zofcCrsvJRvqTceoL9rveG4i14YnZPqfH6/PTQn/CJvDTCL42nNbKcV69Ca+LIh3D1Qt3PhMOhLymBXvo6I60VX3emiNj85e+qvx8AjUhwkeZ89DE/uyW6gGmdCf9rbUid0yzK7+YG78hisS5DNhyBLZWDMmWOLgJAhCqHR9G25hOAfg4pe8WNozrwRbOJ5RgLvCqbXmyaFDlJgQAg1DO8d1/h3l1c7Sw+kB74UjjOxdxWIT/uJcY491uUJhWmOqiu810KNHAqMsZB9avZH0IJAEP8QwuOM657xbgUoNUJppQOow6t2AkIfL9E0RiMd2woRHctSfgZZxGYd8QDzFAUGw9ivqSV5Kcw4qKm1p/gdiqEYMdmNSfbFm12TBg1h1Q5KPG7oqUWZTr8NfBjzDcvxAgx7ZZGV+Lt67pPdqHcROOJA==|920
+}///6WNIBUK2vpqfM81hjiCHLOOkP2ZpD29wQEO7ri1wLrs5/ptMPR5ktkGtdhnx0rg3Ykqpqyp2o01WwCQVNuSoLwm4Hih5uU4U9fa0PHhXU20QWinnW2EphJBpT1AsWswUDfBwr3G/vgfzim2AuX1moufxlOKT57JbmYwf0nIW3y+WDyAigRysRXFQWtNMwkK3VSl0wkzu1BM22q9sRyQRHEfvCCjAiMc3+W5DLB/BoFppxMtZjG8/LO9U/sW9HqgcqvzR1bYqjjHzeVqSs2X1NzZ1UmjEr1KcBBsWR6r1gE6stSm82CnBYlFxxmFLxzzWfct2sWgTebq8Uj9ott/rAOwx6UdxMXtvWt9Elct+RshDdLTtRtjJpy8tj1OJFXTDNHXSGsXcqhCBXJgvUFrEMgoBEc0siX37ny9fisX60rcVBwwUCG4Xy9G25GHdfXWP0GcdSWa8i712u858eZ/dw5ixePmJGl2xls7UZu+nz/IQ2icaxdQ0ovE48vciS5MNLi9n5OMev8lpBBgBuYdqAsRauuAUIcn4VbsynwphTQum8ZZFoShb5zOzYA82wfuDkA+/sGsdsQ0a0OQqhe/8A+A48Vs66TgVKSQBPUnv5/qJ4nkWO/G2hMy+AAWGwNuDPYMQuUXZHI4gwej3FnIbV7oM0E5oJVYhgKamUY58c1BNPlKK5s43v/6FPgJgj/P0Ljb79SguEaLN0Q/MLMIy/1gHB2V816s0CDThGf7ocQ8oNymoeftK72FYAqSBzBCNtPqHrL4vDp22gTfVD3coKbU8mLp+bznGkRNsBm2ZPFTBX9dPdIork1kv7zNbyXqDskoIfCGG7rVNtaj9Bob3co5XG/SJ7HmnXFR6XU4TaRu82seT1zIomUIcIUhZiYb6DzL2peVbsMFgTnIpK+50Q==|920
