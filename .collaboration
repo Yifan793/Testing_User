@@ -451,7 +451,17 @@
   },
   {
     "ModuleName": "PCPage/角色维护",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\ShaySong",
+      "Email": "1146602243@qq.com"
+    },
+    "LockDateTime": "2024-04-08T09:00:12.9439564+08:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\后端引擎应用中心\\角色管理\\角色维护.json",
+      "Pages\\后端引擎应用中心\\角色管理\\角色维护.rd"
+    ]
   },
   {
     "ModuleName": "PCPage/角色维护 (2)",
