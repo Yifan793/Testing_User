@@ -1716,7 +1716,7 @@
           "TableName": "角色文件夹关系视图",
           "BindingInfos": [
             {
-              "GUID": "035dee8d-4c58-47d9-8ad7-342e38a4537d",
+              "GUID": "ecb80c4f-35d0-45cd-a4b1-76f866f6178b",
               "BindingInfo": {
                 "TableName": "角色文件夹关系视图",
                 "ColumnName": "角色唯一标识",
@@ -1725,7 +1725,7 @@
               "ColumnName": "value"
             },
             {
-              "GUID": "b1eb9144-f6b3-473d-bb27-836644487d6c",
+              "GUID": "c4d2f8ce-c02a-4192-9571-6ca4ecd3166d",
               "BindingInfo": {
                 "TableName": "角色文件夹关系视图",
                 "ColumnName": "名称",
@@ -1734,7 +1734,7 @@
               "ColumnName": "label"
             },
             {
-              "GUID": "2f96d8cd-b329-443e-9671-1f7eb96d335c",
+              "GUID": "5f11d6b0-c864-4aa5-99af-0b5d3760cb52",
               "BindingInfo": {
                 "TableName": "角色文件夹关系视图",
                 "ColumnName": "父角色唯一标识",
@@ -1743,7 +1743,7 @@
               "ColumnName": "parentValue"
             },
             {
-              "GUID": "97b28569-2403-4b36-a5d3-678624641b84",
+              "GUID": "7b5ef0cc-5ed6-4fb0-b951-ba5b6cd522a0",
               "BindingInfo": {
                 "TableName": "角色文件夹关系视图",
                 "ColumnName": "图标ID",
@@ -1766,9 +1766,12 @@
                 "ColumnBindingInfo": {
                   "TableName": "角色文件夹关系视图",
                   "ColumnName": "名称",
-                  "GUID": "ba6b5035-fe12-4193-8881-86691c6f8867"
+                  "GUID": "1ba4f09b-b622-4a08-b750-81a48a146cd4"
                 },
-                "Value": "系统角色"
+                "Value": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=角色维护!E6"
+                }
               },
               {
                 "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
@@ -1776,12 +1779,9 @@
                 "ColumnBindingInfo": {
                   "TableName": "角色文件夹关系视图",
                   "ColumnName": "名称",
-                  "GUID": "1ba4f09b-b622-4a08-b750-81a48a146cd4"
+                  "GUID": "1be5492e-312b-43c1-bd93-806f51ccff82"
                 },
-                "Value": {
-                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                  "SerializeProperty": "=角色维护!E6"
-                }
+                "Value": "系统角色"
               }
             ]
           },
@@ -2116,4 +2116,4 @@
       "Formula": "角色维护!$T$5"
     }
   ]
-}//tylu/bhF9AgwsXWQhNyJaZpswGRBYJDHCAM4utYrj+6ibiakzUFDtdnnKHi3ItdsulNdz3feCQFrqfPe5b2O43l2hxrw/S7Eh6EWDyBnL5/1aOFA1mufs7U1qONCf5TW1upou0z7dBUUbV3Qnyhmje4y26UwUKEz3QuvR37bK5JGNvzA/W2VvitLGABGVkf8xXWymqwY/8EEtJBi5MiYHwSRmdelbwCuQ21NUpN2VBbLZ1Avm2bNx1sqeQ7MNeVMfJjBA/WdmpdhvFs1uuM+qRhOhyLxL8PuYfU7dYBvWO1lNP/SLUGC06rNczumVLRCWgHb5IYS+aG1epUhYfAdkGrb+CtrmdTKCHAVAW3BTmFT7OYzxHlFR6+5VpheJCRVU18kjRjLjMLPdJUkhwKYHPd3YlrHMHCL40MMoM0DDHwcDrtNQ2y1R/REwGDYbSh8zMuBc6Fu13r3yvDExYIvNYpf4FbqVTjUHH3ci1ZYmufGiH/pElOvpwlP4ssvDieqRwS5r46q8EVC0cr5aaQSgg6o4443dnpqWx43c8bWaM8eN94RKO20IRIQ+FJ8HENtL6nzxw28Wm6FCp5XckPE5JqBdVu9MWcYg+85ibXth6iw/KdpwnYBUlee3x22AuiThM3GKYRayXytCF5YxeuNKhyIBxVvb4n0ago8C7v9HdESnB5gy5imbyO1zAh+Yp9iTFz85dyut3JHHaDg70962s82cRznmBZkKvbwO6gupUMp8OoVCOoZIh/IzHU8l1dBRRFzBMMiL0eijnm08Eg0ZiQx/EGDiys0Eb9bgujt5oM/m1igu50u1WRCq4FlApbyu6IcaNLqGBBhfkt0hyaD7iHAwmOdP1XRH/TRVdYDqIHvgOj+4peBWMXA+YGZNQP+vAz+Wq0JWaG9NnLBYXxJWQ==|920
+}//+J/PQ1Xp1bdzhvAnm5l0dV2LwhEKsk67+zLXg7TiaDgFSWVw5Lo/WrfJs1yo3Quc8KbEZCanY5TdIWyPza52wcEAkFiog6j8+UxHYzgwFwgFBc0HBRUUsv1JfmuDHtJ9EXBnwF0IJhFb2dE6JqCKwHDAy2QuWu1ELxQTFjGnQnQ0IoX2VHDLh60uoS2bNm3W4jdItwdD11/m+rGWJ7BoC2nxsxFdGfRSYN01JEEbGDkkiixrAZxPJEk5pSRMhvTfnDLiMSe4xsJeAVOLnbDbhHsPH6TLKQK89asXrJls6fxHq6C8NUSlz/7vQZulmbTp2EiRBmc44NIMlBeVjFs/MEtcjIuBPTEmNprXexdQAf2jZc2dA5PeRIq6UkAh6pVvJXN5kPpPxUprzdTktQGsuOzmpZIbAZzNxXVjpKSMKjiON5PuY+D8Vxh0McTryz1ebPkpdEMK06JyQoHMF/R3HawQMBdWfoPm8gcan6q5T1FAqtjmr7b2tkNs0yoLTCgerh0gMitZzQsNK6e8q931AI9WquSTVitwsERVZgndEigMJCIdCkd2WwxRRDG45sx06ZiVRxvv9PKSD+u/C4XoflOOtkgHFvLWCK2jCdWBSQWDjJe0+gJvZUNkAve/osdn6fJ5B6AykxlWBcg6xSl3i+dfAtnopeeCwKT9X9vQzFoLyK3zVeHGtYmozsFmeDvLqEnlG3sdkb4Nmys0OjAX7U7b5+4KmvFiEw5ysg0ngsY31FlH/huasnSm14irXzqHM8/4Du6NglVmIGpYIYykTv3j85ILj6KEUa6qsSCMuE0aRRClQwIzLYdCvFMVZqYyOgF5XvhUYfeZ9WfbjZW8wYfw0oEezxHglK6LEhlhXsfbRNf7cUQ2x1ZZ/JBzrpGKWaodr2oVZs4S5fCOkfMV1Q==|920

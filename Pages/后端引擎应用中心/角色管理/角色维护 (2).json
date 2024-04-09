@@ -1187,7 +1187,7 @@
             "TableName": "角色文件夹关系视图",
             "BindingInfos": [
               {
-                "GUID": "20da47c0-e90f-4072-a07a-e86313d75bdf",
+                "GUID": "ae66921e-cbc5-40b5-96b2-415de7a97563",
                 "BindingInfo": {
                   "TableName": "角色文件夹关系视图",
                   "ColumnName": "角色唯一标识",
@@ -1196,7 +1196,7 @@
                 "ColumnName": "id"
               },
               {
-                "GUID": "be4ed014-e52c-40d7-8fd2-30e70734cef1",
+                "GUID": "2fc502dc-f49c-411b-902b-c7a448379b3f",
                 "BindingInfo": {
                   "TableName": "角色文件夹关系视图",
                   "ColumnName": "名称",
@@ -1205,7 +1205,7 @@
                 "ColumnName": "name"
               },
               {
-                "GUID": "fe210f6e-39da-4562-a9b5-673a1bf055b5",
+                "GUID": "ae6fa0b1-fcb1-4a80-9dc3-5fbc3cda7530",
                 "BindingInfo": {
                   "TableName": "角色文件夹关系视图",
                   "ColumnName": "父角色唯一标识",
@@ -1215,32 +1215,17 @@
               }
             ],
             "SqlCondition": {
-              "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
-              "SubConditions": [
-                {
-                  "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
-                  "CompareType": 6,
-                  "ColumnBindingInfo": {
-                    "TableName": "角色文件夹关系视图",
-                    "ColumnName": "名称",
-                    "GUID": "380fe61c-234c-4fb5-b8cb-b0eb4371c463"
-                  },
-                  "Value": "系统角色"
-                },
-                {
-                  "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
-                  "CompareType": 6,
-                  "ColumnBindingInfo": {
-                    "TableName": "角色文件夹关系视图",
-                    "ColumnName": "名称",
-                    "GUID": "286add22-11d1-4373-96a8-371df2ee7306"
-                  },
-                  "Value": {
-                    "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                    "SerializeProperty": "='角色维护 (2)'!E6"
-                  }
-                }
-              ]
+              "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
+              "CompareType": 6,
+              "ColumnBindingInfo": {
+                "TableName": "角色文件夹关系视图",
+                "ColumnName": "名称",
+                "GUID": "286add22-11d1-4373-96a8-371df2ee7306"
+              },
+              "Value": {
+                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                "SerializeProperty": "='角色维护 (2)'!E6"
+              }
             },
             "NullFormulaValueQueryPolicy": 1,
             "TreeSourceSetting": {
@@ -1348,7 +1333,7 @@
                 "TableValueType": 0,
                 "BindingInfos": [
                   {
-                    "GUID": "0a01dfec-988b-42db-a901-76c5f0b27b39",
+                    "GUID": "fdc755ea-8616-4e72-8449-cb1a64d5687e",
                     "BindingInfo": {
                       "TableName": "角色文件夹关系视图",
                       "ColumnName": "是否角色",
@@ -1370,7 +1355,7 @@
                   }
                 }
               },
-              "ID": "2d068b592e4b44f4ba4d316f00729712"
+              "ID": "9222e072f5fb46a39bf2594ca0808bd2"
             },
             {
               "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
@@ -1449,7 +1434,7 @@
                       }
                     }
                   ],
-                  "ID": "c76048a4-b0b0-401d-99e7-708aec0dbf98"
+                  "ID": "e00b238c-af30-4839-b7d2-540bd7e84f62"
                 },
                 {
                   "CommandList": [
@@ -1591,7 +1576,7 @@
                               }
                             }
                           ],
-                          "ID": "ac0df7db-f928-4a18-8c26-c864e617ff47"
+                          "ID": "1fa0a677-8310-465d-879f-ef01cad17f82"
                         },
                         {
                           "CommandList": [
@@ -1608,12 +1593,13 @@
                               }
                             }
                           ],
-                          "ID": "a69117a0-3695-47fc-b153-c45eed92bc9a"
+                          "ID": "790d6b3d-c9d9-4f4d-8980-30f5f258c8a3"
                         }
-                      ]
+                      ],
+                      "Disabled": true
                     }
                   ],
-                  "ID": "89708999-0b9d-4cc7-a55b-7dd55c924e2f"
+                  "ID": "5ace7264-2f04-40c6-ab92-b53ac35ae467"
                 }
               ]
             }
@@ -1925,4 +1911,4 @@
       "Formula": "'角色维护 (2)'!$T$5"
     }
   ]
-}//OV3FiWDLay1DPuDQxTmpBkhfPWN6lkNPkW1ypb8/Q8sKHRCQeXfp201obBpQ+PE3o7WZXrNM/+Qr3Fb+cgQa99UtkLd8dAEMPRpp1UPb3asWKchj7WtcUC0aBXDFCqUwiLTIO2leeORB+eRi21RvfHO3I8LxSgdw3KHSLab5YAYNgkq2DMd3KuK9gytEv+axHnFwr3kjR05cel6w2yjpUryz2fYaoTJ4Mk2a4rAKWe/9TkuwLtd+gPO/bGsDS4chd7SJrGnyIgBBAdu2bpuHaW26j7Gjhvw5Jcb59ONYA03du3Q/W90QzcjjLK5msxaJXUg98C1JIijaJ1W+ffVk9sNhv5EU/05/RyaDn+hje1ClW1CrcddQCn23Irp9QWMeRI0ZMcwAIsHVSatntyZflUfX/JFa6qQomwi9PBB7mupjg45+RY7CpvUQBQQLgSno9tQ6HEcQ4YDNbpljVP2Frl3MZS2gjsxWtIj/GLJcvUmUPLWp7HJh8NPRFCBDD1eBRIkN4fOYq3dnhxs10/+6BuJb8SMdVqPDzgl1H9tghWjxzENn1DwbaXVd0SrlUCyWc1yKhQ8pkmAijysjkpHYbtsw+0a87IR1Vq6I/iQ9BpGhbZ10cb9S4dRTkfPJf7HhrlP5L0UYoa0WQYsgIwsBo2Xw9tv0S2257o3gZN3rZ6djlErq2StElZhLwZhQM/UM38QH3tWxDHB6gmuB9J2p6aT6YtQxAhXP1c5mJWPdYMbVwJMZzRXRUGFVTfX6fvhYyHrkhqdRomoH/ikY2nS4BrbvoZ/NgJNTUMTQrdNX07IUPEUuLsH4H0o5SiSWKwdo6G7d01Bgq4ioeQMpRaQB2iOxhj6fkl+M1PwNgyRuSbvQTLd3KfsGxSi0xUiijdaIaVArLsYZP7GGJlfT2h33rg==|920
+}//kinik0K+ADQ4dQNpdueC8I0y10B30nb3Acyh0DKB3qK0PJnbETCPIrhyFSYOcEgZITjyMnok2w5MxthtPVSAG74lBxj6p/sXmlZ6ZMCofh7FQ15j37XSc3QCH3N/0dsDFcKZwqHs9+knlFjcDJZja2EqtigTMwgY7pM4rJmLVToUntKMTAnnvR+5K4o2yQ/hiMNVPiw0doUpMVNvByeDtd2S1v92inOwqOhDvQewQ0yse5IjPi8yeJzMBR/E4IpHi1TT1hx85eaWxlqFFe28uyjaEhnx619oLiVnpwQh8SOIIP/hTFwplhqJDMwjAvpM7v9cBeJJ73A3Tq6jv4T5bmCO4NvmludFQfkvLVkd4yBlhC0mqqOZhtG7Gu+kATEI5kG+Xi7qJo2QhhXo4BtM7lLxcCiVuW+sj394g+DdXU1xZVp71k6RN3w+DvJAajnCiVkWUBvX1Dq0WYu407wzggOY+q3/8vTRRSR3co+LQLCpzZG4V437/3+hB2+6OdK+c9/tBudzB8Og1T7O5q9UtQRbdCoXIVs0t3Qgdn90Fn7MKY8maXDZHN7rSC55fIYtMJawrqTE1kKndYU29+CNPuWQ5MTkt5mVBU+XeDqz6o7nj7jWDcgjO7JKosdGYleqGu+cs04yyWBmDyAzMZMI7Q9Rr9zZE8i6Ss/+FnB9nGZfvgl2mQAqkWF07oKvcMfRV68O1mDv/y2obKYdZz8wl1BeoQRI7F3buZqc096d4Ex2JyMvUa/sFHxQhz+bGL4ysLVZFPdEDwODUVxZYgF8iK7Y8oIOofLXOSyf6/Or+hptLEVGUs77cRiBh589ubtPb479NqUwJNddYNxq0TpgLPgD9vCW+R0zAZCcX7K+k4MgXgB9EhZ6dpsHogJo56DH7xWcJkxvasHO4QxWZkXDig==|920

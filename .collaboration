@@ -451,31 +451,11 @@
   },
   {
     "ModuleName": "PCPage/角色维护",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\ShaySong",
-      "Email": "1146602243@qq.com"
-    },
-    "LockDateTime": "2024-04-08T09:00:12.9439564+08:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\后端引擎应用中心\\角色管理\\角色维护.json",
-      "Pages\\后端引擎应用中心\\角色管理\\角色维护.rd"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "PCPage/角色维护 (2)",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\ShaySong",
-      "Email": "1146602243@qq.com"
-    },
-    "LockDateTime": "2024-04-08T10:08:01.6063386+08:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\后端引擎应用中心\\角色管理\\角色维护 (2).json",
-      "Pages\\后端引擎应用中心\\角色管理\\角色维护 (2).rd"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "PCPage/角色操作_编辑",
@@ -1131,18 +1111,7 @@
   },
   {
     "ModuleName": "UserService",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\ShaySong",
-      "Email": "1146602243@qq.com"
-    },
-    "LockDateTime": "2024-04-07T18:58:31.3472352+08:00",
-    "ModuleType": 11,
-    "ToRemoveFiles": [
-      "UserServiceDB.sqlite3",
-      "CloudStorageProvider\\data.json",
-      "SecurityProviderV2\\data.json"
-    ]
+    "ModuleType": 11
   },
   {
     "ModuleName": "CustomLibrary",
@@ -1162,16 +1131,7 @@
   },
   {
     "ModuleName": "PublishConfiguration",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\ShaySong",
-      "Email": "1146602243@qq.com"
-    },
-    "LockDateTime": "2024-04-08T09:08:28.8460684+08:00",
-    "ModuleType": 39,
-    "ToRemoveFiles": [
-      "PublishSettingsConfig.json"
-    ]
+    "ModuleType": 39
   },
   {
     "ModuleName": "Plugin",
