@@ -1145,7 +1145,24 @@
   },
   {
     "ModuleName": "Plugin",
-    "ModuleType": 40
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\ShaySong",
+      "Email": "1146602243@qq.com"
+    },
+    "LockDateTime": "2024-04-19T12:03:09.6079873+08:00",
+    "ModuleType": 40,
+    "ToRemoveFiles": [
+      "Plugin\\Forguncy.CustomMenu.zip",
+      "Plugin\\HtmlRichEdtior.zip",
+      "Plugin\\LoadingCommand.zip",
+      "Plugin\\PC组件包-ElementPlus-10_0_0_0(1).zip",
+      "Plugin\\SelectionPanel.zip",
+      "Plugin\\SetCurrentRowCommand.zip",
+      "Plugin\\UserManagementCommandsV2.zip",
+      "Plugin\\对象与集合操作工具-8_0_0_0.zip",
+      "Plugin\\手机组件包-Vant-10_0_0_0.zip"
+    ]
   },
   {
     "ModuleName": "PublishSetting",
