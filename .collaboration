@@ -423,7 +423,17 @@
   },
   {
     "ModuleName": "PCPage/员工维护",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\ShaySong",
+      "Email": "1146602243@qq.com"
+    },
+    "LockDateTime": "2024-04-19T12:01:57.2706817+08:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\后端引擎应用中心\\员工管理\\员工维护.json",
+      "Pages\\后端引擎应用中心\\员工管理\\员工维护.rd"
+    ]
   },
   {
     "ModuleName": "PCPage/人员操作_编辑",
