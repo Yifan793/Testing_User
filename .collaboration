@@ -1140,5 +1140,15 @@
   {
     "ModuleName": "PublishSetting",
     "ModuleType": 41
+  },
+  {
+    "ModuleName": "ServerCommand/清空组织节点用户",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\ShaySong",
+      "Email": "1146602243@qq.com"
+    },
+    "LockDateTime": "2024-04-19T12:01:00.9032061+08:00",
+    "ModuleType": 15
   }
 ]
