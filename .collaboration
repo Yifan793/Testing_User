@@ -423,17 +423,7 @@
   },
   {
     "ModuleName": "PCPage/员工维护",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\ShaySong",
-      "Email": "1146602243@qq.com"
-    },
-    "LockDateTime": "2024-04-19T12:01:57.2706817+08:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\后端引擎应用中心\\员工管理\\员工维护.json",
-      "Pages\\后端引擎应用中心\\员工管理\\员工维护.rd"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "PCPage/人员操作_编辑",
@@ -1145,24 +1135,7 @@
   },
   {
     "ModuleName": "Plugin",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\ShaySong",
-      "Email": "1146602243@qq.com"
-    },
-    "LockDateTime": "2024-04-19T12:03:09.6079873+08:00",
-    "ModuleType": 40,
-    "ToRemoveFiles": [
-      "Plugin\\Forguncy.CustomMenu.zip",
-      "Plugin\\HtmlRichEdtior.zip",
-      "Plugin\\LoadingCommand.zip",
-      "Plugin\\PC组件包-ElementPlus-10_0_0_0(1).zip",
-      "Plugin\\SelectionPanel.zip",
-      "Plugin\\SetCurrentRowCommand.zip",
-      "Plugin\\UserManagementCommandsV2.zip",
-      "Plugin\\对象与集合操作工具-8_0_0_0.zip",
-      "Plugin\\手机组件包-Vant-10_0_0_0.zip"
-    ]
+    "ModuleType": 40
   },
   {
     "ModuleName": "PublishSetting",
@@ -1170,12 +1143,6 @@
   },
   {
     "ModuleName": "ServerCommand/清空组织节点用户",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\ShaySong",
-      "Email": "1146602243@qq.com"
-    },
-    "LockDateTime": "2024-04-19T12:01:00.9032061+08:00",
     "ModuleType": 15
   }
 ]

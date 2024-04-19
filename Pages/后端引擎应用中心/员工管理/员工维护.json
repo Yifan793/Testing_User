@@ -214,6 +214,7 @@
   },
   "Values": {
     "2,4": "维森集团",
+    "5,6": "清空组织中的用户",
     "5,53": "高级搜索",
     "8,47": "所属部门"
   },
@@ -397,7 +398,7 @@
                           "Offset": null
                         }
                       ],
-                      "ID": "bc8fe67f-e5df-4862-a913-e05f6fc9c2ba"
+                      "ID": "9daf9a77-f4a4-4f5c-b8a4-169362babffa"
                     },
                     {
                       "CommandList": [
@@ -475,7 +476,7 @@
                                           "Offset": null
                                         }
                                       ],
-                                      "ID": "1a276c8a-abbc-4a14-a27f-004bebc24d40"
+                                      "ID": "4fc85e16-0e95-4d7f-a8d5-88be814b0df7"
                                     },
                                     {
                                       "CommandList": [
@@ -490,17 +491,17 @@
                                           "Offset": null
                                         }
                                       ],
-                                      "ID": "2c2cb11c-7e86-4ee2-84b5-e17c8d04bae0"
+                                      "ID": "4ed6f4d3-488e-46b4-9b2e-59fe4e418b93"
                                     }
                                   ]
                                 }
                               ],
-                              "ID": "eb629c5f-d8f6-47d1-8209-f240002cf874"
+                              "ID": "a0815293-cf76-41e3-9c77-10d70d00637f"
                             }
                           ]
                         }
                       ],
-                      "ID": "40b11794-90e5-4867-ac73-9c7ac96c449e"
+                      "ID": "fe8dfad4-99f2-4457-be26-2f752ce2a928"
                     }
                   ],
                   "Disabled": true
@@ -519,6 +520,37 @@
             }
           }
         ]
+      }
+    },
+    "5,6": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.RequestServerCommand, ServerDesignerCommon",
+            "ServerCommandName": "清空组织节点用户",
+            "Parameters": [
+              {
+                "$type": "Forguncy.Model.RequestServerCommandObjectParam, ServerDesignerCommon",
+                "ParamName": "组织节点ID",
+                "Value": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=员工维护!P6"
+                }
+              }
+            ],
+            "ResultErrorCodeTo": {
+              "SerializeProperty": "=员工维护!V6"
+            },
+            "ResultMessageTo": {
+              "SerializeProperty": "=员工维护!W6"
+            },
+            "RefreshAfterFinish": true,
+            "CheckDataValidation": true
+          }
+        ],
+        "Text": "清空组织中的用户",
+        "TemplateKey": "_RS_Main1"
       }
     },
     "5,41": {
@@ -766,8 +798,11 @@
         "FontSize": 14.67
       },
       {
+        "Background": 2
+      },
+      {
         "FontFamily": 1,
-        "Formatter": 2
+        "Formatter": 3
       },
       {
         "FontFamily": 1,
@@ -777,34 +812,35 @@
         "FontFamily": 1
       },
       {
-        "Formatter": 2
+        "Formatter": 3
       },
       {
         "BorderBottom": 0
       },
       {
         "FontSize": 13.333333333333332,
-        "HorizontalAlignment": 4
+        "HorizontalAlignment": 5
       },
       {
         "FontSize": 13.333333333333332
       },
       {
         "FontFamily": 1,
-        "HorizontalAlignment": 4
+        "HorizontalAlignment": 5
       }
     ],
     "Types": {
       "Strs": [
         "[AUTO]General",
         "Body",
+        "#FFFFFF00",
         "@",
         "#FFEAEAEA",
         "Center"
       ],
       "Borders": [
         {
-          "Color": 3
+          "Color": 4
         }
       ]
     },
@@ -814,92 +850,93 @@
       "2,10": 2,
       "2,11": 3,
       "2,12": 3,
-      "5,41": 4,
-      "5,53": 5,
-      "5,54": 6,
-      "5,55": 6,
-      "5,56": 6,
-      "5,59": 7,
-      "6,1": 8,
-      "6,2": 8,
-      "6,3": 8,
-      "6,4": 8,
-      "6,5": 8,
-      "6,6": 8,
-      "6,7": 8,
-      "6,8": 8,
-      "6,9": 8,
-      "6,10": 8,
-      "6,11": 8,
-      "6,12": 8,
-      "6,13": 8,
-      "6,14": 8,
-      "6,15": 8,
-      "6,16": 8,
-      "6,17": 8,
-      "6,18": 8,
-      "6,19": 8,
-      "6,20": 8,
-      "6,21": 8,
-      "6,22": 8,
-      "6,23": 8,
-      "6,24": 8,
-      "6,25": 8,
-      "6,26": 8,
-      "6,27": 8,
-      "6,28": 8,
-      "6,29": 8,
-      "6,30": 8,
-      "6,31": 8,
-      "6,32": 8,
-      "6,33": 8,
-      "6,34": 8,
-      "6,35": 8,
-      "6,36": 8,
-      "6,37": 8,
-      "6,38": 8,
-      "6,39": 8,
-      "6,40": 8,
-      "6,41": 8,
-      "6,42": 8,
-      "6,43": 8,
-      "6,44": 8,
-      "6,45": 8,
-      "6,46": 8,
-      "6,47": 8,
-      "6,48": 8,
-      "6,49": 8,
-      "6,50": 8,
-      "6,51": 8,
-      "6,52": 8,
-      "6,53": 8,
-      "6,54": 8,
-      "6,55": 8,
-      "6,56": 8,
-      "6,57": 8,
-      "8,2": 9,
-      "8,3": 9,
-      "8,10": 9,
-      "8,17": 9,
-      "8,27": 9,
-      "8,31": 9,
-      "8,42": 9,
-      "8,47": 10,
-      "8,59": 9,
-      "8,60": 9,
-      "9,2": 9,
-      "9,3": 9,
-      "9,10": 9,
-      "9,17": 9,
-      "9,27": 9,
-      "9,31": 9,
-      "9,42": 9,
-      "9,47": 9,
-      "9,59": 9,
-      "9,60": 9,
-      "15,59": 7,
-      "22,2": 11,
-      "23,2": 11
+      "5,15": 4,
+      "5,41": 5,
+      "5,53": 6,
+      "5,54": 7,
+      "5,55": 7,
+      "5,56": 7,
+      "5,59": 8,
+      "6,1": 9,
+      "6,2": 9,
+      "6,3": 9,
+      "6,4": 9,
+      "6,5": 9,
+      "6,6": 9,
+      "6,7": 9,
+      "6,8": 9,
+      "6,9": 9,
+      "6,10": 9,
+      "6,11": 9,
+      "6,12": 9,
+      "6,13": 9,
+      "6,14": 9,
+      "6,15": 9,
+      "6,16": 9,
+      "6,17": 9,
+      "6,18": 9,
+      "6,19": 9,
+      "6,20": 9,
+      "6,21": 9,
+      "6,22": 9,
+      "6,23": 9,
+      "6,24": 9,
+      "6,25": 9,
+      "6,26": 9,
+      "6,27": 9,
+      "6,28": 9,
+      "6,29": 9,
+      "6,30": 9,
+      "6,31": 9,
+      "6,32": 9,
+      "6,33": 9,
+      "6,34": 9,
+      "6,35": 9,
+      "6,36": 9,
+      "6,37": 9,
+      "6,38": 9,
+      "6,39": 9,
+      "6,40": 9,
+      "6,41": 9,
+      "6,42": 9,
+      "6,43": 9,
+      "6,44": 9,
+      "6,45": 9,
+      "6,46": 9,
+      "6,47": 9,
+      "6,48": 9,
+      "6,49": 9,
+      "6,50": 9,
+      "6,51": 9,
+      "6,52": 9,
+      "6,53": 9,
+      "6,54": 9,
+      "6,55": 9,
+      "6,56": 9,
+      "6,57": 9,
+      "8,2": 10,
+      "8,3": 10,
+      "8,10": 10,
+      "8,17": 10,
+      "8,27": 10,
+      "8,31": 10,
+      "8,42": 10,
+      "8,47": 11,
+      "8,59": 10,
+      "8,60": 10,
+      "9,2": 10,
+      "9,3": 10,
+      "9,10": 10,
+      "9,17": 10,
+      "9,27": 10,
+      "9,31": 10,
+      "9,42": 10,
+      "9,47": 10,
+      "9,59": 10,
+      "9,60": 10,
+      "15,59": 8,
+      "22,2": 12,
+      "23,2": 12
     },
     "SheetStyle": {
       "FontFamily": 1
@@ -920,6 +957,8 @@
     "10,2,12,55",
     "10,59,4,2",
     "23,2,1,55",
+    "5,59,1,2",
+    "15,59,1,2",
     "8,3,1,7",
     "8,10,1,7",
     "8,17,1,10",
@@ -927,8 +966,9 @@
     "8,31,1,11",
     "8,42,1,5",
     "8,47,1,10",
-    "5,59,1,2",
-    "15,59,1,2"
+    "5,6,1,8",
+    "5,15,1,6",
+    "5,22,1,5"
   ],
   "PageInfo": {
     "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
@@ -1002,4 +1042,4 @@
       "Formula": "员工维护!$S$3"
     }
   ]
-}//MDjeMvi6T8acJ1ck4y/b31OTf/0Ne8YNZUdTgPXPETrpslgdkFLkRbnN/pyjoQV0bnxdbkZPKYttG51YeHoasoNr3x8xRQkgw0QAkgCbWteY40HvZXGCJHoi3WDa6RZdcu80e6lBqUh/OTMwdTsq4uzyq0y2avj38Lf/zqHol2lyzV6uy0NBxfA1n4F4wNqT42YhltmuL9zeaHtYL6To7lhLkILkEJ5yTTrvPZfJV6+VjaAgeAPDOPKV1/fjgjkgkgZmHvY572cBbZ1YpVnT23bmGxwBN6KBd+O7rSkFpeK6VcA0zKlkx626364WyKdwqb4FCI2XB69B0m9UehapFlMDXbMGju1yl28WvV6mvh0e9neOUGbQdC6x+EOyPugbcgdAhSoPk7kNzy8fCDkoOCabVk4fIGRDKaW8AuM874mvTJ0XdRt7l9K+L2B190/Ar7/jU/eziiRt74dyDsic1xNHFJ3IpIC6C676toMuej42GjyVUtONOZIBOCbOqEqoKr1SNS4HmystkfDmK6V0uKuUGrB/HugBiz30pNAW/ERrDgjwiwjV22ibxBdYJJNaIeZ/1tjbhSljKrDSvyxFIo9SrGO8slO32z5aSMb4rsfJBLc13sTTL8fj4M846hD8LCU+REZa896LyMOLPhCV8CQiQ2tUCL0YciUVoVlkGbNbS0P1MgkPjLuT4vdjH87GPpwfF797GI04es1JdHdyMlMqOdB7+pClNUsTMFNzvm4xQfC/SKv5dP2JR2ldaqWDAGfPDmy0qh/SNWlcAS8iecdqUnvRF3bp8j73P8YXM4MUpNHw6W+4WR7QiRfuUb0PXCPADGwis9M1Zt1iv5/z6JkTJwc/uhK6MY2wxrJlsDmRGGEHmuKjxmbKTGLWv23cJf4gnXbM3S4EO8zeuQa4Bg==|920
+}//lNCpJRXBTQdUir7e7x3YRlNaAp90ZvVRehVqCVYS4xFBQi1OMNoGfYpihG9JdWp5BKmAgaNBnyqgDqdA6juS6Y3pget4EpPgYbLltI/9r+51jL/0mx4izWk09NnSdOvcMZhGXTlJ+3MnAOSpuwAmKXg2S/AhEyMl+hGmsJh5XQPFOeNZM8xkOO5Qt8tgy0p7R2RydEVqEfKlQvcUPJcY+FBDvT3V4gmM6XjXJAK1u8YOZdemvCfW0fklAOz2uZ9zhKFVvkurIeX7mnK2bWaW8Jf5M9/aUP+gIe6H5FlABaUQbnWLLLo0C/mfE5KQdM+xY1kBth+GPPMtEUqtWHpRidF0C4Ryhgf2xaWKRrZuUBEz04AfvVPLSj1RewRp1ZiVJbXmHIcJrWjzeedumheHePWUbajE71YNRvvoijG78TlW4EL+mgEPETc1T3g4/LVzG8zB5mGl+GOA42HDLoBhVJPysBe15kGmpSSrBj4QEvNGE/7ld+brBM3ehEkAowiR5F4n+N/89iOBs+SXdTykkLj++GrX5Xs1UFqpxJWjYgjXNsQhbwNTsDRbpvfIMmY6MaU/BVkv7tTGr/fliuy/j39HC9dFSEzDa9f0w1Ut1XJlN5YzxGZbk9Pq9eyS0atHRHS1gAQqTNewe2xkeK2Ey1YsK4KDdJYAvAK1l9lfuNunRz79eX+KwfUaBZabcbir2liVQzKEnmd0jEurYAU0Tnt3lOA5tihCsffskNoT6SYU6F1EiKooulm1JuVShzNMoCuF0dn0dXphewgG3CZDzisfxfquTp7yfeTg66oMhuHO8HKJdeczkYY0lNhcIeSJWkdO8CbMweXqP60AbP81NfFCtDoNSGKY+GStv1yP/APMzlNjR0IjtJ+pnixvd/lMqwgHSnq88MT1TJOKv3cQoA==|920
